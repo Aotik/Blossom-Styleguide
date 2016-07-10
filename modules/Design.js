@@ -6,7 +6,7 @@ import Highlight from 'react-highlight'
 export const deMain = React.createClass({
 	render() {
 		return (
-			<div>{this.props.children || <div>Elements</div>}</div>
+			<div>{this.props.children || <div>Design</div>}</div>
 		)
 	}
 })
@@ -246,23 +246,50 @@ export const deTypography = React.createClass({
 					</div>
 				</div>
 				<div className="row example alignment">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-						<h6>Alignment</h6>
-						<p>Use helper classes to align your text</p>
+					<div className="explanation">
+						<h6>Alignment classes</h6>
+						<p>Use left, center & right alignment classes to align your text</p>
 					</div>
 					<div className="module">
-					<p className="text-left">
-						Left aligned text
-					</p>
-					<p className="text-right">
-						Right aligned text
-					</p>
-					<p className="text-center">
-						Center aligned text
-					</p>
-					<p className="text-justify">
-						I should be taking up with whole line from left to right even if I&#39;m only taking up one line!
-					</p>
+						<p className="text-left">
+							Left aligned text
+						</p>
+						<p className="text-right">
+							Right aligned text
+						</p>
+						<p className="text-center">
+							Center aligned text
+						</p>
+						<p className="text-justify">
+							I should be taking up with whole line from left to right even if I&#39;m only taking up one line!
+						</p>
+						<div className="footer">
+							<Highlight className="html">
+								{'<p class="text-left">\n\tLeft aligned text\n</p>\n<p class="text-right">\n\tRight aligned text\n</p>\n<p class="text-center">\n\tCenter aligned text\n</p>\n<p class="text-justify">\n\tI should be taking up with whole line from left to right even if I&#39;m only taking up one line!\n</p>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example transformtext">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Transform classes</h6>
+						<p>Use helper classes to transform your text</p>
+					</div>
+					<div className="module">
+						<p className="transform lowercase">
+							lowercase text
+						</p>
+						<p className="transform uppercase">
+							uppercase text
+						</p>
+						<p className="transform capitalize">
+							capitalized text
+						</p>
+						<div className="footer">
+							<Highlight className="html">
+								{'<p class="transform lowercase">\n\tlowercase text\n</p>\n<p class="transform uppercase">\n\tuppercase text\n</p>\n<p class="transform capitalize">\n\tcapitalized text\n</p>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -408,7 +435,7 @@ export const deGrid = React.createClass({
 						</div>
 						<div className="footer">
 						<Highlight className="html">
-							{'<div className="grid-row">\n\t<div className="clm-xs-12 clm-s-6">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-s-6">\n\t\t<div className="block-grey"></div>\n\t</div>\n</div>'}
+							{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 						</Highlight>
 						</div>
 					</div>
@@ -436,7 +463,7 @@ export const deGrid = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div className="grid-row">\n\t<div className="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div className="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -461,7 +488,7 @@ export const deGrid = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div className="grid-row">\n\t<div className="clm-xs-12 clm-l-4">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-l-4">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-l-4">\n\t\t<div className="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -495,7 +522,7 @@ export const deGrid = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div className="grid-row">\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-6 clm-xl-2">\n\t\t<div className="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -517,7 +544,7 @@ export const deGrid = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div className="grid-row">\n\t<div className="clm-xs-12 clm-l-6">\n\t\t<div className="block-grey"></div>\n\t</div>\n\t<div className="clm-xs-12 clm-l-6">\n\t\t<div className="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -525,7 +552,7 @@ export const deGrid = React.createClass({
 				<div className="row example grids">
 					<div className="explanation">
 						<h6>Full grid view</h6>
-						<p>A view of structures that can be created via the grid system</p>
+						<p>An example view of structures that can be created via the grid system</p>
 					</div>
 					<div className="grid-row show-grid">
 						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">

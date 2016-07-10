@@ -144,6 +144,9 @@ a {
 a:hover {
   color: #0056d1;
 }
+strong {
+  font-weight: 700;
+}
 @media only screen and (max-width: 480px) {
   .breakpoint-xs-hide {
     display: none;
@@ -1022,27 +1025,6 @@ a:hover {
 .reverse-grid > [class^='clm-'] {
   float: right;
 }
-.fixed {
-  position: fixed;
-}
-.fixed.top {
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.fixed.bottom {
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.fixed.left {
-  top: 0;
-  left: 0;
-}
-.fixed.right {
-  top: 0;
-  right: 0;
-}
 .sidebar.left {
   border-right: 1px solid #dfe4e9;
   height: 100%;
@@ -1070,16 +1052,46 @@ a:hover {
 .sidebar.top:after {
   clear: both;
 }
-.cf {
+.clearfix {
   *zoom: 1;
 }
-.cf:before,
-.cf:after {
+.clearfix:before,
+.clearfix:after {
   content: '';
   display: table;
 }
-.cf:after {
+.clearfix:after {
   clear: both;
+}
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.absolute,
+.pin {
+  position: absolute;
+}
+.pin.top,
+.fixed.top {
+  top: 0;
+}
+.pin.left,
+.fixed.left {
+  left: 0;
+}
+.pin.right,
+.fixed.right {
+  right: 0;
+}
+.pin.bottom,
+.fixed.bottom {
+  bottom: 0;
+}
+.pin.fixed,
+.fixed.fixed {
+  position: fixed;
 }
 .dropdown {
   position: relative;
@@ -1690,22 +1702,22 @@ ol.ordered li[value]:before {
   font-weight: 600;
   margin: 0.1em 0 0.3em 0;
 }
-.message-warning {
+.message.warning {
   background-color: #fffbee;
   border-color: #ffdf78;
   color: #694d00;
 }
-.message-important {
+.message.important {
   background-color: #fff0f0;
   border-color: #ffabab;
   color: #730000;
 }
-.message-success {
+.message.success {
   background-color: #eafdf3;
-  border-color: #91f5c0;
+  border-color: #38ec8d;
   color: #074824;
 }
-.message-info {
+.message.info {
   background-color: #ecf5fc;
   border-color: #87c0ec;
   color: #0c2f49;
@@ -2019,6 +2031,11 @@ ol.ordered li[value]:before {
   min-width: 2.091em;
   min-height: 2em;
   line-height: 1em;
+  text-align: center;
+}
+.squared {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
   text-align: center;
 }
 .cards {
@@ -2509,6 +2526,9 @@ code {
   font-family: 'Source Code Pro', 'Consolas', 'Monaco', 'Lucida Console', monospace;
   line-height: 1.6em;
   font-size: 0.875em;
+}
+.message code {
+  background-color: rgba(0,0,0,0.05);
 }
 @-moz-keyframes spin {
   0% {

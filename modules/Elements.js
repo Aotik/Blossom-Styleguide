@@ -35,10 +35,17 @@ export const elMessages = React.createClass({
 						<h6>Headerless default message</h6>
 						<p>A default message without a header</p>
 					</div>
-					<div className="message">
-						<p>
-							This is a message without a header. It&#39;s lonely unlike its buddies below. All message states can be used without a header.
-						</p>
+					<div className="module invisible">
+						<div className="message">
+							<p>
+								Our privacy policy has changed. <a>Click here</a> to view and accept the updated version.
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message">\n\t<p>\n\t\tOur privacy policy has changed. <a>Click here</a> to view and\naccept the updated version.\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 				<div className="row example messages">
@@ -46,11 +53,18 @@ export const elMessages = React.createClass({
 						<h6>Default message</h6>
 						<p>A standard neutral message</p>
 					</div>
-					<div className="message">
-						<h6>Message header</h6>
-						<p>
-							This is a message. It doesn&#39;t have a state or promotes any kind of thought to the end user. It&#39;s pretty neutral.
-						</p>
+					<div className="module invisible">
+						<div className="message">
+							<h6>Subscribe!</h6>
+							<p>
+								Subscribe to our blog to get daily news updates straight to your inbox!
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message">\n\t<h6>Subscribe!</h6>\n\t<p>\n\t\tSubscribe to our blog to get daily news updates straight to your inbox!\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 				<div className="row example messages">
@@ -58,11 +72,18 @@ export const elMessages = React.createClass({
 						<h6>Information message</h6>
 						<p>An information message to pass on a helpful tip</p>
 					</div>
-					<div className="message message-info">
-						<h6>Did you know?</h6>
-						<p>
-							This is an info message. It has a information state, usually used to promote some info to the end user that may be helpful to what he/she is doing, or to let them know of a piece of information.
-						</p>
+					<div className="module invisible">
+						<div className="message info">
+							<h6>Did you know?</h6>
+							<p>
+								You might of noticed the rapid speed increase of our platform today! Yes, we are on version 3.0!
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message info">\n\t<h6>Did you know?</h6>\n\t<p>\n\t\tYou might of noticed the rapid speed increase of our platform today! Yes, we are on version 3.0!\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 				<div className="row example messages">
@@ -70,11 +91,18 @@ export const elMessages = React.createClass({
 						<h6>Warning message</h6>
 						<p>A warning message to let the user know to take a precaution</p>
 					</div>
-					<div className="message message-warning">
-						<h6>Oh oh!</h6>
-						<p>
-							This is a warning message. It has a warning state, usually used to promote some info to the end user that may or may not be that important.
-						</p>
+					<div className="module invisible">
+						<div className="message warning">
+							<h6>Scheduled maintenance</h6>
+							<p>
+								We have scheduled server maintenance between 04:00am - 09:00am so our platform will be down. We apologize for any inconvenience caused!
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message warning">\n\t<h6>Scheduled maintenance</h6>\n\t<p>\n\t\tWe have scheduled server maintenance between 04:00am - 09:00am so our platform will be down. We apologize for any inconvenience caused!\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 				<div className="row example messages">
@@ -82,11 +110,18 @@ export const elMessages = React.createClass({
 						<h6>Important message</h6>
 						<p>An important message to warn the user of an error relating to an action</p>
 					</div>
-					<div className="message message-important">
-						<h6>This is reaaaally important</h6>
-						<p>
-							This is an important message. It has a important state, usually used to tell the user than an action has to be taken to avoid the error message.
-						</p>
+					<div className="module invisible">
+						<div className="message important">
+							<h6>There were some issues with your submission</h6>
+							<p>
+								Your message exceeded the world limit. Please try re-sending the form by keeping to the 300 character limit.
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message important">\n\t<h6>There were some issues with your submission</h6>\n\t<p>\n\t\tYour message exceeded the world limit. Please try re-sending the form by keeping to the 300 character limit.\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 				</div>
 				<div className="row example messages">
@@ -94,11 +129,18 @@ export const elMessages = React.createClass({
 						<h6>Success message</h6>
 						<p>A success message to promote a pleasant message</p>
 					</div>
-					<div className="message message-success">
-						<h6>Woohooo success!</h6>
-						<p>
-							This is a success message. It has a success state, usually used to tell the user than something has finished without any errors or to promote a pleasant message.
-						</p>
+					<div className="module invisible">
+						<div className="message success">
+							<h6>Coupon applied!</h6>
+							<p>
+								You have successfully added the coupon <strong>BLOSSOMROCKS</strong> to your order for a 20% discount.
+							</p>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="message success">\n\t<h6>Coupon applied!</h6>\n\t<p>\n\t\tYou have successfully added the coupon <strong>BLOSSOMROCKS</strong> to your order for a 20% discount.\n\t</p>\n</div>'}
+							</Highlight>
+						</div>
 					</div>
 					</div>
 				</div>
@@ -1061,17 +1103,24 @@ export const elStages = React.createClass({
 						<h6>Active stage</h6>
 						<p>A stage with an active state</p>
 					</div>
-					<div className="stages">
-						<div className="stage active">
-							<div className="icon">
-								<i className="fa fa-credit-card"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Billing
+					<div className="module invisible">
+						<div className="stages">
+							<div className="stage active">
+								<div className="icon">
+									<i className="fa fa-credit-card"></i>
 								</div>
-								Enter billing information
+								<div className="content">
+									<div className="header">
+										Billing
+									</div>
+									Enter billing information
+								</div>
 							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="stages">\n\t<div class="stage active">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-credit-card"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tBilling\n\t\t\t</div>\n\t\t\tEnter billing information\n\t\t</div>\n\t</div>\n</div>'}
+							</Highlight>
 						</div>
 					</div>
 				</div>
@@ -1080,39 +1129,46 @@ export const elStages = React.createClass({
 						<h6>Grouped stages</h6>
 						<p>Grouped stages allow the user to follow a path to the final stage by activating each one along the way</p>
 					</div>
-					<div className="stages">
-						<div className="stage">
-							<div className="icon">
-								<i className="fa fa-truck"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Shipment
+					<div className="module invisible">
+						<div className="stages">
+							<div className="stage">
+								<div className="icon">
+									<i className="fa fa-truck"></i>
 								</div>
-								Finalise your items
+								<div className="content">
+									<div className="header">
+										Shipment
+									</div>
+									Finalise your items
+								</div>
+							</div>
+							<div className="stage active">
+								<div className="icon">
+									<i className="fa fa-credit-card"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Payment
+									</div>
+									Enter your billing details
+								</div>
+							</div>
+							<div className="stage disabled">
+								<div className="icon">
+									<i className="fa fa-check"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Confirmation
+									</div>
+									Verify order details
+								</div>
 							</div>
 						</div>
-						<div className="stage active">
-							<div className="icon">
-								<i className="fa fa-credit-card"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Payment
-								</div>
-								Enter your billing details
-							</div>
-						</div>
-						<div className="stage disabled">
-							<div className="icon">
-								<i className="fa fa-check"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Confirmation
-								</div>
-								Verify order details
-							</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="stages">\n\t<div class="stage">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-truck"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tShipment\n\t\t\t</div>\n\t\t\tFinalise your items\n\t\t</div>\n\t</div>\n\t<div class="stage active">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-credit-card"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tPayment\n\t\t\t</div>\n\t\t\tEnter your billing details\n\t\t</div>\n\t</div>\n\t<div class="stage disabled">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-check"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tConfirmation\n\t\t\t</div>\n\t\t\tVerify order details\n\t\t</div>\n\t</div>\n</div>'}
+							</Highlight>
 						</div>
 					</div>
 				</div>
@@ -1121,39 +1177,46 @@ export const elStages = React.createClass({
 						<h6>Completed stages</h6>
 						<p>Completed stages show the user that the stage has been completed and does not need revisiting</p>
 					</div>
-					<div className="stages">
-						<div className="stage completed">
-							<div className="icon">
-								<i className="fa fa-check"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Shipment
+					<div className="module invisible">
+						<div className="stages">
+							<div className="stage completed">
+								<div className="icon">
+									<i className="fa fa-check"></i>
 								</div>
-								Finalise your items
+								<div className="content">
+									<div className="header">
+										Shipment
+									</div>
+									Finalise your items
+								</div>
+							</div>
+							<div className="stage completed">
+								<div className="icon">
+									<i className="fa fa-check"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Payment
+									</div>
+									Enter your billing details
+								</div>
+							</div>
+							<div className="stage active">
+								<div className="icon">
+									<i className="fa fa-info"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Confirmation
+									</div>
+									Verify your final order
+								</div>
 							</div>
 						</div>
-						<div className="stage completed">
-							<div className="icon">
-								<i className="fa fa-check"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Payment
-								</div>
-								Enter your billing details
-							</div>
-						</div>
-						<div className="stage active">
-							<div className="icon">
-								<i className="fa fa-info"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Confirmation
-								</div>
-								Verify your final order
-							</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="stages">\n\t<div class="stage completed">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-check"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tShipment\n\t\t\t</div>\n\t\t\tFinalise your items\n\t\t</div>\n\t</div>\n\t<div class="stage completed">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-check"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tPayment\n\t\t\t</div>\n\t\t\tEnter your billing details\n\t\t</div>\n\t</div>\n\t<div class="stage active">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-info"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tConfirmation\n\t\t\t</div>\n\t\t\tVerify your final order\n\t\t</div>\n\t</div>\n</div>'}
+							</Highlight>
 						</div>
 					</div>
 				</div>
@@ -1162,39 +1225,46 @@ export const elStages = React.createClass({
 						<h6>Vertical stages</h6>
 						<p>Grouped stages can also be vertical aligned</p>
 					</div>
-					<div className="stages vertical">
-						<div className="stage completed">
-							<div className="icon">
-								<i className="fa fa-check"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Shipment
+					<div className="module invisible">
+						<div className="stages vertical">
+							<div className="stage completed">
+								<div className="icon">
+									<i className="fa fa-check"></i>
 								</div>
-								Finalise your items
+								<div className="content">
+									<div className="header">
+										Shipment
+									</div>
+									Finalise your items
+								</div>
+							</div>
+							<div className="stage completed">
+								<div className="icon">
+									<i className="fa fa-check"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Payment
+									</div>
+									Enter your billing details
+								</div>
+							</div>
+							<div className="stage active">
+								<div className="icon">
+									<i className="fa fa-info"></i>
+								</div>
+								<div className="content">
+									<div className="header">
+										Confirmation
+									</div>
+									Verify your final order
+								</div>
 							</div>
 						</div>
-						<div className="stage completed">
-							<div className="icon">
-								<i className="fa fa-check"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Payment
-								</div>
-								Enter your billing details
-							</div>
-						</div>
-						<div className="stage active">
-							<div className="icon">
-								<i className="fa fa-info"></i>
-							</div>
-							<div className="content">
-								<div className="header">
-									Confirmation
-								</div>
-								Verify your final order
-							</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="stages vertical">\n\t<div class="stage completed">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-check"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tShipment\n\t\t\t</div>\n\t\t\tFinalise your items\n\t\t</div>\n\t</div>\n\t<div class="stage completed">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-check"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tPayment\n\t\t\t</div>\n\t\t\tEnter your billing details\n\t\t</div>\n\t</div>\n\t<div class="stage active">\n\t\t<div class="icon">\n\t\t\t<i class="fa fa-info"></i>\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<div class="header">\n\t\t\t\tConfirmation\n\t\t\t</div>\n\t\t\tVerify your final order\n\t\t</div>\n\t</div>\n</div>'}
+							</Highlight>
 						</div>
 					</div>
 				</div>
@@ -1209,43 +1279,43 @@ export const elLoaders = React.createClass({
 			<div>
 				<Title title="Loaders">Loaders are used to indicate a state of progress</Title>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Simple loader</h6>
-						<p>A standard loader on a non-dimmed background</p>
+						<p>A <code>.loader.small.dark</code> on a non-dimmed background</p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<div className="hold"><div className="loader small dark"></div></div>
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Small inverted loader</h6>
-						<p>An inverted dimmed module containing a centered small loader</p>
+						<p>An inverted dimmed module containing a centered <code>.loader.small</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader small"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Standard inverted loader</h6>
-						<p>An inverted dimmed module containing a centered standard loader</p>
+							<p>An inverted dimmed module containing a centered default <code>.loader</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Large inverted loader</h6>
-						<p>An inverted dimmed module containing a centered large loader</p>
+						<p>An inverted dimmed module containing a centered <code>.loader.large</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader large"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
@@ -1253,11 +1323,11 @@ export const elLoaders = React.createClass({
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Small loader</h6>
-						<p>A dimmed module containing a centered small loader</p>
+						<p>A dimmed module containing a centered <code>.loader.small.dark</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader small dark"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
@@ -1265,11 +1335,11 @@ export const elLoaders = React.createClass({
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Standard loader</h6>
-						<p>A dimmed module containing a centered standard loader</p>
+						<p>A dimmed module containing a centered <code>.loader.dark</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader dark"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
@@ -1277,11 +1347,11 @@ export const elLoaders = React.createClass({
 					</div>
 				</div>
 				<div className="row example loaders">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Large loader</h6>
-						<p>A dimmed module containing a centered large loader</p>
+						<p>A dimmed module containing a centered <code>.loader.large.dark</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader large dark"></div></div></div>
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
 						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />

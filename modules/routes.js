@@ -2,9 +2,12 @@ import React from 'react'
 import { Route, IndexRoute, Redirect } from 'react-router'
 import App from './App'
 
+import { sbElements, sbAnimations, sbUtility } from './Sidebar'
+
 import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers } from './Elements'
-import { sbElements, sbAnimations } from './Sidebar'
 import { deMain, deHeader, deDefault, deScheme, deTypography, deAnimations, deGrid, deBreakpoints} from './Design'
+import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide } from './Utility'
+
 import Home from './Home'
 
 module.exports = (
@@ -30,6 +33,11 @@ module.exports = (
 			<Route path="animations" component={deAnimations}/>
 			<Route path="grid" component={deGrid}/>
 			<Route path="breakpoints" component={deBreakpoints}/>
+		</Route>
+		<Route path="utility" component={{main: ulMain, header: ulHeader, sidebar: sbUtility}}>
+			<Route path="center" component={ulCenter}/>
+			<Route path="hide" component={ulHide}/>
+			<Route path="layout" component={ulLayout}/>
 		</Route>
 	</Route>
 )

@@ -27,7 +27,7 @@ export default React.createClass({
 							{this.props.header}
 						</div>
 						<div className="link">
-							<Link to="/github"><i className="fa fa-github"></i> View on Github</Link>
+							<Link to="/github"><i className="fa fa-commenting-o"></i> Changelog</Link>
 						</div>
 					</div>
 				</header>

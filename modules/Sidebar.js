@@ -35,3 +35,15 @@ export const sbAnimations = React.createClass({
 		)
 	}
 })
+
+export const sbUtility = React.createClass({
+	render() {
+		return (
+			<ul>
+				<NavLink to="/utility/center">Center elements</NavLink>
+				<NavLink to="/utility/hide">Hide elements</NavLink>
+				<NavLink to="/utility/layout">Layout</NavLink>
+			</ul>
+		)
+	}
+})
