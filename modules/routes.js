@@ -4,7 +4,7 @@ import App from './App'
 
 import { sbElements, sbAnimations, sbUtility } from './Sidebar'
 
-import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers } from './Elements'
+import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers, elDropdown } from './Elements'
 import { deMain, deHeader, deDefault, deScheme, deTypography, deAnimations, deGrid, deBreakpoints} from './Design'
 import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide } from './Utility'
 
@@ -26,6 +26,7 @@ module.exports = (
 			<Route path="images" component={elImages}/>
 			<Route path="comments" component={elComments}/>
 			<Route path="dividers" component={elDividers}/>
+			<Route path="dropdown" component={elDropdown}/>
 		</Route>
 		<Route path="design" component={{main: deMain, header: deHeader, sidebar: sbAnimations}}>
 			<Route path="scheme" component={deScheme}/>

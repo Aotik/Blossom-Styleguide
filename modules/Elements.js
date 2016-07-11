@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home'
 import Title from './Title'
 import Highlight from 'react-highlight'
+import { Link } from 'react-router'
 
 export const elMain = React.createClass({
 	render() {
@@ -148,6 +149,249 @@ export const elMessages = React.createClass({
 		}
 	})
 
+export const elDropdown = React.createClass({
+	componentDidMount: function() {
+		$(document).ready(function() {
+			$('.dropdown').dropdown();
+		})
+	},
+	render() {
+		return(
+			<div>
+				<Title title="Dropdown">A dropdown allows a user to select an option from a list of values</Title>
+				<div className="row opening-message">
+					<div className="message info">
+						<h6>Dropdown utility</h6>
+						<p>
+							Learn more about using Blossom JS to initialise manipulate dropdowns <Link to="/utility">here</Link>
+						</p>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Dropdown</h6>
+						<p>Simple dropdown with a simple toggle</p>
+					</div>
+					<div className="module invisible">
+						<div className="dropdown">
+							<a className="toggle">File <i className="fa fa-caret-down"/></a>
+							<ul className="menu">
+								<li><a>New...</a></li>
+								<li><a>Open</a></li>
+								<li><a>Open project folder</a></li>
+								<li><a>Save as...</a></li>
+							</ul>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown">\n\t<a class="toggle">File <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Dropdown features</h6>
+						<p>Dropdowns can also have headers, dividers and icons within them</p>
+					</div>
+					<div className="module invisible">
+						<div className="dropdown">
+							<a className="toggle">File &nbsp; <i className="fa fa-caret-down"/></a>
+							<ul className="menu">
+								<li className="header">Choose an action</li>
+								<li><a>New...</a></li>
+								<li><a>Open</a></li>
+								<li><a>Open project folder</a></li>
+								<li><a>Save as...</a></li>
+								<li className="divider"></li>
+								<li><a>Export file...</a></li>
+								<li><a>Quick export</a></li>
+								<li className="divider"></li>
+								<li className="header">Share file</li>
+								<li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
+								<li><a><i className="fa fa-twitter"/> Twitter</a></li>
+								<li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
+							</ul>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown">\n\t<a class="toggle">File &nbsp; <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li><a>Export file...</a></li>\n\t\t<li><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Dropdown toggles</h6>
+						<p>Toggles can come in any shape or form</p>
+					</div>
+					<div className="module invisible">
+						<div className="stack">
+							<div className="dropdown floating">
+								<a className="toggle button">Menu</a>
+								<ul className="menu">
+									<li className="header">Choices</li>
+									<li><a>Choice 1</a></li>
+									<li><a>Choice 2</a></li>
+									<li><a>Choice 3</a></li>
+									<li><a>Choice 4</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="stack">
+							<div className="dropdown floating">
+								<div className="toggle button green labeled">
+									<i className="fa fa-gift"></i>
+									Select your free gift
+								</div>
+								<ul className="menu">
+									<li className="header">Choices</li>
+									<li><a>Choice 1</a></li>
+									<li><a>Choice 2</a></li>
+									<li><a>Choice 3</a></li>
+									<li><a>Choice 4</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="stack">
+							<div className="dropdown">
+								<div className="toggle label teal">
+									<i className="fa fa-home"></i>
+									Select your address
+								</div>
+								<ul className="menu">
+									<li className="header">Choices</li>
+									<li><a>Choice 1</a></li>
+									<li><a>Choice 2</a></li>
+									<li><a>Choice 3</a></li>
+									<li><a>Choice 4</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown floating">\n\t<a class="toggle button">Menu</a>\n\t<ul class="menu">\n\t\t<li class="header">Choices</li>\n\t\t<li><a>Choice 1</a></li>\n\t\t<li><a>Choice 2</a></li>\n\t\t<li><a>Choice 3</a></li>\n\t\t<li><a>Choice 4</a></li>\n\t</ul>\n</div>\n<div class="dropdown floating">\n\t<div class="toggle button green labeled">\n\t\t<i class="fa fa-gift"></i>\n\t\tSelect your free gift\n\t</div>\n\t<ul class="menu">\n\t\t<li class="header">Choices</li>\n\t\t<li><a>Choice 1</a></li>\n\t\t<li><a>Choice 2</a></li>\n\t\t<li><a>Choice 3</a></li>\n\t\t<li><a>Choice 4</a></li>\n\t</ul>\n</div>\n<div class="dropdown">\n\t<div class="toggle label">\n\t\t<i class="fa fa-home"></i>\n\t\tSelect your address\n\t</div>\n\t<ul class="menu">\n\t\t<li class="header">Choices</li>\n\t\t<li><a>Choice 1</a></li>\n\t\t<li><a>Choice 2</a></li>\n\t\t<li><a>Choice 3</a></li>\n\t\t<li><a>Choice 4</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Disabled</h6>
+						<p>You can disable the dropdown altogether by targeting the toggle, or disable items in the menu individually</p>
+					</div>
+					<div className="module invisible">
+						<div className="stack">
+							<div className="dropdown floating disabled">
+								<a className="toggle button primary labeled labeled-right">
+									Menu
+									<i className="fa fa-caret-down"/>
+								</a>
+								<ul className="menu">
+									<li className="header">Choose an action</li>
+									<li><a>New...</a></li>
+									<li><a>Open</a></li>
+									<li><a>Open project folder</a></li>
+									<li><a>Save as...</a></li>
+									<li className="divider"></li>
+									<li><a>Export file...</a></li>
+									<li><a>Quick export</a></li>
+									<li className="divider"></li>
+									<li className="header">Share file</li>
+									<li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
+									<li><a><i className="fa fa-twitter"/> Twitter</a></li>
+									<li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="stack">
+							<div className="dropdown floating">
+								<a className="toggle button primary labeled labeled-right">
+									Menu
+									<i className="fa fa-caret-down"/>
+								</a>
+								<ul className="menu">
+									<li className="header">Choose an action</li>
+									<li><a>New...</a></li>
+									<li><a>Open</a></li>
+									<li><a>Open project folder</a></li>
+									<li><a>Save as...</a></li>
+									<li className="divider"></li>
+									<li className="disabled"><a>Export file...</a></li>
+									<li className="disabled"><a>Quick export</a></li>
+									<li className="divider"></li>
+									<li className="header">Share file</li>
+									<li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
+									<li><a><i className="fa fa-twitter"/> Twitter</a></li>
+									<li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown floating disabled">\n\t<a class="toggle button primary labeled labeled-right">\n\t\tMenu\n\t\t<i class="fa fa-caret-down"/>\n\t</a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li><a>Export file...</a></li>\n\t\t<li><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>\n<div class="dropdown floating">\n\t<a class="toggle button primary labeled labeled-right">\n\t\tMenu\n\t\t<i class="fa fa-caret-down"/>\n\t</a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="disabled"><a>Export file...</a></li>\n\t\t<li class="disabled"><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Right aligned dropdown</h6>
+						<p>Dropdown menus can also be pushed to be flush with the right side</p>
+					</div>
+					<div className="module invisible">
+						<div className="dropdown right">
+							<a className="toggle">File <i className="fa fa-caret-down"/></a>
+							<ul className="menu">
+								<li><a>New...</a></li>
+								<li><a>Open</a></li>
+								<li><a>Open project folder</a></li>
+								<li><a>Save as...</a></li>
+							</ul>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown right">\n\t<a class="toggle">File <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example dropdowns">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Upward dropdowns</h6>
+						<p>Flip your dropdown to the top of the toggle using <code>.upward</code></p>
+					</div>
+					<div className="module invisible">
+						<div className="dropdown upward">
+							<a className="toggle">File &nbsp; <i className="fa fa-caret-down"/></a>
+							<ul className="menu">
+								<li className="header">Choose an action</li>
+								<li><a>New...</a></li>
+								<li><a>Open</a></li>
+								<li><a>Open project folder</a></li>
+								<li><a>Save as...</a></li>
+								<li className="divider"></li>
+								<li><a>Export file...</a></li>
+								<li><a>Quick export</a></li>
+								<li className="divider"></li>
+								<li className="header">Share file</li>
+								<li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
+								<li><a><i className="fa fa-twitter"/> Twitter</a></li>
+								<li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
+							</ul>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="dropdown">\n\t<a class="toggle">File &nbsp; <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li><a>Export file...</a></li>\n\t\t<li><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+})
+
 export const elInput = React.createClass({
 	render() {
 		return(
@@ -292,7 +536,7 @@ export const elInput = React.createClass({
 					</div>
 					<div className="module invisible">
 						<div className="input action">
-							<a className="button button-teal labeled">
+							<a className="button teal labeled">
 								Copy
 								<i className="fa fa-clone"></i>
 							</a>
@@ -300,7 +544,7 @@ export const elInput = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="input action">\n\t<a class="button button-teal labeled">\n\t\tCopy\n\t\t<i class="fa fa-clone"></i>\n\t</a>\n\t<input type="text" name="name" value="http://short.url/123"/>\n</div>'}
+								{'<div class="input action">\n\t<a class="button teal labeled">\n\t\tCopy\n\t\t<i class="fa fa-clone"></i>\n\t</a>\n\t<input type="text" name="name" value="http://short.url/123"/>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -313,14 +557,14 @@ export const elInput = React.createClass({
 					<div className="module invisible">
 						<div className="input action">
 							<input type="text" name="name" value="http://short.url/123"/>
-							<a className="button button-teal labeled labeled-right">
+							<a className="button teal labeled labeled-right">
 								Copy
 								<i className="fa fa-clone"></i>
 							</a>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="input action">\n\t<input type="text" name="name" value="http://short.url/123"/>\n\t<a class="button button-teal labeled labeled-right">\n\t\tCopy\n\t\t<i class="fa fa-clone"></i>\n\t</a>\n</div>'}
+								{'<div class="input action">\n\t<input type="text" name="name" value="http://short.url/123"/>\n\t<a class="button teal labeled labeled-right">\n\t\tCopy\n\t\t<i class="fa fa-clone"></i>\n\t</a>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -587,11 +831,11 @@ export const elLabels = React.createClass({
 							<div className="label">
 								<i className="fa fa-envelope"></i>
 								14
-								<a href="#">View mail</a>
+								<a>View mail</a>
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div class="label">\n\t<i class="fa fa-envelope"></i>\n\t14\n\t<a href="#">View mail</a>\n</div>'}
+									{'<div class="label">\n\t<i class="fa fa-envelope"></i>\n\t14\n\t<a>View mail</a>\n</div>'}
 								</Highlight>
 							</div>
 						</div>
@@ -769,7 +1013,7 @@ export const elComments = React.createClass({
 								<img src="/examples/j.png" alt="" />
 							</div>
 							<div className="content">
-								<a className="creator" href="#">Johnny Grimes</a>
+								<a className="creator">Johnny Grimes</a>
 								<span className="meta">Wednesday at 4:32PM</span>
 								<p className="text">
 									Hey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.
@@ -783,7 +1027,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t\t<a class="action">Share</a>\n\t\t\t<a class="action">Delete</a>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t\t<a class="action">Share</a>\n\t\t\t<a class="action">Delete</a>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -799,7 +1043,7 @@ export const elComments = React.createClass({
 								<img src="/examples/j.png" alt="" />
 							</div>
 							<div className="content">
-								<a className="creator" href="#">Johnny Grimes</a>
+								<a className="creator">Johnny Grimes</a>
 								<p className="text">
 									Hey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.
 								</p>
@@ -807,7 +1051,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -823,7 +1067,7 @@ export const elComments = React.createClass({
 								<img src="/examples/i.png" alt="" />
 							</div>
 							<div className="content">
-								<a className="creator" href="#">Isabelle Jenkins</a>
+								<a className="creator">Isabelle Jenkins</a>
 								<span className="meta">Wednesday at 5:17PM</span>
 								<p className="text">
 									Welcome Johnny, good to have you onboard.
@@ -837,7 +1081,7 @@ export const elComments = React.createClass({
 											<img src="/examples/j.png" alt="" />
 										</div>
 										<div className="content">
-											<a className="creator" href="#">Johnny Grimes</a>
+											<a className="creator">Johnny Grimes</a>
 											<span className="meta">Thursday at 8:28AM</span>
 											<span className="meta"></span>
 											<p className="text">
@@ -853,7 +1097,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/i.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator" href="#">Isabelle Jenkins</a>\n\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t<p class="text">\n\t\t\tWelcome Johnny, good to have you onboard.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t</div>\n\t\t<div class="replies">\n\t\t\t<div class="comment">\n\t\t\t\t<div class="avatar">\n\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t</div>\n\t\t\t\t<div class="content">\n\t\t\t\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t<p class="text">\n\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t</p>\n\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/i.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t<p class="text">\n\t\t\tWelcome Johnny, good to have you onboard.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t</div>\n\t\t<div class="replies">\n\t\t\t<div class="comment">\n\t\t\t\t<div class="avatar">\n\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t</div>\n\t\t\t\t<div class="content">\n\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t<p class="text">\n\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t</p>\n\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -870,7 +1114,7 @@ export const elComments = React.createClass({
 									<img src="/examples/j.png" alt="" />
 								</div>
 								<div className="content">
-									<a className="creator" href="#">Johnny Grimes</a>
+									<a className="creator">Johnny Grimes</a>
 									<span className="meta">Wednesday at 4:32PM</span>
 									<p className="text">
 										Hey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.
@@ -884,12 +1128,12 @@ export const elComments = React.createClass({
 										<div className="input">
 											<textarea name="reply"></textarea>
 										</div>
-										<div className="button-group">
-											<div className="submit button button-primary labeled">
+										<div className="group">
+											<div className="submit button primary labeled">
 												<i className="fa fa-edit"></i>
 												Send reply
 											</div>
-											<div className="discard button button-default float-right">
+											<div className="discard button default float-right">
 												Discard
 											</div>
 										</div>
@@ -899,7 +1143,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action active">Reply</a>\n\t\t\t\t<a class="action">Share</a>\n\t\t\t\t<a class="action">Hide</a>\n\t\t\t</div>\n\t\t\t<div class="reply">\n\t\t\t\t<div class="input">\n\t\t\t\t\t<textarea name="reply"></textarea>\n\t\t\t\t</div>\n\t\t\t\t<div class="button-group">\n\t\t\t\t\t<div class="submit button button-primary labeled">\n\t\t\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\t\t\tSend reply\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="discard button button-default float-right">\n\t\t\t\t\t\tDiscard\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action active">Reply</a>\n\t\t\t\t<a class="action">Share</a>\n\t\t\t\t<a class="action">Hide</a>\n\t\t\t</div>\n\t\t\t<div class="reply">\n\t\t\t\t<div class="input">\n\t\t\t\t\t<textarea name="reply"></textarea>\n\t\t\t\t</div>\n\t\t\t\t<div class="group">\n\t\t\t\t\t<div class="submit button primary labeled">\n\t\t\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\t\t\tSend reply\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="discard button default float-right">\n\t\t\t\t\t\tDiscard\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -916,7 +1160,7 @@ export const elComments = React.createClass({
 									<img src="/examples/j.png" alt="" />
 								</div>
 								<div className="content">
-									<a className="creator" href="#">Johnny Grimes</a>
+									<a className="creator">Johnny Grimes</a>
 									<span className="meta">Wednesday at 4:32PM</span>
 									<p className="text">
 										Hey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.
@@ -931,7 +1175,7 @@ export const elComments = React.createClass({
 									<img src="/examples/i.png" alt="" />
 								</div>
 								<div className="content">
-									<a className="creator" href="#">Isabelle Jenkins</a>
+									<a className="creator">Isabelle Jenkins</a>
 									<span className="meta">Wednesday at 5:17PM</span>z
 									<p className="text">
 										Welcome Johnny, good to have you onboard.
@@ -945,7 +1189,7 @@ export const elComments = React.createClass({
 												<img src="/examples/j.png" alt="" />
 											</div>
 											<div className="content">
-												<a className="creator" href="#">Johnny Grimes</a>
+												<a className="creator">Johnny Grimes</a>
 												<span className="meta">Thursday at 8:28AM</span>
 												<span className="meta"></span>
 												<p className="text">
@@ -964,7 +1208,7 @@ export const elComments = React.createClass({
 									<img src="/examples/s.png" alt="" />
 								</div>
 								<div className="content">
-									<a className="creator" href="#">Stuee Brown</a>
+									<a className="creator">Stuee Brown</a>
 									<span className="meta">Friday at 10:36AM</span>
 									<p className="text">
 										What&#39;s up Johnny!
@@ -978,12 +1222,12 @@ export const elComments = React.createClass({
 								<div className="input">
 									<textarea name="reply"></textarea>
 								</div>
-								<div className="button-group">
-									<div className="submit button button-primary labeled">
+								<div className="group">
+									<div className="submit button primary labeled">
 										<i className="fa fa-edit"></i>
 										Send reply
 									</div>
-									<div className="discard button button-default float-right">
+									<div className="discard button default float-right">
 										Discard
 									</div>
 								</div>
@@ -991,7 +1235,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/i.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator" href="#">Isabelle Jenkins</a>\n\t\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t\t<p class="text">\n\t\t\t\tWelcome Johnny, good to have you onboard.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t\t<div class="replies">\n\t\t\t\t<div class="comment">\n\t\t\t\t\t<div class="avatar">\n\t\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="content">\n\t\t\t\t\t\t<a class="creator" href="#">Johnny Grimes</a>\n\t\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t\t<p class="text">\n\t\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/s.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator" href="#">Stuee Brown</a>\n\t\t\t<span class="meta">Friday at 10:36AM</span>\n\t\t\t<p class="text">\n\t\t\t\tWhat&#39;s up Johnny!\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="reply">\n\t\t<div class="input">\n\t\t\t<textarea name="reply"></textarea>\n\t\t</div>\n\t\t<div class="button-group">\n\t\t\t<div class="submit button button-primary labeled">\n\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\tSend reply\n\t\t\t</div>\n\t\t\t<div class="discard button button-default float-right">\n\t\t\t\tDiscard\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/i.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t\t<p class="text">\n\t\t\t\tWelcome Johnny, good to have you onboard.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t\t<div class="replies">\n\t\t\t\t<div class="comment">\n\t\t\t\t\t<div class="avatar">\n\t\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="content">\n\t\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t\t<p class="text">\n\t\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/s.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Stuee Brown</a>\n\t\t\t<span class="meta">Friday at 10:36AM</span>\n\t\t\t<p class="text">\n\t\t\t\tWhat&#39;s up Johnny!\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="reply">\n\t\t<div class="input">\n\t\t\t<textarea name="reply"></textarea>\n\t\t</div>\n\t\t<div class="group">\n\t\t\t<div class="submit button primary labeled">\n\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\tSend reply\n\t\t\t</div>\n\t\t\t<div class="discard button default float-right">\n\t\t\t\tDiscard\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1657,14 +1901,14 @@ export const elLists = React.createClass({
 						</div>
 						<div className="module invisible">
 							<ul className="list links">
-								<li className="item active"><a href="#">Item 1</a></li>
-								<li className="item"><a href="#">Item 2</a></li>
-								<li className="item"><a href="#">Item 3</a></li>
-								<li className="item"><a href="#">Item 4</a></li>
+								<li className="item active"><a>Item 1</a></li>
+								<li className="item"><a>Item 2</a></li>
+								<li className="item"><a>Item 3</a></li>
+								<li className="item"><a>Item 4</a></li>
 							</ul>
 							<div className="footer">
 								<Highlight className="html">
-									{'<ul class="list links">\n\t<li class="item active"><a href="#">Item 1</a></li>\n\t<li class="item"><a href="#">Item 2</a></li>\n\t<li class="item"><a href="#">Item 3</a></li>\n\t<li class="item"><a href="#">Item 4</a></li>\n</ul>'}
+									{'<ul class="list links">\n\t<li class="item active"><a>Item 1</a></li>\n\t<li class="item"><a>Item 2</a></li>\n\t<li class="item"><a>Item 3</a></li>\n\t<li class="item"><a>Item 4</a></li>\n</ul>'}
 								</Highlight>
 							</div>
 						</div>
@@ -1788,12 +2032,12 @@ export const elButtons = React.createClass({
 							<div className="button">
 								Default Button
 							</div>
-							<div className="button button-primary">
+							<div className="button primary">
 								Primary Button
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div class="button">\n\tDefault Button\n</div>\n<div class="button button-primary">\n\tPrimary Button\n</div>'}
+									{'<div class="button">\n\tDefault Button\n</div>\n<div class="button primary">\n\tPrimary Button\n</div>'}
 								</Highlight>
 							</div>
 						</div>
@@ -1807,42 +2051,42 @@ export const elButtons = React.createClass({
 							<div className="button outlined">
 								Outlined default
 							</div>
-							<div className="button button-red outlined">
+							<div className="button red outlined">
 								Outlined red
 							</div>
-							<div className="button button-orange outlined">
+							<div className="button orange outlined">
 								Outlined orange
 							</div>
-							<div className="button button-yellow outlined">
+							<div className="button yellow outlined">
 								Outlined yellow
 							</div>
-							<div className="button button-teal outlined">
+							<div className="button teal outlined">
 								Outlined teal
 							</div>
-							<div className="button button-blue outlined">
+							<div className="button blue outlined">
 								Outlined blue
 							</div>
-							<div className="button button-violet outlined">
+							<div className="button violet outlined">
 								Outlined violet
 							</div>
-							<div className="button button-purple outlined">
+							<div className="button purple outlined">
 								Outlined purple
 							</div>
-							<div className="button button-pink outlined">
+							<div className="button pink outlined">
 								Outlined pink
 							</div>
-							<div className="button button-brown outlined">
+							<div className="button brown outlined">
 								Outlined brown
 							</div>
-							<div className="button button-grey outlined">
+							<div className="button grey outlined">
 								Outlined grey
 							</div>
-							<div className="button button-black outlined">
+							<div className="button black outlined">
 								Outlined black
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div class="button outlined">\n\tOutlined default\n</div>\n<div class="button button-red outlined">\n\tOutlined red\n</div>\n<div class="button button-orange outlined">\n\tOutlined orange\n</div>\n<div class="button button-yellow outlined">\n\tOutlined yellow\n</div>\n<div class="button button-teal outlined">\n\tOutlined teal\n</div>\n<div class="button button-blue outlined">\n\tOutlined blue\n</div>\n<div class="button button-violet outlined">\n\tOutlined violet\n</div>\n<div class="button button-purple outlined">\n\tOutlined purple\n</div>\n<div class="button button-pink outlined">\n\tOutlined pink\n</div>\n<div class="button button-brown outlined">\n\tOutlined brown\n</div>\n<div class="button button-grey outlined">\n\tOutlined grey\n</div>\n<div class="button button-black outlined">\n\tOutlined black\n</div>'}
+									{'<div class="button outlined">\n\tOutlined default\n</div>\n<div class="button red outlined">\n\tOutlined red\n</div>\n<div class="button orange outlined">\n\tOutlined orange\n</div>\n<div class="button yellow outlined">\n\tOutlined yellow\n</div>\n<div class="button teal outlined">\n\tOutlined teal\n</div>\n<div class="button blue outlined">\n\tOutlined blue\n</div>\n<div class="button violet outlined">\n\tOutlined violet\n</div>\n<div class="button purple outlined">\n\tOutlined purple\n</div>\n<div class="button pink outlined">\n\tOutlined pink\n</div>\n<div class="button brown outlined">\n\tOutlined brown\n</div>\n<div class="button grey outlined">\n\tOutlined grey\n</div>\n<div class="button black outlined">\n\tOutlined black\n</div>'}
 								</Highlight>
 							</div>
 						</div>
@@ -1853,45 +2097,45 @@ export const elButtons = React.createClass({
 							<p>Spice up your page with colored buttons</p>
 						</div>
 						<div className="module invisible">
-							<div className="button button-red">
+							<div className="button red">
 								Red
 							</div>
-							<div className="button button-orange">
+							<div className="button orange">
 								Orange
 							</div>
-							<div className="button button-yellow">
+							<div className="button yellow">
 								Yellow
 							</div>
-							<div className="button button-green">
+							<div className="button green">
 								Green
 							</div>
-							<div className="button button-teal">
+							<div className="button teal">
 								Teal
 							</div>
-							<div className="button button-blue">
+							<div className="button blue">
 								Blue
 							</div>
-							<div className="button button-violet">
+							<div className="button violet">
 								Violet
 							</div>
-							<div className="button button-purple">
+							<div className="button purple">
 								Purple
 							</div>
-							<div className="button button-pink">
+							<div className="button pink">
 								Pink
 							</div>
-							<div className="button button-brown">
+							<div className="button brown">
 								Brown
 							</div>
-							<div className="button button-grey">
+							<div className="button grey">
 								Grey
 							</div>
-							<div className="button button-black">
+							<div className="button black">
 								Black
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div class="button button-red">\n\tRed\n</div>\n<div class="button button-orange">\n\tOrange\n</div>\n<div class="button button-yellow">\n\tYellow\n</div>\n<div class="button button-green">\n\tGreen\n</div>\n<div class="button button-teal">\n\tTeal\n</div>\n<div class="button button-blue">\n\tBlue\n</div>\n<div class="button button-violet">\n\tViolet\n</div>\n<div class="button button-purple">\n\tPurple\n</div>\n<div class="button button-pink">\n\tPink\n</div>\n<div class="button button-brown">\n\tBrown\n</div>\n<div class="button button-grey">\n\tGrey\n</div>\n<div class="button button-black">\n\tBlack\n</div>'}
+									{'<div class="button red">\n\tRed\n</div>\n<div class="button orange">\n\tOrange\n</div>\n<div class="button yellow">\n\tYellow\n</div>\n<div class="button green">\n\tGreen\n</div>\n<div class="button teal">\n\tTeal\n</div>\n<div class="button blue">\n\tBlue\n</div>\n<div class="button violet">\n\tViolet\n</div>\n<div class="button purple">\n\tPurple\n</div>\n<div class="button pink">\n\tPink\n</div>\n<div class="button brown">\n\tBrown\n</div>\n<div class="button grey">\n\tGrey\n</div>\n<div class="button black">\n\tBlack\n</div>'}
 								</Highlight>
 							</div>
 						</div>
@@ -1902,21 +2146,21 @@ export const elButtons = React.createClass({
 							<p>Labels give visual aid on what the button does</p>
 						</div>
 						<div className="module invisible">
-							<div className="button button-primary labeled">
+							<div className="button primary labeled">
 								<i className="fa fa-check"></i>
 								Labeled Button
 							</div>
-							<div className="button button-green labeled">
+							<div className="button green labeled">
 								<i className="fa fa-shopping-cart"></i>
 								Checkout
 							</div>
-							<div className="button button-red labeled labeled-right">
+							<div className="button red labeled labeled-right">
 								Delete
 								<i className="fa fa-times"></i>
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div class="button button-primary labeled">\n\t<i class="fa fa-check"></i>\n\tLabeled Button\n</div>\n<div class="button button-green labeled">\n\t<i class="fa fa-shopping-cart"></i>\n\tCheckout\n</div>\n<div class="button button-red labeled labeled-right">\n\tDelete\n\t<i class="fa fa-times"></i>\n</div>'}
+									{'<div class="button primary labeled">\n\t<i class="fa fa-check"></i>\n\tLabeled Button\n</div>\n<div class="button green labeled">\n\t<i class="fa fa-shopping-cart"></i>\n\tCheckout\n</div>\n<div class="button red labeled labeled-right">\n\tDelete\n\t<i class="fa fa-times"></i>\n</div>'}
 								</Highlight>
 							</div>
 						</div>

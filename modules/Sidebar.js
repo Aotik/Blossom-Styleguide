@@ -16,6 +16,7 @@ export const sbElements = React.createClass({
 				<NavLink to="/elements/messages">Messages</NavLink>
 				<NavLink to="/elements/loaders">Loaders</NavLink>
 				<NavLink to="/elements/tables">Tables</NavLink>
+				<NavLink to="/elements/dropdown">Dropdown</NavLink>
 				<NavLink to="/elements/stages">Stages</NavLink>
 			</ul>
 		)
