@@ -18,6 +18,7 @@ module.exports = (
 			<Route path="messages" component={elMessages}/>
 			<Route path="tables" component={elTables}/>
 			<Route path="input" component={elInput}/>
+			<Route path="progress-bars" component={elProgressBars}/>
 			<Route path="labels" component={elLabels}/>
 			<Route path="lists" component={elLists}/>
 			<Route path="cards" component={elCards}/>

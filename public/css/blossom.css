@@ -2371,12 +2371,6 @@ ol.ordered li[value]:before {
 .progress {
   background-color: #dfe4e9;
   *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 100%;
-  margin-left: 0%;
-  margin-right: 0%;
   -webkit-border-radius: 4px;
   border-radius: 4px;
   height: 1.7em;
@@ -2390,24 +2384,12 @@ ol.ordered li[value]:before {
 .progress:after {
   clear: both;
 }
-.progress.tiny {
-  height: 0.3em;
-}
-.progress.small {
-  height: 0.8em;
-}
-.progress.large {
-  height: 2.6em;
-}
 .progress .bar {
   height: 100%;
   -webkit-border-radius: 4px;
   border-radius: 4px;
   background-color: #475767;
   position: relative;
-}
-.progress .bar.show .status {
-  display: block;
 }
 .progress .bar .status {
   color: #fff;
@@ -2419,6 +2401,22 @@ ol.ordered li[value]:before {
   font-size: 0.875em;
   line-height: 1.9125em;
   display: none;
+}
+.progress.tiny {
+  height: 0.3em;
+}
+.progress.small {
+  height: 0.8em;
+}
+.progress.large {
+  height: 2.7em;
+}
+.progress.large .status {
+  line-height: 2.6em;
+  font-size: 1em;
+}
+.progress:not(.tiny):not(.small) .bar.show .status {
+  display: block;
 }
 .stages {
   display: -webkit-inline-box;

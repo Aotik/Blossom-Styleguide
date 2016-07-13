@@ -84,6 +84,9 @@
 .example .grid-row [class^='clm-'] {
   margin: 6px 0;
 }
+.example.types .progress + .progress {
+  margin-top: 14px;
+}
 .example.dropdowns .stack + .stack {
   margin-top: 14px;
 }
