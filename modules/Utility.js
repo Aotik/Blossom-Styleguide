@@ -30,6 +30,54 @@ export const ulCenter = React.createClass({
 		return (
 			<div>
 				<Title title="Center elements">Center selected elements vertically and/or horizontally by adding simple classes</Title>
+				<div className="row example layout">
+					<div className="explanation">
+						<h6>Align horizontally & vertically</h6>
+						<p>You can simply align elements dead center of a relative container by adding the <code>.centered</code> class</p>
+						<div className="module">
+							<div className="relative">
+								<span className="block-grey centered"></span>
+							</div>
+							<div className="footer">
+								<Highlight className="html">
+									{'<span className="block-grey centered"></span>'}
+								</Highlight>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row example layout">
+					<div className="explanation">
+						<h6>Align horizontally</h6>
+						<p>To align elements only horizontally within a relative container, add the <code>.horizontal</code> class to <code>.centered</code></p>
+						<div className="module">
+							<div className="relative">
+								<span className="block-grey centered horizontal"></span>
+							</div>
+							<div className="footer">
+								<Highlight className="html">
+									{'<span className="block-grey centered horizontal"></span>'}
+								</Highlight>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row example layout">
+					<div className="explanation">
+						<h6>Align vertically</h6>
+						<p>To align elements only vertically within a relative container, add the <code>.vertical</code> class to <code>.centered</code></p>
+						<div className="module">
+							<div className="relative">
+								<span className="block-grey centered vertical"></span>
+							</div>
+							<div className="footer">
+								<Highlight className="html">
+									{'<span className="block-grey centered vertical"></span>'}
+								</Highlight>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}
@@ -40,6 +88,34 @@ export const ulHide = React.createClass({
 		return (
 			<div>
 				<Title title="Hide elements">Hide elements completely or visually using the below</Title>
+				<div className="row example layout">
+					<div className="explanation">
+						<h6>Hide elements completely</h6>
+						<p>By using <code>.hidden</code> you can prevent elements from being shown as well as collapsing its space it would take up</p>
+						<div className="module">
+							<span className="block-grey hidden"></span>
+								<div className="footer">
+									<Highlight className="html">
+										{'<span className="block-grey hidden"></span>'}
+									</Highlight>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div className="row example layout">
+					<div className="explanation">
+						<h6>Visually hide elements</h6>
+						<p>By using <code>.invisible</code> you can prevent elements from being shown but its space will still be taken up as normal</p>
+						<div className="module">
+							<span className="block-grey invisible"></span>
+							<div className="footer">
+								<Highlight className="html">
+									{'<span className="block-grey invisible"></span>'}
+								</Highlight>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}
@@ -49,7 +125,7 @@ export const ulLayout = React.createClass({
 	render() {
 		return (
 			<div>
-				<Title title="Layout">Smartly utilise your elements to create the best possible page with minimal coding</Title>
+				<Title title="Layout">Smartly utilise your elements to prevent from repeating the same blocks of code</Title>
 				<div className="row opening-message">
 					<div className="message info">
 						<h6>Positioning</h6>

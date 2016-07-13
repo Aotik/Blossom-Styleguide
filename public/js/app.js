@@ -3,7 +3,8 @@ if (typeof(jQuery) == 'undefined') {
 } else {
 	$(function() {
 		$('#app').on('click', '.view-source', function(e) {
-			$(this).parents('.example').find('.module').toggleClass('invisible')
+			$(this).parents('.example').toggleClass('showing')
+			$(this).parents('.example').find('.module').toggleClass('collapsed')
 		})
 	});
 }

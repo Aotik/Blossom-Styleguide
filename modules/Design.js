@@ -402,7 +402,7 @@ export const deGrid = React.createClass({
 						<p>XS breakpoints are used to target screens above <code>0px</code></p>
 						<p>In this example, the <span className="text-teal">6 + 6 XS</span> grid will be structured this way on every screen</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-6">
 								<div className="block-grey"></div>
@@ -424,7 +424,7 @@ export const deGrid = React.createClass({
 						<p>S breakpoints are used to target screens above <code>480px</code></p>
 						<p>In this example, the <span className="text-teal">6 + 6 S</span> grid takes over on screens above the S breakpoint</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-12 clm-s-6">
 								<div className="block-grey"></div>
@@ -446,7 +446,7 @@ export const deGrid = React.createClass({
 						<p>M breakpoints are used to target screens above <code>768px</code></p>
 						<p>In this example, the <span className="text-teal">3 + 3 + 3 + 3 M</span> grid takes over on screens above the M breakpoint</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-12 clm-s-6 clm-m-3">
 								<div className="block-grey"></div>
@@ -474,7 +474,7 @@ export const deGrid = React.createClass({
 						<p>L breakpoints are used to target screens above <code>1024px</code></p>
 						<p>In this example, the <span className="text-teal">4 + 4 + 4 L</span> grid takes over on screens above the L breakpoint</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-12 clm-l-4">
 								<div className="block-grey"></div>
@@ -499,7 +499,7 @@ export const deGrid = React.createClass({
 						<p>XL breakpoints are used to target screens above <code>1224px</code></p>
 						<p>In this example, the <span className="text-teal">2 + 2 + 2 + 2 + 2 + 2 XL</span> grid takes over on screens above the XL breakpoint</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-6 clm-xl-2">
 								<div className="block-grey"></div>
@@ -533,7 +533,7 @@ export const deGrid = React.createClass({
 						<p>HD breakpoints are used to target screens above <code>1824px</code></p>
 						<p>In this example, the <span className="text-teal">6 + 6 HD</span> grid takes over on screens above the HD breakpoint</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="grid-row">
 							<div className="clm-xs-12 clm-l-6">
 								<div className="block-grey"></div>
@@ -697,7 +697,7 @@ export const deBreakpoints = React.createClass({
 						<h6>XS breakpoint</h6>
 						<p>XS breakpoint classes can be used for specific utility on screens above <code>0px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-xs-hide</code> - Hides the element at XS and above</p>
 						<p><code>.breakpoint-xs-show</code> - Shows the element at XS and above</p>
 					</div>
@@ -707,7 +707,7 @@ export const deBreakpoints = React.createClass({
 						<h6>S breakpoint</h6>
 						<p>S breakpoint classes can be used for specific utility on screens above <code>480px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-s-hide</code> - Hides the element at S and above</p>
 						<p><code>.breakpoint-s-show</code> - Shows the element at S and above</p>
 					</div>
@@ -717,7 +717,7 @@ export const deBreakpoints = React.createClass({
 						<h6>M breakpoint</h6>
 						<p>M breakpoint classes can be used for specific utility on screens above <code>768px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-m-hide</code> - Hides the element at M and above</p>
 						<p><code>.breakpoint-m-show</code> - Shows the element at M and above</p>
 					</div>
@@ -727,7 +727,7 @@ export const deBreakpoints = React.createClass({
 						<h6>L breakpoint</h6>
 						<p>L breakpoint classes can be used for specific utility on screens above <code>1024px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-l-hide</code> - Hides the element at L and above</p>
 						<p><code>.breakpoint-l-show</code> - Shows the element at L and above</p>
 					</div>
@@ -737,7 +737,7 @@ export const deBreakpoints = React.createClass({
 						<h6>XL breakpoint</h6>
 						<p>XL breakpoint classes can be used for specific utility on screens above <code>1224px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-xl-hide</code> - Hides the element at XL and above</p>
 						<p><code>.breakpoint-xl-show</code> - Shows the element at XL and above</p>
 					</div>
@@ -747,7 +747,7 @@ export const deBreakpoints = React.createClass({
 						<h6>HD breakpoint</h6>
 						<p>HD breakpoint classes can be used for specific utility on screens above <code>1824px</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<p><code>.breakpoint-hd-hide</code> - Hides the element at HD and above</p>
 						<p><code>.breakpoint-hd-show</code> - Shows the element at HD and above</p>
 					</div>

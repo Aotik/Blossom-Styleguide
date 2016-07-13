@@ -36,7 +36,7 @@ export const elMessages = React.createClass({
 						<h6>Headerless default message</h6>
 						<p>A default message without a header</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message">
 							<p>
 								Our privacy policy has changed. <a>Click here</a> to view and accept the updated version.
@@ -54,7 +54,7 @@ export const elMessages = React.createClass({
 						<h6>Default message</h6>
 						<p>A standard neutral message</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message">
 							<h6>Subscribe!</h6>
 							<p>
@@ -73,7 +73,7 @@ export const elMessages = React.createClass({
 						<h6>Information message</h6>
 						<p>An information message to pass on a helpful tip</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message info">
 							<h6>Did you know?</h6>
 							<p>
@@ -92,7 +92,7 @@ export const elMessages = React.createClass({
 						<h6>Warning message</h6>
 						<p>A warning message to let the user know to take a precaution</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message warning">
 							<h6>Scheduled maintenance</h6>
 							<p>
@@ -111,7 +111,7 @@ export const elMessages = React.createClass({
 						<h6>Important message</h6>
 						<p>An important message to warn the user of an error relating to an action</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message important">
 							<h6>There were some issues with your submission</h6>
 							<p>
@@ -130,7 +130,7 @@ export const elMessages = React.createClass({
 						<h6>Success message</h6>
 						<p>A success message to promote a pleasant message</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="message success">
 							<h6>Coupon applied!</h6>
 							<p>
@@ -172,7 +172,7 @@ export const elDropdown = React.createClass({
 						<h6>Dropdown</h6>
 						<p>Simple dropdown with a simple toggle</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="dropdown">
 							<a className="toggle">File <i className="fa fa-caret-down"/></a>
 							<ul className="menu">
@@ -194,7 +194,7 @@ export const elDropdown = React.createClass({
 						<h6>Dropdown features</h6>
 						<p>Dropdowns can also have headers, dividers and icons within them</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="dropdown">
 							<a className="toggle">File &nbsp; <i className="fa fa-caret-down"/></a>
 							<ul className="menu">
@@ -225,7 +225,7 @@ export const elDropdown = React.createClass({
 						<h6>Dropdown toggles</h6>
 						<p>Toggles can come in any shape or form</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stack">
 							<div className="dropdown floating">
 								<a className="toggle button">Menu</a>
@@ -280,7 +280,7 @@ export const elDropdown = React.createClass({
 						<h6>Disabled</h6>
 						<p>You can disable the dropdown altogether by targeting the toggle, or disable items in the menu individually</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stack">
 							<div className="dropdown floating disabled">
 								<a className="toggle button primary labeled labeled-right">
@@ -339,7 +339,7 @@ export const elDropdown = React.createClass({
 						<h6>Right aligned dropdown</h6>
 						<p>Dropdown menus can also be pushed to be flush with the right side</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="dropdown right">
 							<a className="toggle">File <i className="fa fa-caret-down"/></a>
 							<ul className="menu">
@@ -361,7 +361,7 @@ export const elDropdown = React.createClass({
 						<h6>Upward dropdowns</h6>
 						<p>Flip your dropdown to the top of the toggle using <code>.upward</code></p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="dropdown upward">
 							<a className="toggle">File &nbsp; <i className="fa fa-caret-down"/></a>
 							<ul className="menu">
@@ -402,7 +402,7 @@ export const elInput = React.createClass({
 						<h6>Transparent inputs</h6>
 						<p>An input with no background or border</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input transparent">
 							<input type="text" name="name" placeholder="Search..."/>
 						</div>
@@ -418,7 +418,7 @@ export const elInput = React.createClass({
 						<h6>Standard inputs</h6>
 						<p>A standard input with a border</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input">
 							<input type="text" name="name" placeholder="Search..."/>
 						</div>
@@ -434,7 +434,7 @@ export const elInput = React.createClass({
 						<h6>Disabled inputs</h6>
 						<p>A disabled input using the <code>.disabled</code> class</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input disabled">
 							<input type="text" name="name" placeholder="Search..."/>
 						</div>
@@ -450,7 +450,7 @@ export const elInput = React.createClass({
 						<h6>Disabled inputs</h6>
 						<p>A disabled input using the <code>disabled</code> property</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input">
 							<input disabled type="text" name="name" placeholder="Search..."/>
 						</div>
@@ -466,7 +466,7 @@ export const elInput = React.createClass({
 						<h6>Input with a button</h6>
 						<p>A standard input with an ajoined default button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<input type="text" name="name" placeholder="Search..."/>
 							<a className="button">Search</a>
@@ -483,7 +483,7 @@ export const elInput = React.createClass({
 						<h6>Input with an outlined button</h6>
 						<p>A standard input with an ajoined default outlined button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<input type="text" name="name" placeholder="Search..."/>
 							<a className="button outlined">Search</a>
@@ -500,7 +500,7 @@ export const elInput = React.createClass({
 						<h6>Input with an icon button</h6>
 						<p>A standard input with an ajoined icon button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<input type="text" name="name" placeholder="Search..."/>
 							<a className="icon button"><i className="fa fa-search"></i></a>
@@ -517,7 +517,7 @@ export const elInput = React.createClass({
 						<h6>Input with an left aligned button</h6>
 						<p>A standard input with an ajoined left aligned button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<a className="button">Search</a>
 							<input type="text" name="name" placeholder="Search..."/>
@@ -534,7 +534,7 @@ export const elInput = React.createClass({
 						<h6>Input with a left aligned labeled button</h6>
 						<p>A standard input with an ajoined left aligned, colored labeled button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<a className="button teal labeled">
 								Copy
@@ -554,7 +554,7 @@ export const elInput = React.createClass({
 						<h6>Input with a labeled button</h6>
 						<p>A standard input with an ajoined colored labeled button</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="input action">
 							<input type="text" name="name" value="http://short.url/123"/>
 							<a className="button teal labeled labeled-right">
@@ -769,7 +769,7 @@ export const elLabels = React.createClass({
 							<h6>Default labels</h6>
 							<p>Standard grey labels</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="label">
 								Your reservation is ready
 							</div>
@@ -785,7 +785,7 @@ export const elLabels = React.createClass({
 							<h6>Labels with icons</h6>
 							<p>A label with visual aid</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="label">
 								<i className="fa fa-envelope"></i>
 								You have 34 unread mail
@@ -802,7 +802,7 @@ export const elLabels = React.createClass({
 							<h6>Labeled labels</h6>
 							<p>A label with its own label!</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="label pink">
 								Adrianne
 								<div className="detail">Teacher</div>
@@ -827,7 +827,7 @@ export const elLabels = React.createClass({
 							<h6>Labels with links</h6>
 							<p>Quick link straight from a label</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="label">
 								<i className="fa fa-envelope"></i>
 								14
@@ -845,7 +845,7 @@ export const elLabels = React.createClass({
 							<h6>Circular labels</h6>
 							<p>Rounded off labels, great for showing stats</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="label primary circular">
 								1
 							</div>
@@ -1007,7 +1007,7 @@ export const elComments = React.createClass({
 						<h6>Full feature comments</h6>
 						<p>Comments with headers, content and metadata are classified as full feature comments</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
 								<img src="/examples/j.png" alt="" />
@@ -1037,7 +1037,7 @@ export const elComments = React.createClass({
 						<h6>Minimal comments</h6>
 						<p>Minimal comments do not contain actions or metadata</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
 								<img src="/examples/j.png" alt="" />
@@ -1061,7 +1061,7 @@ export const elComments = React.createClass({
 						<h6>Comment replies</h6>
 						<p>Replies to comments are indented inwards</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
 								<img src="/examples/i.png" alt="" />
@@ -1107,7 +1107,7 @@ export const elComments = React.createClass({
 						<h6>Embedded reply</h6>
 						<p>Replies to a specific comment are indented within a comment</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="comments">
 							<div className="comment">
 								<div className="avatar">
@@ -1153,7 +1153,7 @@ export const elComments = React.createClass({
 						<h6>Full width reply</h6>
 						<p>Replies to a comment thread take up the width of a container</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="comments">
 							<div className="comment">
 								<div className="avatar">
@@ -1255,7 +1255,7 @@ export const elStages = React.createClass({
 						<h6>Basic stage</h6>
 						<p>A single stage with a description</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage">
 								<div className="content">
@@ -1275,7 +1275,7 @@ export const elStages = React.createClass({
 						<h6>Headered stage</h6>
 						<p>A single stage can also contain a header</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage">
 								<div className="content">
@@ -1298,7 +1298,7 @@ export const elStages = React.createClass({
 						<h6>Disabled stage</h6>
 						<p>A disabled stage is greyed out for the user</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage disabled">
 								<div className="content">
@@ -1321,7 +1321,7 @@ export const elStages = React.createClass({
 						<h6>Complete stage</h6>
 						<p>A stage with a completed state</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage completed">
 								<div className="icon">
@@ -1347,7 +1347,7 @@ export const elStages = React.createClass({
 						<h6>Active stage</h6>
 						<p>A stage with an active state</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage active">
 								<div className="icon">
@@ -1373,7 +1373,7 @@ export const elStages = React.createClass({
 						<h6>Grouped stages</h6>
 						<p>Grouped stages allow the user to follow a path to the final stage by activating each one along the way</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage">
 								<div className="icon">
@@ -1421,7 +1421,7 @@ export const elStages = React.createClass({
 						<h6>Completed stages</h6>
 						<p>Completed stages show the user that the stage has been completed and does not need revisiting</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages">
 							<div className="stage completed">
 								<div className="icon">
@@ -1469,7 +1469,7 @@ export const elStages = React.createClass({
 						<h6>Vertical stages</h6>
 						<p>Grouped stages can also be vertical aligned</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="stages vertical">
 							<div className="stage completed">
 								<div className="icon">
@@ -1617,7 +1617,7 @@ export const elCards = React.createClass({
 						<h6>Full cards</h6>
 						<p>Full cards contain an image, title, subtitle, description and a footer</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="cards">
 							<div className="card">
 								<div className="header image">
@@ -1683,7 +1683,7 @@ export const elCards = React.createClass({
 						<h6>Action cards</h6>
 						<p>A card can be used to display information as well as list a call to action</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="cards">
 							<div className="card">
 								<div className="content">
@@ -1714,7 +1714,7 @@ export const elCards = React.createClass({
 						<h6>Basic cards</h6>
 						<p>Basic cards are used to display simple information</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="cards">
 							<div className="card">
 								<div className="content">
@@ -1742,7 +1742,7 @@ export const elCards = React.createClass({
 						<h6>Fluid cards</h6>
 						<p>Cards can also take up the width of the container by adding the <code>fluid</code> class</p>
 					</div>
-					<div className="module invisible">
+					<div className="module collapsed">
 						<div className="cards">
 							<div className="card fluid">
 								<div className="content">
@@ -1779,7 +1779,7 @@ export const elLists = React.createClass({
 							<h6>Unstyled lists</h6>
 							<p>A list with no symbol for each item</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ul className="list">
 								<li className="item">Item 1</li>
 								<li className="item">Item 2</li>
@@ -1799,7 +1799,7 @@ export const elLists = React.createClass({
 							<h6>Bulleted lists</h6>
 							<p>A list styled with bullet points</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ul className="list bulleted">
 								<li className="item">Item 1</li>
 								<li className="item">Item 2</li>
@@ -1824,7 +1824,7 @@ export const elLists = React.createClass({
 							<h6>Numbered lists</h6>
 							<p>A numbered list structured by <code>div</code>tags</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="list ordered">
 								<div className="item">Item 1</div>
 								<div className="item">Item 2</div>
@@ -1849,7 +1849,7 @@ export const elLists = React.createClass({
 							<h6>Numbered lists</h6>
 							<p>A numbered list structured by <code>ol</code>tags</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ol className="list ordered">
 								<li>Item 1</li>
 								<li>Item 2</li>
@@ -1874,7 +1874,7 @@ export const elLists = React.createClass({
 							<h6>Defined lists</h6>
 							<p>A list with styling overidden by the <code>value</code>property</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ol className="list ordered">
 								<li value="*">Item 1</li>
 								<li value="*">Item 2</li>
@@ -1899,7 +1899,7 @@ export const elLists = React.createClass({
 							<h6>Links lists</h6>
 							<p>A list of horizontal links</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ul className="list links">
 								<li className="item active"><a>Item 1</a></li>
 								<li className="item"><a>Item 2</a></li>
@@ -1918,7 +1918,7 @@ export const elLists = React.createClass({
 							<h6>Headered lists</h6>
 							<p>A list of items with a header</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ul className="list">
 								<li className="item">
 									<div className="header">
@@ -1948,7 +1948,7 @@ export const elLists = React.createClass({
 							<h6>Divided lists</h6>
 							<p>A list with items being divided by a border</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<ul className="list divided spaced">
 								<li className="item">
 									<i className="icon large fa fa-github"></i>
@@ -2028,7 +2028,7 @@ export const elButtons = React.createClass({
 							<h6>Default & Primary buttons</h6>
 							<p>Standard buttons</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="button">
 								Default Button
 							</div>
@@ -2047,7 +2047,7 @@ export const elButtons = React.createClass({
 							<h6>Outlined buttons</h6>
 							<p>Transparent buttons with an outline</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="button outlined">
 								Outlined default
 							</div>
@@ -2096,7 +2096,7 @@ export const elButtons = React.createClass({
 							<h6>Colored buttons</h6>
 							<p>Spice up your page with colored buttons</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="button red">
 								Red
 							</div>
@@ -2145,7 +2145,7 @@ export const elButtons = React.createClass({
 							<h6>Labeled buttons</h6>
 							<p>Labels give visual aid on what the button does</p>
 						</div>
-						<div className="module invisible">
+						<div className="module collapsed">
 							<div className="button primary labeled">
 								<i className="fa fa-check"></i>
 								Labeled Button
