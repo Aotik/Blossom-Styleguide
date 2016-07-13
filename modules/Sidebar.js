@@ -12,6 +12,7 @@ export const sbElements = React.createClass({
 				<NavLink to="/elements/comments">Comments</NavLink>
 				<NavLink to="/elements/cards">Cards</NavLink>
 				<NavLink to="/elements/input">Input</NavLink>
+				<NavLink to="/elements/progress-bars">Progress bars</NavLink>
 				<NavLink to="/elements/images">Images</NavLink>
 				<NavLink to="/elements/messages">Messages</NavLink>
 				<NavLink to="/elements/loaders">Loaders</NavLink>

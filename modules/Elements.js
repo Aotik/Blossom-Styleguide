@@ -382,7 +382,7 @@ export const elDropdown = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="dropdown">\n\t<a class="toggle">File &nbsp; <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li><a>Export file...</a></li>\n\t\t<li><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>'}
+								{'<div class="dropdown upward">\n\t<a class="toggle">File &nbsp; <i class="fa fa-caret-down"/></a>\n\t<ul class="menu">\n\t\t<li class="header">Choose an action</li>\n\t\t<li><a>New...</a></li>\n\t\t<li><a>Open</a></li>\n\t\t<li><a>Open project folder</a></li>\n\t\t<li><a>Save as...</a></li>\n\t\t<li class="divider"></li>\n\t\t<li><a>Export file...</a></li>\n\t\t<li><a>Quick export</a></li>\n\t\t<li class="divider"></li>\n\t\t<li class="header">Share file</li>\n\t\t<li><a><i class="fa fa-facebook-official"/> Facebook</a></li>\n\t\t<li><a><i class="fa fa-twitter"/> Twitter</a></li>\n\t\t<li><a><i class="fa fa-linkedin-square"/> LinkedIn</a></li>\n\t</ul>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1770,224 +1770,224 @@ export const elCards = React.createClass({
 	}
 })
 export const elLists = React.createClass({
-		render() {
-			return(
-				<div>
-					<Title title="Lists">A button indicates a possible user action</Title>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Unstyled lists</h6>
-							<p>A list with no symbol for each item</p>
-						</div>
-						<div className="module collapsed">
-							<ul className="list">
-								<li className="item">Item 1</li>
-								<li className="item">Item 2</li>
-								<li className="item">Item 3</li>
-								<li className="item">Item 4</li>
-							</ul>
-							<div className="footer">
-								<Highlight className="html">
-									{'<ul class="list">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<li class="item">Item 4</li>\n</ul>'}
-								</Highlight>
-							</div>
-						</div>
-
+	render() {
+		return(
+			<div>
+				<Title title="Lists">A button indicates a possible user action</Title>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Unstyled lists</h6>
+						<p>A list with no symbol for each item</p>
 					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Bulleted lists</h6>
-							<p>A list styled with bullet points</p>
+					<div className="module collapsed">
+						<ul className="list">
+							<li className="item">Item 1</li>
+							<li className="item">Item 2</li>
+							<li className="item">Item 3</li>
+							<li className="item">Item 4</li>
+						</ul>
+						<div className="footer">
+							<Highlight className="html">
+								{'<ul class="list">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<li class="item">Item 4</li>\n</ul>'}
+							</Highlight>
 						</div>
-						<div className="module collapsed">
+					</div>
+
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Bulleted lists</h6>
+						<p>A list styled with bullet points</p>
+					</div>
+					<div className="module collapsed">
+						<ul className="list bulleted">
+							<li className="item">Item 1</li>
+							<li className="item">Item 2</li>
+							<li className="item">Item 3</li>
 							<ul className="list bulleted">
 								<li className="item">Item 1</li>
 								<li className="item">Item 2</li>
 								<li className="item">Item 3</li>
-								<ul className="list bulleted">
-									<li className="item">Item 1</li>
-									<li className="item">Item 2</li>
-									<li className="item">Item 3</li>
-									<li className="item">Item 4</li>
-								</ul>
 								<li className="item">Item 4</li>
 							</ul>
-						<div className="footer">
-							<Highlight className="html">
-								{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
-							</Highlight>
-						</div>
+							<li className="item">Item 4</li>
+						</ul>
+					<div className="footer">
+						<Highlight className="html">
+							{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
+						</Highlight>
 					</div>
+				</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Numbered lists</h6>
+						<p>A numbered list structured by <code>div</code>tags</p>
 					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Numbered lists</h6>
-							<p>A numbered list structured by <code>div</code>tags</p>
-						</div>
-						<div className="module collapsed">
+					<div className="module collapsed">
+						<div className="list ordered">
+							<div className="item">Item 1</div>
+							<div className="item">Item 2</div>
+							<div className="item">Item 3
 							<div className="list ordered">
 								<div className="item">Item 1</div>
 								<div className="item">Item 2</div>
-								<div className="item">Item 3
-								<div className="list ordered">
-									<div className="item">Item 1</div>
-									<div className="item">Item 2</div>
-									<div className="item">Item 3</div>
-								</div>
-								</div>
-								<div className="item">Item 4</div>
+								<div className="item">Item 3</div>
 							</div>
-						<div className="footer">
-							<Highlight className="html">
-								{'<div className="list ordered">\n\t<div className="item">Item 1</div>\n\t<div className="item">Item 2</div>\n\t<div className="item">Item 3\n\t<div className="list ordered">\n\t\t<div className="item">Item 1</div>\n\t\t<div className="item">Item 2</div>\n\t\t<div className="item">Item 3</div>\n\t</div>\n\t</div>\n\t<div className="item">Item 4</div>\n</div>'}
-							</Highlight>
+							</div>
+							<div className="item">Item 4</div>
 						</div>
+					<div className="footer">
+						<Highlight className="html">
+							{'<div className="list ordered">\n\t<div className="item">Item 1</div>\n\t<div className="item">Item 2</div>\n\t<div className="item">Item 3\n\t<div className="list ordered">\n\t\t<div className="item">Item 1</div>\n\t\t<div className="item">Item 2</div>\n\t\t<div className="item">Item 3</div>\n\t</div>\n\t</div>\n\t<div className="item">Item 4</div>\n</div>'}
+						</Highlight>
 					</div>
+				</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Numbered lists</h6>
+						<p>A numbered list structured by <code>ol</code>tags</p>
 					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Numbered lists</h6>
-							<p>A numbered list structured by <code>ol</code>tags</p>
-						</div>
-						<div className="module collapsed">
+					<div className="module collapsed">
+						<ol className="list ordered">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3
 							<ol className="list ordered">
 								<li>Item 1</li>
 								<li>Item 2</li>
-								<li>Item 3
-								<ol className="list ordered">
-									<li>Item 1</li>
-									<li>Item 2</li>
-									<li>Item 3</li>
-								</ol>
-								</li>
-								<li>Item 4</li>
+								<li>Item 3</li>
 							</ol>
-						<div className="footer">
-							<Highlight className="html">
-								{'<ol class="list ordered">\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n\t<li>Item 3\n\t<ol class="list ordered">\n\t\t<li>Item 1</li>\n\t\t<li>Item 2</li>\n\t\t<li>Item 3</li>\n\t</ol>\n\t</li>\n\t<li>Item 4</li>\n</ol>'}
-							</Highlight>
-						</div>
+							</li>
+							<li>Item 4</li>
+						</ol>
+					<div className="footer">
+						<Highlight className="html">
+							{'<ol class="list ordered">\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n\t<li>Item 3\n\t<ol class="list ordered">\n\t\t<li>Item 1</li>\n\t\t<li>Item 2</li>\n\t\t<li>Item 3</li>\n\t</ol>\n\t</li>\n\t<li>Item 4</li>\n</ol>'}
+						</Highlight>
 					</div>
+				</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Defined lists</h6>
+						<p>A list with styling overidden by the <code>value</code>property</p>
 					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Defined lists</h6>
-							<p>A list with styling overidden by the <code>value</code>property</p>
-						</div>
-						<div className="module collapsed">
+					<div className="module collapsed">
+						<ol className="list ordered">
+							<li value="*">Item 1</li>
+							<li value="*">Item 2</li>
+							<li value="*">Item 3
 							<ol className="list ordered">
-								<li value="*">Item 1</li>
-								<li value="*">Item 2</li>
-								<li value="*">Item 3
-								<ol className="list ordered">
-									<li value="-">Item 1</li>
-									<li value="-">Item 2</li>
-									<li value="-">Item 3</li>
-								</ol>
-								</li>
-								<li value="*">Item 4</li>
+								<li value="-">Item 1</li>
+								<li value="-">Item 2</li>
+								<li value="-">Item 3</li>
 							</ol>
+							</li>
+							<li value="*">Item 4</li>
+						</ol>
+					<div className="footer">
+						<Highlight className="html">
+							{'<ol class="list ordered">\n\t<li value="*">Item 1</li>\n\t<li value="*">Item 2</li>\n\t<li value="*">Item 3\n\t<ol class="list ordered">\n\t\t<li value="-">Item 1</li>\n\t\t<li value="-">Item 2</li>\n\t\t<li value="-">Item 3</li>\n\t</ol>\n\t</li>\n\t<li value="*">Item 4</li>\n</ol>'}
+						</Highlight>
+					</div>
+				</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Links lists</h6>
+						<p>A list of horizontal links</p>
+					</div>
+					<div className="module collapsed">
+						<ul className="list links">
+							<li className="item active"><a>Item 1</a></li>
+							<li className="item"><a>Item 2</a></li>
+							<li className="item"><a>Item 3</a></li>
+							<li className="item"><a>Item 4</a></li>
+						</ul>
 						<div className="footer">
 							<Highlight className="html">
-								{'<ol class="list ordered">\n\t<li value="*">Item 1</li>\n\t<li value="*">Item 2</li>\n\t<li value="*">Item 3\n\t<ol class="list ordered">\n\t\t<li value="-">Item 1</li>\n\t\t<li value="-">Item 2</li>\n\t\t<li value="-">Item 3</li>\n\t</ol>\n\t</li>\n\t<li value="*">Item 4</li>\n</ol>'}
+								{'<ul class="list links">\n\t<li class="item active"><a>Item 1</a></li>\n\t<li class="item"><a>Item 2</a></li>\n\t<li class="item"><a>Item 3</a></li>\n\t<li class="item"><a>Item 4</a></li>\n</ul>'}
 							</Highlight>
-						</div>
-					</div>
-					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Links lists</h6>
-							<p>A list of horizontal links</p>
-						</div>
-						<div className="module collapsed">
-							<ul className="list links">
-								<li className="item active"><a>Item 1</a></li>
-								<li className="item"><a>Item 2</a></li>
-								<li className="item"><a>Item 3</a></li>
-								<li className="item"><a>Item 4</a></li>
-							</ul>
-							<div className="footer">
-								<Highlight className="html">
-									{'<ul class="list links">\n\t<li class="item active"><a>Item 1</a></li>\n\t<li class="item"><a>Item 2</a></li>\n\t<li class="item"><a>Item 3</a></li>\n\t<li class="item"><a>Item 4</a></li>\n</ul>'}
-								</Highlight>
-							</div>
-						</div>
-					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Headered lists</h6>
-							<p>A list of items with a header</p>
-						</div>
-						<div className="module collapsed">
-							<ul className="list">
-								<li className="item">
-									<div className="header">
-										Item 1 Header
-									</div>
-									This is item 1 with a header!</li>
-								<li className="item">
-									<div className="header">
-										Item 2 Header
-									</div>
-									This is item 2 with a header!</li>
-								<li className="item">
-									<a className="header">
-										Item 2 Header
-									</a>
-									Headers can even be links!</li>
-							</ul>
-							<div className="footer">
-								<Highlight className="html">
-									{'<ul class="list">\n\t<li class="item">\n\t\t<div class="header">\n\t\t\tItem 1 Header\n\t\t</div>\n\t\tThis is item 1 with a header!</li>\n\t<li class="item">\n\t\t<div class="header">\n\t\t\tItem 2 Header\n\t\t</div>\n\t\tThis is item 2 with a header!</li>\n\t<li class="item">\n\t\t<a class="header">\n\t\t\tItem 2 Header\n\t\t</a>\n\t\tHeaders can even be links!</li>\n</ul>'}
-								</Highlight>
-							</div>
-						</div>
-					</div>
-					<div className="row show-lists example">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Divided lists</h6>
-							<p>A list with items being divided by a border</p>
-						</div>
-						<div className="module collapsed">
-							<ul className="list divided spaced">
-								<li className="item">
-									<i className="icon large fa fa-github"></i>
-									<div className="content">
-										<a className="header">
-											Aotik/Blossom
-										</a>
-										Updated 22 seconds ago
-									</div>
-									</li>
-								<li className="item">
-									<i className="icon large fa fa-github"></i>
-									<div className="content">
-										<a className="header">
-											Aotik/Blossom
-										</a>
-										Updated 22 seconds ago
-									</div>
-									</li>
-								<li className="item">
-									<i className="icon large fa fa-github"></i>
-									<div className="content">
-										<a className="header">
-											Aotik/Blossom
-										</a>
-										Updated 22 seconds ago
-									</div>
-									</li>
-							</ul>
-							<div className="footer">
-								<Highlight className="html">
-									{'<ul class="list divided spaced">\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a class="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a class="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a className="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n</ul>'}
-								</Highlight>
-							</div>
 						</div>
 					</div>
 				</div>
-			)
-		}
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Headered lists</h6>
+						<p>A list of items with a header</p>
+					</div>
+					<div className="module collapsed">
+						<ul className="list">
+							<li className="item">
+								<div className="header">
+									Item 1 Header
+								</div>
+								This is item 1 with a header!</li>
+							<li className="item">
+								<div className="header">
+									Item 2 Header
+								</div>
+								This is item 2 with a header!</li>
+							<li className="item">
+								<a className="header">
+									Item 2 Header
+								</a>
+								Headers can even be links!</li>
+						</ul>
+						<div className="footer">
+							<Highlight className="html">
+								{'<ul class="list">\n\t<li class="item">\n\t\t<div class="header">\n\t\t\tItem 1 Header\n\t\t</div>\n\t\tThis is item 1 with a header!</li>\n\t<li class="item">\n\t\t<div class="header">\n\t\t\tItem 2 Header\n\t\t</div>\n\t\tThis is item 2 with a header!</li>\n\t<li class="item">\n\t\t<a class="header">\n\t\t\tItem 2 Header\n\t\t</a>\n\t\tHeaders can even be links!</li>\n</ul>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Divided lists</h6>
+						<p>A list with items being divided by a border</p>
+					</div>
+					<div className="module collapsed">
+						<ul className="list divided spaced">
+							<li className="item">
+								<i className="icon large fa fa-github"></i>
+								<div className="content">
+									<a className="header">
+										Aotik/Blossom
+									</a>
+									Updated 22 seconds ago
+								</div>
+								</li>
+							<li className="item">
+								<i className="icon large fa fa-github"></i>
+								<div className="content">
+									<a className="header">
+										Aotik/Blossom
+									</a>
+									Updated 22 seconds ago
+								</div>
+								</li>
+							<li className="item">
+								<i className="icon large fa fa-github"></i>
+								<div className="content">
+									<a className="header">
+										Aotik/Blossom
+									</a>
+									Updated 22 seconds ago
+								</div>
+								</li>
+						</ul>
+						<div className="footer">
+							<Highlight className="html">
+								{'<ul class="list divided spaced">\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a class="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a class="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n\t<li class="item">\n\t\t<i class="icon large fa fa-github"></i>\n\t\t<div class="content">\n\t\t\t<a className="header">\n\t\t\t\tAotik/Blossom\n\t\t\t</a>\n\t\t\tUpdated 22 seconds ago\n\t\t</div>\n\t\t</li>\n</ul>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
 })
 
 export const elDividers = React.createClass({
@@ -2012,6 +2012,26 @@ export const elDividers = React.createClass({
 					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
 					<div className="divider horizontal">Specification</div>
 					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
+					<div className="divider horizontal"><code>Dividers fully adapt to the length of text between them</code></div>
+					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
+				</div>
+			</div>
+		)
+	}
+})
+
+export const elProgressBars = React.createClass({
+	render() {
+		return(
+			<div>
+				<Title title="Buttons">A button indicates a possible user action</Title>
+				<div className="row example buttons">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Default & Primary buttons</h6>
+						<p>Standard buttons</p>
+					</div>
+					<div className="module collapsed">
+					</div>
 				</div>
 			</div>
 		)
@@ -2019,152 +2039,152 @@ export const elDividers = React.createClass({
 })
 
 export const elButtons = React.createClass({
-		render() {
-			return(
-				<div>
-					<Title title="Buttons">A button indicates a possible user action</Title>
-					<div className="row example buttons">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Default & Primary buttons</h6>
-							<p>Standard buttons</p>
+	render() {
+		return(
+			<div>
+				<Title title="Buttons">A button indicates a possible user action</Title>
+				<div className="row example buttons">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Default & Primary buttons</h6>
+						<p>Standard buttons</p>
+					</div>
+					<div className="module collapsed">
+						<div className="button">
+							Default Button
 						</div>
-						<div className="module collapsed">
-							<div className="button">
-								Default Button
-							</div>
-							<div className="button primary">
-								Primary Button
-							</div>
-							<div className="footer">
-								<Highlight className="html">
-									{'<div class="button">\n\tDefault Button\n</div>\n<div class="button primary">\n\tPrimary Button\n</div>'}
-								</Highlight>
-							</div>
+						<div className="button primary">
+							Primary Button
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="button">\n\tDefault Button\n</div>\n<div class="button primary">\n\tPrimary Button\n</div>'}
+							</Highlight>
 						</div>
 					</div>
-					<div className="row example buttons">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Outlined buttons</h6>
-							<p>Transparent buttons with an outline</p>
+				</div>
+				<div className="row example buttons">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Outlined buttons</h6>
+						<p>Transparent buttons with an outline</p>
+					</div>
+					<div className="module collapsed">
+						<div className="button outlined">
+							Outlined default
 						</div>
-						<div className="module collapsed">
-							<div className="button outlined">
-								Outlined default
-							</div>
-							<div className="button red outlined">
-								Outlined red
-							</div>
-							<div className="button orange outlined">
-								Outlined orange
-							</div>
-							<div className="button yellow outlined">
-								Outlined yellow
-							</div>
-							<div className="button teal outlined">
-								Outlined teal
-							</div>
-							<div className="button blue outlined">
-								Outlined blue
-							</div>
-							<div className="button violet outlined">
-								Outlined violet
-							</div>
-							<div className="button purple outlined">
-								Outlined purple
-							</div>
-							<div className="button pink outlined">
-								Outlined pink
-							</div>
-							<div className="button brown outlined">
-								Outlined brown
-							</div>
-							<div className="button grey outlined">
-								Outlined grey
-							</div>
-							<div className="button black outlined">
-								Outlined black
-							</div>
-							<div className="footer">
-								<Highlight className="html">
-									{'<div class="button outlined">\n\tOutlined default\n</div>\n<div class="button red outlined">\n\tOutlined red\n</div>\n<div class="button orange outlined">\n\tOutlined orange\n</div>\n<div class="button yellow outlined">\n\tOutlined yellow\n</div>\n<div class="button teal outlined">\n\tOutlined teal\n</div>\n<div class="button blue outlined">\n\tOutlined blue\n</div>\n<div class="button violet outlined">\n\tOutlined violet\n</div>\n<div class="button purple outlined">\n\tOutlined purple\n</div>\n<div class="button pink outlined">\n\tOutlined pink\n</div>\n<div class="button brown outlined">\n\tOutlined brown\n</div>\n<div class="button grey outlined">\n\tOutlined grey\n</div>\n<div class="button black outlined">\n\tOutlined black\n</div>'}
-								</Highlight>
-							</div>
+						<div className="button red outlined">
+							Outlined red
+						</div>
+						<div className="button orange outlined">
+							Outlined orange
+						</div>
+						<div className="button yellow outlined">
+							Outlined yellow
+						</div>
+						<div className="button teal outlined">
+							Outlined teal
+						</div>
+						<div className="button blue outlined">
+							Outlined blue
+						</div>
+						<div className="button violet outlined">
+							Outlined violet
+						</div>
+						<div className="button purple outlined">
+							Outlined purple
+						</div>
+						<div className="button pink outlined">
+							Outlined pink
+						</div>
+						<div className="button brown outlined">
+							Outlined brown
+						</div>
+						<div className="button grey outlined">
+							Outlined grey
+						</div>
+						<div className="button black outlined">
+							Outlined black
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="button outlined">\n\tOutlined default\n</div>\n<div class="button red outlined">\n\tOutlined red\n</div>\n<div class="button orange outlined">\n\tOutlined orange\n</div>\n<div class="button yellow outlined">\n\tOutlined yellow\n</div>\n<div class="button teal outlined">\n\tOutlined teal\n</div>\n<div class="button blue outlined">\n\tOutlined blue\n</div>\n<div class="button violet outlined">\n\tOutlined violet\n</div>\n<div class="button purple outlined">\n\tOutlined purple\n</div>\n<div class="button pink outlined">\n\tOutlined pink\n</div>\n<div class="button brown outlined">\n\tOutlined brown\n</div>\n<div class="button grey outlined">\n\tOutlined grey\n</div>\n<div class="button black outlined">\n\tOutlined black\n</div>'}
+							</Highlight>
 						</div>
 					</div>
-					<div className="row example buttons">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Colored buttons</h6>
-							<p>Spice up your page with colored buttons</p>
+				</div>
+				<div className="row example buttons">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Colored buttons</h6>
+						<p>Spice up your page with colored buttons</p>
+					</div>
+					<div className="module collapsed">
+						<div className="button red">
+							Red
 						</div>
-						<div className="module collapsed">
-							<div className="button red">
-								Red
-							</div>
-							<div className="button orange">
-								Orange
-							</div>
-							<div className="button yellow">
-								Yellow
-							</div>
-							<div className="button green">
-								Green
-							</div>
-							<div className="button teal">
-								Teal
-							</div>
-							<div className="button blue">
-								Blue
-							</div>
-							<div className="button violet">
-								Violet
-							</div>
-							<div className="button purple">
-								Purple
-							</div>
-							<div className="button pink">
-								Pink
-							</div>
-							<div className="button brown">
-								Brown
-							</div>
-							<div className="button grey">
-								Grey
-							</div>
-							<div className="button black">
-								Black
-							</div>
-							<div className="footer">
-								<Highlight className="html">
-									{'<div class="button red">\n\tRed\n</div>\n<div class="button orange">\n\tOrange\n</div>\n<div class="button yellow">\n\tYellow\n</div>\n<div class="button green">\n\tGreen\n</div>\n<div class="button teal">\n\tTeal\n</div>\n<div class="button blue">\n\tBlue\n</div>\n<div class="button violet">\n\tViolet\n</div>\n<div class="button purple">\n\tPurple\n</div>\n<div class="button pink">\n\tPink\n</div>\n<div class="button brown">\n\tBrown\n</div>\n<div class="button grey">\n\tGrey\n</div>\n<div class="button black">\n\tBlack\n</div>'}
-								</Highlight>
-							</div>
+						<div className="button orange">
+							Orange
+						</div>
+						<div className="button yellow">
+							Yellow
+						</div>
+						<div className="button green">
+							Green
+						</div>
+						<div className="button teal">
+							Teal
+						</div>
+						<div className="button blue">
+							Blue
+						</div>
+						<div className="button violet">
+							Violet
+						</div>
+						<div className="button purple">
+							Purple
+						</div>
+						<div className="button pink">
+							Pink
+						</div>
+						<div className="button brown">
+							Brown
+						</div>
+						<div className="button grey">
+							Grey
+						</div>
+						<div className="button black">
+							Black
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="button red">\n\tRed\n</div>\n<div class="button orange">\n\tOrange\n</div>\n<div class="button yellow">\n\tYellow\n</div>\n<div class="button green">\n\tGreen\n</div>\n<div class="button teal">\n\tTeal\n</div>\n<div class="button blue">\n\tBlue\n</div>\n<div class="button violet">\n\tViolet\n</div>\n<div class="button purple">\n\tPurple\n</div>\n<div class="button pink">\n\tPink\n</div>\n<div class="button brown">\n\tBrown\n</div>\n<div class="button grey">\n\tGrey\n</div>\n<div class="button black">\n\tBlack\n</div>'}
+							</Highlight>
 						</div>
 					</div>
-					<div className="row example buttons">
-						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-							<h6>Labeled buttons</h6>
-							<p>Labels give visual aid on what the button does</p>
+				</div>
+				<div className="row example buttons">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Labeled buttons</h6>
+						<p>Labels give visual aid on what the button does</p>
+					</div>
+					<div className="module collapsed">
+						<div className="button primary labeled">
+							<i className="fa fa-check"></i>
+							Labeled Button
 						</div>
-						<div className="module collapsed">
-							<div className="button primary labeled">
-								<i className="fa fa-check"></i>
-								Labeled Button
-							</div>
-							<div className="button green labeled">
-								<i className="fa fa-shopping-cart"></i>
-								Checkout
-							</div>
-							<div className="button red labeled labeled-right">
-								Delete
-								<i className="fa fa-times"></i>
-							</div>
-							<div className="footer">
-								<Highlight className="html">
-									{'<div class="button primary labeled">\n\t<i class="fa fa-check"></i>\n\tLabeled Button\n</div>\n<div class="button green labeled">\n\t<i class="fa fa-shopping-cart"></i>\n\tCheckout\n</div>\n<div class="button red labeled labeled-right">\n\tDelete\n\t<i class="fa fa-times"></i>\n</div>'}
-								</Highlight>
-							</div>
+						<div className="button green labeled">
+							<i className="fa fa-shopping-cart"></i>
+							Checkout
+						</div>
+						<div className="button red labeled labeled-right">
+							Delete
+							<i className="fa fa-times"></i>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="button primary labeled">\n\t<i class="fa fa-check"></i>\n\tLabeled Button\n</div>\n<div class="button green labeled">\n\t<i class="fa fa-shopping-cart"></i>\n\tCheckout\n</div>\n<div class="button red labeled labeled-right">\n\tDelete\n\t<i class="fa fa-times"></i>\n</div>'}
+							</Highlight>
 						</div>
 					</div>
+				</div>
 			</div>
 		)
 	}

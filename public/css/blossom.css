@@ -1763,6 +1763,7 @@ ol.ordered li[value]:before {
 }
 .divider.horizontal {
   display: table;
+  white-space: nowrap;
 }
 .divider.horizontal:before {
   background-position: right 1em top 50%;
