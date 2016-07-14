@@ -36,20 +36,6 @@ export const deScheme = React.createClass({
 						<p>Light, standard and dark colors used in Blossom UI</p>
 					</div>
 					<div className="row schemes">
-						<div className="scheme primary light">
-							<p>Light primary</p>
-							<span>#4692FF</span>
-						</div>
-						<div className="scheme primary">
-							<p>Primary</p>
-							<span>#1877FF</span>
-						</div>
-						<div className="scheme primary dark">
-							<p>Dark primary</p>
-							<span>#005CDF</span>
-						</div>
-					</div>
-					<div className="row schemes">
 						<div className="scheme red light">
 							<p>Light red</p>
 							<span>#FF6D6D</span>
@@ -122,15 +108,15 @@ export const deScheme = React.createClass({
 					<div className="row schemes">
 						<div className="scheme blue light">
 							<p>Light blue</p>
-							<span>#459FE2</span>
+							<span>#4692FF</span>
 						</div>
 						<div className="scheme blue">
 							<p>Blue</p>
-							<span>#2185D0</span>
+							<span>#1877FF</span>
 						</div>
 						<div className="scheme blue dark">
 							<p>Dark blue</p>
-							<span>#1A6AA6</span>
+							<span>#005CDF</span>
 						</div>
 					</div>
 					<div className="row schemes">
@@ -234,6 +220,44 @@ export const deTypography = React.createClass({
 		return(
 			<div>
 				<Title title="Typography">Experience the face of Blossom</Title>
+				<div className="row example typeface">
+					<div className="explanation">
+						<h6>Headers</h6>
+						<p>Use headers to amplify headings and subheadings</p>
+					</div>
+					<div className="module">
+						<div className="antiScroll">
+							<div className="section nowrap">
+								<h2>The quick brown fox jumps over the lazy dog</h2>
+								<small>Heading 2 - 3em</small>
+							</div>
+						</div>
+						<div className="antiScroll">
+							<div className="section nowrap">
+								<h3>The quick brown fox jumps over the lazy dog</h3>
+								<small>Heading 3 - 3em</small>
+							</div>
+						</div>
+						<div className="antiScroll">
+							<div className="section nowrap">
+								<h4>The quick brown fox jumps over the lazy dog</h4>
+								<small>Heading 4 - 3em</small>
+							</div>
+						</div>
+						<div className="antiScroll">
+							<div className="section nowrap">
+								<h5>The quick brown fox jumps over the lazy dog</h5>
+								<small>Heading 5 - 3em</small>
+							</div>
+						</div>
+						<div className="antiScroll">
+							<div className="section nowrap">
+								<h6>The quick brown fox jumps over the lazy dog</h6>
+								<small>Heading 6 - 3em</small>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div className="row example typeface">
 					<div className="explanation">
 						<h6>Typeface</h6>

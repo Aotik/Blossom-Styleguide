@@ -134,15 +134,15 @@ h6 {
 }
 ::selection {
   color: #000;
-  background-color: #d1e4ff;
+  background-color: #e0d6f4;
 }
 a {
-  color: #1877ff;
+  color: #6435c9;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #0056d1;
+  color: #4b2897;
 }
 strong {
   font-weight: 700;
@@ -1156,6 +1156,9 @@ strong {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.nowrap {
+  white-space: nowrap;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -1216,7 +1219,7 @@ strong {
   font-weight: 900;
 }
 .dropdown li:hover a {
-  color: #1877ff;
+  color: #6435c9;
 }
 .dropdown li a {
   color: #3e464a;
@@ -1369,16 +1372,16 @@ strong {
 }
 .button.blue {
   color: #fff;
-  background-color: #2185d0;
+  background-color: #1877ff;
 }
 .button.blue.outlined {
-  color: #2185d0;
-  -webkit-box-shadow: inset 0px 0px 0px 1px #2185d0;
-  box-shadow: inset 0px 0px 0px 1px #2185d0;
+  color: #1877ff;
+  -webkit-box-shadow: inset 0px 0px 0px 1px #1877ff;
+  box-shadow: inset 0px 0px 0px 1px #1877ff;
 }
 .button.blue:hover {
   color: #fff;
-  background-color: #1e7abf;
+  background-color: #026aff;
 }
 .button.violet {
   color: #fff;
@@ -1460,16 +1463,16 @@ strong {
 }
 .button.primary {
   color: #fff;
-  background-color: #1877ff;
+  background-color: #6435c9;
 }
 .button.primary.outlined {
-  color: #1877ff;
-  -webkit-box-shadow: inset 0px 0px 0px 1px #1877ff;
-  box-shadow: inset 0px 0px 0px 1px #1877ff;
+  color: #6435c9;
+  -webkit-box-shadow: inset 0px 0px 0px 1px #6435c9;
+  box-shadow: inset 0px 0px 0px 1px #6435c9;
 }
 .button.primary:hover {
   color: #fff;
-  background-color: #026aff;
+  background-color: #5c31b9;
 }
 .button.outlined {
   -webkit-box-sizing: border-box;
@@ -1808,13 +1811,13 @@ ol.ordered li[value]:before {
 }
 .message.success {
   background-color: #eafdf3;
-  border-color: #38ec8d;
+  border-color: #91f5c0;
   color: #074824;
 }
 .message.info {
-  background-color: #ecf5fc;
-  border-color: #87c0ec;
-  color: #0c2f49;
+  background-color: #edf4ff;
+  border-color: #77acff;
+  color: #002862;
 }
 .input {
   position: relative;
@@ -1856,7 +1859,7 @@ ol.ordered li[value]:before {
 }
 .input input:focus,
 .input textarea:focus {
-  border-color: #1877ff;
+  border-color: #6435c9;
 }
 .input textarea {
   line-height: 1.2em;
@@ -1900,7 +1903,7 @@ ol.ordered li[value]:before {
   vertical-align: top;
 }
 .text-primary {
-  color: #1877ff;
+  color: #6435c9;
 }
 .text-red {
   color: #ff4949;
@@ -1918,7 +1921,7 @@ ol.ordered li[value]:before {
   color: #00baa9;
 }
 .text-blue {
-  color: #2185d0;
+  color: #1877ff;
 }
 .text-violet {
   color: #6435c9;
@@ -1984,13 +1987,13 @@ ol.ordered li[value]:before {
   background-color: #009587 !important;
 }
 .blue:not(.button) {
-  background-color: #2185d0 !important;
+  background-color: #1877ff !important;
 }
 .blue:not(.button).light {
-  background-color: #459fe2 !important;
+  background-color: #4692ff !important;
 }
 .blue:not(.button).dark {
-  background-color: #1a6aa6 !important;
+  background-color: #005cdf !important;
 }
 .violet:not(.button) {
   background-color: #6435c9 !important;
@@ -2047,13 +2050,13 @@ ol.ordered li[value]:before {
   background-color: #000 !important;
 }
 .primary:not(.button) {
-  background-color: #1877ff !important;
+  background-color: #6435c9 !important;
 }
 .primary:not(.button).light {
-  background-color: #4692ff !important;
+  background-color: #835dd4 !important;
 }
 .primary:not(.button).dark {
-  background-color: #005cdf !important;
+  background-color: #502aa1 !important;
 }
 .ash:not(.button) {
   background-color: #2f3133 !important;
@@ -2118,6 +2121,28 @@ ol.ordered li[value]:before {
   border-radius: 4px;
   margin: 1em 0;
   padding: 1em;
+}
+.module .antiScroll {
+  overflow: hidden;
+  margin: 0 -1.8em;
+  *zoom: 1;
+}
+.module .antiScroll:before,
+.module .antiScroll:after {
+  content: '';
+  display: table;
+}
+.module .antiScroll:after {
+  clear: both;
+}
+.module .section {
+  margin: -1em 0;
+  padding: 1.3em;
+  overflow: auto;
+  display: block;
+}
+.module .section + .section {
+  border-top: 1px solid #dfe4e9;
 }
 .circular {
   -webkit-border-radius: 500em;
@@ -2354,7 +2379,7 @@ ol.ordered li[value]:before {
   line-height: 1.62em;
 }
 .comments .comment .content .creator:hover {
-  color: #1877ff;
+  color: #6435c9;
 }
 .comments .comment .content .text {
   line-height: 1.14em;
@@ -2568,7 +2593,7 @@ ol.ordered li[value]:before {
   background-color: #f2f4f6;
 }
 .stages .stage.active .header {
-  color: #1877ff;
+  color: #6435c9;
 }
 .stages .stage.active:before {
   border-left-color: #f2f4f6;

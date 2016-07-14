@@ -3,16 +3,25 @@ import { Link, IndexLink } from 'react-router'
 import NavLink from './NavLink'
 import DropElement from './DropElement'
 import Home from './Home'
-
+// <header className="sidebar fixed subbar">
+// 		<div className="contain">
+// 			<div className="sub">
+// 				{this.props.header}
+// 			</div>
+// 			<div className="link">
+// 				<Link to="/github"><i className="fa fa-ellipsis-h"></i> Changelog</Link>
+// 			</div>
+// 		</div>
+// 	</header>
 export default React.createClass({
 	render() {
 		return(
 			<div>
 				<header className="sidebar fixed top">
 					<div className="contain">
-						<div className="logo">
-							<img src="/css/logo.png"/>
-						</div>
+						<Link to="/" className="logo">
+							<img src="/examples/logo-dark.png"/>
+						</Link>
 						<ul className="links">
 							<DropElement to="/start">Getting Started</DropElement>
 							<DropElement to="/elements">Elements</DropElement>
@@ -21,26 +30,11 @@ export default React.createClass({
 						</ul>
 					</div>
 				</header>
-				<header className="sidebar fixed subbar">
-					<div className="contain">
-						<div className="sub">
-							{this.props.header}
-						</div>
-						<div className="link">
-							<Link to="/github"><i className="fa fa-ellipsis-h"></i> Changelog</Link>
-						</div>
-					</div>
-				</header>
+
 
 				<div className="main-content">
 					<div className="contain">
-						<aside className="sidebar breakpoint-m-hide">
-							<div className="fixed">
-								<h6>Resources</h6>
-								{this.props.sidebar}
-							</div>
-						</aside>
-
+						{this.props.sidebar}
 						<div className="page">
 							{this.props.main || <Home/>}
 						</div>
