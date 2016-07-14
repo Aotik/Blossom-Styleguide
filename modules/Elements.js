@@ -2018,6 +2018,12 @@ export const elDividers = React.createClass({
 })
 
 export const elProgressBars = React.createClass({
+	componentDidMount: function() {
+		$(document).ready(function() {
+			loadProgressBars()
+			loadActiveProgressBars();
+		})
+	},
 	render() {
 		return(
 			<div>

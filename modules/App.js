@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, IndexLink } from 'react-router'
+import { Link, IndexLink, State } from 'react-router'
 import NavLink from './NavLink'
 import DropElement from './DropElement'
 import Home from './Home'
@@ -13,14 +13,38 @@ import Home from './Home'
 // 			</div>
 // 		</div>
 // 	</header>
+
 export default React.createClass({
+	mixins: [State],
+	renderContent() {
+		return (
+			<div className="contain">
+				{this.props.sidebar}
+				<div className="page">
+					{this.props.main}
+				</div>
+			</div>
+		)
+	},
+	renderHomepage() {
+		return (
+			 <Home/>
+		);
+	},
+	toRender() {
+		if (this.props.main == null) {
+			return this.renderHomepage()
+		} else {
+			return this.renderContent()
+		}
+	},
 	render() {
 		return(
 			<div>
 				<header className="sidebar fixed top">
 					<div className="contain">
 						<Link to="/" className="logo">
-							<img src="/examples/logo-dark.png"/>
+							<img src="/examples/blossom.png"/>
 						</Link>
 						<ul className="links">
 							<DropElement to="/start">Getting Started</DropElement>
@@ -33,12 +57,7 @@ export default React.createClass({
 
 
 				<div className="main-content">
-					<div className="contain">
-						{this.props.sidebar}
-						<div className="page">
-							{this.props.main || <Home/>}
-						</div>
-					</div>
+						{this.toRender()}
 					<footer className="footer">
 						<div className="contain">
 							<div className="inner">

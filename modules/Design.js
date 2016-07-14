@@ -198,7 +198,7 @@ export const deScheme = React.createClass({
 					<div className="row schemes dark">
 						<div className="scheme smoke light">
 							<p>Light smoke</p>
-								<span>#F2F4F6</span>
+								<span>#F7F9FB</span>
 						</div>
 						<div className="scheme smoke">
 							<p>Smoke</p>
