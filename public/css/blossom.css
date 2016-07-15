@@ -1483,6 +1483,12 @@ strong {
   box-shadow: inset 0px 0px 0px 1px #dfe4e9;
   color: #505050;
 }
+.button.outlined.white {
+  color: #fff;
+}
+.button.outlined.white:hover {
+  color: #505050;
+}
 .button.outlined:hover {
   -webkit-box-shadow: none;
   box-shadow: none;

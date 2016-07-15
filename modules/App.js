@@ -55,22 +55,21 @@ export default React.createClass({
 					</div>
 				</header>
 
-
 				<div className="main-content">
 						{this.toRender()}
-					<footer className="footer">
-						<div className="contain">
-							<div className="inner">
-								<ul className="list horizontal links">
-									<li><a>Contact</a></li>
-									<li><a>GitHub Repo</a></li>
-									<li><a>Submit an issue</a></li>
-									<li><a>Suggestions</a></li>
-									<li className="float-right madeby"><a className="text-grey">Made with <i className="fa fa-heart-o text-red"/> by <span className="aotik">aotik</span></a></li>
-								</ul>
+						<footer className="footer">
+							<div className="contain">
+								<div className="inner">
+									<ul className="list horizontal links">
+										<li><a>Contact</a></li>
+										<li><a>GitHub Repo</a></li>
+										<li><a>Submit an issue</a></li>
+										<li><a>Suggestions</a></li>
+										<li className="float-right madeby"><a className="text-grey">Made with <i className="fa fa-heart-o text-red"/> by <span className="aotik">aotik</span></a></li>
+									</ul>
+								</div>
 							</div>
-						</div>
-					</footer>
+						</footer>
 				</div>
 			</div>
 		)
