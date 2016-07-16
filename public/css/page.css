@@ -59,7 +59,6 @@
   border-bottom: 1px solid #dfe4e9;
 }
 .hero h1 {
-  font-size: 3.8em;
   margin-top: 0.3em;
   font-weight: 600;
 }
@@ -180,12 +179,15 @@
 }
 .about {
   padding: 5em 0;
+  background-color: #f7f9fb;
 }
 .about h3 {
   margin: 0 0 0.6em 0;
 }
 .about p {
-  color: #707f87;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
   width: 80%;
   display: block;
   margin: 0 auto;
@@ -219,7 +221,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  margin: 3em 0;
+  margin: 3.4em 0;
   padding: 0 2em;
 }
 .column + .column {
@@ -239,6 +241,10 @@
   flex: 1 0 auto;
   margin: 0 0 1.4em 0;
   color: #707f87;
+}
+.column .fa {
+  font-size: 2.2em;
+  margin: 0 0 0.6em 0;
 }
 .column .button {
   -webkit-box-flex: 0;

@@ -3,16 +3,6 @@ import { Link, IndexLink } from 'react-router'
 import NavLink from './NavLink'
 import DropElement from './DropElement'
 import Home from './Home'
-// <header className="sidebar fixed subbar">
-// 		<div className="contain">
-// 			<div className="sub">
-// 				{this.props.header}
-// 			</div>
-// 			<div className="link">
-// 				<Link to="/github"><i className="fa fa-ellipsis-h"></i> Changelog</Link>
-// 			</div>
-// 		</div>
-// 	</header>
 
 export default React.createClass({
 	renderContent() {

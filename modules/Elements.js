@@ -583,177 +583,255 @@ export const elTables = React.createClass({
 							<h6>Striped tables</h6>
 							<p>Stripled tables with a single header using the <code>colspan</code> property</p>
 						</div>
-						<table className="striped table">
-							<thead>
-								<tr><th colSpan="3">
-									Git Repository
-								</th>
-							</tr></thead>
-							<tbody>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> package.json
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> Gruntfile.js
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-							</tbody>
-						</table>
+						<div className="module collapsed">
+							<table className="striped table">
+								<thead>
+									<tr>
+										<th colSpan="3">
+											New files added
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<i className="fa fa-file-o"></i> logo.svg
+										</td>
+										<td>
+											SVG
+										</td>
+										<td className="right aligned">
+											2 hours ago
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<i className="fa fa-file-o"></i>
+											app.js
+										</td>
+										<td>
+											Javascript
+										</td>
+										<td className="right aligned">
+											3 hours ago
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div className="footer">
+								<Highlight className="html">
+									{'<table className="striped table">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colSpan="3">\n\t\t\t\tNew files added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i>\n\t\t\t\tapp.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+								</Highlight>
+							</div>
+						</div>
 					</div>
 					<div className="row example tables">
 						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 							<h6>Celled tables</h6>
 							<p>Fully celled tables, horizontally and vertically</p>
 						</div>
-						<table className="table cells">
-							<thead>
-								<tr>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-							</tr>
-						</thead>
-							<tbody>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> package.json
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> Gruntfile.js
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-							</tbody>
-						</table>
+						<div className="module collapsed">
+							<table className="table cells">
+								<thead>
+									<tr>
+										<th>
+											File name
+										</th>
+										<th>
+											File type
+										</th>
+										<th>
+											Date added
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<i className="fa fa-file-o"></i> logo.svg
+										</td>
+										<td>
+											SVG
+										</td>
+										<td className="right aligned">
+											2 hours ago
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<i className="fa fa-file-o"></i> app.js
+										</td>
+										<td>
+											Javascript
+										</td>
+										<td className="right aligned">
+											3 hours ago
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div className="footer">
+								<Highlight className="html">
+									{'<table className="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tFile name\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tFile type\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDate added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> app.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+								</Highlight>
+							</div>
+						</div>
 					</div>
 					<div className="row example tables">
 						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 							<h6>Crowded tables</h6>
 							<p>Tables will automatically adjust their cell sizes to accompany their content</p>
 						</div>
-						<table className="table cells">
-							<thead>
-								<tr>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-							</tr>
-						</thead>
-							<tbody>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> package.json
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago</td>
-								</tr>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> Gruntfile.js
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-							</tbody>
-						</table>
+						<div className="module collapsed">
+							<table className="table cells">
+								<thead>
+									<tr>
+										<th>
+											Name
+										</th>
+										<th>
+											Type
+										</th>
+										<th>
+											Description
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											Frog
+										</td>
+										<td>
+											Amphibian
+										</td>
+										<td>
+											Frogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Duck
+										</td>
+										<td>
+											Anatidae
+										</td>
+										<td>
+											Duck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div className="footer">
+								<Highlight className="html">
+									{'<table className="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+								</Highlight>
+							</div>
+						</div>
 					</div>
 					<div className="row example tables">
 						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 							<h6>Simple tables</h6>
 							<p>Simple tables have no background color and only horizontal borders</p>
 						</div>
-						<table className="table simple">
-							<thead>
-								<tr>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-							</tr>
-						</thead>
-							<tbody>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> package.json
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago</td>
-								</tr>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> Gruntfile.js
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-							</tbody>
-						</table>
+						<div className="module collapsed">
+							<table className="table simple">
+								<thead>
+									<tr>
+										<th>
+											Name
+										</th>
+										<th>
+											Type
+										</th>
+										<th>
+											Description
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											Frog
+										</td>
+										<td>
+											Amphibian
+										</td>
+										<td>
+											Frogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Duck
+										</td>
+										<td>
+											Anatidae
+										</td>
+										<td>
+											Duck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div className="footer">
+								<Highlight className="html">
+									{'<table className="table simple">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+								</Highlight>
+							</div>
+						</div>
 					</div>
 					<div className="row example tables">
 						<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 							<h6>Basic tables</h6>
 							<p>Basic tables convey simple information and is the most basic variation of a table</p>
 						</div>
-						<table className="table basic">
-							<thead>
-								<tr>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-									<th>
-									Git
-								</th>
-							</tr>
-						</thead>
-							<tbody>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> package.json
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago10 hours ago</td>
-								</tr>
-								<tr>
-									<td>
-										<i className="file outline icon"></i> Gruntfile.js
-									</td>
-									<td>Initial commit</td>
-									<td className="right aligned">10 hours ago</td>
-								</tr>
-							</tbody>
-						</table>
+						<div className="module collapsed">
+							<table className="table basic">
+								<thead>
+									<tr>
+										<th>
+											Name
+										</th>
+										<th>
+											Type
+										</th>
+										<th>
+											Description
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											Frog
+										</td>
+										<td>
+											Amphibian
+										</td>
+										<td>
+											Frogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Duck
+										</td>
+										<td>
+											Anatidae
+										</td>
+										<td>
+											Duck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div className="footer">
+								<Highlight className="html">
+									{'<table className="table basic">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+								</Highlight>
+							</div>
+						</div>
 					</div>
 				</div>
 			)

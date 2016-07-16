@@ -6,7 +6,7 @@ export default React.createClass({
 		return (
 			<div className="homepage">
 				<section className="hero clearfix">
-					<span className="label green">1.0.0</span>
+					<span className="label green">0.0.1</span>
 					<h1>Blossom UI</h1>
 					<h3>Build websites intuitvely & efficiently</h3>
 					<div className="button-group">
@@ -16,8 +16,8 @@ export default React.createClass({
 				</section>
 				<section className="about">
 					<div className="contain text-center">
-						<h3>What is Blossom?</h3>
-						<p>Blossom is a brand new framework that make lives easy for designers by being able to simply build responsive and awesome websites without having to re-code elements over and over again. Blossom also allows developers to easily customise their own version as it is built on Stylus.</p>
+						<h3>Framework of the future</h3>
+						<p>Blossom is a brand new framework that make lives easy for designers and enabling developers to be creative with theming. With its easy-to-use HTML, clean CSS classes and efficient Javascript anyone can create all kinds of awesome  without having to re-code elements over and over again.</p>
 					</div>
 				</section>
 				<section className="features">
@@ -25,16 +25,19 @@ export default React.createClass({
 						<div className="grid-row">
 							<div className="row">
 								<div className="clm-xs-12 clm-m-4 column">
+										<i className="text-yellow fa fa-edit"/>
 										<h4>Perfect for customisability</h4>
 										<p>Being built on Stylus, customising Blossom&#39;s look and feel is dead easy to accomplish</p>
 										<a className="button">Learn how</a>
 								</div>
 								<div className="clm-xs-12 clm-m-4 column">
+										<i className="text-purple fa fa-th"/>
 										<h4>Tons of<br/>components</h4>
 										<p>With over 60+ components and utility classes, Blossom covers as much as you need with minimal coding required to build a beautiful website</p>
 										<Link to="/elements/buttons" className="button primary">Browse components</Link>
 								</div>
 								<div className="clm-xs-12 clm-m-4 column">
+										<i className="text-blue fa fa-github"/>
 										<h4>It&#39;s free and open source!</h4>
 										<p>With Blossom being open source, anyone is welcome to input their expertise into improving it as a product</p>
 										<a className="button">View the repo</a>
