@@ -48,12 +48,20 @@
 }
 .hero {
   text-align: center;
-  padding: 2em 0 6em 0;
+  padding: 3em 0 7em 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  height: 100%;
+  background-color: #fff;
+  width: 100%;
   border-bottom: 1px solid #dfe4e9;
 }
 .hero h1 {
   font-size: 3.8em;
   margin-top: 0.3em;
+  font-weight: 600;
 }
 .hero h3 {
   margin: 0.3em 0;
@@ -133,6 +141,7 @@
 }
 .features {
   *zoom: 1;
+  border-top: 1px solid #dfe4e9;
 }
 .features:before,
 .features:after {
@@ -169,6 +178,33 @@
   -webkit-align-items: stretch;
   align-items: stretch;
 }
+.about {
+  padding: 5em 0;
+}
+.about h3 {
+  margin: 0 0 0.6em 0;
+}
+.about p {
+  color: #707f87;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.15em;
+  line-height: 1.6em;
+}
+.grid {
+  *zoom: 1;
+  padding: 4em 0;
+  background-color: #f7f9fb;
+}
+.grid:before,
+.grid:after {
+  content: '';
+  display: table;
+}
+.grid:after {
+  clear: both;
+}
 .column {
   display: -webkit-box;
   display: -moz-box;
@@ -183,6 +219,15 @@
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  margin: 3em 0;
+  padding: 0 2em;
+}
+.column + .column {
+  border-left: 1px solid #dfe4e9;
+}
+.column h4 {
+  font-weight: 400;
+  margin: 0 0 0.6em 0;
 }
 .column p {
   -webkit-box-flex: 1;
@@ -192,6 +237,8 @@
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
+  margin: 0 0 1.4em 0;
+  color: #707f87;
 }
 .column .button {
   -webkit-box-flex: 0;

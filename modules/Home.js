@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link, IndexLink } from 'react-router'
 
 export default React.createClass({
 	render() {
 		return (
 			<div className="homepage">
-				<section className="hero">
+				<section className="hero clearfix">
 					<span className="label green">1.0.0</span>
 					<h1>Blossom UI</h1>
 					<h3>Build websites intuitvely & efficiently</h3>
@@ -13,24 +14,30 @@ export default React.createClass({
 						<a className="button primary outlined">Download blossom.min.css</a>
 					</div>
 				</section>
+				<section className="about">
+					<div className="contain text-center">
+						<h3>What is Blossom?</h3>
+						<p>Blossom is a brand new framework that make lives easy for designers by being able to simply build responsive and awesome websites without having to re-code elements over and over again. Blossom also allows developers to easily customise their own version as it is built on Stylus.</p>
+					</div>
+				</section>
 				<section className="features">
-					<div className="grid-row">
-						<div className="contain">
+					<div className="contain">
+						<div className="grid-row">
 							<div className="row">
-								<div className="clm-xs-12 clm-s-4 column">
+								<div className="clm-xs-12 clm-m-4 column">
 										<h4>Perfect for customisability</h4>
-										<p>Being built on Stylus, customising the Blossom theme is dead easy</p>
-										<a className="button">Check</a>
+										<p>Being built on Stylus, customising Blossom&#39;s look and feel is dead easy to accomplish</p>
+										<a className="button">Learn how</a>
 								</div>
-								<div className="clm-xs-12 clm-s-4 column">
-										<h2>New 123</h2>
-										<p>ahahah hahaha aha</p>
-										<a className="button">Check</a>
+								<div className="clm-xs-12 clm-m-4 column">
+										<h4>Tons of<br/>components</h4>
+										<p>With over 60+ components and utility classes, Blossom covers as much as you need with minimal coding required to build a beautiful website</p>
+										<Link to="/elements/buttons" className="button primary">Browse components</Link>
 								</div>
-								<div className="clm-xs-12 clm-s-4 column">
-										<h2>New 123</h2>
-										<p>ahahah hahaha aha</p>
-										<a className="button">Check</a>
+								<div className="clm-xs-12 clm-m-4 column">
+										<h4>It&#39;s free and open source!</h4>
+										<p>With Blossom being open source, anyone is welcome to input their expertise into improving it as a product</p>
+										<a className="button">View the repo</a>
 								</div>
 							</div>
 
