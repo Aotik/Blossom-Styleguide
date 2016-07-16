@@ -983,7 +983,7 @@ export const elImages = React.createClass({
 						<p>Align content to the top when inline with an image</p>
 					</div>
 					<div className="image-tiny align-top">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 					<span>Top aligned</span>
 				</div>
@@ -993,7 +993,7 @@ export const elImages = React.createClass({
 						<p>Align content to the middle when inline with an image</p>
 					</div>
 					<div className="image-tiny align-middle">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 					<span>Middle aligned</span>
 				</div>
@@ -1003,7 +1003,7 @@ export const elImages = React.createClass({
 						<p>Align content to the bottom when inline with an image</p>
 					</div>
 					<div className="image-tiny align-bottom">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 					<span>Bottom aligned</span>
 				</div>
@@ -1013,7 +1013,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>35px</code></p>
 					</div>
 					<div className="image-mini">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1022,7 +1022,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>70px</code></p>
 					</div>
 					<div className="image-tiny">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1031,7 +1031,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>140px</code></p>
 					</div>
 					<div className="image-small">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1040,7 +1040,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>280px</code></p>
 					</div>
 					<div className="image-medium">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1049,7 +1049,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>400px</code></p>
 					</div>
 					<div className="image-large">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1058,7 +1058,7 @@ export const elImages = React.createClass({
 						<p>Forces the image to be sized to <code>600px</code></p>
 					</div>
 					<div className="image-big">
-						<img src="http://semantic-ui.com/images/wireframe/image.png" alt="" />
+						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
@@ -1085,7 +1085,7 @@ export const elComments = React.createClass({
 					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
-								<img src="/examples/j.png" alt="" />
+								<img src="/examples/365cons_otter.jpg" alt="" />
 							</div>
 							<div className="content">
 								<a className="creator">Johnny Grimes</a>
@@ -1102,7 +1102,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t\t<a class="action">Share</a>\n\t\t\t<a class="action">Delete</a>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t\t<a class="action">Share</a>\n\t\t\t<a class="action">Delete</a>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1115,7 +1115,7 @@ export const elComments = React.createClass({
 					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
-								<img src="/examples/j.png" alt="" />
+								<img src="/examples/365cons_otter.jpg" alt="" />
 							</div>
 							<div className="content">
 								<a className="creator">Johnny Grimes</a>
@@ -1126,7 +1126,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/j.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Johnny Grimes</a>\n\t\t<p class="text">\n\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business,\nlooking forward to working with you all.\n\t\t</p>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1139,7 +1139,7 @@ export const elComments = React.createClass({
 					<div className="module collapsed">
 						<div className="comment">
 							<div className="avatar">
-								<img src="/examples/i.png" alt="" />
+								<img src="/examples/365cons_dino.jpg" alt="" />
 							</div>
 							<div className="content">
 								<a className="creator">Isabelle Jenkins</a>
@@ -1153,7 +1153,7 @@ export const elComments = React.createClass({
 								<div className="replies">
 									<div className="comment">
 										<div className="avatar">
-											<img src="/examples/j.png" alt="" />
+											<img src="/examples/365cons_otter.jpg" alt="" />
 										</div>
 										<div className="content">
 											<a className="creator">Johnny Grimes</a>
@@ -1172,7 +1172,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/i.png" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t<p class="text">\n\t\t\tWelcome Johnny, good to have you onboard.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t</div>\n\t\t<div class="replies">\n\t\t\t<div class="comment">\n\t\t\t\t<div class="avatar">\n\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t</div>\n\t\t\t\t<div class="content">\n\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t<p class="text">\n\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t</p>\n\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comment">\n\t<div class="avatar">\n\t\t<img src="/examples/365cons_dino.jpg" alt="" />\n\t</div>\n\t<div class="content">\n\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t<p class="text">\n\t\t\tWelcome Johnny, good to have you onboard.\n\t\t</p>\n\t\t<div class="actions">\n\t\t\t<a class="action">Reply</a>\n\t\t</div>\n\t\t<div class="replies">\n\t\t\t<div class="comment">\n\t\t\t\t<div class="avatar">\n\t\t\t\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t\t\t\t</div>\n\t\t\t\t<div class="content">\n\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t<p class="text">\n\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t</p>\n\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1186,7 +1186,7 @@ export const elComments = React.createClass({
 						<div className="comments">
 							<div className="comment">
 								<div className="avatar">
-									<img src="/examples/j.png" alt="" />
+									<img src="/examples/365cons_otter.jpg" alt="" />
 								</div>
 								<div className="content">
 									<a className="creator">Johnny Grimes</a>
@@ -1218,7 +1218,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action active">Reply</a>\n\t\t\t\t<a class="action">Share</a>\n\t\t\t\t<a class="action">Hide</a>\n\t\t\t</div>\n\t\t\t<div class="reply">\n\t\t\t\t<div class="input">\n\t\t\t\t\t<textarea name="reply"></textarea>\n\t\t\t\t</div>\n\t\t\t\t<div class="group">\n\t\t\t\t\t<div class="submit button blue labeled">\n\t\t\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\t\t\tSend reply\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="discard button default float-right">\n\t\t\t\t\t\tDiscard\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action active">Reply</a>\n\t\t\t\t<a class="action">Share</a>\n\t\t\t\t<a class="action">Hide</a>\n\t\t\t</div>\n\t\t\t<div class="reply">\n\t\t\t\t<div class="input">\n\t\t\t\t\t<textarea name="reply"></textarea>\n\t\t\t\t</div>\n\t\t\t\t<div class="group">\n\t\t\t\t\t<div class="submit button blue labeled">\n\t\t\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\t\t\tSend reply\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="discard button default float-right">\n\t\t\t\t\t\tDiscard\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1232,7 +1232,7 @@ export const elComments = React.createClass({
 						<div className="comments">
 							<div className="comment">
 								<div className="avatar">
-									<img src="/examples/j.png" alt="" />
+									<img src="/examples/365cons_otter.jpg" alt="" />
 								</div>
 								<div className="content">
 									<a className="creator">Johnny Grimes</a>
@@ -1247,7 +1247,7 @@ export const elComments = React.createClass({
 							</div>
 							<div className="comment">
 								<div className="avatar">
-									<img src="/examples/i.png" alt="" />
+									<img src="/examples/365cons_dino.jpg" alt="" />
 								</div>
 								<div className="content">
 									<a className="creator">Isabelle Jenkins</a>
@@ -1261,7 +1261,7 @@ export const elComments = React.createClass({
 									<div className="replies">
 										<div className="comment">
 											<div className="avatar">
-												<img src="/examples/j.png" alt="" />
+												<img src="/examples/365cons_otter.jpg" alt="" />
 											</div>
 											<div className="content">
 												<a className="creator">Johnny Grimes</a>
@@ -1280,7 +1280,7 @@ export const elComments = React.createClass({
 							</div>
 							<div className="comment">
 								<div className="avatar">
-									<img src="/examples/s.png" alt="" />
+									<img src="/examples/365cons_panda.jpg" alt="" />
 								</div>
 								<div className="content">
 									<a className="creator">Stuee Brown</a>
@@ -1310,7 +1310,7 @@ export const elComments = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/j.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/i.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t\t<p class="text">\n\t\t\t\tWelcome Johnny, good to have you onboard.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t\t<div class="replies">\n\t\t\t\t<div class="comment">\n\t\t\t\t\t<div class="avatar">\n\t\t\t\t\t\t<img src="/examples/j.png" alt="" />\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="content">\n\t\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t\t<p class="text">\n\t\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/s.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Stuee Brown</a>\n\t\t\t<span class="meta">Friday at 10:36AM</span>\n\t\t\t<p class="text">\n\t\t\t\tWhat&#39;s up Johnny!\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="reply">\n\t\t<div class="input">\n\t\t\t<textarea name="reply"></textarea>\n\t\t</div>\n\t\t<div class="group">\n\t\t\t<div class="submit button blue labeled">\n\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\tSend reply\n\t\t\t</div>\n\t\t\t<div class="discard button default float-right">\n\t\t\t\tDiscard\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="comments">\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t<span class="meta">Wednesday at 4:32PM</span>\n\t\t\t<p class="text">\n\t\t\t\tHey guys, I&#39;m Johnny, call me J! Just joined the business, looking forward to working with you all.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/365cons_dino.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Isabelle Jenkins</a>\n\t\t\t<span class="meta">Wednesday at 5:17PM</span>\n\t\t\t<p class="text">\n\t\t\t\tWelcome Johnny, good to have you onboard.\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t\t<div class="replies">\n\t\t\t\t<div class="comment">\n\t\t\t\t\t<div class="avatar">\n\t\t\t\t\t\t<img src="/examples/365cons_otter.jpg" alt="" />\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="content">\n\t\t\t\t\t\t<a class="creator">Johnny Grimes</a>\n\t\t\t\t\t\t<span class="meta">Thursday at 8:28AM</span>\n\t\t\t\t\t\t<span class="meta"></span>\n\t\t\t\t\t\t<p class="text">\n\t\t\t\t\t\t\tThank you Isabelle!\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div class="actions">\n\t\t\t\t\t\t\t<a class="action">Reply</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="comment">\n\t\t<div class="avatar">\n\t\t\t<img src="/examples/365cons_panda.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<a class="creator">Stuee Brown</a>\n\t\t\t<span class="meta">Friday at 10:36AM</span>\n\t\t\t<p class="text">\n\t\t\t\tWhat&#39;s up Johnny!\n\t\t\t</p>\n\t\t\t<div class="actions">\n\t\t\t\t<a class="action">Reply</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="reply">\n\t\t<div class="input">\n\t\t\t<textarea name="reply"></textarea>\n\t\t</div>\n\t\t<div class="group">\n\t\t\t<div class="submit button blue labeled">\n\t\t\t\t<i class="fa fa-edit"></i>\n\t\t\t\tSend reply\n\t\t\t</div>\n\t\t\t<div class="discard button default float-right">\n\t\t\t\tDiscard\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1696,23 +1696,23 @@ export const elCards = React.createClass({
 						<div className="cards">
 							<div className="card">
 								<div className="header image">
-									<img src="https://d13yacurqjgara.cloudfront.net/users/118624/screenshots/2696765/freud-dribbble.png" alt="" />
+									<img src="../examples/365cons_pinata.jpg" alt="" />
 								</div>
 								<div className="content">
 									<h6 className="header">
-										Toby
+										Jessie
 									</h6>
 									<div className="sub">
-										Co founder
+										Sassy pi&ntilde;ata
 									</div>
 									<p>
-										Toby is an old man who just sits around and smokes Cuban cigars these days.
+										Please don&#39;t just friend me so you can hit me, I&#39;ll just hand over the candy, I swear.
 									</p>
 								</div>
 								<div className="content footer">
 									<div className="float-left">
 										<i className="fa fa-users"></i>
-										2 friends
+										34 friends
 									</div>
 									<div className="float-right">
 										Joined 2 days ago
@@ -1721,24 +1721,23 @@ export const elCards = React.createClass({
 							</div>
 							<div className="card">
 								<div className="header image">
-									<img src="https://d13yacurqjgara.cloudfront.net/users/118624/screenshots/2744300/super-mario_dribbble.png" alt="" />
+									<img src="../examples/365cons_cow.jpg" alt="" />
 								</div>
 								<div className="content">
 									<h6 className="header">
-										Mario
+										Wally
 									</h6>
 									<div className="sub">
-										Fictional character
+										Happy cow
 									</div>
 									<p>
-										Just an Italian plumber who made it into a video game.
-										Just an Italian plumber who made it into a video game.
+										Don&#39;t know why people are scared of me... I&#39;m just your typical friendly neighbour.
 									</p>
 								</div>
 								<div className="content footer">
 									<div className="float-left">
 										<i className="fa fa-users"></i>
-										94 friends
+										6 friends
 									</div>
 									<div className="float-right">
 										Joined 3 weeks ago
@@ -1748,7 +1747,7 @@ export const elCards = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="cards">\n\t<div class="card">\n\t\t<div class="header image">\n\t\t\t<img src="https://d13yacurqjgara.cloudfront.net/users/118624/screenshots/2696765/freud-dribbble.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tToby\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tCo founder\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tToby is an old man who just sits around and smokes Cuban cigars these days.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer">\n\t\t\t<div class="float-left">\n\t\t\t\t<i class="fa fa-users"></i>\n\t\t\t\t2 friends\n\t\t\t</div>\n\t\t\t<div class="float-right">\n\t\t\t\tJoined 2 days ago\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="card">\n\t\t<div class="header image">\n\t\t\t<img src="https://d13yacurqjgara.cloudfront.net/users/118624/screenshots/2744300/super-mario_dribbble.png" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tMario\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tFictional character\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tJust an Italian plumber who made it into a video game.\n\t\t\t\tJust an Italian plumber who made it into a video game.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer">\n\t\t\t<div class="float-left">\n\t\t\t\t<i class="fa fa-users"></i>\n\t\t\t\t94 friends\n\t\t\t</div>\n\t\t\t<div class="float-right">\n\t\t\t\tJoined 3 weeks ago\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="cards">\n\t<div class="card">\n\t\t<div class="header image">\n\t\t\t<img src="../examples/365cons_pinata.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tJessie\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tSassy pi&ntilde;ata\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tPlease don&#39;t just friend me so you can hit me, I&#39;ll just hand over the candy, I swear.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer">\n\t\t\t<div class="float-left">\n\t\t\t\t<i class="fa fa-users"></i>\n\t\t\t\t34 friends\n\t\t\t</div>\n\t\t\t<div class="float-right">\n\t\t\t\tJoined 2 days ago\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class="card">\n\t\t<div class="header image">\n\t\t\t<img src="../examples/365cons_cow.jpg" alt="" />\n\t\t</div>\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tWally\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tHappy cow\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tDon&#39;t know why people are scared of me... I&#39;m just your typical friendly neighbour.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer">\n\t\t\t<div class="float-left">\n\t\t\t\t<i class="fa fa-users"></i>\n\t\t\t\t6 friends\n\t\t\t</div>\n\t\t\t<div class="float-right">\n\t\t\t\tJoined 3 weeks ago\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -1766,7 +1765,7 @@ export const elCards = React.createClass({
 										Can&#39;t log in!
 									</h6>
 									<div className="sub">
-										Created by Veronica
+										Created by Michelle
 									</div>
 									<p>
 										There is an issue with logging in to my account. I have already tried resetting the password.
@@ -1779,7 +1778,7 @@ export const elCards = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="cards">\n\t<div class="card">\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tCan&#39;t log in!\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tCreated by Veronica\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tThere is an issue with logging in to my account. I have already tried resetting the password.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer button">\n\t\t\tView issue\n\t\t</div>\n\t</div>\n</div>'}
+								{'<div class="cards">\n\t<div class="card">\n\t\t<div class="content">\n\t\t\t<h6 class="header">\n\t\t\t\tCan&#39;t log in!\n\t\t\t</h6>\n\t\t\t<div class="sub">\n\t\t\t\tCreated by Michelle\n\t\t\t</div>\n\t\t\t<p>\n\t\t\t\tThere is an issue with logging in to my account. I have already tried resetting the password.\n\t\t\t</p>\n\t\t</div>\n\t\t<div class="content footer button">\n\t\t\tView issue\n\t\t</div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>

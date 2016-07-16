@@ -69,7 +69,7 @@
 .hero .button-group {
   margin-top: 1.8em;
 }
-.hero .button-group > * {
+.hero .button-group .button + .button {
   margin-left: 0.8em;
 }
 .icons {
@@ -138,6 +138,35 @@
   margin: 0.6em 0 0 0;
   font-size: 1.2em;
 }
+section.about,
+section.size {
+  *zoom: 1;
+  padding: 7em 0;
+  position: relative;
+  overflow: hidden;
+}
+section.about:before,
+section.size:before,
+section.about:after,
+section.size:after {
+  content: '';
+  display: table;
+}
+section.about:after,
+section.size:after {
+  clear: both;
+}
+section.about h3,
+section.size h3 {
+  margin: 0 0 0.6em 0;
+  line-height: 1.2em;
+}
+section.about p,
+section.size p {
+  color: #707f87;
+  font-size: 1.15em;
+  line-height: 1.7em;
+}
 .features {
   *zoom: 1;
   border-top: 1px solid #dfe4e9;
@@ -178,21 +207,36 @@
   align-items: stretch;
 }
 .about {
-  padding: 5em 0;
   background-color: #f7f9fb;
+  border-bottom: 1px solid #dfe4e9;
 }
-.about h3 {
-  margin: 0 0 0.6em 0;
+.about img {
+  height: 18em;
+  bottom: -0.4em;
+  pointer-events: none;
+}
+.about img.leftcut {
+  position: absolute;
+  left: -10em;
+}
+.about img.rightcut {
+  position: absolute;
+  right: -13em;
 }
 .about p {
-  opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
   width: 80%;
   display: block;
   margin: 0 auto;
-  font-size: 1.15em;
-  line-height: 1.6em;
+}
+.about .button {
+  margin-top: 1.4em;
+}
+.size .large60 {
+  position: absolute;
+  right: -1em;
+}
+.size .large60 img {
+  height: 28em;
 }
 .grid {
   *zoom: 1;
@@ -299,10 +343,19 @@
 .message + .module.collapsed {
   margin-top: 1em;
 }
+.module .antiScroll {
+  padding: 1em 0;
+}
+.module .antiScroll:first-child {
+  margin-top: -1.6em;
+}
+.module .antiScroll:last-child {
+  margin-bottom: -1.6em;
+}
 .module .antiScroll small {
   color: #8c99a0;
   display: block;
-  margin: 0.8em 0 1em 0;
+  margin: 0.8em 0 0 0;
   font-weight: 300;
 }
 .module .antiScroll + .antiScroll {
@@ -703,9 +756,9 @@
 .sidebar.top .links li a,
 .subbar .links li a {
   color: #3e464a;
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
+  opacity: 0.55;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
+  filter: alpha(opacity=55);
   cursor: pointer;
 }
 .sidebar.top .links li a:hover,
@@ -740,9 +793,9 @@
 }
 .subbar .link a {
   color: #fff;
-  opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
+  opacity: 0.55;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
+  filter: alpha(opacity=55);
 }
 .subbar .link a:hover {
   opacity: 1;

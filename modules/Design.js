@@ -223,37 +223,43 @@ export const deTypography = React.createClass({
 				<div className="row example typeface">
 					<div className="explanation">
 						<h6>Headers</h6>
-						<p>Use headers to amplify headings and subheadings</p>
+						<p>Headers amplify headings and subheadings by using <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code>  tags</p>
 					</div>
 					<div className="module">
 						<div className="antiScroll">
 							<div className="section nowrap">
+								<h1>The quick brown fox jumps over the lazy dog</h1>
+								<small>h1 - 3.8em</small>
+							</div>
+						</div>
+						<div className="antiScroll">
+							<div className="section nowrap">
 								<h2>The quick brown fox jumps over the lazy dog</h2>
-								<small>Heading 2 - 3em</small>
+								<small>h2 - 3em</small>
 							</div>
 						</div>
 						<div className="antiScroll">
 							<div className="section nowrap">
 								<h3>The quick brown fox jumps over the lazy dog</h3>
-								<small>Heading 3 - 3em</small>
+								<small>h3 - 2.2em</small>
 							</div>
 						</div>
 						<div className="antiScroll">
 							<div className="section nowrap">
 								<h4>The quick brown fox jumps over the lazy dog</h4>
-								<small>Heading 4 - 3em</small>
+								<small>h4 - 1.8em</small>
 							</div>
 						</div>
 						<div className="antiScroll">
 							<div className="section nowrap">
 								<h5>The quick brown fox jumps over the lazy dog</h5>
-								<small>Heading 5 - 3em</small>
+								<small>h5 - 1.4em</small>
 							</div>
 						</div>
 						<div className="antiScroll">
 							<div className="section nowrap">
 								<h6>The quick brown fox jumps over the lazy dog</h6>
-								<small>Heading 6 - 3em</small>
+								<small>h6 - 1.08em</small>
 							</div>
 						</div>
 					</div>
@@ -715,7 +721,7 @@ export const deBreakpoints = React.createClass({
 	render() {
 		return(
 			<div>
-				<Title title="Breakpoints">Help make your website responsive by manipulating breakpoints</Title>
+				<Title title="Breakpoints">Take advantage of breakpoints when making your website responsive</Title>
 				<div className="row example breakpoints">
 					<div className="explanation">
 						<h6>XS breakpoint</h6>
@@ -724,6 +730,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-xs-hide</code> - Hides the element at XS and above</p>
 						<p><code>.breakpoint-xs-show</code> - Shows the element at XS and above</p>
+						<p><code>.breakpoint-xs-stackable</code> - Stacks all children elements at XS and above</p>
+						<p><code>.breakpoint-xs-stack</code> - Stacks targeted element at XS and above</p>
 					</div>
 				</div>
 				<div className="row example breakpoints">
@@ -734,6 +742,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-s-hide</code> - Hides the element at S and above</p>
 						<p><code>.breakpoint-s-show</code> - Shows the element at S and above</p>
+						<p><code>.breakpoint-s-stackable</code> - Stacks all children elements at S and above</p>
+						<p><code>.breakpoint-s-stack</code> - Stacks targeted element at S and above</p>
 					</div>
 				</div>
 				<div className="row example breakpoints">
@@ -744,6 +754,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-m-hide</code> - Hides the element at M and above</p>
 						<p><code>.breakpoint-m-show</code> - Shows the element at M and above</p>
+						<p><code>.breakpoint-m-stackable</code> - Stacks all children elements at M and above</p>
+						<p><code>.breakpoint-m-stack</code> - Stacks targeted element at M and above</p>
 					</div>
 				</div>
 				<div className="row example breakpoints">
@@ -754,6 +766,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-l-hide</code> - Hides the element at L and above</p>
 						<p><code>.breakpoint-l-show</code> - Shows the element at L and above</p>
+						<p><code>.breakpoint-l-stackable</code> - Stacks all children elements at L and above</p>
+						<p><code>.breakpoint-l-stack</code> - Stacks targeted element at L and above</p>
 					</div>
 				</div>
 				<div className="row example breakpoints">
@@ -764,6 +778,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-xl-hide</code> - Hides the element at XL and above</p>
 						<p><code>.breakpoint-xl-show</code> - Shows the element at XL and above</p>
+						<p><code>.breakpoint-xl-stackable</code> - Stacks all children elements at XL and above</p>
+						<p><code>.breakpoint-xl-stack</code> - Stacks targeted element at XL and above</p>
 					</div>
 				</div>
 				<div className="row example breakpoints">
@@ -774,6 +790,8 @@ export const deBreakpoints = React.createClass({
 					<div className="module collapsed">
 						<p><code>.breakpoint-hd-hide</code> - Hides the element at HD and above</p>
 						<p><code>.breakpoint-hd-show</code> - Shows the element at HD and above</p>
+						<p><code>.breakpoint-hd-stackable</code> - Stacks all children elements at HD and above</p>
+						<p><code>.breakpoint-hd-stack</code> - Stacks targeted element at HD and above</p>
 					</div>
 				</div>
 			</div>
