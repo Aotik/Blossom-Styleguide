@@ -19,11 +19,11 @@
   top: 0;
   left: 0;
   content: '';
-  background: -webkit-linear-gradient(top right, #e03997, #6435c9);
-  background: -moz-linear-gradient(top right, #e03997, #6435c9);
-  background: -o-linear-gradient(top right, #e03997, #6435c9);
-  background: -ms-linear-gradient(top right, #e03997, #6435c9);
-  background: linear-gradient(to bottom left, #e03997, #6435c9);
+  background: -webkit-linear-gradient(top right, #e03997, #a104e0);
+  background: -moz-linear-gradient(top right, #e03997, #a104e0);
+  background: -o-linear-gradient(top right, #e03997, #a104e0);
+  background: -ms-linear-gradient(top right, #e03997, #a104e0);
+  background: linear-gradient(to bottom left, #e03997, #a104e0);
   z-index: 4000;
   height: 2px;
 }
@@ -224,7 +224,7 @@ section.size p {
   right: -13em;
 }
 .about p {
-  width: 80%;
+  width: 82%;
   display: block;
   margin: 0 auto;
 }
@@ -381,6 +381,9 @@ section.size p {
 .example .message {
   margin: 0;
 }
+.example.sizes .button + .button {
+  margin-left: 1em;
+}
 .example.animations .group {
   border: 1px solid #dfe4e9;
   *zoom: 1;
@@ -455,7 +458,7 @@ section.size p {
   border-radius: 50%;
   height: 4em;
   width: 4em;
-  background-color: #6435c9;
+  background-color: #a104e0;
   content: '';
   display: block;
   margin: 0 auto;

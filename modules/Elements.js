@@ -2408,6 +2408,34 @@ export const elButtons = React.createClass({
 						</div>
 					</div>
 				</div>
+				<div className="row example sizes">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Button sizes</h6>
+						<p>Add <code>.small</code><code>.medium</code><code>.large</code><code>.big</code><code>.massive</code> classes to your button to change its size</p>
+					</div>
+					<div className="module collapsed">
+						<div className="button small">
+							Small
+						</div>
+						<div className="button medium">
+							Medium
+						</div>
+						<div className="button large">
+							Large
+						</div>
+						<div className="button big">
+							Big
+						</div>
+						<div className="button massive">
+							Massive
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="button">\n\tDefault Button\n</div>\n<div class="button primary">\n\tPrimary Button\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}

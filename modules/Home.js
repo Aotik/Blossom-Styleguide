@@ -11,7 +11,7 @@ export default React.createClass({
 						<h1>Blossom UI</h1>
 						<h3>Build websites intuitvely & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">
-							<a className="button medium outlined">Get started</a>
+							<Link to="/start" className="button medium outlined">Get started</Link>
 							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download blossom.min.css</a>
 						</div>
 					</div>
@@ -20,7 +20,7 @@ export default React.createClass({
 					<img className="breakpoint-m-hide leftcut" src="/examples/365cons_move.svg"/>
 					<div className="contain text-center">
 						<h3>Make a smart move towards the future.</h3>
-						<p>Blossom is a brand new framework that makes life simple for designers and enabling developers to be creative with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
+						<p>Blossom is a brand new framework that makes life simple for designers and enables developers to find their creativity with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
 						<a className="button large">Start browsing the UI</a>
 					</div>
 					<img className="breakpoint-m-hide rightcut" src="/examples/365cons_move.svg"/>
@@ -50,13 +50,13 @@ export default React.createClass({
 										<i className="text-purple fa fa-th"/>
 										<h4>Tons of<br/>components</h4>
 										<p>With over 60+ components and utility classes, Blossom covers as much as you need with minimal coding required to build a beautiful website.</p>
-										<Link to="/elements/buttons" className="button primary">Browse components</Link>
+										<Link to="/elements" className="button primary">Browse components</Link>
 								</div>
 								<div className="clm-xs-12 clm-m-4 column">
 										<i className="text-blue fa fa-github"/>
 										<h4>It&#39;s free and open source!</h4>
 										<p>With Blossom being open source, anyone is welcome to input their expertise into improving it as a product.</p>
-										<a className="button">View the repo</a>
+										<a href="https://github.com/Aotik/Blossom" className="button">View the repo</a>
 								</div>
 							</div>
 
