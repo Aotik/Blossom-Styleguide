@@ -17,7 +17,9 @@ export default React.createClass({
 	},
 	renderHomepage() {
 		return (
-			 <Home/>
+			<div className="wrap">
+			 {this.props.page}
+			</div>
 		);
 	},
 	toRender() {
@@ -55,6 +57,7 @@ export default React.createClass({
 									<li><a href="https://github.com/Aotik/Blossom">GitHub Repo</a></li>
 									<li><a>Submit an issue</a></li>
 									<li className="float-right madeby"><a className="text-grey">Made with <i className="fa fa-heart-o text-red"/> by <span className="aotik">aotik</span></a></li>
+									<li><a>Changelog</a></li>
 								</ul>
 							</div>
 						</div>

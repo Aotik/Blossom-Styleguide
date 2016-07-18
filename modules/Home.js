@@ -4,7 +4,7 @@ import { Link, IndexLink } from 'react-router'
 export default React.createClass({
 	render() {
 		return (
-			<div className="homepage">
+			<div>
 				<section className="hero clearfix">
 					<div className="contain">
 						<span className="label green">0.0.1</span>

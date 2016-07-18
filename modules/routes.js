@@ -9,10 +9,12 @@ import { deMain, deHeader, deDefault, deScheme, deTypography, deAnimations, deGr
 import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide } from './Utility'
 
 import Home from './Home'
+import Gettingstarted from './Gettingstarted'
 
 module.exports = (
 	<Route path="/" component={App}>
-		<IndexRoute component={Home}/>
+		<IndexRoute component={{page: Home}}/>
+		<Route path="start" component={{page: Gettingstarted}}/>
 		<Route path="elements" component={{main: elMain, header: elHeader, sidebar: sbElements}}>
 			<IndexRedirect to="buttons" />
 			<Route path="buttons" component={elButtons}/>

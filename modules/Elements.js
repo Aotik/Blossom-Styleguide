@@ -962,7 +962,7 @@ export const elLabels = React.createClass({
 							</div>
 							<div className="footer">
 								<Highlight className="html">
-									{'<div className="label red circular">\n\t1\n</div>\n<div className="label orange circular">\n\t2\n</div>\n<div className="label yellow circular">\n\t3\n</div>\n<div className="label green circular">\n\t4\n</div>\n<div className="label teal circular">\n\t5\n</div>\n<div className="label blue circular">\n\t6\n</div>\n<div className="label violet circular">\n\t7\n</div>\n<div className="label purple circular">\n\t8\n</div>\n<div className="label pink circular">\n\t9\n</div>\n<div className="label brown circular">\n\ta\n</div>\n<div className="label grey circular">\n\tb\n</div>\n<div className="label black circular">\n\tc\n</div>'}
+									{'<div class="label red circular">\n\t1\n</div>\n<div class="label orange circular">\n\t2\n</div>\n<div class="label yellow circular">\n\t3\n</div>\n<div class="label green circular">\n\t4\n</div>\n<div class="label teal circular">\n\t5\n</div>\n<div class="label blue circular">\n\t6\n</div>\n<div class="label violet circular">\n\t7\n</div>\n<div class="label purple circular">\n\t8\n</div>\n<div class="label pink circular">\n\t9\n</div>\n<div class="label brown circular">\n\ta\n</div>\n<div class="label grey circular">\n\tb\n</div>\n<div class="label black circular">\n\tc\n</div>'}
 								</Highlight>
 							</div>
 						</div>
@@ -1913,7 +1913,7 @@ export const elLists = React.createClass({
 						</div>
 					<div className="footer">
 						<Highlight className="html">
-							{'<div className="list ordered">\n\t<div className="item">Item 1</div>\n\t<div className="item">Item 2</div>\n\t<div className="item">Item 3\n\t<div className="list ordered">\n\t\t<div className="item">Item 1</div>\n\t\t<div className="item">Item 2</div>\n\t\t<div className="item">Item 3</div>\n\t</div>\n\t</div>\n\t<div className="item">Item 4</div>\n</div>'}
+							{'<div class="list ordered">\n\t<div class="item">Item 1</div>\n\t<div class="item">Item 2</div>\n\t<div class="item">Item 3\n\t<div class="list ordered">\n\t\t<div class="item">Item 1</div>\n\t\t<div class="item">Item 2</div>\n\t\t<div class="item">Item 3</div>\n\t</div>\n\t</div>\n\t<div class="item">Item 4</div>\n</div>'}
 						</Highlight>
 					</div>
 				</div>
@@ -2317,7 +2317,7 @@ export const elMenus = React.createClass({
 				<div className="row example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Underlined</h6>
-						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
+						<p className="note">Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
 					</div>
 					<div className="module collapsed">
 						<div className="underlined menu">
@@ -2333,7 +2333,7 @@ export const elMenus = React.createClass({
 							</a>
 						</div>
 
-						<p>Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
+						<p className="note">Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
 
 						<div className="show underlined menu">
 							<a className="item active">
@@ -2373,7 +2373,7 @@ export const elMenus = React.createClass({
 							</a>
 						</div>
 
-						<p>Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
+						<p className="note">Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
 
 						<div className="show vertical underlined menu">
 							<a className="item active">
@@ -2401,7 +2401,7 @@ export const elMenus = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="panel menu">
-							<a className="item active">
+							<a className="item">
 								Resume
 							</a>
 							<a className="item">
@@ -2409,6 +2409,29 @@ export const elMenus = React.createClass({
 							</a>
 							<a className="item">
 								Contact
+							</a>
+						</div>
+
+						<p className="note">Add the <code>.borderless</code> class to <code>.menu</code> to remove the borders from the paneled menu</p>
+
+						<div className="borderless panel menu">
+							<a className="item">
+								1
+							</a>
+							<a className="item">
+								2
+							</a>
+							<a className="item">
+								3
+							</a>
+							<a className="item">
+								4
+							</a>
+							<a className="item">
+								5
+							</a>
+							<a className="item">
+								6
 							</a>
 						</div>
 						<div className="footer">
