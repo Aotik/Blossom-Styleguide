@@ -15,6 +15,7 @@ export const sbElements = React.createClass({
 						<NavLink to="/elements/comments">Comments</NavLink>
 						<NavLink to="/elements/cards">Cards</NavLink>
 						<NavLink to="/elements/input">Input</NavLink>
+						<NavLink to="/elements/menus">Menus</NavLink>
 						<NavLink to="/elements/progress-bars">Progress bars</NavLink>
 						<NavLink to="/elements/images">Images</NavLink>
 						<NavLink to="/elements/messages">Messages</NavLink>
@@ -55,6 +56,7 @@ export const sbUtility = React.createClass({
 				<div className="fixed">
 					<h6>Resources</h6>
 					<ul>
+						<NavLink to="/utility/js">Blossom JS</NavLink>
 						<NavLink to="/utility/center">Center elements</NavLink>
 						<NavLink to="/utility/hide">Hide elements</NavLink>
 						<NavLink to="/utility/layout">Layout</NavLink>

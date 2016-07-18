@@ -4,7 +4,7 @@ import App from './App'
 
 import { sbElements, sbAnimations, sbUtility } from './Sidebar'
 
-import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elProgressBars, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers, elDropdown } from './Elements'
+import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elProgressBars, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers, elMenus, elDropdown } from './Elements'
 import { deMain, deHeader, deDefault, deScheme, deTypography, deAnimations, deGrid, deBreakpoints} from './Design'
 import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide } from './Utility'
 
@@ -25,6 +25,7 @@ module.exports = (
 			<Route path="cards" component={elCards}/>
 			<Route path="loaders" component={elLoaders}/>
 			<Route path="stages" component={elStages}/>
+			<Route path="menus" component={elMenus}/>
 			<Route path="images" component={elImages}/>
 			<Route path="comments" component={elComments}/>
 			<Route path="dividers" component={elDividers}/>

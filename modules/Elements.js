@@ -620,7 +620,7 @@ export const elTables = React.createClass({
 							</table>
 							<div className="footer">
 								<Highlight className="html">
-									{'<table className="striped table">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colSpan="3">\n\t\t\t\tNew files added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i>\n\t\t\t\tapp.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+									{'<table class="striped table">\n\t<thead>\n\t\t<tr>\n\t\t\t<th colSpan="3">\n\t\t\t\tNew files added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i class="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td class="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i class="fa fa-file-o"></i>\n\t\t\t\tapp.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td class="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
 								</Highlight>
 							</div>
 						</div>
@@ -672,7 +672,7 @@ export const elTables = React.createClass({
 							</table>
 							<div className="footer">
 								<Highlight className="html">
-									{'<table className="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tFile name\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tFile type\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDate added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i className="fa fa-file-o"></i> app.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td className="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+									{'<table class="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tFile name\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tFile type\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDate added\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i class="fa fa-file-o"></i> logo.svg\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tSVG\n\t\t\t</td>\n\t\t\t<td class="right aligned">\n\t\t\t\t2 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\t<i class="fa fa-file-o"></i> app.js\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tJavascript\n\t\t\t</td>\n\t\t\t<td class="right aligned">\n\t\t\t\t3 hours ago\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
 								</Highlight>
 							</div>
 						</div>
@@ -724,7 +724,7 @@ export const elTables = React.createClass({
 							</table>
 							<div className="footer">
 								<Highlight className="html">
-									{'<table className="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+									{'<table class="table cells">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
 								</Highlight>
 							</div>
 						</div>
@@ -776,7 +776,7 @@ export const elTables = React.createClass({
 							</table>
 							<div className="footer">
 								<Highlight className="html">
-									{'<table className="table simple">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+									{'<table class="table simple">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
 								</Highlight>
 							</div>
 						</div>
@@ -828,7 +828,7 @@ export const elTables = React.createClass({
 							</table>
 							<div className="footer">
 								<Highlight className="html">
-									{'<table className="table basic">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
+									{'<table class="table basic">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>\n\t\t\t\tName\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tType\n\t\t\t</th>\n\t\t\t<th>\n\t\t\t\tDescription\n\t\t\t</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tFrog\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAmphibian\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tFrogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil <q>proto-frog</q> appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago.\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tDuck\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tAnatidae\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t\tDuck is the common name for a large number of species in the waterfowl family Anatidae, which also includes swans and geese.\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>'}
 								</Highlight>
 							</div>
 						</div>
@@ -2252,6 +2252,192 @@ export const elProgressBars = React.createClass({
 						<div className="footer">
 							<Highlight className="html">
 								{'<div class="progress small">\n\t<div class="bar red" data-percent="23">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar orange" data-percent="79">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar yellow" data-percent="54">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar green" data-percent="38">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar teal" data-percent="46">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar blue" data-percent="88">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar violet" data-percent="80">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar purple" data-percent="84">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar pink" data-percent="42">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar brown" data-percent="28">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar grey" data-percent="34">\n\t</div>\n</div>\n<div class="progress small">\n\t<div class="bar black" data-percent="55">\n\t</div>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+})
+
+export const elMenus = React.createClass({
+	render() {
+		return(
+			<div>
+				<Title title="Menus">Menu components be used for grouped navigation</Title>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Pills</h6>
+						<p>Pill menus are simple, having a transparent background and a background color on hover or <code>.active</code> state</p>
+					</div>
+					<div className="module collapsed">
+						<div className="pills menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								About
+							</a>
+							<a className="item">
+								Contact
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="pills menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tAbout\n\t</a>\n\t<a class="item">\n\t\tContact\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Vertical pills</h6>
+						<p>Pill menus can also be set to vertical by adding the <code>.vertical</code> class</p>
+					</div>
+					<div className="module collapsed">
+						<div className="vertical pills menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								About
+							</a>
+							<a className="item">
+								Contact
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="vertical pills menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tAbout\n\t</a>\n\t<a class="item">\n\t\tContact\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Underlined</h6>
+						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
+					</div>
+					<div className="module collapsed">
+						<div className="underlined menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								Inbox
+								<span className="label blue">4</span>
+							</a>
+							<a className="item">
+								Sent
+							</a>
+						</div>
+
+						<p>Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
+
+						<div className="show underlined menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								Inbox
+								<span className="label blue">4</span>
+							</a>
+							<a className="item">
+								Sent
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="underlined menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tInbox\n\t\t<span class="label blue">4</span>\n\t</a>\n\t<a class="item">\n\t\tSent\n\t</a>\n</div>\n\n<div class="show underlined menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tInbox\n\t\t<span class="label blue">4</span>\n\t</a>\n\t<a class="item">\n\t\tSent\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Vertical underlined</h6>
+						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
+					</div>
+					<div className="module collapsed">
+						<div className="vertical underlined menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								Inbox
+								<span className="label blue">4</span>
+							</a>
+							<a className="item">
+								Sent
+							</a>
+						</div>
+
+						<p>Add the <code>.show</code> class to <code>.menu</code> to show the gray guideline</p>
+
+						<div className="show vertical underlined menu">
+							<a className="item active">
+								Home
+							</a>
+							<a className="item">
+								Inbox
+								<span className="label blue">4</span>
+							</a>
+							<a className="item">
+								Sent
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="underlined menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tInbox\n\t\t<span class="label blue">4</span>\n\t</a>\n\t<a class="item">\n\t\tSent\n\t</a>\n</div>\n\n<div class="show underlined menu">\n\t<a class="item active">\n\t\tHome\n\t</a>\n\t<a class="item">\n\t\tInbox\n\t\t<span class="label blue">4</span>\n\t</a>\n\t<a class="item">\n\t\tSent\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Paneled</h6>
+						<p>Paneled menus come in a moduled type container spanning the width of the parent</p>
+					</div>
+					<div className="module collapsed">
+						<div className="panel menu">
+							<a className="item active">
+								Resume
+							</a>
+							<a className="item">
+								Portfolio
+							</a>
+							<a className="item">
+								Contact
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="panel menu">\n\t<a class="item active">\n\t\tResume\n\t</a>\n\t<a class="item">\n\t\tPortfolio\n\t</a>\n\t<a class="item">\n\t\tContact\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Vertical paneled</h6>
+						<p>Paneled menus can also be set to vertical by adding the <code>.vertical</code> class</p>
+					</div>
+					<div className="module collapsed">
+						<div className="vertical panel menu">
+							<a className="item active">
+								Resume
+							</a>
+							<a className="item">
+								Portfolio
+							</a>
+							<a className="item">
+								Contact
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="vertical panel menu">\n\t<a class="item active">\n\t\tResume\n\t</a>\n\t<a class="item">\n\t\tPortfolio\n\t</a>\n\t<a class="item">\n\t\tContact\n\t</a>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
