@@ -38,7 +38,7 @@ export default React.createClass({
 							<img src="/examples/blossom.png"/>
 						</Link>
 						<ul className="links">
-							<DropElement to="/start">Getting Started</DropElement>
+							<DropElement to="/start">Getting started</DropElement>
 							<DropElement to="/elements">Elements</DropElement>
 							<DropElement to="/design">Design</DropElement>
 							<DropElement to="/utility">Utility</DropElement>

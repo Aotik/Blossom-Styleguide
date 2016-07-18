@@ -434,16 +434,16 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-6">
+							<div className="xs-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6">
+							<div className="xs-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 						<Highlight className='html'>
-							{'<div class="grid-row">\n\t<div class="clm-xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							{'<div class="grid-row">\n\t<div class="xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -456,16 +456,16 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-12 clm-s-6">
+							<div className="xs-12 s-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-s-6">
+							<div className="xs-12 s-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 						<Highlight className="html">
-							{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							{'<div class="grid-row">\n\t<div class="xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 						</Highlight>
 						</div>
 					</div>
@@ -478,22 +478,22 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-12 clm-s-6 clm-m-3">
+							<div className="xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-s-6 clm-m-3">
+							<div className="xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-s-6 clm-m-3">
+							<div className="xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-s-6 clm-m-3">
+							<div className="xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-s-6 clm-m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -506,19 +506,19 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-12 clm-l-4">
+							<div className="xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-l-4">
+							<div className="xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-l-4">
+							<div className="xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -531,28 +531,28 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-6 clm-xl-2">
+							<div className="xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-6 clm-xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -565,16 +565,16 @@ export const deGrid = React.createClass({
 					</div>
 					<div className="module collapsed">
 						<div className="grid-row">
-							<div className="clm-xs-12 clm-l-6">
+							<div className="xs-12 l-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="clm-xs-12 clm-l-6">
+							<div className="xs-12 l-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="clm-xs-12 clm-l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="clm-xs-12 clm-l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="grid-row">\n\t<div class="xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -585,129 +585,129 @@ export const deGrid = React.createClass({
 						<p>An example view of structures that can be created via the grid system</p>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-l-1 clm-m-3 clm-s-4 clm-xs-12">
-							<div className="block-grey"></div>
-						</div>
-					</div>
-					<div className="grid-row show-grid">
-						<div className="clm-s-4 clm-xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-6 clm-xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-2 clm-xs-4">
+						<div className="l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-xs-8">
+						<div className="s-4 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-xs-3">
+						<div className="s-6 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-xs-1">
-							<div className="block-grey"></div>
-						</div>
-					</div>
-					<div className="grid-row show-grid">
-						<div className="clm-s-4 clm-xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-2 clm-xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-6 clm-xs-4">
+						<div className="s-2 xs-4">
 							<div className="block-grey"></div>
 						</div>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-s-2 clm-xs-6">
+						<div className="xs-8">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-s-2 clm-xs-6">
+						<div className="xs-3">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-s-2 clm-xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-2 clm-xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-2 clm-xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-s-2 clm-xs-6">
+						<div className="xs-1">
 							<div className="block-grey"></div>
 						</div>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-m-3 clm-s-4 clm-xs-6">
+						<div className="s-4 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-m-3 clm-s-4 clm-xs-6">
+						<div className="s-2 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-m-3 clm-s-4 clm-xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="clm-m-3 clm-s-4 clm-xs-6">
+						<div className="s-6 xs-4">
 							<div className="block-grey"></div>
 						</div>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-m-4 clm-s-6 clm-xs-12">
+						<div className="s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-m-4 clm-s-6 clm-xs-12">
+						<div className="s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-m-4 clm-s-6 clm-xs-12">
+						<div className="s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
 					</div>
 					<div className="grid-row show-grid">
-						<div className="clm-s-6 clm-xs-12">
+						<div className="m-3 s-4 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-s-6 clm-xs-12">
+						<div className="m-3 s-4 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="clm-xs-12">
+						<div className="m-3 s-4 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="m-3 s-4 xs-6">
+							<div className="block-grey"></div>
+						</div>
+					</div>
+					<div className="grid-row show-grid">
+						<div className="m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+					</div>
+					<div className="grid-row show-grid">
+						<div className="s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="xs-12">
 							<div className="block-grey"></div>
 						</div>
 					</div>

@@ -207,7 +207,6 @@ section.size p {
   align-items: stretch;
 }
 .about {
-  background-color: #f7f9fb;
   border-bottom: 1px solid #dfe4e9;
 }
 .about img {
@@ -307,7 +306,7 @@ section.size p {
   border-radius: 4px;
   display: block;
 }
-.show-grid > [class^='clm-'] {
+.show-grid > * {
   padding-top: 15px;
 }
 .show-tables > .table {
@@ -410,7 +409,7 @@ section.size p {
   padding-top: 40px;
   border-top: 1px solid #e4e9ec;
 }
-.example .grid-row [class^='clm-'] {
+.example .grid-row > * {
   margin: 6px 0;
 }
 .example.menus .note {
@@ -826,11 +825,19 @@ section.size p {
   margin-right: 4px;
 }
 aside.sidebar {
-  width: 30%;
-  max-width: 170px;
   position: absolute;
   left: 1em;
   float: right;
+}
+aside.sidebar .fixed {
+  width: 30%;
+  max-width: 170px;
+  height: 100%;
+  overflow: scroll;
+}
+aside.sidebar .fixed .inner {
+  padding: 108px 0 80px 0;
+  overflow: scroll;
 }
 aside.sidebar h6 {
   margin: 0 0 0.5em 0;

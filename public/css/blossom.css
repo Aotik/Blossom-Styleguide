@@ -419,78 +419,78 @@ strong {
     margin-right: auto;
   }
 }
-.clm-xs-1,
-.clm-xs-2,
-.clm-xs-3,
-.clm-xs-4,
-.clm-xs-5,
-.clm-xs-6,
-.clm-xs-7,
-.clm-xs-8,
-.clm-xs-9,
-.clm-xs-10,
-.clm-xs-11,
-.clm-xs-12,
-.clm-s-1,
-.clm-s-2,
-.clm-s-3,
-.clm-s-4,
-.clm-s-5,
-.clm-s-6,
-.clm-s-7,
-.clm-s-8,
-.clm-s-9,
-.clm-s-10,
-.clm-s-11,
-.clm-s-12,
-.clm-m-1,
-.clm-m-2,
-.clm-m-3,
-.clm-m-4,
-.clm-m-5,
-.clm-m-6,
-.clm-m-7,
-.clm-m-8,
-.clm-m-9,
-.clm-m-10,
-.clm-m-11,
-.clm-m-12,
-.clm-l-1,
-.clm-l-2,
-.clm-l-3,
-.clm-l-4,
-.clm-l-5,
-.clm-l-6,
-.clm-l-7,
-.clm-l-8,
-.clm-l-9,
-.clm-l-10,
-.clm-l-11,
-.clm-l-12,
-.clm-xl-1,
-.clm-xl-2,
-.clm-xl-3,
-.clm-xl-4,
-.clm-xl-5,
-.clm-xl-6,
-.clm-xl-7,
-.clm-xl-8,
-.clm-xl-9,
-.clm-xl-10,
-.clm-xl-11,
-.clm-xl-12,
-.clm-hd-1,
-.clm-hd-2,
-.clm-hd-3,
-.clm-hd-4,
-.clm-hd-5,
-.clm-hd-6,
-.clm-hd-7,
-.clm-hd-8,
-.clm-hd-9,
-.clm-hd-10,
-.clm-hd-11,
-.clm-hd-12 {
+.xs-1,
+.xs-2,
+.xs-3,
+.xs-4,
+.xs-5,
+.xs-6,
+.xs-7,
+.xs-8,
+.xs-9,
+.xs-10,
+.xs-11,
+.xs-12,
+.s-1,
+.s-2,
+.s-3,
+.s-4,
+.s-5,
+.s-6,
+.s-7,
+.s-8,
+.s-9,
+.s-10,
+.s-11,
+.s-12,
+.m-1,
+.m-2,
+.m-3,
+.m-4,
+.m-5,
+.m-6,
+.m-7,
+.m-8,
+.m-9,
+.m-10,
+.m-11,
+.m-12,
+.l-1,
+.l-2,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10,
+.l-11,
+.l-12,
+.xl-1,
+.xl-2,
+.xl-3,
+.xl-4,
+.xl-5,
+.xl-6,
+.xl-7,
+.xl-8,
+.xl-9,
+.xl-10,
+.xl-11,
+.xl-12,
+.hd-1,
+.hd-2,
+.hd-3,
+.hd-4,
+.hd-5,
+.hd-6,
+.hd-7,
+.hd-8,
+.hd-9,
+.hd-10,
+.hd-11,
+.hd-12 {
   padding: 0 1em;
   *zoom: 1;
   float: left;
@@ -499,225 +499,225 @@ strong {
   margin-left: 0%;
   margin-right: 0%;
 }
-.clm-xs-1:before,
-.clm-xs-2:before,
-.clm-xs-3:before,
-.clm-xs-4:before,
-.clm-xs-5:before,
-.clm-xs-6:before,
-.clm-xs-7:before,
-.clm-xs-8:before,
-.clm-xs-9:before,
-.clm-xs-10:before,
-.clm-xs-11:before,
-.clm-xs-12:before,
-.clm-s-1:before,
-.clm-s-2:before,
-.clm-s-3:before,
-.clm-s-4:before,
-.clm-s-5:before,
-.clm-s-6:before,
-.clm-s-7:before,
-.clm-s-8:before,
-.clm-s-9:before,
-.clm-s-10:before,
-.clm-s-11:before,
-.clm-s-12:before,
-.clm-m-1:before,
-.clm-m-2:before,
-.clm-m-3:before,
-.clm-m-4:before,
-.clm-m-5:before,
-.clm-m-6:before,
-.clm-m-7:before,
-.clm-m-8:before,
-.clm-m-9:before,
-.clm-m-10:before,
-.clm-m-11:before,
-.clm-m-12:before,
-.clm-l-1:before,
-.clm-l-2:before,
-.clm-l-3:before,
-.clm-l-4:before,
-.clm-l-5:before,
-.clm-l-6:before,
-.clm-l-7:before,
-.clm-l-8:before,
-.clm-l-9:before,
-.clm-l-10:before,
-.clm-l-11:before,
-.clm-l-12:before,
-.clm-xl-1:before,
-.clm-xl-2:before,
-.clm-xl-3:before,
-.clm-xl-4:before,
-.clm-xl-5:before,
-.clm-xl-6:before,
-.clm-xl-7:before,
-.clm-xl-8:before,
-.clm-xl-9:before,
-.clm-xl-10:before,
-.clm-xl-11:before,
-.clm-xl-12:before,
-.clm-hd-1:before,
-.clm-hd-2:before,
-.clm-hd-3:before,
-.clm-hd-4:before,
-.clm-hd-5:before,
-.clm-hd-6:before,
-.clm-hd-7:before,
-.clm-hd-8:before,
-.clm-hd-9:before,
-.clm-hd-10:before,
-.clm-hd-11:before,
-.clm-hd-12:before,
-.clm-xs-1:after,
-.clm-xs-2:after,
-.clm-xs-3:after,
-.clm-xs-4:after,
-.clm-xs-5:after,
-.clm-xs-6:after,
-.clm-xs-7:after,
-.clm-xs-8:after,
-.clm-xs-9:after,
-.clm-xs-10:after,
-.clm-xs-11:after,
-.clm-xs-12:after,
-.clm-s-1:after,
-.clm-s-2:after,
-.clm-s-3:after,
-.clm-s-4:after,
-.clm-s-5:after,
-.clm-s-6:after,
-.clm-s-7:after,
-.clm-s-8:after,
-.clm-s-9:after,
-.clm-s-10:after,
-.clm-s-11:after,
-.clm-s-12:after,
-.clm-m-1:after,
-.clm-m-2:after,
-.clm-m-3:after,
-.clm-m-4:after,
-.clm-m-5:after,
-.clm-m-6:after,
-.clm-m-7:after,
-.clm-m-8:after,
-.clm-m-9:after,
-.clm-m-10:after,
-.clm-m-11:after,
-.clm-m-12:after,
-.clm-l-1:after,
-.clm-l-2:after,
-.clm-l-3:after,
-.clm-l-4:after,
-.clm-l-5:after,
-.clm-l-6:after,
-.clm-l-7:after,
-.clm-l-8:after,
-.clm-l-9:after,
-.clm-l-10:after,
-.clm-l-11:after,
-.clm-l-12:after,
-.clm-xl-1:after,
-.clm-xl-2:after,
-.clm-xl-3:after,
-.clm-xl-4:after,
-.clm-xl-5:after,
-.clm-xl-6:after,
-.clm-xl-7:after,
-.clm-xl-8:after,
-.clm-xl-9:after,
-.clm-xl-10:after,
-.clm-xl-11:after,
-.clm-xl-12:after,
-.clm-hd-1:after,
-.clm-hd-2:after,
-.clm-hd-3:after,
-.clm-hd-4:after,
-.clm-hd-5:after,
-.clm-hd-6:after,
-.clm-hd-7:after,
-.clm-hd-8:after,
-.clm-hd-9:after,
-.clm-hd-10:after,
-.clm-hd-11:after,
-.clm-hd-12:after {
+.xs-1:before,
+.xs-2:before,
+.xs-3:before,
+.xs-4:before,
+.xs-5:before,
+.xs-6:before,
+.xs-7:before,
+.xs-8:before,
+.xs-9:before,
+.xs-10:before,
+.xs-11:before,
+.xs-12:before,
+.s-1:before,
+.s-2:before,
+.s-3:before,
+.s-4:before,
+.s-5:before,
+.s-6:before,
+.s-7:before,
+.s-8:before,
+.s-9:before,
+.s-10:before,
+.s-11:before,
+.s-12:before,
+.m-1:before,
+.m-2:before,
+.m-3:before,
+.m-4:before,
+.m-5:before,
+.m-6:before,
+.m-7:before,
+.m-8:before,
+.m-9:before,
+.m-10:before,
+.m-11:before,
+.m-12:before,
+.l-1:before,
+.l-2:before,
+.l-3:before,
+.l-4:before,
+.l-5:before,
+.l-6:before,
+.l-7:before,
+.l-8:before,
+.l-9:before,
+.l-10:before,
+.l-11:before,
+.l-12:before,
+.xl-1:before,
+.xl-2:before,
+.xl-3:before,
+.xl-4:before,
+.xl-5:before,
+.xl-6:before,
+.xl-7:before,
+.xl-8:before,
+.xl-9:before,
+.xl-10:before,
+.xl-11:before,
+.xl-12:before,
+.hd-1:before,
+.hd-2:before,
+.hd-3:before,
+.hd-4:before,
+.hd-5:before,
+.hd-6:before,
+.hd-7:before,
+.hd-8:before,
+.hd-9:before,
+.hd-10:before,
+.hd-11:before,
+.hd-12:before,
+.xs-1:after,
+.xs-2:after,
+.xs-3:after,
+.xs-4:after,
+.xs-5:after,
+.xs-6:after,
+.xs-7:after,
+.xs-8:after,
+.xs-9:after,
+.xs-10:after,
+.xs-11:after,
+.xs-12:after,
+.s-1:after,
+.s-2:after,
+.s-3:after,
+.s-4:after,
+.s-5:after,
+.s-6:after,
+.s-7:after,
+.s-8:after,
+.s-9:after,
+.s-10:after,
+.s-11:after,
+.s-12:after,
+.m-1:after,
+.m-2:after,
+.m-3:after,
+.m-4:after,
+.m-5:after,
+.m-6:after,
+.m-7:after,
+.m-8:after,
+.m-9:after,
+.m-10:after,
+.m-11:after,
+.m-12:after,
+.l-1:after,
+.l-2:after,
+.l-3:after,
+.l-4:after,
+.l-5:after,
+.l-6:after,
+.l-7:after,
+.l-8:after,
+.l-9:after,
+.l-10:after,
+.l-11:after,
+.l-12:after,
+.xl-1:after,
+.xl-2:after,
+.xl-3:after,
+.xl-4:after,
+.xl-5:after,
+.xl-6:after,
+.xl-7:after,
+.xl-8:after,
+.xl-9:after,
+.xl-10:after,
+.xl-11:after,
+.xl-12:after,
+.hd-1:after,
+.hd-2:after,
+.hd-3:after,
+.hd-4:after,
+.hd-5:after,
+.hd-6:after,
+.hd-7:after,
+.hd-8:after,
+.hd-9:after,
+.hd-10:after,
+.hd-11:after,
+.hd-12:after {
   display: table;
   content: '';
 }
-.clm-xs-1:after,
-.clm-xs-2:after,
-.clm-xs-3:after,
-.clm-xs-4:after,
-.clm-xs-5:after,
-.clm-xs-6:after,
-.clm-xs-7:after,
-.clm-xs-8:after,
-.clm-xs-9:after,
-.clm-xs-10:after,
-.clm-xs-11:after,
-.clm-xs-12:after,
-.clm-s-1:after,
-.clm-s-2:after,
-.clm-s-3:after,
-.clm-s-4:after,
-.clm-s-5:after,
-.clm-s-6:after,
-.clm-s-7:after,
-.clm-s-8:after,
-.clm-s-9:after,
-.clm-s-10:after,
-.clm-s-11:after,
-.clm-s-12:after,
-.clm-m-1:after,
-.clm-m-2:after,
-.clm-m-3:after,
-.clm-m-4:after,
-.clm-m-5:after,
-.clm-m-6:after,
-.clm-m-7:after,
-.clm-m-8:after,
-.clm-m-9:after,
-.clm-m-10:after,
-.clm-m-11:after,
-.clm-m-12:after,
-.clm-l-1:after,
-.clm-l-2:after,
-.clm-l-3:after,
-.clm-l-4:after,
-.clm-l-5:after,
-.clm-l-6:after,
-.clm-l-7:after,
-.clm-l-8:after,
-.clm-l-9:after,
-.clm-l-10:after,
-.clm-l-11:after,
-.clm-l-12:after,
-.clm-xl-1:after,
-.clm-xl-2:after,
-.clm-xl-3:after,
-.clm-xl-4:after,
-.clm-xl-5:after,
-.clm-xl-6:after,
-.clm-xl-7:after,
-.clm-xl-8:after,
-.clm-xl-9:after,
-.clm-xl-10:after,
-.clm-xl-11:after,
-.clm-xl-12:after,
-.clm-hd-1:after,
-.clm-hd-2:after,
-.clm-hd-3:after,
-.clm-hd-4:after,
-.clm-hd-5:after,
-.clm-hd-6:after,
-.clm-hd-7:after,
-.clm-hd-8:after,
-.clm-hd-9:after,
-.clm-hd-10:after,
-.clm-hd-11:after,
-.clm-hd-12:after {
+.xs-1:after,
+.xs-2:after,
+.xs-3:after,
+.xs-4:after,
+.xs-5:after,
+.xs-6:after,
+.xs-7:after,
+.xs-8:after,
+.xs-9:after,
+.xs-10:after,
+.xs-11:after,
+.xs-12:after,
+.s-1:after,
+.s-2:after,
+.s-3:after,
+.s-4:after,
+.s-5:after,
+.s-6:after,
+.s-7:after,
+.s-8:after,
+.s-9:after,
+.s-10:after,
+.s-11:after,
+.s-12:after,
+.m-1:after,
+.m-2:after,
+.m-3:after,
+.m-4:after,
+.m-5:after,
+.m-6:after,
+.m-7:after,
+.m-8:after,
+.m-9:after,
+.m-10:after,
+.m-11:after,
+.m-12:after,
+.l-1:after,
+.l-2:after,
+.l-3:after,
+.l-4:after,
+.l-5:after,
+.l-6:after,
+.l-7:after,
+.l-8:after,
+.l-9:after,
+.l-10:after,
+.l-11:after,
+.l-12:after,
+.xl-1:after,
+.xl-2:after,
+.xl-3:after,
+.xl-4:after,
+.xl-5:after,
+.xl-6:after,
+.xl-7:after,
+.xl-8:after,
+.xl-9:after,
+.xl-10:after,
+.xl-11:after,
+.xl-12:after,
+.hd-1:after,
+.hd-2:after,
+.hd-3:after,
+.hd-4:after,
+.hd-5:after,
+.hd-6:after,
+.hd-7:after,
+.hd-8:after,
+.hd-9:after,
+.hd-10:after,
+.hd-11:after,
+.hd-12:after {
   clear: both;
 }
 .contain {
@@ -873,362 +873,362 @@ strong {
   clear: both;
 }
 @media only screen {
-  .clm-xs-1 {
+  .xs-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen {
-  .clm-xs-2 {
+  .xs-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen {
-  .clm-xs-3 {
+  .xs-3 {
     width: 25%;
   }
 }
 @media only screen {
-  .clm-xs-4 {
+  .xs-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen {
-  .clm-xs-5 {
+  .xs-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen {
-  .clm-xs-6 {
+  .xs-6 {
     width: 50%;
   }
 }
 @media only screen {
-  .clm-xs-7 {
+  .xs-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen {
-  .clm-xs-8 {
+  .xs-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen {
-  .clm-xs-9 {
+  .xs-9 {
     width: 75%;
   }
 }
 @media only screen {
-  .clm-xs-10 {
+  .xs-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen {
-  .clm-xs-11 {
+  .xs-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen {
-  .clm-xs-12 {
+  .xs-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-1 {
+  .s-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-2 {
+  .s-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-3 {
+  .s-3 {
     width: 25%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-4 {
+  .s-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-5 {
+  .s-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-6 {
+  .s-6 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-7 {
+  .s-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-8 {
+  .s-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-9 {
+  .s-9 {
     width: 75%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-10 {
+  .s-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-11 {
+  .s-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen and (min-width: 481px) {
-  .clm-s-12 {
+  .s-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-1 {
+  .m-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-2 {
+  .m-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-3 {
+  .m-3 {
     width: 25%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-4 {
+  .m-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-5 {
+  .m-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-6 {
+  .m-6 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-7 {
+  .m-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-8 {
+  .m-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-9 {
+  .m-9 {
     width: 75%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-10 {
+  .m-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-11 {
+  .m-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen and (min-width: 769px) {
-  .clm-m-12 {
+  .m-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-1 {
+  .l-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-2 {
+  .l-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-3 {
+  .l-3 {
     width: 25%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-4 {
+  .l-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-5 {
+  .l-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-6 {
+  .l-6 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-7 {
+  .l-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-8 {
+  .l-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-9 {
+  .l-9 {
     width: 75%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-10 {
+  .l-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-11 {
+  .l-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .clm-l-12 {
+  .l-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-1 {
+  .xl-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-2 {
+  .xl-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-3 {
+  .xl-3 {
     width: 25%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-4 {
+  .xl-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-5 {
+  .xl-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-6 {
+  .xl-6 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-7 {
+  .xl-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-8 {
+  .xl-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-9 {
+  .xl-9 {
     width: 75%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-10 {
+  .xl-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-11 {
+  .xl-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen and (min-width: 1225px) {
-  .clm-xl-12 {
+  .xl-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-1 {
+  .hd-1 {
     width: 8.333333333333332%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-2 {
+  .hd-2 {
     width: 16.666666666666664%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-3 {
+  .hd-3 {
     width: 25%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-4 {
+  .hd-4 {
     width: 33.33333333333333%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-5 {
+  .hd-5 {
     width: 41.66666666666667%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-6 {
+  .hd-6 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-7 {
+  .hd-7 {
     width: 58.333333333333336%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-8 {
+  .hd-8 {
     width: 66.66666666666666%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-9 {
+  .hd-9 {
     width: 75%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-10 {
+  .hd-10 {
     width: 83.33333333333334%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-11 {
+  .hd-11 {
     width: 91.66666666666666%;
   }
 }
 @media only screen and (min-width: 1825px) {
-  .clm-hd-12 {
+  .hd-12 {
     width: 100%;
   }
 }
