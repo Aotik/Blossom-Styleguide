@@ -10,7 +10,7 @@ export default React.createClass({
 						<h1>Getting started</h1>
 						<h3>A guide into how to install and use Blossom</h3>
 						<div className="button-group breakpoint-xs-stackable">
-							<Link to="/start" className="button medium outlined">View the Blossom UI repo</Link>
+							<a href="https://github.com/Aotik/Blossom" className="button medium outlined">View the Blossom UI repo</a>
 							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download ZIP</a>
 						</div>
 					</div>
@@ -40,9 +40,9 @@ export default React.createClass({
 						<div className="module">
 							<div className="explanation">
 								<h6><strong>Installing Blossom with Node.js</strong></h6>
-								<p>If you have limited experience or are unfamiliar with Node, you can follow these steps or <a href="https://nodejs.org/en/download/">download from nodejs.org</a></p>
+								<p>If you have limited experience or are unfamiliar with Node, you can follow these steps or <a href="https://nodejs.org/en/download/">download from nodejs.org</a>.</p>
 
-								<p>With Node you can easily install Blossom UI from the command line and save it to your package.json</p>
+								<p>With Node you can easily install Blossom UI from the command line and save it to your package.json.</p>
 							</div>
 
 							<code className="text-violet">

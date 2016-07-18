@@ -1603,7 +1603,7 @@ export const elLoaders = React.createClass({
 						<p>A <code>.loader.small.dark</code> on a non-dimmed background</p>
 					</div>
 					<div className="module">
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 						<div className="hold"><div className="loader small dark"></div></div>
 					</div>
 				</div>
@@ -1614,8 +1614,8 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader small"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
@@ -1625,8 +1625,8 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
@@ -1636,9 +1636,9 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed"><div className="hold"><div className="loader large"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
@@ -1648,9 +1648,9 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader small dark"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
@@ -1660,9 +1660,9 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader dark"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 				<div className="row example loaders">
@@ -1672,9 +1672,9 @@ export const elLoaders = React.createClass({
 					</div>
 					<div className="module">
 						<div className="dimmed inverted"><div className="hold"><div className="loader large dark"></div></div></div>
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
-						<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
+						<img src="/examples/wireframe.png" alt="" />
 					</div>
 				</div>
 			</div>
@@ -2074,20 +2074,38 @@ export const elDividers = React.createClass({
 						<h6>Default divider</h6>
 						<p>Basic one line divider</p>
 					</div>
-					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
-					<div className="divider"></div>
-					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
+					<div className="module collapsed">
+						<img src="/examples/wireframe.png"/>
+						<div className="divider"></div>
+						<img src="/examples/wireframe.png"/>
+						<div className="footer">
+							<Highlight className="html">
+								{'<img src="/examples/wireframe.png"/>\n<div className="divider"></div>\n<img src="/examples/wireframe.png"/>'}
+							</Highlight>
+						</div>
+					</div>
 				</div>
 				<div className="row example dividers">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Divider with text</h6>
 						<p>Horizontal dividers can contain text</p>
 					</div>
-					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
-					<div className="divider horizontal">Specification</div>
-					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
-					<div className="divider horizontal"><code>Dividers fully adapt to the length of text between them</code></div>
-					<img src="http://semantic-ui.com/images/wireframe/short-paragraph.png"/>
+					<div className="module collapsed">
+						<img src="/examples/wireframe.png"/>
+						<div className="divider horizontal">
+							Specification
+						</div>
+						<img src="/examples/wireframe.png"/>
+						<div className="divider horizontal">
+							<code>Dividers fully adapt to the length of text between them</code>
+						</div>
+						<img src="/examples/wireframe.png"/>
+						<div className="footer">
+							<Highlight className="html">
+								{'<img src="/examples/wireframe.png"/>\n<div class="divider horizontal">\n\tSpecification\n</div>\n<img src="/examples/wireframe.png"/>\n<div class="divider horizontal">\n\t<code>Dividers fully adapt to the length of text between them</code>\n</div>\n<img src="/examples/wireframe.png"/>'}
+							</Highlight>
+						</div>
+					</div>
 				</div>
 			</div>
 		)
