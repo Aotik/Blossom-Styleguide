@@ -19,7 +19,7 @@ export default React.createClass({
 				<section className="about light smoke">
 					<img className="breakpoint-m-hide leftcut" src="/examples/365cons_move.svg"/>
 					<div className="contain text-center">
-						<h3>Make a smart move towards the future.</h3>
+						<h3>Make a smart move towards simplicity.</h3>
 						<p>Blossom is a brand new framework that makes life simple for designers and enables developers to find their creativity with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
 						<a className="button large">Start browsing the UI</a>
 					</div>
