@@ -833,11 +833,11 @@ aside.sidebar .fixed {
   width: 30%;
   max-width: 170px;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 }
 aside.sidebar .fixed .inner {
   padding: 108px 0 80px 0;
-  overflow: scroll;
+  overflow: auto;
 }
 aside.sidebar h6 {
   margin: 0 0 0.5em 0;

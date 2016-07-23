@@ -9,7 +9,7 @@ export default React.createClass({
 					<div className="contain">
 						<span className="label green">0.0.1</span>
 						<h1>Blossom UI</h1>
-						<h3>Build websites intuitvely & efficiently</h3>
+						<h3>Build websites intuitively & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
 							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download blossom.min.css</a>
