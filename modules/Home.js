@@ -7,7 +7,7 @@ export default React.createClass({
 			<div>
 				<section className="hero clearfix">
 					<div className="contain">
-						<span className="label green">0.1.0 Beta</span>
+						<span className="label green">Beta 0.1.3</span>
 						<h1>Blossom UI</h1>
 						<h3>Build websites intuitively & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">

@@ -11,7 +11,6 @@ var app = express()
 
 app.use(compression())
 
-app.use(express.static("blossom"))
 app.use(express.static("public"))
 
 app.get('*', (req, res) => {
@@ -37,7 +36,7 @@ function renderPage(appHtml) {
 			<meta charset=utf-8/>
 			<title>Blossom</title>
 			<link rel="shortcut icon" type="image/png" href="/examples/favicon.png"/>
-			<link rel="stylesheet" type="text/css" href="/css/blossom.min.css" />
+			<link rel="stylesheet" type="text/css" href="/blossom/css/blossom.min.css" />
 			<link rel="stylesheet" type="text/css" href="/css/highlight.css" />
 			<link rel="stylesheet" type="text/css" href="/css/page.css" />
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
@@ -49,7 +48,7 @@ function renderPage(appHtml) {
 			<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 			<script src="/bundle.js"></script>
 			<script src="/js/app.js"></script>
-			<script src="/js/blossom.min.js"></script>
+			<script src="/blossom/js/blossom.min.js"></script>
 		</body>
 	</html>
 	`

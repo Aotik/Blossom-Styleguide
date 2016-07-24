@@ -2146,8 +2146,8 @@ export const elProgressBars = React.createClass({
 						<h6>Active progress bar</h6>
 						<p>Progress bars with the <code>.active</code> class animate to their defined percentage state</p>
 					</div>
-					<div className="message warning">
-						<p>Note that to use the <strong>.active</strong> class, you need to include <a>Blossom JS</a> in your HTML</p>
+					<div className="message info">
+						<p>Note that to use the <strong>.active</strong> class, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
 					</div>
 					<div className="module collapsed">
 						<div className="progress active">
@@ -2284,6 +2284,12 @@ export const elMenus = React.createClass({
 		return(
 			<div>
 				<Title title="Menus">Menu components be used for grouped navigation</Title>
+				<div className="row opening-message">
+					<div className="message info">
+						<p>Note that to activate menu <code>.item</code>&#39;s on click, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
+					</div>
+				</div>
+
 				<div className="row example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Pills</h6>
