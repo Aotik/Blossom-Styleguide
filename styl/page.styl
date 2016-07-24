@@ -1,7 +1,7 @@
 @import 'jeet'
 @import 'nib'
 @import 'rupture'
-@import 'src/variables'
+@import '../../../Blossom/styl/src/variables'
 
 #app
 	width 100%
@@ -16,7 +16,7 @@
 		width 100%
 		fixed top left
 		content ''
-		background linear-gradient(top right, color-pink, color-violet)
+		background linear-gradient(top right, color-blue, light-color-blue)
 		z-index 4000
 		height 2px
 	padding-top 108px
@@ -44,7 +44,7 @@
 		margin .3em 0
 		font-weight 300
 	.button-group
-		margin-top 1.8em
+		margin-top 2em
 		.button + .button
 			margin-left .8em
 
@@ -231,11 +231,12 @@ section.about, section.size
 		font-size 1.2em
 	p
 		color text-lighter-grey
-		margin .4em 0 0 0
+		margin .5em 0 0 0
 		display block
 		line-height 1.4em
 		& + p
-			margin .2em 0 0 0
+			margin .4em 0 0 0
+
 
 .module
 	.antiScroll
@@ -445,8 +446,8 @@ section.about, section.size
 		display inline-block
 		vertical-align top
 		img
-			max-height 35px
-			absolute top -9px
+			max-height 24px
+			absolute top -5px
 		p
 			color #fff
 			margin 0

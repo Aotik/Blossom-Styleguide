@@ -9,12 +9,10 @@ import routes from './modules/routes'
 
 var app = express()
 
-app.set('views', './views');
-app.set('view engine', 'jade');
-
 app.use(compression())
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static("blossom"))
+app.use(express.static("public"))
 
 app.get('*', (req, res) => {
 	match({ routes: routes, location: req.url }, (err, redirect, props) => {
@@ -38,7 +36,8 @@ function renderPage(appHtml) {
 		<head>
 			<meta charset=utf-8/>
 			<title>Blossom</title>
-			<link rel="stylesheet" type="text/css" href="/css/blossom.css" />
+			<link rel="shortcut icon" type="image/png" href="/examples/favicon.png"/>
+			<link rel="stylesheet" type="text/css" href="/css/blossom.min.css" />
 			<link rel="stylesheet" type="text/css" href="/css/highlight.css" />
 			<link rel="stylesheet" type="text/css" href="/css/page.css" />
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
@@ -46,14 +45,14 @@ function renderPage(appHtml) {
 		</head>
 		<body>
 			<div id=app></div>
-			
+
 			<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 			<script src="/bundle.js"></script>
 			<script src="/js/app.js"></script>
-			<script src="/js/blossom.js"></script>
+			<script src="/js/blossom.min.js"></script>
 		</body>
 	</html>
-	 `
+	`
 }
 
 var PORT = process.env.PORT || 1337

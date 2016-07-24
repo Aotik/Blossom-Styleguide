@@ -19,11 +19,11 @@
   top: 0;
   left: 0;
   content: '';
-  background: -webkit-linear-gradient(top right, #e03997, #a104e0);
-  background: -moz-linear-gradient(top right, #e03997, #a104e0);
-  background: -o-linear-gradient(top right, #e03997, #a104e0);
-  background: -ms-linear-gradient(top right, #e03997, #a104e0);
-  background: linear-gradient(to bottom left, #e03997, #a104e0);
+  background: -webkit-linear-gradient(top right, #1877ff, #4692ff);
+  background: -moz-linear-gradient(top right, #1877ff, #4692ff);
+  background: -o-linear-gradient(top right, #1877ff, #4692ff);
+  background: -ms-linear-gradient(top right, #1877ff, #4692ff);
+  background: linear-gradient(to bottom left, #1877ff, #4692ff);
   z-index: 4000;
   height: 2px;
 }
@@ -67,7 +67,7 @@
   font-weight: 300;
 }
 .hero .button-group {
-  margin-top: 1.8em;
+  margin-top: 2em;
 }
 .hero .button-group .button + .button {
   margin-left: 0.8em;
@@ -366,7 +366,7 @@ section.size p {
   right: 0;
 }
 .explanation .view-source:hover {
-  color: #6435c9;
+  color: #1877ff;
   opacity: 1;
   -ms-filter: none;
   filter: none;
@@ -376,12 +376,12 @@ section.size p {
 }
 .explanation p {
   color: #707f87;
-  margin: 0.4em 0 0 0;
+  margin: 0.5em 0 0 0;
   display: block;
   line-height: 1.4em;
 }
 .explanation p + p {
-  margin: 0.2em 0 0 0;
+  margin: 0.4em 0 0 0;
 }
 .module .antiScroll {
   padding: 1em 0;
@@ -587,7 +587,7 @@ section.size p {
 }
 .example.showing .view-source {
   display: block;
-  color: #6435c9;
+  color: #1877ff;
   opacity: 0.5;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
@@ -746,9 +746,9 @@ section.size p {
 .subbar .logo img,
 .sidebar.top .sub img,
 .subbar .sub img {
-  max-height: 35px;
+  max-height: 24px;
   position: absolute;
-  top: -9px;
+  top: -5px;
 }
 .sidebar.top .logo p,
 .subbar .logo p,
@@ -847,7 +847,7 @@ aside.sidebar li {
   display: block;
 }
 aside.sidebar li.active a {
-  color: #6435c9;
+  color: #1877ff;
   opacity: 1;
   -ms-filter: none;
   filter: none;

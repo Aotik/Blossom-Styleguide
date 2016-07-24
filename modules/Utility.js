@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import Title from './Title'
+import { Link, IndexLink } from 'react-router'
 import Highlight from 'react-highlight'
 
 export const ulMain = React.createClass({
@@ -22,6 +23,49 @@ export const ulHeader = React.createClass({
 export const ulDefault = React.createClass({
 	render() {
 		return <div>Utility</div>
+	}
+})
+
+export const ulJS = React.createClass({
+	render() {
+		return (
+			<div>
+				<Title title="Using Blossom JS">Blossom JS is designed to be included in your markup to initialise elements and provide helper functions</Title>
+				<div className="row opening-message">
+					<div className="message info">
+						<p>To learn how to get up and running with Blossom JS, visit the <Link to="/start">getting started</Link> guide</p>
+					</div>
+				</div>
+				<div className="row example js">
+					<div className="explanation">
+						<h6>Initialize dropdowns</h6>
+						<p>You can initialize dropdowns at any time in addition to them being done automatically when Blossom JS is included in your markup</p>
+						<p><small className="text-teal">A more extensive API for dropdowns is coming soon</small></p>
+					</div>
+					<Highlight className="javascript inline">
+						{'$(".dropdown").dropdown()'}
+					</Highlight>
+				</div>
+				<div className="row example js">
+					<div className="explanation">
+						<h6>Loading progress bars</h6>
+						<p>Progress bars are already initiated on load of Blossom JS</p>
+					</div>
+					<Highlight className="javascript inline">
+						{'loadProgressBars()'}
+					</Highlight>
+				</div>
+				<div className="row example js">
+					<div className="explanation">
+						<h6>Loading active progress bars</h6>
+						<p>Active progress bars are also initiated on load of Blossom JS</p>
+					</div>
+					<Highlight className="javascript inline">
+						{'loadActiveProgressBars()'}
+					</Highlight>
+				</div>
+			</div>
+		)
 	}
 })
 

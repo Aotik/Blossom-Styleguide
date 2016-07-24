@@ -98,11 +98,11 @@ export const deScheme = React.createClass({
 						</div>
 						<div className="scheme teal">
 							<p>Teal</p>
-							<span>#13CE66</span>
+							<span>#00BAA9</span>
 						</div>
 						<div className="scheme teal dark">
 							<p>Dark teal</p>
-							<span>#0FA552</span>
+							<span>#009587</span>
 						</div>
 					</div>
 					<div className="row schemes">
@@ -122,29 +122,29 @@ export const deScheme = React.createClass({
 					<div className="row schemes">
 						<div className="scheme violet light">
 							<p>Light violet</p>
-							<span>#835DD4</span>
+							<span>#BD21FB</span>
 						</div>
 						<div className="scheme violet">
 							<p>Violet</p>
-							<span>#6435C9</span>
+							<span>#A104E0</span>
 						</div>
 						<div className="scheme violet dark">
 							<p>Dark violet</p>
-							<span>#502AA1</span>
+							<span>#8103B3</span>
 						</div>
 					</div>
 					<div className="row schemes">
 						<div className="scheme purple light">
 							<p>Light purple</p>
-							<span>#BD21FB</span>
+							<span>#835DD4</span>
 						</div>
 						<div className="scheme purple">
 							<p>Purple</p>
-							<span>#A104E0</span>
+							<span>#6435C9</span>
 						</div>
 						<div className="scheme purple dark">
 							<p>Dark purple</p>
-							<span>#8103B3</span>
+							<span>#502AA1</span>
 						</div>
 					</div>
 					<div className="row schemes">
@@ -184,11 +184,11 @@ export const deScheme = React.createClass({
 					<div className="row schemes">
 						<div className="scheme ash light">
 							<p>Light ash</p>
-								<span>#4E4E4E</span>
+								<span>#494C4F</span>
 						</div>
 						<div className="scheme ash">
 							<p>Ash</p>
-							<span>#333333</span>
+							<span>#2F3133</span>
 						</div>
 						<div className="scheme ash dark">
 							<p>Dark ash</p>
@@ -202,11 +202,11 @@ export const deScheme = React.createClass({
 						</div>
 						<div className="scheme smoke">
 							<p>Smoke</p>
-							<span>#DFE4E9</span>
+							<span>#E4E9EC</span>
 						</div>
 						<div className="scheme smoke dark">
 							<p>Dark smoke</p>
-							<span>#C4CDD6</span>
+							<span>#C9D3D9</span>
 						</div>
 					</div>
 				</div>

@@ -6,15 +6,17 @@ import { sbElements, sbAnimations, sbUtility } from './Sidebar'
 
 import { elMain, elHeader, elButtons, elMessages, elTables, elInput, elProgressBars, elLabels, elLists, elCards, elLoaders, elStages, elImages, elComments, elDividers, elMenus, elDropdown } from './Elements'
 import { deMain, deHeader, deDefault, deScheme, deTypography, deAnimations, deGrid, deBreakpoints} from './Design'
-import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide } from './Utility'
+import { ulMain, ulHeader, ulDefault, ulLayout, ulCenter, ulHide, ulJS } from './Utility'
 
 import Home from './Home'
 import Gettingstarted from './Gettingstarted'
+import Customising from './Customising'
 
 module.exports = (
 	<Route path="/" component={App}>
 		<IndexRoute component={{page: Home}}/>
 		<Route path="start" component={{page: Gettingstarted}}/>
+		<Route path="customise" component={{page: Customising}}/>
 		<Route path="elements" component={{main: elMain, header: elHeader, sidebar: sbElements}}>
 			<IndexRedirect to="buttons" />
 			<Route path="buttons" component={elButtons}/>
@@ -42,7 +44,8 @@ module.exports = (
 			<Route path="breakpoints" component={deBreakpoints}/>
 		</Route>
 		<Route path="utility" component={{main: ulMain, header: ulHeader, sidebar: sbUtility}}>
-			<IndexRedirect to="center" />
+			<IndexRedirect to="js" />
+			<Route path="js" component={ulJS}/>
 			<Route path="center" component={ulCenter}/>
 			<Route path="hide" component={ulHide}/>
 			<Route path="layout" component={ulLayout}/>

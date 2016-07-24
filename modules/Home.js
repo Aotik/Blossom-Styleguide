@@ -7,12 +7,12 @@ export default React.createClass({
 			<div>
 				<section className="hero clearfix">
 					<div className="contain">
-						<span className="label green">0.0.1</span>
+						<span className="label green">0.1.0 Beta</span>
 						<h1>Blossom UI</h1>
 						<h3>Build websites intuitively & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
-							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download blossom.min.css</a>
+							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download Blossom UI bundle</a>
 						</div>
 					</div>
 				</section>
@@ -21,7 +21,7 @@ export default React.createClass({
 					<div className="contain text-center">
 						<h3>Make a smart move towards simplicity.</h3>
 						<p>Blossom is a brand new framework that makes life simple for designers and enables developers to find their creativity with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
-						<a className="button large">Start browsing the UI</a>
+						<Link className="button large" to="/elements">Start browsing the UI</Link>
 					</div>
 					<img className="breakpoint-m-hide rightcut" src="/examples/365cons_move.svg"/>
 				</section>
@@ -44,7 +44,7 @@ export default React.createClass({
 										<i className="text-yellow fa fa-edit"/>
 										<h4>Perfect for customisability</h4>
 										<p>Being built on Stylus, customising Blossom&#39;s look and feel is dead easy to accomplish.</p>
-										<a className="button">Learn how</a>
+										<Link to="/customise" className="button">Learn how</Link>
 								</div>
 								<div className="xs-12 m-4 column">
 										<i className="text-purple fa fa-th"/>

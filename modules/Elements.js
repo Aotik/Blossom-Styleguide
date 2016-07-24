@@ -2658,7 +2658,7 @@ export const elButtons = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="button">\n\tDefault Button\n</div>\n<div class="button primary">\n\tPrimary Button\n</div>'}
+								{'<div className="button small">\n\tSmall\n</div>\n<div className="button medium">\n\tMedium\n</div>\n<div className="button large">\n\tLarge\n</div>\n<div className="button big">\n\tBig\n</div>\n<div className="button massive">\n\tMassive\n</div>'}
 							</Highlight>
 						</div>
 					</div>

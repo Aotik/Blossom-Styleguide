@@ -27,25 +27,38 @@ export default React.createClass({
 								<p>Once you&#39;ve downloaded it, you can easily include it in your HTML like so:</p>
 							</div>
 
-							<code className="text-violet">
+							<code className="text-purple">
 								&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=<span className="text-teal">&quot;/path/to/folder/blossom.min.css&quot;</span>/&gt;
 							</code>
 
 							<br/>
 							<br/>
-							<code className="text-violet">
+							<code className="text-purple">
 								&lt;script src=<span className="text-teal">&quot;/path/to/folder/blossom.js&quot;</span>&gt;&lt;/script&gt;
 							</code>
 						</div>
 						<div className="module">
 							<div className="explanation">
-								<h6><strong>Installing Blossom with Node.js</strong></h6>
+								<h6><strong>Install Gulp</strong></h6>
+								<p>Blossom uses <a>Gulp</a> to provide command line scripts for building edited versions, making developers feel right at home.</p>
+
+								<p>Gulp should be installed globally (recommended), or it will be installed alongside Blossom (not recommended).</p>
+							</div>
+
+							<code className="text-purple">
+								npm install -g <span className="text-teal">gulp</span>
+							</code>
+
+						</div>
+						<div className="module">
+							<div className="explanation">
+								<h6><strong>Install Blossom with Node.js</strong></h6>
 								<p>If you have limited experience or are unfamiliar with Node, you can follow these steps or <a href="https://nodejs.org/en/download/">download from nodejs.org</a>.</p>
 
 								<p>With Node you can easily install Blossom UI from the command line and save it to your package.json.</p>
 							</div>
 
-							<code className="text-violet">
+							<code className="text-purple">
 								npm install <span className="text-teal">blossom-ui</span> --save
 							</code>
 
@@ -60,8 +73,22 @@ export default React.createClass({
 								<p>With NPM, you can easily update to the newest released version of Blossom without interferring with your current version</p>
 							</div>
 
-							<code className="text-violet">
+							<code className="text-purple">
 								npm update
+							</code>
+						</div>
+					</div>
+					<div className="contain">
+						<h4>Uninstalling Blossom <i className="text-red fa fa-frown-o"/></h4>
+						<div className="divider"/>
+						<div className="module">
+							<div className="explanation">
+								<h6><strong>Uninstalling via NPM</strong></h6>
+								<p>Sorry to see you go, but it will be a short goodbye. Just use the command below.</p>
+							</div>
+
+							<code className="text-purple">
+								npm uninstall <span className="text-teal">blossom-ui</span> --save
 							</code>
 						</div>
 					</div>
