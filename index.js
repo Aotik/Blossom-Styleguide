@@ -1,3 +1,5 @@
+import 'style!./styl/page.styl'
+
 import React from 'react'
 import { render } from 'react-dom'
 import App from './modules/App'

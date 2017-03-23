@@ -53,11 +53,11 @@ export default React.createClass({
 						<div className="contain">
 							<div className="inner">
 								<ul className="list horizontal links">
-									<li><a>Contact</a></li>
-									<li><a href="https://github.com/Aotik/Blossom">GitHub Repo</a></li>
-									<li><a href="https://github.com/Aotik/Blossom/issues/new">Submit an issue</a></li>
+									<li><a rel="noopener noreferrer" target="_blank" href="http://m.me/cindr.io">Support</a></li>
+									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom">GitHub Repo</a></li>
+									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/issues/new">Submit an issue</a></li>
 									<li className="float-right madeby"><a className="text-grey">Made with <i className="fa fa-heart-o text-red"/> by <span className="aotik">aotik</span></a></li>
-									<li><a href="https://github.com/Aotik/Blossom/commits/master">Changelog</a></li>
+									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/commits/master">Changelog</a></li>
 								</ul>
 							</div>
 						</div>

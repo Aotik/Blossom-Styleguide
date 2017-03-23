@@ -10,8 +10,8 @@ export default React.createClass({
 						<h1>Getting started</h1>
 						<h3>A guide into how to install and use Blossom</h3>
 						<div className="button-group breakpoint-xs-stackable">
-							<a href="https://github.com/Aotik/Blossom" className="button medium outlined">View the Blossom UI repo</a>
-							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download ZIP</a>
+							<a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">View the Blossom UI repo</a>
+							<Link to="/download" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download</Link>
 						</div>
 					</div>
 				</section>
@@ -40,7 +40,7 @@ export default React.createClass({
 						<div className="module">
 							<div className="explanation">
 								<h6><strong>Install Gulp</strong></h6>
-								<p>Blossom uses <a>Gulp</a> to provide command line scripts for building edited versions, making developers feel right at home.</p>
+								<p>Blossom uses <a rel="noopener noreferrer" target="_blank" href="http://gulpjs.com/">Gulp</a> to provide command line scripts for building edited versions, making developers feel right at home.</p>
 
 								<p>Gulp should be installed globally (recommended), or it will be installed alongside Blossom (not recommended).</p>
 							</div>
@@ -53,7 +53,7 @@ export default React.createClass({
 						<div className="module">
 							<div className="explanation">
 								<h6><strong>Install Blossom with Node.js</strong></h6>
-								<p>If you have limited experience or are unfamiliar with Node, you can follow these steps or <a href="https://nodejs.org/en/download/">download from nodejs.org</a>.</p>
+								<p>If you have limited experience or are unfamiliar with Node, you can follow these steps or <a rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/download/">download from nodejs.org</a>.</p>
 
 								<p>With Node you can easily install Blossom UI from the command line and save it to your package.json.</p>
 							</div>
