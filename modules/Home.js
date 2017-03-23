@@ -12,7 +12,7 @@ export default React.createClass({
 						<h3>Build websites intuitively & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
-							<a className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
+							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
 						</div>
 					</div>
 				</section>

@@ -11,7 +11,7 @@ export default React.createClass({
 						<h3>A guide into how to install and use Blossom</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">View the Blossom UI repo</a>
-							<Link to="/download" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download</Link>
+							<a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download</a>
 						</div>
 					</div>
 				</section>
