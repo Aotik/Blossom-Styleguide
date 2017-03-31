@@ -34,7 +34,7 @@ function renderPage(appHtml) {
 	<html>
 		<head>
 			<meta charset=utf-8/>
-			<title>Blossom</title>
+			<title>Blossom UI</title>
 			<link rel="shortcut icon" type="image/png" href="/examples/favicon.png"/>
 			<link rel="stylesheet" type="text/css" href="/blossom/css/blossom.min.css" />
 			<link rel="stylesheet" type="text/css" href="/css/highlight.css" />
