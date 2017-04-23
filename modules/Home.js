@@ -7,21 +7,21 @@ export default React.createClass({
 			<div>
 				<section className="hero clearfix">
 					<div className="contain">
-						<span className="label green">Beta 0.1.3</span>
+						<span className="label green">v1.1.7</span>
 						<h1>Blossom UI</h1>
 						<h3>Build websites intuitively & efficiently</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
-							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
+							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip"><i className="fa fa-arrow-down"/> Download Blossom bundle</a>
 						</div>
 					</div>
 				</section>
-				<section className="about light smoke">
+				<section className="about">
 					<img className="breakpoint-m-hide leftcut" src="/examples/365cons_move.svg"/>
 					<div className="contain text-center">
 						<h3>Make a smart move towards simplicity.</h3>
 						<p>Blossom is a brand new framework that makes life simple for designers and enables developers to find their creativity with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
-						<Link className="button large" to="/elements">Start browsing the UI</Link>
+						<Link className="button outlined medium" to="/elements">Start browsing the UI</Link>
 					</div>
 					<img className="breakpoint-m-hide rightcut" src="/examples/365cons_move.svg"/>
 				</section>
@@ -30,8 +30,8 @@ export default React.createClass({
 					<div className="contain">
 						<div className="grid-row">
 							<div className="xs-12 m-7">
-								<h3>Oh, not all great things come in small sizes, but this does.</h3>
-								<p>With <strong>blossom.min.css</strong> weighing in at just under 60kb, you don&#39;t have to break a sweat worrying about your users having a sluggish experience.</p>
+								<h3>Oh, not all great things come in small sizes, but Blossom does.</h3>
+								<p>With <strong>blossom.min.css</strong> weighing in at just under 70kb, you don&#39;t have to break a sweat worrying about your users having a sluggish experience.</p>
 							</div>
 						</div>
 					</div>
@@ -70,7 +70,7 @@ export default React.createClass({
 								<i className="fa fa-large fa-thumbs-o-up"/>
 								<h3>Massive thanks to Amy Devereux!</h3>
 								<h5>Check out Amy if you haven&#39;t already, she is an extremely talented Visual Designer. All artwork within Blossom UI is designed by her as part of her ongoing project <a href="http://www.365cons.com/"><strong>365cons</strong></a></h5>
-								<a href="http://www.adevereux.com/" className="button blue labeled labeled-right">See her work <i className="fa fa-chevron-right"/> </a>
+								<a href="http://www.adevereux.com/" className="button blue labeled labeled-right">Check out her work <i className="fa fa-chevron-right"/> </a>
 							</div>
 						</div>
 					</div>

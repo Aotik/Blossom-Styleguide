@@ -35,7 +35,7 @@ export default React.createClass({
 				<header className="sidebar fixed top">
 					<div className="contain">
 						<Link to="/" className="logo">
-							<img src="/examples/blossom.png"/>
+							<img src="/examples/logo.svg"/>
 						</Link>
 						<ul className="links">
 							<DropElement to="/start">Getting started</DropElement>
@@ -56,7 +56,7 @@ export default React.createClass({
 									<li><a rel="noopener noreferrer" target="_blank" href="http://m.me/cindr.io">Support</a></li>
 									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom">GitHub Repo</a></li>
 									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/issues/new">Submit an issue</a></li>
-									<li className="float-right madeby"><a className="text-grey" rel="noopener noreferrer" target="_blank" href="http://mansson.io">Made with <i className="fa fa-heart-o text-red"/> by <span className="aotik">aotik</span></a></li>
+									<li className="float-right madeby"><a className="text-grey" rel="noopener noreferrer" target="_blank" href="https://cindr.io">Developed by <span className="cindr">Cindr.io</span></a></li>
 									<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/commits/master">Changelog</a></li>
 								</ul>
 							</div>

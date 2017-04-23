@@ -1,3 +1,4 @@
+import 'style!./styl/blossom.styl'
 import 'style!./styl/page.styl'
 
 import React from 'react'

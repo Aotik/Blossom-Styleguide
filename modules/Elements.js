@@ -982,87 +982,108 @@ export const elImages = React.createClass({
 						<h6>Top aligned image</h6>
 						<p>Align content to the top when inline with an image</p>
 					</div>
-					<div className="image-tiny align-top">
-						<img src="/examples/365cons_placeholder.jpg" alt="" />
+					<div className="module collapsed">
+						<div className="image-tiny align-top">
+							<img src="/examples/365cons_placeholder.jpg" alt="" />
+						</div>
+						<span>Top aligned</span>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div className="image-tiny align-top">\n\t<img src="..." alt="" />\n</div>'}
+							</Highlight>
+						</div>
 					</div>
-					<span>Top aligned</span>
 				</div>
 				<div className="row example images">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Middle aligned image</h6>
 						<p>Align content to the middle when inline with an image</p>
 					</div>
-					<div className="image-tiny align-middle">
-						<img src="/examples/365cons_placeholder.jpg" alt="" />
+					<div className="module collapsed">
+						<div className="image-tiny align-middle">
+							<img src="/examples/365cons_placeholder.jpg" alt="" />
+						</div>
+						<span>Middle aligned</span>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div className="image-tiny align-middle">\n\t<img src="..." alt="" />\n</div>'}
+							</Highlight>
+						</div>
 					</div>
-					<span>Middle aligned</span>
 				</div>
 				<div className="row example images">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Bottom aligned image</h6>
 						<p>Align content to the bottom when inline with an image</p>
 					</div>
-					<div className="image-tiny align-bottom">
-						<img src="/examples/365cons_placeholder.jpg" alt="" />
+					<div className="module collapsed">
+						<div className="image-tiny align-bottom">
+							<img src="/examples/365cons_placeholder.jpg" alt="" />
+						</div>
+						<span>Bottom aligned</span>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div className="image-tiny align-bottom">\n\t<img src="..." alt="" />\n</div>'}
+							</Highlight>
+						</div>
 					</div>
-					<span>Bottom aligned</span>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Mini sized image</h6>
-						<p>Forces the image to be sized to <code>35px</code></p>
+						<p>Forces inner images to be sized to <code>35px</code> using <code>.image-mini</code> on the parent class</p>
 					</div>
 					<div className="image-mini">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Tiny sized image</h6>
-						<p>Forces the image to be sized to <code>70px</code></p>
+						<p>Forces inner images to be sized to <code>70px</code> using <code>.image-tiny</code> on the parent class</p>
 					</div>
 					<div className="image-tiny">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Small sized image</h6>
-						<p>Forces the image to be sized to <code>140px</code></p>
+						<p>Forces inner images to be sized to <code>140px</code> using <code>.image-small</code> on the parent class</p>
 					</div>
 					<div className="image-small">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Medium sized image</h6>
-						<p>Forces the image to be sized to <code>280px</code></p>
+						<p>Forces inner images to be sized to <code>280px</code> using <code>.image-medium</code> on the parent class</p>
 					</div>
 					<div className="image-medium">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Large sized image</h6>
-						<p>Forces the image to be sized to <code>400px</code></p>
+						<p>Forces inner images to be sized to <code>400px</code> using <code>.image-large</code> on the parent class</p>
 					</div>
 					<div className="image-large">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Big sized image</h6>
-						<p>Forces the image to be sized to <code>600px</code></p>
+						<p>Forces inner images to be sized to <code>600px</code> using <code>.image-big</code> on the parent class</p>
 					</div>
 					<div className="image-big">
 						<img src="/examples/365cons_placeholder.jpg" alt="" />
 					</div>
 				</div>
 				<div className="row example images">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+					<div className="explanation">
 						<h6>Other sized images</h6>
 						<p>Blossom also supports larger types of images, <code>Huge</code> and <code>Massive</code> are sized <code>840px</code> and <code>940px</code> respectively</p>
 					</div>
@@ -1251,7 +1272,7 @@ export const elComments = React.createClass({
 								</div>
 								<div className="content">
 									<a className="creator">Isabelle Jenkins</a>
-									<span className="meta">Wednesday at 5:17PM</span>z
+									<span className="meta">Wednesday at 5:17PM</span>
 									<p className="text">
 										Welcome Johnny, good to have you onboard.
 									</p>
@@ -1843,6 +1864,129 @@ export const elCards = React.createClass({
 		)
 	}
 })
+export const elAccordion = React.createClass({
+	render() {
+		return(
+			<div>
+				<Title title="Accordion">Toggle and display sections of content via a simple click</Title>
+				<div className="row opening-message">
+					<div className="message info">
+						<p>To get the correct functionality of toggling content in Accordions, you will need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Basic Accordion</h6>
+						<p>A basic accordion without styling</p>
+					</div>
+					<div className="module collapsed">
+						<div className="accordion">
+							<div className="title">
+								<i/>
+								How do I change or reset my password?
+							</div>
+							<div className="content">
+								If you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.
+							</div>
+							<div className="title">
+								<i/>
+								I get a black screen when opening the video interface. Help!
+							</div>
+							<div className="content">
+								Black screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.
+							</div>
+							<div className="title">
+								<i/>
+								Cancelling or getting a refund
+							</div>
+							<div className="content">
+								We want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<ul class="list">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<li class="item">Item 4</li>\n</ul>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Styled Accordion</h6>
+						<p>An accordion styled as a module. Just add the <code>.module</code> class to the <code>.accordion</code> element</p>
+					</div>
+					<div className="module collapsed">
+						<div className="accordion module">
+							<div className="title">
+								<i/>
+								How do I change or reset my password?
+							</div>
+							<div className="content">
+								If you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.
+							</div>
+							<div className="title">
+								<i/>
+								I get a black screen when opening the video interface. Help!
+							</div>
+							<div className="content">
+								Black screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.
+							</div>
+							<div className="title">
+								<i/>
+								Cancelling or getting a refund
+							</div>
+							<div className="content">
+								We want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.
+							</div>
+						</div>
+					<div className="footer">
+						<Highlight className="html">
+							{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
+						</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Fluid Styled Accordion</h6>
+						<p>A styled accordion is limited in width until made fluid. Simply add the <code>.fluid</code> class to the <code>.accordion</code> element</p>
+					</div>
+					<div className="module collapsed">
+						<div className="accordion module fluid">
+							<div className="title">
+								<i/>
+								How do I change or reset my password?
+							</div>
+							<div className="content">
+								If you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.
+							</div>
+							<div className="title">
+								<i/>
+								I get a black screen when opening the video interface. Help!
+							</div>
+							<div className="content">
+								Black screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.
+							</div>
+							<div className="title">
+								<i/>
+								Cancelling or getting a refund
+							</div>
+							<div className="content">
+								We want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.
+							</div>
+						</div>
+					<div className="footer">
+						<Highlight className="html">
+							{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
+						</Highlight>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+})
+
 export const elLists = React.createClass({
 	render() {
 		return(
@@ -1893,6 +2037,7 @@ export const elLists = React.createClass({
 					</div>
 				</div>
 				</div>
+
 				<div className="row show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Numbered lists</h6>
@@ -2292,6 +2437,31 @@ export const elMenus = React.createClass({
 
 				<div className="row example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Basic</h6>
+						<p>Basic menus have no background. States are distinguished by the items color and font-weight</p>
+					</div>
+					<div className="module collapsed">
+						<div className="basic menu">
+							<a className="item active">
+								Features
+							</a>
+							<a className="item">
+								Pricing
+							</a>
+							<a className="item">
+								Support
+							</a>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="basic menu">\n\t<a class="item active">\n\t\tFeatures\n\t</a>\n\t<a class="item">\n\t\tPricing\n\t</a>\n\t<a class="item">\n\t\tSupport\n\t</a>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+
+				<div className="row example menus">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Pills</h6>
 						<p>Pill menus are simple, having a transparent background and a background color on hover or <code>.active</code> state</p>
 					</div>
@@ -2341,7 +2511,7 @@ export const elMenus = React.createClass({
 				<div className="row example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Underlined</h6>
-						<p className="note">Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
+						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
 					</div>
 					<div className="module collapsed">
 						<div className="underlined menu">
@@ -2431,7 +2601,7 @@ export const elMenus = React.createClass({
 							<a className="item">
 								Portfolio
 							</a>
-							<a className="item">
+							<a className="item active">
 								Contact
 							</a>
 						</div>
@@ -2442,7 +2612,7 @@ export const elMenus = React.createClass({
 							<a className="item">
 								1
 							</a>
-							<a className="item">
+							<a className="item active">
 								2
 							</a>
 							<a className="item">

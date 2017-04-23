@@ -10,19 +10,20 @@ export const sbElements = React.createClass({
 						<h6>Resources</h6>
 						<ul>
 							<NavLink to="/elements/buttons">Buttons</NavLink>
+							<NavLink to="/elements/input">Inputs</NavLink>
+							<NavLink to="/elements/menus">Menus</NavLink>
+							<NavLink to="/elements/accordion">Accordion</NavLink>
 							<NavLink to="/elements/lists">Lists</NavLink>
-							<NavLink to="/elements/dividers">Dividers</NavLink>
+							<NavLink to="/elements/dropdown">Dropdown</NavLink>
+							<NavLink to="/elements/messages">Messages</NavLink>
+							<NavLink to="/elements/tables">Tables</NavLink>
 							<NavLink to="/elements/labels">Labels</NavLink>
 							<NavLink to="/elements/comments">Comments</NavLink>
 							<NavLink to="/elements/cards">Cards</NavLink>
-							<NavLink to="/elements/input">Input</NavLink>
-							<NavLink to="/elements/menus">Menus</NavLink>
 							<NavLink to="/elements/progress-bars">Progress bars</NavLink>
 							<NavLink to="/elements/images">Images</NavLink>
-							<NavLink to="/elements/messages">Messages</NavLink>
+							<NavLink to="/elements/dividers">Dividers</NavLink>
 							<NavLink to="/elements/loaders">Loaders</NavLink>
-							<NavLink to="/elements/tables">Tables</NavLink>
-							<NavLink to="/elements/dropdown">Dropdown</NavLink>
 							<NavLink to="/elements/stages">Stages</NavLink>
 						</ul>
 					</div>

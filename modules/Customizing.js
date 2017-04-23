@@ -7,8 +7,8 @@ export default React.createClass({
 			<div>
 				<section className="hero clearfix borderless">
 					<div className="contain">
-						<h1>Customisation</h1>
-						<h3>Learn how to customise Blossom to fit your needs</h3>
+						<h1>Customization</h1>
+						<h3>Learn how to customize Blossom to fit your needs</h3>
 					</div>
 				</section>
 				<section className="installing">

@@ -7,8 +7,8 @@ export default React.createClass({
 
 	 render: function () {
 			return (
-				<div className="outer-title">
-				<h4 className="title">{this.props.title}</h4>
+				<div className="outer-title row">
+					<h3 className="title">{this.props.title}</h3>
 					<p {...this.props}>
 						 {this.props.children}
 					</p>

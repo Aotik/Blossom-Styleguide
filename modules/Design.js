@@ -35,144 +35,114 @@ export const deScheme = React.createClass({
 						<h6>UI colors</h6>
 						<p>Light, standard and dark colors used in Blossom UI</p>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme red light">
 							<p>Light red</p>
-							<span>#FF6D6D</span>
 						</div>
 						<div className="scheme red">
 							<p>Red</p>
-							<span>#ff4949</span>
 						</div>
 						<div className="scheme red dark">
 							<p>Dark red</p>
-							<span>#FF0707</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme orange light">
 							<p>Light orange</p>
-							<span>#FF964A</span>
 						</div>
 						<div className="scheme orange">
 							<p>Orange</p>
-							<span>#FF7C1D</span>
 						</div>
 						<div className="scheme orange dark">
 							<p>Dark orange</p>
-							<span>#E36000</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme yellow light">
 							<p>Light yellow</p>
-							<span>#FFD356</span>
 						</div>
 						<div className="scheme yellow">
 							<p>Yellow</p>
-							<span>#FFC82C</span>
 						</div>
 						<div className="scheme yellow dark">
 							<p>Dark yellow</p>
-							<span>#EFB100</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme green light">
 							<p>Light green</p>
-							<span>#2EEC82</span>
 						</div>
 						<div className="scheme green">
 							<p>Green</p>
-							<span>#13CE66</span>
 						</div>
 						<div className="scheme green dark">
 							<p>Dark green</p>
-							<span>#0FA552</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme teal light">
 							<p>Light teal</p>
-							<span>#00DAC6</span>
 						</div>
 						<div className="scheme teal">
 							<p>Teal</p>
-							<span>#00BAA9</span>
 						</div>
 						<div className="scheme teal dark">
 							<p>Dark teal</p>
-							<span>#009587</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme blue light">
 							<p>Light blue</p>
-							<span>#4692FF</span>
 						</div>
 						<div className="scheme blue">
 							<p>Blue</p>
-							<span>#1877FF</span>
 						</div>
 						<div className="scheme blue dark">
 							<p>Dark blue</p>
-							<span>#005CDF</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme violet light">
 							<p>Light violet</p>
-							<span>#BD21FB</span>
 						</div>
 						<div className="scheme violet">
 							<p>Violet</p>
-							<span>#A104E0</span>
 						</div>
 						<div className="scheme violet dark">
 							<p>Dark violet</p>
-							<span>#8103B3</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme purple light">
 							<p>Light purple</p>
-							<span>#835DD4</span>
 						</div>
 						<div className="scheme purple">
 							<p>Purple</p>
-							<span>#6435C9</span>
 						</div>
 						<div className="scheme purple dark">
 							<p>Dark purple</p>
-							<span>#502AA1</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme pink light">
 							<p>Light pink</p>
-							<span>#E661AC</span>
 						</div>
 						<div className="scheme pink">
 							<p>Pink</p>
-							<span>#E03997</span>
 						</div>
 						<div className="scheme pink dark">
 							<p>Dark pink</p>
-							<span>#C21E7B</span>
 						</div>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme brown light">
 							<p>Light brown</p>
-							<span>#C97A54</span>
 						</div>
 						<div className="scheme brown">
 							<p>Brown</p>
-							<span>#AD5E37</span>
 						</div>
 						<div className="scheme brown dark">
 							<p>Dark brown</p>
-							<span>#8A4B2C</span>
 						</div>
 					</div>
 				</div>
@@ -181,32 +151,26 @@ export const deScheme = React.createClass({
 						<h6>Gray colors</h6>
 						<p>Light, standard and dark grays used in Blossom UI</p>
 					</div>
-					<div className="row schemes">
+					<div className="schemes">
 						<div className="scheme ash light">
 							<p>Light ash</p>
-								<span>#494C4F</span>
 						</div>
 						<div className="scheme ash">
 							<p>Ash</p>
-							<span>#2F3133</span>
 						</div>
 						<div className="scheme ash dark">
 							<p>Dark ash</p>
-							<span>#202020</span>
 						</div>
 					</div>
-					<div className="row schemes dark">
+					<div className="schemes dark">
 						<div className="scheme smoke light">
 							<p>Light smoke</p>
-								<span>#F7F9FB</span>
 						</div>
 						<div className="scheme smoke">
 							<p>Smoke</p>
-							<span>#E4E9EC</span>
 						</div>
 						<div className="scheme smoke dark">
 							<p>Dark smoke</p>
-							<span>#C9D3D9</span>
 						</div>
 					</div>
 				</div>
@@ -267,7 +231,7 @@ export const deTypography = React.createClass({
 				<div className="row example typeface">
 					<div className="explanation">
 						<h6>Typeface</h6>
-						<p>Blossom&#39;s primary typeface is Lato, a beautiful sans serif font family providing a feeling of warmth and friendliness, but at the same time keeping a serious note to it.</p>
+						<p>Blossom&#39;s primary typeface is Roboto, a beautiful sans serif font family providing a feeling of warmth and friendliness, but at the same time keeping a serious note to it.</p>
 					</div>
 					<div className="module">
 						<p className="transform uppercase">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
@@ -433,17 +397,17 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">6 + 6 XS</span> grid will be structured this way on every screen</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-6">
+						<div className="row">
+							<div className="col xs-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6">
+							<div className="col xs-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
-						<Highlight className='html'>
-							{'<div class="grid-row">\n\t<div class="xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							<Highlight className='html'>
+								{'<div class="row">\n\t<div class="col xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -455,17 +419,17 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">6 + 6 S</span> grid takes over on screens above the S breakpoint</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-12 s-6">
+						<div className="row">
+							<div className="col col xs-12 s-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 s-6">
+							<div className="col col xs-12 s-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 						<Highlight className="html">
-							{'<div class="grid-row">\n\t<div class="xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							{'<div class="row">\n\t<div class="col xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 s-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 						</Highlight>
 						</div>
 					</div>
@@ -477,23 +441,23 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">3 + 3 + 3 + 3 M</span> grid takes over on screens above the M breakpoint</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-12 s-6 m-3">
+						<div className="row">
+							<div className="col xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 s-6 m-3">
+							<div className="col xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 s-6 m-3">
+							<div className="col xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 s-6 m-3">
+							<div className="col xs-12 s-6 m-3">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="row">\n\t<div class="col xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 s-6 m-3">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -505,20 +469,20 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">4 + 4 + 4 L</span> grid takes over on screens above the L breakpoint</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-12 l-4">
+						<div className="row">
+							<div className="col xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 l-4">
+							<div className="col xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 l-4">
+							<div className="col xs-12 l-4">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="row">\n\t<div class="col xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 l-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -530,29 +494,29 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">2 + 2 + 2 + 2 + 2 + 2 XL</span> grid takes over on screens above the XL breakpoint</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-6 xl-2">
+						<div className="row">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6 xl-2">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6 xl-2">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6 xl-2">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6 xl-2">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-6 xl-2">
+							<div className="col xs-6 xl-2">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="row">\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-6 xl-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -564,17 +528,67 @@ export const deGrid = React.createClass({
 						<p>In this example, the <span className="text-teal">6 + 6 HD</span> grid takes over on screens above the HD breakpoint</p>
 					</div>
 					<div className="module collapsed">
-						<div className="grid-row">
-							<div className="xs-12 l-6">
+						<div className="row">
+							<div className="col xs-12 l-6">
 								<div className="block-grey"></div>
 							</div>
-							<div className="xs-12 l-6">
+							<div className="col xs-12 l-6">
 								<div className="block-grey"></div>
 							</div>
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<div class="grid-row">\n\t<div class="xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+								{'<div class="row">\n\t<div class="col xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col xs-12 l-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example grids">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Grid Push</h6>
+						<p>Pushed columns move along the grid row relative to previous children</p>
+						<p>Push classes have a similar syntax to col classes. Just append a class, e.g. <span className="text-teal">push-xs-2</span></p>
+					</div>
+					<div className="module collapsed">
+						<div className="row">
+							<div className="col xs-4">
+								<div className="block-grey"></div>
+							</div>
+							<div className="col push-xs-1 xs-4">
+								<div className="block-grey"></div>
+							</div>
+							<div className="col push-xs-1 xs-2">
+								<div className="block-grey"></div>
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="row">\n\t<div class="col xs-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col push-xs-1 xs-4">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col push-xs-1 xs-2">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row example grids">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Grid Pull</h6>
+						<p>Pulled columns move towards the start of the grid row relative to previous children</p>
+						<p>Pull classes have a similar syntax to col classes. Just append a class, e.g. <span className="text-teal">pull-l-2</span></p>
+					</div>
+					<div className="module collapsed">
+						<div className="row">
+							<div className="col push-xs-6 xs-6">
+								<div className="block-grey"></div>
+							</div>
+							<div className="col pull-xs-12 xs-6">
+								<div className="block-grey"></div>
+							</div>
+						</div>
+						<div className="explanation">
+							<small>Above example shows how two half columns can be reversed using pull and push columns</small>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="row">\n\t<div class="col push-xs-6 xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col pull-xs-12 xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
@@ -584,130 +598,130 @@ export const deGrid = React.createClass({
 						<h6>Full grid view</h6>
 						<p>An example view of structures that can be created via the grid system</p>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="l-1 m-3 s-4 xs-12">
+					<div className="row show-grid">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
-						<div className="l-1 m-3 s-4 xs-12">
-							<div className="block-grey"></div>
-						</div>
-					</div>
-					<div className="grid-row show-grid">
-						<div className="s-4 xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-6 xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-2 xs-4">
+						<div className="col l-1 m-3 s-4 xs-12">
 							<div className="block-grey"></div>
 						</div>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="xs-8">
+					<div className="row show-grid">
+						<div className="col s-4 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="xs-3">
+						<div className="col s-6 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="xs-1">
-							<div className="block-grey"></div>
-						</div>
-					</div>
-					<div className="grid-row show-grid">
-						<div className="s-4 xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-2 xs-4">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-6 xs-4">
+						<div className="col s-2 xs-4">
 							<div className="block-grey"></div>
 						</div>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="s-2 xs-6">
+					<div className="row show-grid">
+						<div className="col xs-8">
 							<div className="block-grey"></div>
 						</div>
-						<div className="s-2 xs-6">
+						<div className="col xs-3">
 							<div className="block-grey"></div>
 						</div>
-						<div className="s-2 xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-2 xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-2 xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="s-2 xs-6">
+						<div className="col xs-1">
 							<div className="block-grey"></div>
 						</div>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="m-3 s-4 xs-6">
+					<div className="row show-grid">
+						<div className="col s-3 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="m-3 s-4 xs-6">
+						<div className="col s-4 xs-4">
 							<div className="block-grey"></div>
 						</div>
-						<div className="m-3 s-4 xs-6">
-							<div className="block-grey"></div>
-						</div>
-						<div className="m-3 s-4 xs-6">
+						<div className="col s-5 xs-4">
 							<div className="block-grey"></div>
 						</div>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="m-4 s-6 xs-12">
+					<div className="row show-grid">
+						<div className="col s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="m-4 s-6 xs-12">
+						<div className="col s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="m-4 s-6 xs-12">
+						<div className="col s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col s-2 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col s-2 xs-6">
 							<div className="block-grey"></div>
 						</div>
 					</div>
-					<div className="grid-row show-grid">
-						<div className="s-6 xs-12">
+					<div className="row show-grid">
+						<div className="col m-3 s-4 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="s-6 xs-12">
+						<div className="col m-3 s-4 xs-6">
 							<div className="block-grey"></div>
 						</div>
-						<div className="xs-12">
+						<div className="col m-3 s-4 xs-6">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col m-3 s-4 xs-6">
+							<div className="block-grey"></div>
+						</div>
+					</div>
+					<div className="row show-grid">
+						<div className="col m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col m-4 s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+					</div>
+					<div className="row show-grid">
+						<div className="col s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col s-6 xs-12">
+							<div className="block-grey"></div>
+						</div>
+						<div className="col xs-12">
 							<div className="block-grey"></div>
 						</div>
 					</div>
