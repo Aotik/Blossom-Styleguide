@@ -9,57 +9,51 @@ export default React.createClass({
 					<div className="contain">
 						<span className="label green">v1.1.7</span>
 						<h1>Blossom UI</h1>
-						<h3>Build websites intuitively & efficiently</h3>
+						<h3>A simply beautiful, themeable design framework built from the ground up in Stylus, with performance in mind.</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
 							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip"><i className="fa fa-arrow-down"/> Download Blossom bundle</a>
 						</div>
 					</div>
 				</section>
-				<section className="about">
-					<img className="breakpoint-m-hide leftcut" src="/examples/365cons_move.svg"/>
-					<div className="contain text-center">
-						<h3>Make a smart move towards simplicity.</h3>
-						<p>Blossom is a brand new framework that makes life simple for designers and enables developers to find their creativity with theming. With its easy-to-use HTML, natural language CSS and efficient Javascript anyone can create all kinds of responsive awesomeness  without having to re-code elements over and over again.</p>
-						<Link className="button outlined medium" to="/elements">Start browsing the UI</Link>
-					</div>
-					<img className="breakpoint-m-hide rightcut" src="/examples/365cons_move.svg"/>
-				</section>
 				<section className="size">
-					<span className="large60 centered vertical"><img src="/examples/lessthan60.png"/></span>
+					<span className="puzzles-left centered vertical breakpoint-l-hide"><img src="/examples/365cons_puzzle.svg"/></span>
+					<span className="puzzles centered vertical breakpoint-l-hide"><img src="/examples/365cons_puzzle.svg"/></span>
 					<div className="contain">
-						<div className="grid-row">
-							<div className="xs-12 m-7">
-								<h3>Oh, not all great things come in small sizes, but Blossom does.</h3>
-								<p>With <strong>blossom.min.css</strong> weighing in at just under 70kb, you don&#39;t have to break a sweat worrying about your users having a sluggish experience.</p>
+						<div className="row">
+							<div className="xs-12 m-8 col">
+								<h3>The first piece of your puzzle</h3>
+								<p>Weighing in at just under 70kb, Blossom provides the basis needed to build your new project with a non-invasive, consistent and responsive user interface.</p>
+								<br/>
+								<p>With its easy-to-use HTML, natural language CSS and efficient Javascript, beginner to advanced users are able to create all kinds of responsive awesomeness without having to re-code elements over and over again.</p>
+								<div className="button-group">
+									<Link className="button medium" to="/elements">Start browsing the UI</Link>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 				<section className="features">
 					<div className="contain">
-						<div className="grid-row">
-							<div className="row">
-								<div className="xs-12 m-4 column">
-										<i className="text-yellow fa fa-edit"/>
-										<h4>Perfect for customisability</h4>
-										<p>Being built on Stylus, customising Blossom&#39;s look and feel is dead easy to accomplish.</p>
-										<Link to="/customise" className="button">Learn how</Link>
-								</div>
-								<div className="xs-12 m-4 column">
-										<i className="text-purple fa fa-th"/>
-										<h4>Tons of<br/>components</h4>
-										<p>With over 60+ components and utility classes, Blossom covers as much as you need with minimal coding required to build a beautiful website.</p>
-										<Link to="/elements" className="button primary">Browse components</Link>
-								</div>
-								<div className="xs-12 m-4 column">
-										<i className="text-blue fa fa-github"/>
-										<h4>It&#39;s free and open source!</h4>
-										<p>With Blossom being open source, anyone is welcome to input their expertise into improving it as a product.</p>
-										<a href="https://github.com/Aotik/Blossom" className="button">View the repo</a>
-								</div>
+						<div className="row">
+							<div className="xs-12 m-4 col column">
+									<i className="text-yellow fa fa-edit"/>
+									<h4>Perfect for customisability</h4>
+									<p>Being built on Stylus, the task of customizing Blossom&#39;s look and feel to fit the vision of your next project is incredibly easy to take on.</p>
+									<Link to="/customize" className="button outlined">About theming</Link>
 							</div>
-
+							<div className="xs-12 m-4 col column">
+									<i className="text-purple fa fa-th"/>
+									<h4>Building block galore!</h4>
+									<p>With over 60+ components and utility classes, Blossom covers as much as you need with minimal coding required to build a beautiful website.</p>
+									<Link to="/elements" className="button outlined primary">Browse components</Link>
+							</div>
+							<div className="xs-12 m-4 col column">
+									<i className="text-blue fa fa-github"/>
+									<h4>It&#39;s free and open source!</h4>
+									<p>With Blossom being open source, anyone is welcome to input their expertise into improving the Blossom framework as a whole.</p>
+									<a href="https://github.com/Aotik/Blossom" className="button outlined">View the repo</a>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -69,8 +63,8 @@ export default React.createClass({
 							<div className="centered">
 								<i className="fa fa-large fa-thumbs-o-up"/>
 								<h3>Massive thanks to Amy Devereux!</h3>
-								<h5>Check out Amy if you haven&#39;t already, she is an extremely talented Visual Designer. All artwork within Blossom UI is designed by her as part of her ongoing project <a href="http://www.365cons.com/"><strong>365cons</strong></a></h5>
-								<a href="http://www.adevereux.com/" className="button blue labeled labeled-right">Check out her work <i className="fa fa-chevron-right"/> </a>
+								<h5>Check out Amy if you haven&#39;t already, she is an extremely talented Visual Designer. All artwork within Blossom was designed by Amy as part of her awesome on-going project <a rel="noopener noreferrer" target="_blank" href="http://www.365cons.com/"><strong>365cons</strong></a></h5>
+								<a rel="noopener noreferrer" target="_blank" href="http://www.adevereux.com/" className="button blue labeled labeled-right">Check out her work <i className="fa fa-chevron-right"/> </a>
 							</div>
 						</div>
 					</div>
