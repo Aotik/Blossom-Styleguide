@@ -1,11 +1,12 @@
 if (typeof(jQuery) == 'undefined') {
 	console.log('App.js did not detect jQuery.')
 } else {
-	$(function() {
+	$(() => {
 		$('#app').on('click', '.view-source', function(e) {
-			$(this).parents('.example').toggleClass('showing')
-			$(this).parents('.example').find('.note').toggleClass('hidden')
-			$(this).parents('.example').find('.module').toggleClass('collapsed')
+			const _parent = $(this).parents('.example')
+			_parent.toggleClass('showing')
+			_parent.find('.note').eq(0).toggleClass('hidden')
+			_parent.find('.module').eq(0).toggleClass('collapsed')
 		})
-	});
+	})
 }

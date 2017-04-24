@@ -1876,7 +1876,7 @@ export const elAccordion = React.createClass({
 				</div>
 				<div className="row show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-						<h6>Basic Accordion</h6>
+						<h6>Basic accordion</h6>
 						<p>A basic accordion without styling</p>
 					</div>
 					<div className="module collapsed">
@@ -1905,14 +1905,14 @@ export const elAccordion = React.createClass({
 						</div>
 						<div className="footer">
 							<Highlight className="html">
-								{'<ul class="list">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<li class="item">Item 4</li>\n</ul>'}
+								{'<div class="accordion">\n\t<div class="title">\n\t\t<i/>\n\t\tHow do I change or reset my password?\n\t</div>\n\t<div class="content">\n\t\tIf you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tI get a black screen when opening the video interface. Help!\n\t</div>\n\t<div class="content">\n\t\tBlack screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tCancelling or getting a refund\n\t</div>\n\t<div class="content">\n\t\tWe want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.\n\t</div>\n</div>'}
 							</Highlight>
 						</div>
 					</div>
 				</div>
 				<div className="row show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-						<h6>Styled Accordion</h6>
+						<h6>Styled accordion</h6>
 						<p>An accordion styled as a module. Just add the <code>.module</code> class to the <code>.accordion</code> element</p>
 					</div>
 					<div className="module collapsed">
@@ -1941,14 +1941,86 @@ export const elAccordion = React.createClass({
 						</div>
 					<div className="footer">
 						<Highlight className="html">
-							{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
+								{'<div class="accordion module">\n\t<div class="title">\n\t\t<i/>\n\t\tHow do I change or reset my password?\n\t</div>\n\t<div class="content">\n\t\tIf you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tI get a black screen when opening the video interface. Help!\n\t</div>\n\t<div class="content">\n\t\tBlack screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tCancelling or getting a refund\n\t</div>\n\t<div class="content">\n\t\tWe want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.\n\t</div>\n</div>'}
 						</Highlight>
 						</div>
 					</div>
 				</div>
 				<div className="row show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-						<h6>Fluid Styled Accordion</h6>
+						<h6>Open accordion</h6>
+						<p>Accordion content can be opened by default by appending <code>.open</code> class on the inner <code>.title</code> and <code>.content</code> elements</p>
+					</div>
+					<div className="module collapsed">
+						<div className="accordion module">
+							<div className="title open">
+								<i/>
+								How do I change or reset my password?
+							</div>
+							<div className="content open">
+								If you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.
+							</div>
+							<div className="title">
+								<i/>
+								I get a black screen when opening the video interface. Help!
+							</div>
+							<div className="content">
+								Black screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.
+							</div>
+							<div className="title open">
+								<i/>
+								Cancelling or getting a refund
+							</div>
+							<div className="content open">
+								We want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="accordion module">\n\t<div class="title open">\n\t\t<i/>\n\t\tHow do I change or reset my password?\n\t</div>\n\t<div class="content open">\n\t\tIf you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tI get a black screen when opening the video interface. Help!\n\t</div>\n\t<div class="content">\n\t\tBlack screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.\n\t</div>\n\t<div class="title open">\n\t\t<i/>\n\t\tCancelling or getting a refund\n\t</div>\n\t<div class="content open">\n\t\tWe want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.\n\t</div>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Single opened accordion</h6>
+						<p>By default all content can be opened and displayed. To prevent this and to only allow one at a time add the <code>.single</code> to the <code>.accordion</code></p>
+					</div>
+					<div className="module collapsed">
+						<div className="accordion module single">
+							<div className="title">
+								<i/>
+								How do I change or reset my password?
+							</div>
+							<div className="content">
+								If you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.
+							</div>
+							<div className="title">
+								<i/>
+								I get a black screen when opening the video interface. Help!
+							</div>
+							<div className="content">
+								Black screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.
+							</div>
+							<div className="title">
+								<i/>
+								Cancelling or getting a refund
+							</div>
+							<div className="content">
+								We want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.
+							</div>
+						</div>
+						<div className="footer">
+							<Highlight className="html">
+								{'<div class="accordion module single">\n\t<div class="title">\n\t\t<i/>\n\t\tHow do I change or reset my password?\n\t</div>\n\t<div class="content">\n\t\tIf you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tI get a black screen when opening the video interface. Help!\n\t</div>\n\t<div class="content">\n\t\tBlack screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tCancelling or getting a refund\n\t</div>\n\t<div class="content">\n\t\tWe want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.\n\t</div>\n</div>'}
+							</Highlight>
+						</div>
+					</div>
+				</div>
+				<div className="row show-lists example">
+					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+						<h6>Fluid styled accordion</h6>
 						<p>A styled accordion is limited in width until made fluid. Simply add the <code>.fluid</code> class to the <code>.accordion</code> element</p>
 					</div>
 					<div className="module collapsed">
@@ -1977,7 +2049,7 @@ export const elAccordion = React.createClass({
 						</div>
 					<div className="footer">
 						<Highlight className="html">
-							{'<ul class="list bulleted">\n\t<li class="item">Item 1</li>\n\t<li class="item">Item 2</li>\n\t<li class="item">Item 3</li>\n\t<ul class="list bulleted">\n\t\t<li class="item">Item 1</li>\n\t\t<li class="item">Item 2</li>\n\t\t<li class="item">Item 3</li>\n\t\t<li class="item">Item 4</li>\n\t</ul>\n\t<li class="item">Item 4</li>\n</ul>'}
+								{'<div class="accordion module fluid">\n\t<div class="title">\n\t\t<i/>\n\t\tHow do I change or reset my password?\n\t</div>\n\t<div class="content">\n\t\tIf you know your current password click <b>Edit Password</b> in the settings and enter your current and new passwords.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tI get a black screen when opening the video interface. Help!\n\t</div>\n\t<div class="content">\n\t\tBlack screens usually occurr in older versions of Windows and can be easily fixed by closing all relative tasks in your task manager then re-opening the program.\n\t</div>\n\t<div class="title">\n\t\t<i/>\n\t\tCancelling or getting a refund\n\t</div>\n\t<div class="content">\n\t\tWe want you to use our service for the best possible experience. If you find that our paid plans are not suited for you then please email us for a downgrade.\n\t</div>\n</div>'}
 						</Highlight>
 						</div>
 					</div>

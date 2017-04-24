@@ -11,9 +11,12 @@ if (typeof(jQuery) == 'undefined') {
 				const _parent = $(this).parents('.menu')
 				_parent.find('.item').removeClass('active')
 				$(this).addClass('active')
-			})
+			}).on('click', '.accordion .title', function(e) {
+				if ($(this).parent().hasClass('single') && !$(this).hasClass('open')) {
+					$('.accordion .title, .accordion .content').removeClass('open')
+					$('.accordion .content').slideUp('fast')
+				}
 
-			$('.accordion').on('click', '.title', function(e) {
 				if ($(this).hasClass('open')) {
 					$(this).removeClass('open').next().slideUp('fast', () => {
 						$(this).next().removeClass('open')
