@@ -138,12 +138,16 @@ section.about, section.size
 		animation puzzlebounce 4.2s infinite linear
 		img
 			height 44em
+			user-select none
+			pointer-events none
 		&-left
 			absolute left -32em
 			animation puzzlebounce 3s infinite linear
 			img
 				height 53em
 				margin-top 52em
+				user-select none
+				pointer-events none
 .grid
 	cf()
 	padding 4em 0
@@ -217,6 +221,7 @@ section.about, section.size
 
 .installing
 	margin-top 4em
+	padding-bottom 2rem
 	.explanation
 		margin-top .3em
 	.module
@@ -237,8 +242,6 @@ section.about, section.size
 		&:hover
 			color color-primary
 			opacity 1
-	& + small
-		margin-top 4rem
 	small
 		display block
 		color text-grey
@@ -278,6 +281,9 @@ section.about, section.size
 		> *
 			margin-top 6px
 			margin-bottom 6px
+		& ~ small
+			margin-top 4rem
+			display block
 	&.menus
 		.note
 			margin 2em 0 0 0
@@ -581,7 +587,6 @@ footer.footer
 				font-size .86rem
 
 .wrap
-	padding-bottom 2rem
 	& + footer.footer
 		position static
 		margin 0

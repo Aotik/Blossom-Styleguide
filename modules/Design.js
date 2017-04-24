@@ -298,6 +298,26 @@ export const deAnimations = React.createClass({
 				<Title title="Animations & Effects">A collection of animations and effects that can be used on any element</Title>
 				<div className="row example animations">
 					<div className="explanation">
+						<h6>Landing animations</h6>
+						<p>Landing animations play once when a user first hits a page <a id="replay_landing" className="float-right">Replay landing animations</a></p>
+					</div>
+					<div className="group landing">
+						<div className="animation">
+							<div className="square landing-fadein" data-landing="fadein"></div>
+							<code>.landing-fadein</code>
+						</div>
+						<div className="animation">
+							<div className="square landing-ascend" data-landing="ascend"></div>
+							<code>.landing-ascend</code>
+						</div>
+						<div className="animation">
+							<div className="square landing-descend" data-landing="descend"></div>
+							<code>.landing-descend</code>
+						</div>
+					</div>
+				</div>
+				<div className="row example animations">
+					<div className="explanation">
 						<h6>Animation types</h6>
 						<p>Add an infinite loop of animations to any element of your choice</p>
 					</div>
@@ -583,9 +603,7 @@ export const deGrid = React.createClass({
 								<div className="block-grey"></div>
 							</div>
 						</div>
-						<div className="explanation">
-							<small>Above example shows how two half columns can be reversed using pull and push columns</small>
-						</div>
+						<small>Above example shows how two half columns can be reversed using pull and push columns</small>
 						<div className="footer">
 							<Highlight className="html">
 								{'<div class="row">\n\t<div class="col push-xs-6 xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n\t<div class="col pull-xs-12 xs-6">\n\t\t<div class="block-grey"></div>\n\t</div>\n</div>'}

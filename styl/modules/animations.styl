@@ -27,16 +27,28 @@
 		transition-timing-function cubic-bezier(0.04, 0.89, 0.76, 1.74)
 
 .animation-spin
-	animation spin .9s infinite linear
+	animation spin duration-xxxl infinite linear
 
 .animation-rotate
-	animation spin 3s 1s infinite cubic-bezier(0.04, 0.95, 0.17, 1)
+	animation spin 3s duration-xxl infinite cubic-bezier(0.04, 0.95, 0.17, 1)
 
 .animation-bounce
-	animation bounce 1.4s infinite cubic-bezier(0.04, 0.95, 0.17, 1)
+	animation bounce duration-xxxl infinite cubic-bezier(0.04, 0.95, 0.17, 1)
 
 .animation-spring
-	animation spring .3s cubic-bezier(0.04, 0.95, 0.17, 1)
+	animation spring duration-l cubic-bezier(0.04, 0.95, 0.17, 1)
+
+.landing-fadein
+	animation fadein duration-xl linear forwards
+	opacity 0
+
+.landing-ascend
+	animation ascend duration-xl linear forwards
+	opacity 0
+
+.landing-descend
+	animation descend duration-xl linear forwards
+	opacity 0
 
 @keyframes spin
 	0%
@@ -68,6 +80,34 @@
 		transform scale(0.9)
 	100%
 		transform scale(1)
+
+@keyframes fadein
+	0%
+		opacity 0
+	100%
+		opacity 1
+
+@keyframes ascend
+	0%
+		transform translateY(30px)
+		opacity 0
+	60%
+		transform translateY(20px)
+		opacity 0
+	100%
+		opacity 1
+		transform translateY(0)
+
+@keyframes descend
+	0%
+		transform translateY(-30px)
+		opacity 0
+	60%
+		transform translateY(-20px)
+		opacity 0
+	100%
+		opacity 1
+		transform translateY(0)
 
 @keyframes load2
 	0%

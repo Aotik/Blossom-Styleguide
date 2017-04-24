@@ -22,7 +22,7 @@ export default React.createClass({
 					<div className="contain">
 						<div className="row">
 							<div className="xs-12 m-8 col">
-								<h3>The first piece of your puzzle</h3>
+								<h3>The first piece of the puzzle</h3>
 								<p>Weighing in at just under 70kb, Blossom provides the basis needed to build your new project with a non-invasive, consistent and responsive user interface.</p>
 								<br/>
 								<p>With its easy-to-use HTML, natural language CSS and efficient Javascript, beginner to advanced users are able to create all kinds of responsive awesomeness without having to re-code elements over and over again.</p>
@@ -64,7 +64,9 @@ export default React.createClass({
 								<i className="fa fa-large fa-thumbs-o-up"/>
 								<h3>Massive thanks to Amy Devereux!</h3>
 								<h5>Check out Amy if you haven&#39;t already, she is an extremely talented Visual Designer. All artwork within Blossom was designed by Amy as part of her awesome on-going project <a rel="noopener noreferrer" target="_blank" href="http://www.365cons.com/"><strong>365cons</strong></a></h5>
-								<a rel="noopener noreferrer" target="_blank" href="http://www.adevereux.com/" className="button blue labeled labeled-right">Check out her work <i className="fa fa-chevron-right"/> </a>
+								<div className="button-group">
+									<a rel="noopener noreferrer" target="_blank" href="http://www.adevereux.com/" className="button blue labeled labeled-right">Check out her work <i className="fa fa-chevron-right"/> </a>
+								</div>
 							</div>
 						</div>
 					</div>
