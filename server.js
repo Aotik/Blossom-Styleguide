@@ -1,13 +1,13 @@
-var express = require('express')
-var path = require('path')
-var compression = require('compression')
+const express = require('express')
+const path = require('path')
+const compression = require('compression')
 
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { match, RouterContext } from 'react-router'
 import routes from './modules/routes'
 
-var app = express()
+const app = express()
 
 app.use(compression())
 
@@ -34,13 +34,15 @@ function renderPage(appHtml) {
 	<html>
 		<head>
 			<meta charset=utf-8/>
-			<title>Blossom UI</title>
+			<title>Blossom</title>
+			<meta name="description" content="A free open-source design framework for the modern web">
+			<meta name="keywords" content="open source, stylus, design framework, framework">
+			<meta name="author" content="Stefan Mansson">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="shortcut icon" type="image/png" href="/examples/favicon.png"/>
-			<link rel="stylesheet" type="text/css" href="/blossom/css/blossom.min.css" />
 			<link rel="stylesheet" type="text/css" href="/css/highlight.css" />
-			<link rel="stylesheet" type="text/css" href="/css/page.css" />
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-			<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"/>
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+			<link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet"/>
 		</head>
 		<body>
 			<div id=app></div>
@@ -48,13 +50,13 @@ function renderPage(appHtml) {
 			<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 			<script src="/bundle.js"></script>
 			<script src="/js/app.js"></script>
-			<script src="/blossom/js/blossom.min.js"></script>
+			<script src="/blossom/js/blossom.js"></script>
 		</body>
 	</html>
 	`
 }
 
-var PORT = process.env.PORT || 1337
+const PORT = process.env.PORT || 1337
 app.listen(PORT, function() {
 	console.log('Production Blossom server running at localhost:' + PORT)
 })
