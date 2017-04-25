@@ -7,12 +7,12 @@ export default React.createClass({
 			<div>
 				<section className="hero clearfix">
 					<div className="contain">
-						<span className="label green">v1.1.7</span>
+						<span className="label green">v1.2.2</span>
 						<h1>Blossom UI</h1>
 						<h3>A simply beautiful, themeable design framework built from the ground up in Stylus, with performance in mind.</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<Link to="/start" className="button medium outlined">Get started</Link>
-							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="https://github.com/Aotik/Blossom-Styleguide/raw/master/blossom.zip"><i className="fa fa-arrow-down"/> Download Blossom bundle</a>
+							<a rel="noopener noreferrer" target="_blank" className="button medium primary labeled" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.2.zip"><i className="fa fa-arrow-down"/> Download Blossom bundle</a>
 						</div>
 					</div>
 				</section>
