@@ -55,7 +55,7 @@ function renderPage(appHtml) {
 	`
 }
 
-const PORT = process.env.PORT || 1337
+const PORT = process.env.PORT || 80
 app.listen(PORT, function() {
 	console.log('Production Blossom server running at localhost:' + PORT)
 })
