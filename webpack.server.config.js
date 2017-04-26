@@ -1,5 +1,6 @@
-var fs = require('fs')
-var path = require('path')
+const fs = require('fs')
+const webpack = require('webpack')
+const path = require('path')
 const nib = require('nib')
 const jeet = require('jeet')
 const rupture = require('rupture')
@@ -7,6 +8,14 @@ const rupture = require('rupture')
 module.exports = {
 
 	entry: path.resolve(__dirname, 'server.js'),
+
+	plugins: [
+		new webpack.DefinePlugin({
+			"process.env": {
+				 NODE_ENV: JSON.stringify("production")
+			 }
+		})
+	],
 
 	output: {
 		filename: 'server.bundle.js'

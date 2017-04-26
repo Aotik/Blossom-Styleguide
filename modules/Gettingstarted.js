@@ -11,7 +11,7 @@ export default React.createClass({
 						<h3>A guide into how to install and use Blossom</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">View the Blossom UI repo</a>
-							<a rel="noopener noreferrer" target="_blank" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.2.zip" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download ZIP</a>
+							<a rel="noopener noreferrer" target="_blank" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.61.zip" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download ZIP</a>
 						</div>
 					</div>
 				</section>
@@ -68,7 +68,7 @@ export default React.createClass({
 							</div>
 
 							<code className="text-teal">
-								&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=<span className="text-primary">&quot;/path/to/folder/blossom.min.css&quot;</span>/&gt;
+								&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=<span className="text-primary">&quot;/css/blossom.min.css&quot;</span>/&gt;
 							</code>
 
 							<br/>
@@ -101,7 +101,7 @@ export default React.createClass({
 								<p>Update to the latest version using NPM, note that this also depends on how your dependancies are structured.</p>
 							</div>
 							<code className="text-teal">
-								npm update
+								npm install blossom-ui@latest
 							</code>
 						</div>
 					</div>
