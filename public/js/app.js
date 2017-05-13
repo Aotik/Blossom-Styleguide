@@ -2,6 +2,10 @@ if (typeof(jQuery) == 'undefined') {
 	console.log('App.js did not detect jQuery.')
 } else {
 	$(() => {
+		setTimeout(() => {
+			$('body').find('.dropdown').dropdown()
+		}, 400)
+
 		$('#app').on('click', '.view-source', function(e) {
 			const _parent = $(this).parents('.example')
 			_parent.toggleClass('showing')

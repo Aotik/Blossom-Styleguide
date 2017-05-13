@@ -5,11 +5,10 @@ const jeet = require('jeet')
 const rupture = require('rupture')
 
 module.exports = {
+	devtool: 'hidden-source-map',
 
 	entry: [
-		'webpack-dev-server/client?http://0.0.0.0:4000',
-		'webpack/hot/only-dev-server',
-		'./src/index.jsx',
+		'./src/index.jsx'
 	],
 
 	output: {
@@ -24,6 +23,12 @@ module.exports = {
 			"process.env": {
 				BROWSER: JSON.stringify(true)
 			}
+		}),
+		new webpack.optimize.UglifyJsPlugin({
+			minimize: true,
+			compress: {
+				warnings: false
+			}
 		})
 	],
 
@@ -34,7 +39,7 @@ module.exports = {
 	module: {
 		loaders: [{
 			test: /\.jsx$/,
-			loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015'],
+			loaders: ['babel?presets[]=react,presets[]=es2015'],
 			include: path.join(__dirname, 'src'),
 			exclude: /node_modules/,
 		}, {
@@ -43,7 +48,7 @@ module.exports = {
 		}, {
 			test: /\.styl$/,
 			loader: 'style-loader!css-loader!stylus-loader',
-			exclude: /node_modules/
+			exculde: /node_modules/
 		}, {
 			test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
 			loader: 'url?limit=10000&mimetype=application/font-woff',
@@ -61,10 +66,5 @@ module.exports = {
 
 	stylus: {
 		use: [nib(), jeet(), rupture()]
-	},
-
-	devServer: {
-		contentBase: 'public/',
-		historyApiFallback: true
-	},
+	}
 };
