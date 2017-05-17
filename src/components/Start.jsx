@@ -25,7 +25,7 @@ class Start extends BaseComponent {
 						<h3>A guide into how to install and use Blossom</h3>
 						<div className="button-group breakpoint-xs-stackable">
 							<a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">Open-source repository</a>
-							<a rel="noopener noreferrer" target="_blank" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.61.zip" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download Blossom.zip</a>
+							<a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.2.75/blossom-1.2.75.zip" className="button medium primary labeled"><i className="fa fa-arrow-down"/> Download Blossom.zip</a>
 						</div>
 					</div>
 				</div>
@@ -86,7 +86,7 @@ class Start extends BaseComponent {
 							<div className="stage">
 								<div className="content">
 									<div className="header">Installing Blossom via static .zip</div>
-										If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.61.zip">zip</a> and just include it anywhere you need it.
+										If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.2.75/blossom-1.2.75.zip">zip</a> and just include it anywhere you need it.
 										Once you&#39;ve downloaded Blossom.zip, move it to your working project directory and include the below 3 files changing the path where applicable.
 										<pre>
 											<code className="html hljs">

@@ -17,7 +17,7 @@ import Controller from './components/Controller'
 import PageNotFound from './components/PageNotFound'
 import ReactGA from 'react-ga'
 
-// ReactGA.initialize('UA-96109390-1')
+ReactGA.initialize('UA-99349059-1')
 
 function initUpdate() {
 	ReactGA.set({ page: window.location.pathname })

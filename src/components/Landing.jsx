@@ -21,7 +21,7 @@ class Landing extends BaseComponent {
 							<h3>A simply beautiful, themeable design framework built from the ground up in Stylus with performance in mind.</h3>
 							<div className="button-group breakpoint-xs-stackable">
 								<Link to="/introduction" className="button large outlined">Getting started</Link>
-								<a rel="noopener noreferrer" target="_blank" className="button large primary labeled" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.75.zip"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
+								<a rel="noopener noreferrer" target="_blank" className="button large primary labeled" href="https://cdn.darken.io/blossom/1.2.75/blossom-1.2.75.zip"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
 							</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@ $ npm install blossom-ui --save`}
 							</code>
 							<span className="muted">Let it do its thing for a few seconds...</span>
 							<span className="muted">Aaaand that's it.</span>
-							<span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="http://d1fb9glqs1l0dr.cloudfront.net/blossom-1.2.75.zip">ZIP file</a>.</span>
+							<span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.2.75/blossom-1.2.75.zip">ZIP file</a>.</span>
 							</pre>
 						</div>
 					</div>
