@@ -11,7 +11,7 @@ class UtilitiesNav extends React.Component {
 
 	render() {
 		return (
-			<aside className="sidebar clearfix breakpoint-m-hide">
+			<aside className="sidebar clearfix">
 				<div className="fixed top">
 					<div className="inner">
 						<h6>Resources</h6>
@@ -21,6 +21,7 @@ class UtilitiesNav extends React.Component {
 							<LinkElement to="/utility/helpers">Helper classes</LinkElement>
 							<LinkElement to="/utility/layout">Layout</LinkElement>
 						</ul>
+						<a className="resources breakpoint-m-show"><i className="fa fa-caret-down"/></a>
 					</div>
 				</div>
 			</aside>

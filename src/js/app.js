@@ -1,6 +1,18 @@
 if (typeof(jQuery) == 'undefined') {
 	console.log('App.js did not detect jQuery.')
 } else {
+	let isOpenResources = false
+
+	function openResources() {
+		$("aside ul li").show()
+		isOpenResources = true
+	}
+
+	function closeResources() {
+		$("aside li").hide()
+		isOpenResources = false
+	}
+
 	$(function() {
 		$('#app').on('click', '#replay_landing', function(e) {
 			$('.landing .square').each(function(i, obj) {
@@ -25,6 +37,12 @@ if (typeof(jQuery) == 'undefined') {
 			$('header .links').slideUp(100, function() {
 				$('header').removeClass('open')
 			})
+		}).on('click', 'a.resources', function(e) {
+			e.preventDefault()
+			if (isOpenResources) return closeResources()
+			openResources()
+		}).on('click', 'aside ul a', function(e) {
+			if (isOpenResources) return closeResources()
 		})
 	})
 }

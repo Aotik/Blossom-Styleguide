@@ -60,7 +60,7 @@ class Customization extends BaseComponent {
 							<div className="stage">
 								<div className="content">
 									<div className="header">Compiling new changes</div>
-										By now you should have Gulp installed and are wondering, how do I build my new changes? When installing Blossom, <code>gulpfile.js</code> is included within the directory which manages these tasks. There are two tasks that can be ran from this.
+										By now you should have Gulp installed and are wondering, how do I build my new changes? When installing Blossom, <code>gulpfile.js</code> is included within the directory which manages these tasks. There are two tasks that can be ran.
 										<br/>
 										<b>Make sure you change any folder variables in the gulpfile if you moved the blossom-ui folder.</b>
 										<br/>

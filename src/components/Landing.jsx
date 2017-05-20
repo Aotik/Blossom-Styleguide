@@ -16,7 +16,7 @@ class Landing extends BaseComponent {
 				<section className="hero clearfix dent-container light">
 					<div className="dent-cover">
 						<div className="contain">
-							<span className="label green">v1.2.75</span>
+							<span className="label green">v1.3.0</span>
 							<h1><img src="/images/logo.svg"/></h1>
 							<h3>A simply beautiful, themeable design framework built from the ground up in Stylus with performance in mind.</h3>
 							<div className="button-group breakpoint-xs-stackable">
@@ -34,8 +34,8 @@ class Landing extends BaseComponent {
 						<div className="contain">
 							<h2>Few things about Blossom UI</h2>
 							<ul className="bulleted list">
-								<li className="item">Just under 70kb compressed; if a framework was a feather, this would be it</li>
-								<li className="item">Over 60+ elements and counting</li>
+								<li className="item">Just under 80kb compressed; if a framework was a feather, this would be it</li>
+								<li className="item">Over 70+ elements, utilities, design features and counting</li>
 								<li className="item">Fully themable, built on Stylus and powered by popular Stylus packages</li>
 								<li className="item">Has it's own Javascript framework to move stuff around...</li>
 								<li className="item">Extensive 12 (can be changed!) column grid system</li>

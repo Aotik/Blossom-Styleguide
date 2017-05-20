@@ -198,32 +198,50 @@ strong {
     display: none;
   }
 }
-@media only screen {
+.breakpoint-xs-show {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
   .breakpoint-xs-show {
     display: block;
   }
 }
-@media only screen and (min-width: 481px) {
+.breakpoint-s-show {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
   .breakpoint-s-show {
     display: block;
   }
 }
-@media only screen and (min-width: 769px) {
+.breakpoint-m-show {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
   .breakpoint-m-show {
     display: block;
   }
 }
-@media only screen and (min-width: 1025px) {
+.breakpoint-l-show {
+  display: none;
+}
+@media only screen and (max-width: 1224px) {
   .breakpoint-l-show {
     display: block;
   }
 }
-@media only screen and (min-width: 1225px) {
+.breakpoint-xl-show {
+  display: none;
+}
+@media only screen and (max-width: 1824px) {
   .breakpoint-xl-show {
     display: block;
   }
 }
-@media only screen and (min-width: 1825px) {
+.breakpoint-xxl-show {
+  display: none;
+}
+@media only screen {
   .breakpoint-xxl-show {
     display: block;
   }
@@ -2111,6 +2129,7 @@ strong {
   border-top: 1px solid #e2e7ef;
   font-weight: 600;
   color: #4c5767;
+  line-height: 1.4rem;
 }
 .accordion.module > .title:first-child {
   border: none;

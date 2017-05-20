@@ -70,14 +70,14 @@
 		h1
 			font-size 2.4rem
 			img
-				height 50px
+				height 60px
 		h3
 			max-width 100%
 			font-size 1.5rem
 		.button-group
 			margin-top 0
 			.button
-				margin 1.4rem 0 0 0 !important
+				margin 1rem 0 0 0 !important
 
 .button-group
 	margin-top 2rem
@@ -285,6 +285,9 @@ section.size
 	margin .5rem 0
 	color #fff
 	border-radius 0
+	+below('m')
+		font-size .86em
+		padding 1rem
 
 .block-yellow
 	background-color lighten(color-yellow, 60%)
@@ -412,6 +415,8 @@ section.size
 		display block
 		margin-top 6.6rem
 		color color-light-grey
+	img
+		max-width 100%
 .example
 	padding 1rem 0
 	cf()
@@ -516,9 +521,12 @@ section.size
 				padding .7em
 	&.stages
 		margin-top 20px
-	&.images .module > [class^='image-']
-		& + span
-			margin-left 9px
+	&.images
+		.module > [class^='image-']
+			& + span
+				margin-left 9px
+		img
+			max-width 100%
 	&.labels
 		.label
 			margin .2rem
@@ -541,6 +549,8 @@ section.size
 			display block
 			color color-primary
 			opacity .5
+	+below('m')
+		overflow hidden
 .schemes
 	margin .5rem 0
 	&.dark
@@ -725,7 +735,6 @@ aside.sidebar
 			background-color #fff
 			padding 1.2rem 1.4rem
 			border-radius border-radius-normal
-
 	h6
 		margin 0 0 .5em 0
 		font-weight 600
@@ -740,6 +749,39 @@ aside.sidebar
 		&.active
 			a
 				color color-primary
+	+below('m')
+		position static
+		float none
+		.fixed
+			position relative
+			width 100%
+			margin 2rem 0 0 0
+			max-width 100%
+			.inner
+				margin 0
+				padding 0 0 .4rem 0
+				background-color transparent
+				width 100%
+				border-bottom 2px solid color-primary
+				border-radius 0
+				h6
+					margin 0
+					display none
+			a.resources
+				display inline-block
+				vertical-align top
+				padding .4rem
+				float right
+				font-size 1rem
+			ul
+				display inline-block
+				vertical-align top
+				li
+					display none
+					font-size 1rem
+					&.active
+						display block !important
+						font-weight 500
 
 .sidebar
 	& + .page
@@ -784,6 +826,12 @@ aside.sidebar
 			color color-light-grey
 			& + p
 				margin-top .5rem
+	+below('m')
+		padding 0
+		.date
+			relative top 2.6rem
+		.inner:not(.more)
+			padding 4rem 0 1.6rem 0
 
 footer.footer
 	span(1/1)

@@ -90,6 +90,31 @@ class Grid extends React.Component {
 				</div>
 				<div className="example">
 					<div className="explanation">
+						<h6>Responsive equal columns</h6>
+						<p>Responsive equal columns take up the equal amount of space when above the designated breakpoint</p>
+						<p>For example, <code>.m-equal</code> will make each column equal when the screen size is above the <b>Medium</b> breakpoint</p>
+					</div>
+					<div className="module collapsed">
+						<div className="row">
+							<div className="col xs-equal m-4">
+								<div className="block-grey">.col.xs-equal.m-4</div>
+							</div>
+							<div className="col xs-equal m-8">
+								<div className="block-grey">.col.xs-equal.m-8</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col m-equal xs-8">
+								<div className="block-grey">.col.m-equal.xs-8</div>
+							</div>
+							<div className="col m-equal xs-4">
+								<div className="block-grey">.col.m-equal.xs-4</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="example">
+					<div className="explanation">
 						<h6>Mixing responsive columns</h6>
 						<p>Responsive column classes can be used together to change the structure of the layout at several breakpoints</p>
 					</div>

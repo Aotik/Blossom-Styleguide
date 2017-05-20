@@ -54,7 +54,7 @@ class Changelog extends BaseComponent {
 							</div>
 						</div>
 						<div className="log">
-							<div className="inner">
+							<div className="inner more">
 								<a ref="noreferrer noopener" target="_blank" href="https://github.com/aotik/Blossom-Styleguide/commits/master">See all changes in the repository</a>
 							</div>
 						</div>

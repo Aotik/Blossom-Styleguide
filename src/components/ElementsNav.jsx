@@ -11,7 +11,7 @@ class ElementsNav extends React.Component {
 
 	render() {
 		return (
-			<aside className="sidebar clearfix breakpoint-m-hide">
+			<aside className="sidebar clearfix">
 				<div className="fixed top">
 					<div className="inner">
 						<h6>Resources</h6>
@@ -33,6 +33,7 @@ class ElementsNav extends React.Component {
 							<LinkElement to="/elements/tables">Tables</LinkElement>
 							<LinkElement to="/elements/stages">Stages</LinkElement>
 						</ul>
+						<a className="resources breakpoint-m-show"><i className="fa fa-caret-down"/></a>
 					</div>
 				</div>
 			</aside>
