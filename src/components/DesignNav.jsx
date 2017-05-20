@@ -18,8 +18,8 @@ class DesignNav extends React.Component {
 						<ul>
 							<LinkElement to="/design/animations">Animations & Effects</LinkElement>
 							<LinkElement to="/design/breakpoints">Breakpoints</LinkElement>
-							<LinkElement to="/design/scheme">Color Scheme</LinkElement>
-							<LinkElement to="/design/grid">Grid System</LinkElement>
+							<LinkElement to="/design/scheme">Color scheme</LinkElement>
+							<LinkElement to="/design/grid">Grid system</LinkElement>
 							<LinkElement to="/design/typography">Typography</LinkElement>
 						</ul>
 					</div>

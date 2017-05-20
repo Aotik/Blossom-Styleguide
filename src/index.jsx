@@ -31,7 +31,7 @@ ReactDOM.render(
 	<Route path="/Introduction" component={Controller} start={true} />
 	<Route path="/customization" component={Controller} customization={true} />
 	<Route path="elements" component={Controller} resource={true}>
-		<IndexRedirect to="buttons"/>
+		<IndexRedirect to="accordion"/>
 		<Route path="buttons" component={Controller}/>
 		<Route path="accordion" component={Controller}/>
 		<Route path="messages" component={Controller}/>
@@ -50,7 +50,7 @@ ReactDOM.render(
 		<Route path="dropdown" component={Controller}/>
 	</Route>
 	<Route path="design" component={Controller} resource={true}>
-		<IndexRedirect to="scheme" />
+		<IndexRedirect to="animations" />
 		<Route path="scheme" component={Controller}/>
 		<Route path="typography" component={Controller}/>
 		<Route path="animations" component={Controller}/>
