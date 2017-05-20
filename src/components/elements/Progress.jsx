@@ -63,17 +63,17 @@ class Progress extends React.Component {
 						<h6>Active progress bar</h6>
 						<p>Progress bars with the <code>.active</code> class animate to their defined percentage state</p>
 					</div>
-					<div className="message info">
-						<p>Note that to use the <strong>.active</strong> class, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
-					</div>
 					<div className="module collapsed">
 						<div className="progress active">
-							<div className="bar green show" data-percent="76">
+							<div className="bar green" data-percent="76">
 								<div className="status"></div>
 							</div>
 						</div>
 						<div className="footer">
 						</div>
+					</div>
+					<div className="message info">
+						<p>Note that to use the <strong>.active</strong> class, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
 					</div>
 				</div>
 				<div className="example types">
@@ -124,7 +124,7 @@ class Progress extends React.Component {
 				<div className="example types">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Progress bar colors</h6>
-						<p>As you already probably realised, progress bars can be any color in the palette</p>
+						<p>As you have likely noticed already, progress bars can be any color in the <Link to="/design/colors">palette</Link></p>
 					</div>
 					<div className="module collapsed">
 						<div className="progress small">

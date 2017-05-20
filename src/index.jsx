@@ -51,7 +51,7 @@ ReactDOM.render(
 	</Route>
 	<Route path="design" component={Controller} resource={true}>
 		<IndexRedirect to="animations" />
-		<Route path="scheme" component={Controller}/>
+		<Route path="colors" component={Controller}/>
 		<Route path="typography" component={Controller}/>
 		<Route path="animations" component={Controller}/>
 		<Route path="grid" component={Controller}/>

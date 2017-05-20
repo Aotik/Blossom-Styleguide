@@ -12,7 +12,7 @@ import UtilitiesNav from './UtilitiesNav'
 import Animations from './design/Animations'
 import Breakpoints from './design/Breakpoints'
 import Grid from './design/Grid'
-import Scheme from './design/Scheme'
+import Colors from './design/Colors'
 import Typography from './design/Typography'
 
 //ELEMENTS PAGES
@@ -50,7 +50,7 @@ class Switch extends React.Component {
 
 	componentDidMount()  {
 
-		$( document ).ready(function() {	
+		$( document ).ready(function() {
 			$('.module').each(function(i, block) {
 				BuildFooter(block)
 			})
@@ -83,6 +83,7 @@ class Switch extends React.Component {
 			accordion: Accordion,
 			buttons: Buttons,
 			cards: Cards,
+			colors : Colors,
 			comments : Comments,
 			dividers : Dividers,
 			dropdown : Dropdown,
@@ -99,7 +100,6 @@ class Switch extends React.Component {
 			animations : Animations,
 			breakpoints : Breakpoints,
 			grid : Grid,
-			scheme : Scheme,
 			typography : Typography,
 			alignment : Alignment,
 			js : Js,

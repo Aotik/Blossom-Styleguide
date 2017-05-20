@@ -443,8 +443,6 @@ section.size
 			margin-top 14px
 	.message
 		margin 0
-		& + .module.collapsed
-			margin-top 1rem
 	&.sizes
 		.button + .button
 			margin-left 1em
@@ -544,33 +542,26 @@ section.size
 			color color-primary
 			opacity .5
 .schemes
-	display inline-flex
-	flex-direction row
-	align-items flex-start
-	width 100%
-	cf()
+	margin .5rem 0
 	&.dark
 		.scheme
 			color text-grey
+		span
+			color text-grey !important
+			color rgba(text-grey,.7) !important
 	.scheme
-		justify-content flex-start
-		padding 1em
-		display flex
-		flex 1 0 auto
-		content ''
+		padding 1em 1.2rem
 		color #fff
-		flex-wrap wrap
-		vertical-align center
 		position relative
-		align-items stretch
-		width 180px
 		p
 			font-weight 500
 			display block
-			span(1/1)
+			line-height 1.3rem
 		span
-			margin 4px 0 0 0
-			text-transform uppercase
+			margin .4rem 0 0 0
+			color #fff
+			color rgba(255,255,255,.7)
+			line-height 1.3rem
 		&:first-child
 			border-radius border-radius-normal 0 0 border-radius-normal
 		&:last-child
@@ -590,6 +581,8 @@ section.size
 		background-color transparent
 		.footer:not(.content)
 			display none
+		& + .message
+			margin-top 1rem
 	.footer
 		span(1/1)
 		pre

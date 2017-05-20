@@ -74,11 +74,10 @@ class Start extends BaseComponent {
 									<div className="header">Installing Blossom via NPM</div>
 									If you have limited experience or are unfamiliar with Node, you can follow these steps or <a rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/download/">download from nodejs.org</a>.
 
-									With Node you can easily install Blossom UI from the command line and save it to your package.json.
-
+									With access to the Node Package Manager (NPM) you can install Blossom to your working directory via a simple CLI command.
 									<pre>
 										<code className="cmake">
-										{'$ npm install blossom-ui --save'}
+										{'$ npm install blossom-ui'}
 										</code>
 									</pre>
 								</div>
@@ -139,13 +138,13 @@ class Start extends BaseComponent {
 						</div>
 					</div>
 					<div className="contain">
-						<h4>Updating the package</h4>
+						<h4>Updating Blossom</h4>
 						<div className="divider"/>
 						<div className="stages vertical fluid">
 							<div className="stage">
 								<div className="content">
 									<div className="header">Keeping the version up to date</div>
-									Ensure that you are running the latest stable version of Blossom UI by changing the version number of the dependancy in your <code>package.json</code> to <code>"latest"</code>
+									If you have saved Blossom to your <code>package.json</code>, ensure that you are running the latest stable version of Blossom UI by replacing the version number of the dependancy in your <code>package.json</code> to <code>"latest"</code>
 									<pre>
 										<code className="json">
 											{'"dependencies": {\n\t...\n\t"blossom-ui": "latest"\n\t...\n}'}
