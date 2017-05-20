@@ -14,7 +14,7 @@ class Messages extends React.Component {
 		return (
 			<div>
 				<Title title="Messages">A simple way to alert a user with a certain behaviour</Title>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Headerless default message</h6>
 						<p>A default message without a header</p>
@@ -29,7 +29,7 @@ class Messages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Default message</h6>
 						<p>A standard neutral message</p>
@@ -45,7 +45,7 @@ class Messages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Information message</h6>
 						<p>An information message to pass on a helpful tip</p>
@@ -61,7 +61,7 @@ class Messages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Warning message</h6>
 						<p>A warning message to let the user know to take a precaution</p>
@@ -77,7 +77,7 @@ class Messages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Important message</h6>
 						<p>An important message to warn the user of an error relating to an action</p>
@@ -93,7 +93,7 @@ class Messages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example messages">
+				<div className="example messages">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Success message</h6>
 						<p>A success message to promote a pleasant message</p>

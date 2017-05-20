@@ -50,13 +50,13 @@ class Switch extends React.Component {
 
 	componentDidMount()  {
 
-		$( document ).ready(function() {
+		$( document ).ready(function() {	
 			$('.module').each(function(i, block) {
 				BuildFooter(block)
 			})
-			$("body" ).off( "click", '.view-source')
 
-			$('body').on('click', '.view-source', function() {
+			$("body" ).off( "click", '.view-source')
+			.on('click', '.view-source', function() {
 				let nearestModule = $(this).parents('.explanation').next().get(0)
 				if ($(nearestModule).hasClass('collapsed'))
 					$(nearestModule).removeClass('collapsed')
@@ -107,7 +107,6 @@ class Switch extends React.Component {
 			helpers : Helpers,
 		}
 
-		console.log(this.props);
 		return (
 			<div className="bind bg">
 				<div className="contain static">

@@ -14,7 +14,7 @@ class Loaders extends React.Component {
 		return (
 			<div>
 				<Title title="Loaders">Loaders are used to indicate a state of progress</Title>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Simple loader</h6>
 						<p>A <code>.loader.small.dark</code> on a non-dimmed background</p>
@@ -24,7 +24,7 @@ class Loaders extends React.Component {
 						<div className="hold"><div className="loader small dark"></div></div>
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Small inverted loader</h6>
 						<p>An inverted dimmed module containing a centered <code>.loader.small</code></p>
@@ -35,7 +35,7 @@ class Loaders extends React.Component {
 						<img src="/images/wireframe.png" alt="" />
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Standard inverted loader</h6>
 							<p>An inverted dimmed module containing a centered default <code>.loader</code></p>
@@ -46,7 +46,7 @@ class Loaders extends React.Component {
 						<img src="/images/wireframe.png" alt="" />
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Large inverted loader</h6>
 						<p>An inverted dimmed module containing a centered <code>.loader.large</code></p>
@@ -58,7 +58,7 @@ class Loaders extends React.Component {
 						<img src="/images/wireframe.png" alt="" />
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Small loader</h6>
 						<p>A dimmed module containing a centered <code>.loader.small.dark</code></p>
@@ -70,7 +70,7 @@ class Loaders extends React.Component {
 						<img src="/images/wireframe.png" alt="" />
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Standard loader</h6>
 						<p>A dimmed module containing a centered <code>.loader.dark</code></p>
@@ -82,7 +82,7 @@ class Loaders extends React.Component {
 						<img src="/images/wireframe.png" alt="" />
 					</div>
 				</div>
-				<div className="row example loaders">
+				<div className="example loaders">
 					<div className="explanation">
 						<h6>Large loader</h6>
 						<p>A dimmed module containing a centered <code>.loader.large.dark</code></p>

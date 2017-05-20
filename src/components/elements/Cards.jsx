@@ -14,7 +14,7 @@ class Cards extends React.Component {
 		return (
 			<div>
 				<Title title="Cards">A button indicates a possible user action</Title>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Full cards</h6>
 						<p>Full cards contain an image, title, subtitle, description and a footer</p>
@@ -76,7 +76,7 @@ class Cards extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Action cards</h6>
 						<p>A card can be used to display information as well as list a call to action</p>
@@ -104,7 +104,7 @@ class Cards extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Basic cards</h6>
 						<p>Basic cards are used to display simple information</p>
@@ -129,7 +129,7 @@ class Cards extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Fluid cards</h6>
 						<p>Cards can also take up the width of the container by adding the <code>fluid</code> class</p>

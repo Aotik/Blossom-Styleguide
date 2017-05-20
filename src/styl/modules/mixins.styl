@@ -32,14 +32,16 @@ grid(n)
 	width percentage(n/grid-length)
 
 flexgridpadding()
-	padding 0 15px
+	padding 0 grid-padding
+
+gridrowmargin()
+	margin auto -(grid-padding)
 
 flexgrid(n)
 	flex 0 0 percentage(n/grid-length)
 	max-width percentage(n/grid-length)
-	padding 0 15px
 
-push(n)
+gridpush(n)
 	margin-left percentage(n/grid-length)
 
 pull(n)

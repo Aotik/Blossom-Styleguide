@@ -14,7 +14,7 @@ class Tables extends React.Component {
 		return (
 			<div>
 				<Title title="Tables">Orgnanise data into something more readable</Title>
-				<div className="row example tables">
+				<div className="example tables">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Striped tables</h6>
 						<p>Stripled tables with a single header using the <code>colspan</code> property</p>
@@ -58,7 +58,7 @@ class Tables extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example tables">
+				<div className="example tables">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Celled tables</h6>
 						<p>Fully celled tables, horizontally and vertically</p>
@@ -107,7 +107,7 @@ class Tables extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example tables">
+				<div className="example tables">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Crowded tables</h6>
 						<p>Tables will automatically adjust their cell sizes to accompany their content</p>
@@ -156,7 +156,7 @@ class Tables extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example tables">
+				<div className="example tables">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Simple tables</h6>
 						<p>Simple tables have no background color and only horizontal borders</p>
@@ -205,7 +205,7 @@ class Tables extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example tables">
+				<div className="example tables">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Basic tables</h6>
 						<p>Basic tables convey simple information and is the most basic variation of a table</p>

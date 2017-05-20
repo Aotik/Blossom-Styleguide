@@ -14,7 +14,7 @@ class Comments extends React.Component {
 		return (
 			<div>
 				<Title title="Comments">Comments display user feedback on a website</Title>
-				<div className="row example comments">
+				<div className="example comments">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Full feature comments</h6>
 						<p>Comments with headers, content and metadata are classified as full feature comments</p>
@@ -41,7 +41,7 @@ class Comments extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example comments">
+				<div className="example comments">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Minimal comments</h6>
 						<p>Minimal comments do not contain actions or metadata</p>
@@ -62,7 +62,7 @@ class Comments extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example comments">
+				<div className="example comments">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Comment replies</h6>
 						<p>Replies to comments are indented inwards</p>
@@ -105,7 +105,7 @@ class Comments extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example forum">
+				<div className="example forum">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Embedded reply</h6>
 						<p>Replies to a specific comment are indented within a comment</p>
@@ -148,7 +148,7 @@ class Comments extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example comments">
+				<div className="example comments">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Full width reply</h6>
 						<p>Replies to a comment thread take up the width of a container</p>

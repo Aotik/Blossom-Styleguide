@@ -14,7 +14,7 @@ class Input extends React.Component {
 		return (
 			<div>
 				<Title title="Input">A field to get a response from a user</Title>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Transparent inputs</h6>
 						<p>An input with no background or border</p>
@@ -27,7 +27,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Standard inputs</h6>
 						<p>A standard input with a border</p>
@@ -40,7 +40,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Disabled inputs</h6>
 						<p>A disabled input using the <code>.disabled</code> class</p>
@@ -53,7 +53,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Disabled inputs</h6>
 						<p>A disabled input using the <code>disabled</code> property</p>
@@ -66,7 +66,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with a button</h6>
 						<p>A standard input with an ajoined default button</p>
@@ -80,7 +80,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with an outlined button</h6>
 						<p>A standard input with an ajoined default outlined button</p>
@@ -94,7 +94,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with an icon button</h6>
 						<p>A standard input with an ajoined icon button</p>
@@ -108,7 +108,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with an left aligned button</h6>
 						<p>A standard input with an ajoined left aligned button</p>
@@ -122,7 +122,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with a left aligned labeled button</h6>
 						<p>A standard input with an ajoined left aligned, colored labeled button</p>
@@ -139,7 +139,7 @@ class Input extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example inputs">
+				<div className="example inputs">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Input with a labeled button</h6>
 						<p>A standard input with an ajoined colored labeled button</p>

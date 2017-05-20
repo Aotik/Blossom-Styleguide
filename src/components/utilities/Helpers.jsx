@@ -14,7 +14,7 @@ class Visibility extends React.Component {
 		return (
 			<div>
 				<Title title="Helper classes">Helpers are defined to perform common re-usable functions</Title>
-				<div className="row example alignment">
+				<div className="example alignment">
 					<div className="explanation">
 						<h6>Alignment classes</h6>
 						<p>Use left, center & right alignment classes to align your text</p>
@@ -36,7 +36,7 @@ class Visibility extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example transformtext">
+				<div className="example transformtext">
 					<div className="explanation">
 						<h6>Transform classes</h6>
 						<p>Use helper classes to transform your text</p>
@@ -55,7 +55,7 @@ class Visibility extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example layout">
+				<div className="example layout">
 					<div className="explanation">
 						<h6>Hide elements completely</h6>
 						<p>By using <code>.hidden</code> you can prevent elements from being shown as well as collapsing its space it would take up</p>
@@ -66,7 +66,7 @@ class Visibility extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example layout">
+				<div className="example layout">
 					<div className="explanation">
 						<h6>Visually hide elements</h6>
 						<p>By using <code>.invisible</code> you can prevent elements from being shown but its space will still be taken up as normal</p>
@@ -77,7 +77,7 @@ class Visibility extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example layout">
+				<div className="example layout">
 					<div className="explanation">
 						<h6>Block display</h6>
 						<p>Force elements to stack over eachother</p>
@@ -90,7 +90,7 @@ class Visibility extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example layout">
+				<div className="example layout">
 					<div className="explanation">
 						<h6>Inline block display</h6>
 						<p>Position elements in a single file</p>

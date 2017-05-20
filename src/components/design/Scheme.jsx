@@ -14,7 +14,7 @@ class Scheme extends React.Component {
 		return (
 			<div>
 				<Title title="Color scheme">Primary colors to be used in conjunction with other Blossom elements.</Title>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation">
 						<h6>UI colors</h6>
 						<p>Light, standard and dark colors used in Blossom UI</p>
@@ -130,7 +130,7 @@ class Scheme extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation">
 						<h6>Gray colors</h6>
 						<p>Light, standard and dark grays used in Blossom UI</p>

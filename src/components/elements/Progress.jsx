@@ -11,9 +11,31 @@ class Progress extends React.Component {
 	}
 
 	componentDidMount() {
-		$(document).ready(() => {
-			loadProgressBars()
-			loadActiveProgressBars()
+		$('.progress:not(.active) .bar[data-percent]').each(function () {
+			const progress = $(this)
+			const status = $(this).find('.status')
+			const percentage = Math.ceil($(this).attr('data-percent')) + '%'
+			progress.css('width',percentage)
+			status.text(percentage)
+		})
+
+		$('.progress.active .bar[data-percent]').each(function () {
+			const progress = $(this)
+			const status = $(this).find('.status')
+			const percentage = Math.ceil($(this).attr('data-percent'))
+			$({countNum: 0}).animate({countNum: percentage}, {
+				duration: 1600,
+				easing:'linear',
+				step: function() {
+					var pct = ''
+					if(percentage == 0){
+						pct = Math.floor(this.countNum) + '%'
+					}else{
+						pct = Math.floor(this.countNum+1) + '%'
+					}
+					status.text(pct) && progress.css('width',pct)
+				}
+			})
 		})
 	}
 
@@ -21,7 +43,7 @@ class Progress extends React.Component {
 		return (
 			<div>
 				<Title title="Progress bars">Progess bars are used to indicate the progress state of a certain action</Title>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Default progress bar</h6>
 						<p>A simple progress bar shows the state, defined by the <code>data-percent</code> attribute, of progress without a written status</p>
@@ -36,7 +58,7 @@ class Progress extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Active progress bar</h6>
 						<p>Progress bars with the <code>.active</code> class animate to their defined percentage state</p>
@@ -54,7 +76,7 @@ class Progress extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example types">
+				<div className="example types">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Show status</h6>
 						<p>To show the status, you need to be using a standard or <code>.large</code> progress bar then add the <code>.show</code> class to <code>.bar</code></p>
@@ -74,7 +96,7 @@ class Progress extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example types">
+				<div className="example types">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Progress bar sizes</h6>
 						<p>Progress bars come in <code>.tiny</code>, <code>.small</code> and <code>.large</code> as well</p>
@@ -99,7 +121,7 @@ class Progress extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example types">
+				<div className="example types">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Progress bar colors</h6>
 						<p>As you already probably realised, progress bars can be any color in the palette</p>

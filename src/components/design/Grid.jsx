@@ -14,10 +14,10 @@ class Grid extends React.Component {
 		return (
 			<div>
 				<Title title="Flex grid">A 12 column responsive flex-box grid system designed for efficient mobile-first layouts</Title>
-				<div className="row example grids">
+				<div className="example">
 					<div className="explanation">
 						<h6>Equal columns</h6>
-						<p>Columns within a row with the <code>.equal</code> class share an equal width depending on the number of columns provided.</p>
+						<p>Columns within a row with the <code>.equal</code> class share an equal width depending on the number of columns provided</p>
 					</div>
 					<div className="module collapsed">
 						<div className="row">
@@ -58,11 +58,11 @@ class Grid extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example grids">
-					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+				<div className="example">
+					<div className="explanation">
 						<h6>Responsive columns</h6>
-						<p>Responsive columns adapt to what breakpoint is assigned to the column width.</p>
-						<p>For example, <code>.s-4</code> will cover 4 of 12 columns when above the <b>Small</b> breakpoint.</p>
+						<p>Responsive columns adapt to what <Link to="/design/breakpoints">breakpoint class</Link> is assigned to the column width</p>
+						<p>For example, <code>.s-4</code> will cover 4 of 12 columns when the screen size is above the <b>Small</b> breakpoint</p>
 					</div>
 					<div className="module collapsed">
 						<div className="row">
@@ -73,14 +73,25 @@ class Grid extends React.Component {
 								<div className="block-grey">.col.s-8</div>
 							</div>
 						</div>
-						<div className="footer">
+						<div className="row">
+							<div className="col m-9">
+								<div className="block-grey">.col.m-9</div>
+							</div>
+							<div className="col m-3">
+								<div className="block-grey">.col.m-3</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col">
+								<div className="block-grey">.col</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div className="row example grids">
+				<div className="example">
 					<div className="explanation">
 						<h6>Mixing responsive columns</h6>
-						<p>Responsive column classes can be used together to change the structure of the layout from several breakpoints.</p>
+						<p>Responsive column classes can be used together to change the structure of the layout at several breakpoints</p>
 					</div>
 					<div className="module collapsed">
 						<div className="row">
@@ -112,10 +123,10 @@ class Grid extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example grids">
+				<div className="example">
 					<div className="explanation">
 						<h6>Pushing columns</h6>
-						<p>Columns can be pushed further down the row relative to the previous column.</p>
+						<p>Columns can be pushed further down the row relative to the previous column</p>
 					</div>
 					<div className="module collapsed">
 						<div className="row">

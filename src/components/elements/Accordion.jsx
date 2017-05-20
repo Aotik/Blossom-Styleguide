@@ -14,12 +14,12 @@ class Accordion extends React.Component {
 		return (
 			<div>
 				<Title title="Accordion">Toggle and display sections of content via a simple click</Title>
-				<div className="row opening-message">
+				<div className="opening-message">
 					<div className="message info">
 						<p>To get the correct functionality of toggling content in Accordions, you will need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Basic accordion</h6>
 						<p>A basic accordion without styling</p>
@@ -52,7 +52,7 @@ class Accordion extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Styled accordion</h6>
 						<p>An accordion styled as a module. Just add the <code>.module</code> class to the <code>.accordion</code> element</p>
@@ -85,7 +85,7 @@ class Accordion extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Open accordion</h6>
 						<p>Accordion content can be opened by default by appending <code>.open</code> class on the inner <code>.title</code> and <code>.content</code> elements</p>
@@ -118,7 +118,7 @@ class Accordion extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Single opened accordion</h6>
 						<p>By default all content can be opened and displayed. To prevent this and to only allow one at a time add the <code>.single</code> to the <code>.accordion</code></p>
@@ -151,7 +151,7 @@ class Accordion extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Fluid styled accordion</h6>
 						<p>A styled accordion is limited in width until made fluid. Simply add the <code>.fluid</code> class to the <code>.accordion</code> element</p>

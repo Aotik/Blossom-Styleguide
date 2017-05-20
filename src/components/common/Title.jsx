@@ -11,7 +11,7 @@ class Title extends React.Component {
 
 	render() {
 		return (
-			<div className="outer-title row">
+			<div className="outer-title">
 				<h3 className="title">{this.props.title}</h3>
 				<p {...this.props}>
 					 {this.props.children}

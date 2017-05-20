@@ -14,7 +14,7 @@ class Buttons extends React.Component {
 		return (
 			<div>
 				<Title title="Buttons">A button indicates a possible user action</Title>
-				<div className="row example buttons">
+				<div className="example buttons">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Default & Primary buttons</h6>
 						<p>Standard buttons</p>
@@ -30,7 +30,7 @@ class Buttons extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example buttons">
+				<div className="example buttons">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Outlined buttons</h6>
 						<p>Transparent buttons with an outline</p>
@@ -77,7 +77,7 @@ class Buttons extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example buttons">
+				<div className="example buttons">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Colored buttons</h6>
 						<p>Spice up your page with colored buttons</p>
@@ -124,7 +124,7 @@ class Buttons extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example buttons">
+				<div className="example buttons">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Labeled buttons</h6>
 						<p>Labels give visual aid on what the button does</p>
@@ -147,7 +147,7 @@ class Buttons extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example sizes">
+				<div className="example sizes">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Button sizes</h6>
 						<p>Add <code>.small</code><code>.medium</code><code>.large</code><code>.big</code><code>.massive</code> classes to your button to change its size</p>

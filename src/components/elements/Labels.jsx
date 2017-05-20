@@ -14,7 +14,7 @@ class Labels extends React.Component {
 		return (
 			<div>
 				<Title title="Labels">A button indicates a possible user action</Title>
-				<div className="row example labels">
+				<div className="example labels">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Colored labels</h6>
 						<p>Labels can be colored to represent its state</p>
@@ -37,7 +37,7 @@ class Labels extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example labels">
+				<div className="example labels">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Labels with icons</h6>
 						<p>A label with an icon to enchance its visual state</p>
@@ -51,7 +51,7 @@ class Labels extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example labels">
+				<div className="example labels">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Labeled labels</h6>
 						<p>Labelception, a label within a label</p>
@@ -73,7 +73,7 @@ class Labels extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example labels">
+				<div className="example labels">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Labels with links</h6>
 						<p>Quick link straight from a label</p>
@@ -88,7 +88,7 @@ class Labels extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example labels">
+				<div className="example labels">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Circular labels</h6>
 						<p>Rounded off labels, great for showing stats</p>

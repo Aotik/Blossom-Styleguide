@@ -14,7 +14,7 @@ class Animations extends React.Component {
 		return (
 			<div>
 				<Title title="Animations & Effects">A collection of animations and effects that can be used on any element</Title>
-				<div className="row example animations">
+				<div className="example animations">
 					<div className="explanation">
 						<h6>Landing animations</h6>
 						<p>Landing animations play once when a user first hits a page <a id="replay_landing" className="float-right">Replay landing animations</a></p>
@@ -34,7 +34,7 @@ class Animations extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example animations">
+				<div className="example animations">
 					<div className="explanation">
 						<h6>Animation types</h6>
 						<p>Add an infinite loop of animations to any element of your choice</p>
@@ -54,7 +54,7 @@ class Animations extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example animations">
+				<div className="example animations">
 					<div className="explanation">
 						<h6>Transition durations</h6>
 						<p>Use different transition durations depending on how fast you want the animation to take</p>
@@ -86,7 +86,7 @@ class Animations extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example animations">
+				<div className="example animations">
 					<div className="explanation">
 						<h6>Transition types</h6>
 						<p>Use different transition types depending on how you want to animation to appear</p>

@@ -14,7 +14,7 @@ class Lists extends React.Component {
 		return (
 			<div>
 				<Title title="Lists">A button indicates a possible user action</Title>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Unstyled lists</h6>
 						<p>A list with no symbol for each item</p>
@@ -31,7 +31,7 @@ class Lists extends React.Component {
 					</div>
 
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Bulleted lists</h6>
 						<p>A list styled with bullet points</p>
@@ -54,7 +54,7 @@ class Lists extends React.Component {
 				</div>
 				</div>
 
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Numbered lists</h6>
 						<p>A numbered list structured by <code>div</code>tags</p>
@@ -76,7 +76,7 @@ class Lists extends React.Component {
 					</div>
 				</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Numbered lists</h6>
 						<p>A numbered list structured by <code>ol</code>tags</p>
@@ -98,7 +98,7 @@ class Lists extends React.Component {
 					</div>
 				</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Defined lists</h6>
 						<p>A list with styling overidden by the <code>value</code>property</p>
@@ -120,7 +120,7 @@ class Lists extends React.Component {
 					</div>
 				</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Vertical links list</h6>
 						<p>A list of links laid out vertically</p>
@@ -136,7 +136,7 @@ class Lists extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Horizontal links list</h6>
 						<p>A list of links laid out horizontally</p>
@@ -152,7 +152,7 @@ class Lists extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Headered lists</h6>
 						<p>A list of items with a header</p>
@@ -179,7 +179,7 @@ class Lists extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row show-lists example">
+				<div className="show-lists example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Divided lists</h6>
 						<p>A list with items being divided by a border</p>

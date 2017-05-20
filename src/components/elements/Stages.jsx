@@ -14,7 +14,7 @@ class Stages extends React.Component {
 		return (
 			<div>
 				<Title title="Stages">A button indicates a possible user action</Title>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Basic stage</h6>
 						<p>A single stage with a description</p>
@@ -31,7 +31,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Headered stage</h6>
 						<p>A single stage can also contain a header</p>
@@ -51,7 +51,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Disabled stage</h6>
 						<p>A disabled stage is greyed out for the user</p>
@@ -71,7 +71,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Complete stage</h6>
 						<p>A stage with a completed state</p>
@@ -94,7 +94,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Active stage</h6>
 						<p>A stage with an active state</p>
@@ -117,7 +117,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Grouped stages</h6>
 						<p>Grouped stages allow the user to follow a path to the final stage by activating each one along the way</p>
@@ -162,7 +162,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Completed stages</h6>
 						<p>Completed stages show the user that the stage has been completed and does not need revisiting</p>
@@ -207,7 +207,7 @@ class Stages extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example">
+				<div className="example">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Vertical stages</h6>
 						<p>Grouped stages can also be vertical aligned</p>

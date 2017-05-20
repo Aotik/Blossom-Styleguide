@@ -17,7 +17,7 @@ class Dividers extends React.Component {
 		return (
 			<div>
 				<Title title="Dropdown">A dropdown allows a user to select an option from a list of values</Title>
-				<div className="row opening-message">
+				<div className="opening-message">
 					<div className="message info">
 						<h6>Dropdown utility</h6>
 						<p>
@@ -25,7 +25,7 @@ class Dividers extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Dropdown</h6>
 						<p>Simple dropdown with a simple toggle</p>
@@ -44,7 +44,7 @@ class Dividers extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Dropdown features</h6>
 						<p>Dropdowns can also have headers, dividers and icons within them</p>
@@ -72,7 +72,7 @@ class Dividers extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Dropdown toggles</h6>
 						<p>Toggles can come in any shape or form</p>
@@ -122,7 +122,7 @@ class Dividers extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Disabled</h6>
 						<p>You can disable the dropdown altogether by targeting the toggle, or disable items in the menu individually</p>
@@ -178,7 +178,7 @@ class Dividers extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Right aligned dropdown</h6>
 						<p>Dropdown menus can also be pushed to be flush with the right side</p>
@@ -197,7 +197,7 @@ class Dividers extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example dropdowns">
+				<div className="example dropdowns">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Upward dropdowns</h6>
 						<p>Flip your dropdown to the top of the toggle using <code>.upward</code></p>

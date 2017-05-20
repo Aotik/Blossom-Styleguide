@@ -14,7 +14,7 @@ class Typography extends React.Component {
 		return (
 			<div>
 				<Title title="Typography">Experience the face of Blossom</Title>
-				<div className="row example typeface">
+				<div className="example typeface">
 					<div className="explanation">
 						<h6>Headers</h6>
 						<p>Headers amplify headings and subheadings by using header tags <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
@@ -58,7 +58,7 @@ class Typography extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example typeface">
+				<div className="example typeface">
 					<div className="explanation">
 						<h6>Typeface</h6>
 						<p>Blossom&#39;s primary typeface is Roboto, a beautiful sans serif font family providing a perfect balance of friendliness and solemnity</p>

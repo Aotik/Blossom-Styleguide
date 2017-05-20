@@ -41,7 +41,6 @@
 	.page
 		font-size 1em
 		padding 35px 0
-		margin 0 15px
 		cf()
 
 .hero
@@ -288,15 +287,18 @@ section.size
 	border-radius 0
 
 .block-yellow
-	background-color color-yellow
+	background-color lighten(color-yellow, 60%)
+	border 2px solid color-yellow
 	border-radius 0
 
 .block-green
-	background-color color-green
+	background-color lighten(color-green, 60%)
+	border 2px solid color-green
 	border-radius 0
 
 .block-purple
-	background-color color-purple
+	background-color lighten(color-purple, 60%)
+	border 2px solid color-purple
 	border-radius 0
 
 .show-grid
@@ -330,12 +332,6 @@ section.size
 	border-radius 3px
 	display block
 	content ''
-
-.opening-message
-	margin-top -1.9em
-
-.message + .module.collapsed
-	margin-top 1em
 
 .guide
 	padding 3rem 0 3rem 0
@@ -418,6 +414,7 @@ section.size
 		color color-light-grey
 .example
 	padding 1rem 0
+	cf()
 	&:hover
 		.view-source
 			display block !important
@@ -446,6 +443,8 @@ section.size
 			margin-top 14px
 	.message
 		margin 0
+		& + .module.collapsed
+			margin-top 1rem
 	&.sizes
 		.button + .button
 			margin-left 1em

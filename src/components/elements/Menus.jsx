@@ -14,13 +14,13 @@ class Menus extends React.Component {
 		return (
 			<div>
 				<Title title="Menus">Menu components be used for grouped navigation</Title>
-				<div className="row opening-message">
+				<div className="opening-message">
 					<div className="message info">
 						<p>Note that to activate menu <code>.item</code>&#39;s on click, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
 					</div>
 				</div>
 
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Basic</h6>
 						<p>Basic menus have no background. States are distinguished by the items color and font-weight</p>
@@ -42,7 +42,7 @@ class Menus extends React.Component {
 					</div>
 				</div>
 
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Pills</h6>
 						<p>Pill menus are simple, having a transparent background and a background color on hover or <code>.active</code> state</p>
@@ -63,7 +63,7 @@ class Menus extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Vertical pills</h6>
 						<p>Pill menus can also be set to vertical by adding the <code>.vertical</code> class</p>
@@ -84,7 +84,7 @@ class Menus extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Underlined</h6>
 						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
@@ -121,7 +121,7 @@ class Menus extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Vertical underlined</h6>
 						<p>Underlined menus are a simple text-based menu with a prominent underline on <code>.active</code> items</p>
@@ -158,7 +158,7 @@ class Menus extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Paneled</h6>
 						<p>Paneled menus come in a moduled type container spanning the width of the parent</p>
@@ -202,7 +202,7 @@ class Menus extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row example menus">
+				<div className="example menus">
 					<div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
 						<h6>Vertical paneled</h6>
 						<p>Paneled menus can also be set to vertical by adding the <code>.vertical</code> class</p>
