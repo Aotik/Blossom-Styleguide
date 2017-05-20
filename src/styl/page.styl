@@ -239,9 +239,6 @@ section.size
 	background-color background-lightest-grey
 
 .column
-	display flex
-	flex-direction column
-	text-align center
 	padding 0 2em
 	margin-top 3.8rem
 	+below('m')
@@ -279,8 +276,16 @@ section.size
 	display block
 
 .block-grey
-	background-color color-smoke
+	background-color lighten(color-primary, 30%)
+	border 2px solid color-primary
 	width 100%
+	line-height 2.8rem
+	padding 1rem 2rem
+	font-size 1.2rem
+	font-weight 700
+	margin .5rem 0
+	color #fff
+	border-radius 0
 
 .block-yellow
 	background-color color-yellow
@@ -351,6 +356,7 @@ section.size
 .explanation
 	margin-bottom 1em
 	position relative
+	width 100%
 	.view-source
 		color text-grey
 		cursor pointer
@@ -374,7 +380,6 @@ section.size
 		line-height 1.8rem
 		& + p
 			margin .4em 0 0 0
-
 
 .module
 	position relative
@@ -578,6 +583,7 @@ section.size
 
 .module
 	transition all 100ms cubic-bezier(0.16, 0.86, 0.44, 1)
+	width 100%
 	&.collapsed
 		border 0
 		padding 0
@@ -755,6 +761,7 @@ aside.sidebar
 	padding-bottom 1.4rem
 	h3
 		font-weight 700
+		width 100%
 	p
 		color color-light-grey
 		font-size 1.1rem

@@ -14,6 +14,55 @@ class Breakpoints extends React.Component {
 		return (
 			<div>
 				<Title title="Breakpoints">Take advantage of breakpoints when making your website responsive</Title>
+				<div className="row example">
+					<div className="explanation">
+						<h6>Responsive breakpoints</h6>
+						<p>Default breakpoints are used throughout Blossom to make it easy to create responsive design layouts</p>
+					</div>
+					<div className="module collapsed">
+						<table className="table cells">
+							<thead>
+								<tr>
+									<th>Breakpoint</th>
+									<th>Screen width</th>
+									<th>Class placeholder</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><b>X-Small</b></td>
+									<td>&gt; 0px</td>
+									<td>.&#123;xs&#125;</td>
+								</tr>
+								<tr>
+									<td><b>Small</b></td>
+									<td>&gt; 480px</td>
+									<td>.&#123;s&#125;</td>
+								</tr>
+								<tr>
+									<td><b>Medium</b></td>
+									<td>&gt; 768px</td>
+									<td>.&#123;m&#125;</td>
+								</tr>
+								<tr>
+									<td><b>Large</b></td>
+									<td>&gt; 1024px</td>
+									<td>.&#123;l&#125;</td>
+								</tr>
+								<tr>
+									<td><b>X-Large</b></td>
+									<td>&gt; 1224px</td>
+									<td>.&#123;xl&#125;</td>
+								</tr>
+								<tr>
+									<td><b>XX-Large</b></td>
+									<td>&gt; 1824px</td>
+									<td>.&#123;xxl&#125;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
 				<div className="row example breakpoints">
 					<div className="explanation">
 						<h6>XS breakpoint</h6>
