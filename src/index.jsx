@@ -28,8 +28,9 @@ function initUpdate() {
 ReactDOM.render(
 <Router history={browserHistory} onUpdate={initUpdate}>
 	<Route path="/" component={Controller} home={true} />
-	<Route path="/Introduction" component={Controller} start={true} />
+	<Route path="/introduction" component={Controller} start={true} />
 	<Route path="/customization" component={Controller} customization={true} />
+	<Route path="/changelog" component={Controller} changelog={true} />
 	<Route path="elements" component={Controller} resource={true}>
 		<IndexRedirect to="accordion"/>
 		<Route path="buttons" component={Controller}/>

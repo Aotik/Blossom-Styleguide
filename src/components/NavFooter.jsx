@@ -19,7 +19,7 @@ class NavFooter extends BaseComponent {
 							<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom">Open-source</a></li>
 							<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/issues/new">Submit an issue</a></li>
 							<li className="float-right madeby"><a className="text-grey" rel="noopener noreferrer" target="_blank" href="https://cindr.io">Developed by <span className="cindr">Cindr.io</span></a></li>
-							<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/commits/master">Changelog</a></li>
+							<li><Link to="/changelog">Changelog</Link></li>
 						</ul>
 					</div>
 				</div>

@@ -2464,11 +2464,11 @@ ol.list {
   transition: opacity 0.14s ease;
 }
 .list.links > .item a {
-  color: #98a4b3;
+  color: #6c7e95;
   font-weight: 500;
 }
 .list.links > .item:hover {
-  color: #66768a;
+  color: #475362;
 }
 .list.links > .item.active a {
   color: #435ce2;
@@ -2550,7 +2550,7 @@ ol.ordered li[value]:before {
   margin-right: 0.6rem;
 }
 .label a {
-  color: #98a4b3;
+  color: #6c7e95;
   margin-left: 0.8rem;
   padding-left: 0.8rem;
   font-weight: 600;
@@ -2558,7 +2558,7 @@ ol.ordered li[value]:before {
   border-left: 2px solid rgba(0,0,0,0.1);
 }
 .label a:hover {
-  color: #66768a;
+  color: #475362;
 }
 .label.red {
   color: #fff;
@@ -2698,19 +2698,19 @@ ol.ordered li[value]:before {
 }
 .input input::-webkit-input-placeholder,
 .input textarea::-webkit-input-placeholder {
-  color: #8694a6;
+  color: #59687b;
 }
 .input input:-moz-placeholder,
 .input textarea:-moz-placeholder {
-  color: #8694a6;
+  color: #59687b;
 }
 .input input::-moz-placeholder,
 .input textarea::-moz-placeholder {
-  color: #8694a6;
+  color: #59687b;
 }
 .input input:-ms-input-placeholder,
 .input textarea:-ms-input-placeholder {
-  color: #8694a6;
+  color: #59687b;
 }
 .input input:focus,
 .input textarea:focus {
@@ -2846,7 +2846,7 @@ ol.ordered li[value]:before {
 }
 .menu.underlined .item {
   padding: 0.85rem 1.14rem;
-  color: #98a4b3;
+  color: #6c7e95;
 }
 .menu.underlined .item.active {
   border-bottom: 2px #4c5767 solid;
@@ -2892,13 +2892,13 @@ ol.ordered li[value]:before {
 .menu.basic .item {
   padding-left: 0;
   padding-right: 0;
-  color: #98a4b3;
+  color: #6c7e95;
 }
 .menu.basic .item + .item {
   margin-left: 2.4rem;
 }
 .menu.basic .item:hover {
-  color: #66768a;
+  color: #475362;
 }
 .menu.basic .item.active {
   color: #4c5767;
@@ -3185,10 +3185,10 @@ ol.ordered li[value]:before {
   flex-grow: 1;
 }
 .card .content a {
-  color: #98a4b3;
+  color: #6c7e95;
 }
 .card .content a:hover {
-  color: #66768a;
+  color: #475362;
 }
 .card .content:after {
   display: block;
@@ -3201,11 +3201,11 @@ ol.ordered li[value]:before {
 }
 .card .content .sub {
   line-height: 1.7rem;
-  color: #8694a6;
+  color: #59687b;
 }
 .card .content p {
   margin-top: 0.7rem;
-  color: #8694a6;
+  color: #59687b;
 }
 .card .content.footer {
   -webkit-box-flex: 0;
@@ -3222,7 +3222,7 @@ ol.ordered li[value]:before {
   margin-left: 0%;
   margin-right: 0%;
   padding: 1rem 1.4rem;
-  color: #8694a6;
+  color: #59687b;
   border-top: 1px solid #e9edf3;
   font-size: 0.86rem;
 }
@@ -3237,7 +3237,7 @@ ol.ordered li[value]:before {
   border-radius: 0 0 4px 4px;
 }
 .card .content.footer.button:hover {
-  color: #66768a;
+  color: #475362;
 }
 .card .content.footer.button:hover,
 .card .content.footer.button:active {
@@ -3534,7 +3534,7 @@ ol.ordered li[value]:before {
   -webkit-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  color: #8694a6;
+  color: #59687b;
   line-height: 1.5rem;
 }
 .stages .stage small {
