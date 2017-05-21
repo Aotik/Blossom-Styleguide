@@ -33,6 +33,10 @@ class Changelog extends BaseComponent {
 								<p>New grid system is finally here!</p>
 								<p>So the old system was based around the typical old CSS widths that align inline with eachother, boring really. The new flex system used flex, just like it sounds. Overall this not only makes Blossom much lighter, but with less flaws and more features than its older counterpart.</p>
 								<p>With the new grid system, equal columns are introduced. These columns don't have a set width but instead share an equal part of a row depending on the amount of columns present. The rest of the syntax stays the same so you shouldn't encounter any problems with your projects in the new update.</p>
+								<h4><span className="label pink">Fix</span> Styling and Blossom JS issues fixed</h4>
+								<p>Bug in Blossom JS caused an issue with opening accordions. <span className="text-green">Bug squashed</span></p>
+								<p>Issues with breakpoint show classes. <span className="text-green">Also squashed</span></p>
+								<p>Styling issues with Accordion headers fixed and variable for grid padding added in <b>variables.styl</b></p>
 							</div>
 						</div>
 						<div className="log">

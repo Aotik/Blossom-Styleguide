@@ -1,16 +1,16 @@
 if (typeof(jQuery) == 'undefined') {
 	console.log('App.js did not detect jQuery.')
 } else {
-	let isOpenResources = false
+	var isOpenResources = false
 
 	function openResources() {
-		$("aside ul li").show()
 		isOpenResources = true
+		$("aside ul li").show()
 	}
 
 	function closeResources() {
-		$("aside li").hide()
 		isOpenResources = false
+		$("aside li").hide()
 	}
 
 	$(function() {
