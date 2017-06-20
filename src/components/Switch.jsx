@@ -44,89 +44,89 @@ import esc from 'escape-html'
 import LinkElement from './LinkElement'
 
 class Switch extends React.Component {
-	constructor(props) {
-		super(props)
-	}
+  constructor(props) {
+    super(props)
+  }
 
-	componentDidMount()  {
+  componentDidMount()  {
 
-		$( document ).ready(function() {
-			$('.module').each(function(i, block) {
-				BuildFooter(block)
-			})
+    $( document ).ready(function() {
+      $('.module').each(function(i, block) {
+        BuildFooter(block)
+      })
 
-			$("body" ).off( "click", '.view-source')
-			.on('click', '.view-source', function() {
-				let nearestModule = $(this).parents('.explanation').next().get(0)
-				if ($(nearestModule).hasClass('collapsed'))
-					$(nearestModule).removeClass('collapsed')
-				else
-					$(nearestModule).addClass('collapsed')
-			})
-		})
-	}
+      $("body" ).off( "click", '.view-source')
+      .on('click', '.view-source', function() {
+        let nearestModule = $(this).parents('.explanation').next().get(0)
+        if ($(nearestModule).hasClass('collapsed'))
+          $(nearestModule).removeClass('collapsed')
+        else
+          $(nearestModule).addClass('collapsed')
+      })
+    })
+  }
 
-	componentDidUpdate() {
-		$('.module').each(function(i, block) {
-			BuildFooter(block)
-		})
-	}
+  componentDidUpdate() {
+    $('.module').each(function(i, block) {
+      BuildFooter(block)
+    })
+  }
 
-	render() {
-		let resources = {
-			elements : ElementsNav,
-			design : DesignNav,
-			utility : UtilitiesNav
-		}
+  render() {
+    let resources = {
+      elements : ElementsNav,
+      design : DesignNav,
+      utility : UtilitiesNav
+    }
 
-		let components = {
-			accordion: Accordion,
-			buttons: Buttons,
-			cards: Cards,
-			colors : Colors,
-			comments : Comments,
-			dividers : Dividers,
-			dropdown : Dropdown,
-			input : Input,
-			images : Images,
-			labels : Labels,
-			lists : Lists,
-			loaders : Loaders,
-			menus : Menus,
-			messages : Messages,
-			progressbars : Progress,
-			stages : Stages,
-			tables : Tables,
-			animations : Animations,
-			breakpoints : Breakpoints,
-			grid : Grid,
-			typography : Typography,
-			alignment : Alignment,
-			js : Js,
-			layout : Layout,
-			helpers : Helpers,
-		}
+    let components = {
+      accordion: Accordion,
+      buttons: Buttons,
+      cards: Cards,
+      colors : Colors,
+      comments : Comments,
+      dividers : Dividers,
+      dropdown : Dropdown,
+      input : Input,
+      images : Images,
+      labels : Labels,
+      lists : Lists,
+      loaders : Loaders,
+      menus : Menus,
+      messages : Messages,
+      progressbars : Progress,
+      stages : Stages,
+      tables : Tables,
+      animations : Animations,
+      breakpoints : Breakpoints,
+      grid : Grid,
+      typography : Typography,
+      alignment : Alignment,
+      js : Js,
+      layout : Layout,
+      helpers : Helpers,
+    }
 
-		return (
-			<div className="bind bg">
-				<div className="contain static">
-					{React.createElement(resources[this.props.nav.toString().toLowerCase()], {})}
-					<div className="page">
-						{React.createElement(components[this.props.type.toString().toLowerCase()], {})}
-					</div>
-				</div>
-			</div>
-		)
-	}
+    return (
+      <div className="bind bg">
+        <div className="contain static">
+          {React.createElement(resources[this.props.nav.toString().toLowerCase()], {})}
+          <div className="page">
+            {React.createElement(components[this.props.type.toString().toLowerCase()], {})}
+          </div>
+        </div>
+      </div>
+    )
+  }
 }
 
 Switch.contextTypes = {
-	router: React.PropTypes.object
+  router: React.PropTypes.object
 }
 
 Switch.propTypes = {
-	nav: React.PropTypes.string,
-	type: React.PropTypes.string
+  nav: React.PropTypes.string,
+  type: React.PropTypes.string
 }
 
 export default Switch

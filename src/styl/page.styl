@@ -5,890 +5,890 @@
 @import 'modules/variables'
 
 #app
-	width 100%
-	min-height 100%
-	height 100%
-	& > div
-		width 100%
-		height 100%
+  width 100%
+  min-height 100%
+  height 100%
+  & > div
+    width 100%
+    height 100%
 
 .circular
-	border-radius 50%
-	width 2.2em
-	height 2.2em
-	line-height 1em
-	text-align center
+  border-radius 50%
+  width 2.2em
+  height 2.2em
+  line-height 1em
+  text-align center
 
 .squared
-	border-radius 0 !important
-	text-align center
+  border-radius 0 !important
+  text-align center
 
 .main-content
-	padding-bottom 71px
-	+below('m')
-		padding-top 3.4rem
-		padding-bottom 18rem
-	&:before
-		width 100%
-		fixed top left
-		content ''
-		background linear-gradient(top right, color-blue, light-color-blue)
-		z-index 4000
-		height 2px
-	position relative
-	min-height 100%
-	width 100%
-	.page
-		font-size 1em
-		padding 35px 0
-		cf()
+  padding-bottom 71px
+  +below('m')
+    padding-top 3.4rem
+    padding-bottom 18rem
+  &:before
+    width 100%
+    fixed top left
+    content ''
+    background linear-gradient(top right, color-blue, light-color-blue)
+    z-index 4000
+    height 2px
+  position relative
+  min-height 100%
+  width 100%
+  .page
+    font-size 1em
+    padding 35px 0
+    cf()
 
 .hero
-	text-align center
-	padding 4.4em 0 7em 0
-	relative top left
-	min-height 100%
-	height 100%
-	width 100%
-	background-color #fff
-	h1
-		margin .8rem 0 -.5rem 0
-		font-weight 800
-		font-size 4.4rem
-		img
-			height 80px
-			pointer-events none
-			user-select none
-	h3
-		font-weight 300
-		color color-light-grey
-		max-width 73%
-		display block
-		margin .4rem auto
-		letter-spacing 0
-	+below('m')
-		h1
-			font-size 2.4rem
-			img
-				height 60px
-		h3
-			max-width 100%
-			font-size 1.5rem
-		.button-group
-			margin-top 0
-			.button
-				margin 1rem 0 0 0 !important
+  text-align center
+  padding 4.4em 0 7em 0
+  relative top left
+  min-height 100%
+  height 100%
+  width 100%
+  background-color #fff
+  h1
+    margin .8rem 0 -.5rem 0
+    font-weight 800
+    font-size 4.4rem
+    img
+      height 80px
+      pointer-events none
+      user-select none
+  h3
+    font-weight 300
+    color color-light-grey
+    max-width 73%
+    display block
+    margin .4rem auto
+    letter-spacing 0
+  +below('m')
+    h1
+      font-size 2.4rem
+      img
+        height 60px
+    h3
+      max-width 100%
+      font-size 1.5rem
+    .button-group
+      margin-top 0
+      .button
+        margin 1rem 0 0 0 !important
 
 .button-group
-	margin-top 2rem
-	i
-		line-height 3rem !important
-	.button + .button
-		margin-left 1.4rem
+  margin-top 2rem
+  i
+    line-height 3rem !important
+  .button + .button
+    margin-left 1.4rem
 
 .dent
-	background-color #fff
-	&-cover
-		padding 7rem 0 7rem 0
-		background-color color-primary
-	&-container
-		background-color transparent
-		padding 0
-		&.light
-			background-color #fff
-			.dent
-				background-color color-primary
-			.dent-cover
-				padding 7rem 0 7rem 0
-				background-color #fff
-		&.bg
-			background-color #fff
-			.dent
-				background-color #fff
-			.dent-cover
-				padding 7rem 0 7rem 0
-				background-color #F9FBFC
+  background-color #fff
+  &-cover
+    padding 7rem 0 7rem 0
+    background-color color-primary
+  &-container
+    background-color transparent
+    padding 0
+    &.light
+      background-color #fff
+      .dent
+        background-color color-primary
+      .dent-cover
+        padding 7rem 0 7rem 0
+        background-color #fff
+    &.bg
+      background-color #fff
+      .dent
+        background-color #fff
+      .dent-cover
+        padding 7rem 0 7rem 0
+        background-color #F9FBFC
 
 section.about, section.size, section.boilerplate
-	cf()
-	position relative
-	h2
-		margin-bottom .4rem
-	p
-		color color-light-grey
-		font-size 1.1rem
-		line-height 1.7rem
+  cf()
+  position relative
+  h2
+    margin-bottom .4rem
+  p
+    color color-light-grey
+    font-size 1.1rem
+    line-height 1.7rem
 
 section.boilerplate
-	.contain
-		a
-			font-size 1.2rem
-			line-height 2.2rem
-			font-weight 500
-			margin-top 1rem
-			display block
-			i
-				margin-left .4rem
-		img
-			max-width 52%
-			display block
-			margin 3rem auto 0 auto
-			+below('m')
-				max-width 80%
+  .contain
+    a
+      font-size 1.2rem
+      line-height 2.2rem
+      font-weight 500
+      margin-top 1rem
+      display block
+      i
+        margin-left .4rem
+    img
+      max-width 52%
+      display block
+      margin 3rem auto 0 auto
+      +below('m')
+        max-width 80%
 section.features, section.boilerplate
-	h2
-		margin 0 0 1rem 0
-	& .contain > p
-		color color-light-grey
-		font-size 1.2rem
-		line-height 2.2rem
-		max-width 73%
-		display block
-		margin 0 auto
-		+below('m')
-			max-width 100%
+  h2
+    margin 0 0 1rem 0
+  & .contain > p
+    color color-light-grey
+    font-size 1.2rem
+    line-height 2.2rem
+    max-width 73%
+    display block
+    margin 0 auto
+    +below('m')
+      max-width 100%
 
 section.size
-	overflow hidden
-	.dent-cover
-		padding 7rem 0 7rem 0
-		position relative
-	ul
-		display inline-block
-		.button
-			margin 1.2rem 0 0 -1rem
-	.item
-		color lighten(color-primary, 80%)
-		font-size 1.2rem
-		line-height 1.7rem
-	.slide
-		height 100%
-		padding 8rem 0
-		absolute right 0 top 0
-		width 36%
-		pre
-			height 100%
-			background-color #1f2333
-			padding 2.4rem
-			border-radius 8px 0 0 8px
-			box-shadow -6px 4px 20px 3px rgba(34,36,38,0.35)
-			position relative
-			line-height 2.2rem
-			font-size 1.1rem
-			font-family font-family-code
-			white-space pre-wrap
-			code
-				height 100%
-				border-radius 0
-				background-color transparent
-				color #48d8a0
-				padding 0
-				line-height 2.2rem
-				font-size 1.1rem
-			.muted
-				display block
-				color lighten(#1f2333, 80%)
-				&.bottom
-					absolute bottom 2.3rem
-					a
-						color #fff
-						text-decoration underline
-	+below('m')
-		.slide
-			position relative
-			width 100%
-			padding 3rem 1rem 0 1rem
-			pre
-				border-radius border-radius-normal
-				font-size 1rem
-				min-height 20rem
-				line-height 1.8rem
-				code
-					font-size 1rem
-					line-height 1.8rem
+  overflow hidden
+  .dent-cover
+    padding 7rem 0 7rem 0
+    position relative
+  ul
+    display inline-block
+    .button
+      margin 1.2rem 0 0 -1rem
+  .item
+    color lighten(color-primary, 80%)
+    font-size 1.2rem
+    line-height 1.7rem
+  .slide
+    height 100%
+    padding 8rem 0
+    absolute right 0 top 0
+    width 36%
+    pre
+      height 100%
+      background-color #1f2333
+      padding 2.4rem
+      border-radius 8px 0 0 8px
+      box-shadow -6px 4px 20px 3px rgba(34,36,38,0.35)
+      position relative
+      line-height 2.2rem
+      font-size 1.1rem
+      font-family font-family-code
+      white-space pre-wrap
+      code
+        height 100%
+        border-radius 0
+        background-color transparent
+        color #48d8a0
+        padding 0
+        line-height 2.2rem
+        font-size 1.1rem
+      .muted
+        display block
+        color lighten(#1f2333, 80%)
+        &.bottom
+          absolute bottom 2.3rem
+          a
+            color #fff
+            text-decoration underline
+  +below('m')
+    .slide
+      position relative
+      width 100%
+      padding 3rem 1rem 0 1rem
+      pre
+        border-radius border-radius-normal
+        font-size 1rem
+        min-height 20rem
+        line-height 1.8rem
+        code
+          font-size 1rem
+          line-height 1.8rem
 
 section.boilerplate
-	text-align center
+  text-align center
 section.size
-	h2, h3
-		color #fff
-	p
-		color lighten(color-primary, 80%)
+  h2, h3
+    color #fff
+  p
+    color lighten(color-primary, 80%)
 
 .features
-	cf()
-	background-color #fff
-	text-align center
-	.row
-		display flex
-		position relative
-		flex-direction row
-		flex-wrap wrap
-		align-items stretch
-		overflow visible
-		+below('m')
-			margin 0
-		p
-			font-size 1.1rem
-			line-height 2rem
+  cf()
+  background-color #fff
+  text-align center
+  .row
+    display flex
+    position relative
+    flex-direction row
+    flex-wrap wrap
+    align-items stretch
+    overflow visible
+    +below('m')
+      margin 0
+    p
+      font-size 1.1rem
+      line-height 2rem
 
 .grid
-	cf()
-	padding 4em 0
-	background-color background-lightest-grey
+  cf()
+  padding 4em 0
+  background-color background-lightest-grey
 
 .column
-	padding 0 2em
-	margin-top 3.8rem
-	+below('m')
-		padding 0
-		margin-top 2.2rem
-	.inner
-		border 1px solid border-grey
-		padding 3rem
-		border-radius 8px
-		box-shadow -6px 4px 20px 3px rgba(34,36,38,0.05)
-		background-color lighten(background-light-grey, 80%)
-		+below('m')
-			padding 2.4rem
-	h4
-		font-weight 600
-		margin 0 0 .4rem 0
-	p
-		flex 1 0 auto
-		margin 0 0 1.4em 0
-		color color-light-grey
-	.fa
-		font-size 4em
-		margin 0 0 .4em 0
-	.button
-		flex-grow 0
+  padding 0 2em
+  margin-top 3.8rem
+  +below('m')
+    padding 0
+    margin-top 2.2rem
+  .inner
+    border 1px solid border-grey
+    padding 3rem
+    border-radius 8px
+    box-shadow -6px 4px 20px 3px rgba(34,36,38,0.05)
+    background-color lighten(background-light-grey, 80%)
+    +below('m')
+      padding 2.4rem
+  h4
+    font-weight 600
+    margin 0 0 .4rem 0
+  p
+    flex 1 0 auto
+    margin 0 0 1.4em 0
+    color color-light-grey
+  .fa
+    font-size 4em
+    margin 0 0 .4em 0
+  .button
+    flex-grow 0
 
 @keyframes bgscroll
-	100%
-		background-position 0 -5384px
+  100%
+    background-position 0 -5384px
 
 .block-grey, .block-yellow, .block-green, .block-purple
-	width 5rem
-	height 5rem
-	border-radius 4px
-	display block
+  width 5rem
+  height 5rem
+  border-radius 4px
+  display block
 
 .block-grey
-	background-color lighten(color-primary, 30%)
-	border 2px solid color-primary
-	width 100%
-	line-height 2.8rem
-	padding 1rem 2rem
-	font-size 1.2rem
-	font-weight 700
-	margin .5rem 0
-	color #fff
-	border-radius 0
-	+below('m')
-		font-size .86em
-		padding 1rem
+  background-color lighten(color-primary, 30%)
+  border 2px solid color-primary
+  width 100%
+  line-height 2.8rem
+  padding 1rem 2rem
+  font-size 1.2rem
+  font-weight 700
+  margin .5rem 0
+  color #fff
+  border-radius 0
+  +below('m')
+    font-size .86em
+    padding 1rem
 
 .block-yellow
-	background-color lighten(color-yellow, 60%)
-	border 2px solid color-yellow
-	border-radius 0
+  background-color lighten(color-yellow, 60%)
+  border 2px solid color-yellow
+  border-radius 0
 
 .block-green
-	background-color lighten(color-green, 60%)
-	border 2px solid color-green
-	border-radius 0
+  background-color lighten(color-green, 60%)
+  border 2px solid color-green
+  border-radius 0
 
 .block-purple
-	background-color lighten(color-purple, 60%)
-	border 2px solid color-purple
-	border-radius 0
+  background-color lighten(color-purple, 60%)
+  border 2px solid color-purple
+  border-radius 0
 
 .show-grid
-	& > *
-		padding-top 15px
-	.block-grey
-		width 100%
-		height 4rem
+  & > *
+    padding-top 15px
+  .block-grey
+    width 100%
+    height 4rem
 
 .show-tables > .table
-	margin 20px 0
+  margin 20px 0
 
 .show-input > .input
-	margin 10px 0
+  margin 10px 0
 
 .show-cards
-	margin 12px 0
-	& > .card:not(.fluid)
-		margin-right 20px
+  margin 12px 0
+  & > .card:not(.fluid)
+    margin-right 20px
 
 .show-lists > .list
-	margin 20px 0 0 0
+  margin 20px 0 0 0
 
 .show-progress > .progress
-	margin 6px 0
+  margin 6px 0
 
 .y-block
-	background-color #FFC82C
-	width 100px
-	height 100px
-	border-radius 3px
-	display block
-	content ''
+  background-color #FFC82C
+  width 100px
+  height 100px
+  border-radius 3px
+  display block
+  content ''
 
 .guide
-	padding 3rem 0 3rem 0
-	h4
-		font-weight 900
-	.contain + .contain
-		margin-top 4em
-	.stages
-		.header
-			font-size 1.2rem
-			line-height 2.2rem
-		.stage
-			overflow-x auto
-		.content, .item
-			font-size 1rem
-			line-height 1.8rem
+  padding 3rem 0 3rem 0
+  h4
+    font-weight 900
+  .contain + .contain
+    margin-top 4em
+  .stages
+    .header
+      font-size 1.2rem
+      line-height 2.2rem
+    .stage
+      overflow-x auto
+    .content, .item
+      font-size 1rem
+      line-height 1.8rem
 
 .explanation
-	margin-bottom 1em
-	position relative
-	width 100%
-	.view-source
-		color text-grey
-		cursor pointer
-		font-size 1.1em
-		absolute top right
-		opacity .4
-		&:hover
-			color color-primary
-			opacity 1
-	small
-		display block
-		color text-grey
-	h6
-		font-size 1.2rem
-		font-weight 600
-		line-height 2.2rem
-	p
-		color color-light-grey
-		display block
-		font-size 1rem
-		line-height 1.8rem
-		& + p
-			margin .4em 0 0 0
+  margin-bottom 1em
+  position relative
+  width 100%
+  .view-source
+    color text-grey
+    cursor pointer
+    font-size 1.1em
+    absolute top right
+    opacity .4
+    &:hover
+      color color-primary
+      opacity 1
+  small
+    display block
+    color text-grey
+  h6
+    font-size 1.2rem
+    font-weight 600
+    line-height 2.2rem
+  p
+    color color-light-grey
+    display block
+    font-size 1rem
+    line-height 1.8rem
+    & + p
+      margin .4em 0 0 0
 
 .module
-	position relative
-	border 1px solid border-grey
-	border-radius border-radius-normal
-	margin 1em 0
-	padding 1.3em
-	background-color #fff
-	cf()
-	.section
-		margin -1em 0
-		padding 1.3em
-		overflow auto
-		display block
-		& + .section
-			border-top 1px solid border-grey
-	.antiScroll
-		overflow hidden
-		margin 0 -1.8em
-		cf()
-		&:first-child
-			margin-top -1.6em
-		&:last-child
-			margin-bottom -1.6em
-		padding 1em 0
-		small
-			color color-light-grey
-			display block
-			margin .8em 0 0 0
-			font-weight 300
-		& + .antiScroll
-			border-top 1px solid border-grey
-	small
-		display block
-		margin-top 6.6rem
-		color color-light-grey
-	img
-		max-width 100%
+  position relative
+  border 1px solid border-grey
+  border-radius border-radius-normal
+  margin 1em 0
+  padding 1.3em
+  background-color #fff
+  cf()
+  .section
+    margin -1em 0
+    padding 1.3em
+    overflow auto
+    display block
+    & + .section
+      border-top 1px solid border-grey
+  .antiScroll
+    overflow hidden
+    margin 0 -1.8em
+    cf()
+    &:first-child
+      margin-top -1.6em
+    &:last-child
+      margin-bottom -1.6em
+    padding 1em 0
+    small
+      color color-light-grey
+      display block
+      margin .8em 0 0 0
+      font-weight 300
+    & + .antiScroll
+      border-top 1px solid border-grey
+  small
+    display block
+    margin-top 6.6rem
+    color color-light-grey
+  img
+    max-width 100%
 .example
-	padding 1rem 0
-	cf()
-	&:hover
-		.view-source
-			display block !important
-	& + .example
-		margin-top 1rem
-	&.row
-		width calc(100% + 30px)
-		> *
-			margin-top 6px
-			margin-bottom 6px
-		& ~ small
-			margin-top 4rem
-			display block
-	&.menus
-		.note
-			margin 2em 0 0 0
-			color color-light-grey
-		.note + .menu
-			margin 2em 0 0 0
-	&.types
-		.progress + .progress
-			margin-top 14px
-	&.dropdowns
-		overflow visible
-		.stack + .stack
-			margin-top 14px
-	.message
-		margin 0
-	&.sizes
-		.button + .button
-			margin-left 1em
-	&.animations
-		.group
-			border 1px solid border-grey
-			span(1/1)
-			border-radius border-radius-normal
-	.animation
-		display inline-block
-		padding 1.4em 1.4em 4.2em 1.4em
-		position relative
-		overflow hidden
-		span(1/3)
-		& + .animation
-			border-left 1px solid border-grey
-		&:nth-child(4n)
-			border-left 0
-			border-top 1px solid border-grey
-		&:nth-child(5n)
-			border-top 1px solid border-grey
-		&:nth-child(6n)
-			border-top 1px solid border-grey
-		code
-			absolute bottom left
-			width 100%
-			display block
-			padding .7em 0
-			text-align center
-			margin 0
-			color color-light-grey
-			background-color background-lighter-grey
-			font-size .875em
-			border-radius 0
-	.circle
-		border-radius 50%
-		height 4em
-		width 4em
-		background-color color-violet
-		content ''
-		display block
-		margin 0 auto
-		&:hover
-			transform scale(1.2)
-	.square
-		border-radius 5px
-		height 4em
-		width 4em
-		background-color color-yellow
-		content ''
-		display block
-		margin 0 auto
-	&.layout
-		.block-grey
-			width 5rem
-			height 5rem
-		.relative
-			width 100%
-			height 300px
-	&.typeface
-		.module
-			padding 1.6em 1.8em
-			p
-				letter-spacing .3em
-				font-size 1.1em
-				& + p
-					margin-top 1.3em
-	&.alignment, &.transformtext
-		.module
-			p
-				padding .7em
-	&.stages
-		margin-top 20px
-	&.images
-		.module > [class^='image-']
-			& + span
-				margin-left 9px
-		img
-			max-width 100%
-	&.labels
-		.label
-			margin .2rem
-	&.loaders
-		.module
-			img + img
-				margin-top 2em
-			.hold
-				align(both)
-	.cards
-		.card
-			margin-top 12px
-		& > .card:not(.fluid)
-			margin-right 20px
-	&.buttons
-		.button
-			margin .34em .6em .34em 0
-	&.showing
-		.view-source
-			display block
-			color color-primary
-			opacity .5
-	+below('m')
-		overflow hidden
+  padding 1rem 0
+  cf()
+  &:hover
+    .view-source
+      display block !important
+  & + .example
+    margin-top 1rem
+  &.row
+    width calc(100% + 30px)
+    > *
+      margin-top 6px
+      margin-bottom 6px
+    & ~ small
+      margin-top 4rem
+      display block
+  &.menus
+    .note
+      margin 2em 0 0 0
+      color color-light-grey
+    .note + .menu
+      margin 2em 0 0 0
+  &.types
+    .progress + .progress
+      margin-top 14px
+  &.dropdowns
+    overflow visible
+    .stack + .stack
+      margin-top 14px
+  .message
+    margin 0
+  &.sizes
+    .button + .button
+      margin-left 1em
+  &.animations
+    .group
+      border 1px solid border-grey
+      span(1/1)
+      border-radius border-radius-normal
+  .animation
+    display inline-block
+    padding 1.4em 1.4em 4.2em 1.4em
+    position relative
+    overflow hidden
+    span(1/3)
+    & + .animation
+      border-left 1px solid border-grey
+    &:nth-child(4n)
+      border-left 0
+      border-top 1px solid border-grey
+    &:nth-child(5n)
+      border-top 1px solid border-grey
+    &:nth-child(6n)
+      border-top 1px solid border-grey
+    code
+      absolute bottom left
+      width 100%
+      display block
+      padding .7em 0
+      text-align center
+      margin 0
+      color color-light-grey
+      background-color background-lighter-grey
+      font-size .875em
+      border-radius 0
+  .circle
+    border-radius 50%
+    height 4em
+    width 4em
+    background-color color-violet
+    content ''
+    display block
+    margin 0 auto
+    &:hover
+      transform scale(1.2)
+  .square
+    border-radius 5px
+    height 4em
+    width 4em
+    background-color color-yellow
+    content ''
+    display block
+    margin 0 auto
+  &.layout
+    .block-grey
+      width 5rem
+      height 5rem
+    .relative
+      width 100%
+      height 300px
+  &.typeface
+    .module
+      padding 1.6em 1.8em
+      p
+        letter-spacing .3em
+        font-size 1.1em
+        & + p
+          margin-top 1.3em
+  &.alignment, &.transformtext
+    .module
+      p
+        padding .7em
+  &.stages
+    margin-top 20px
+  &.images
+    .module > [class^='image-']
+      & + span
+        margin-left 9px
+    img
+      max-width 100%
+  &.labels
+    .label
+      margin .2rem
+  &.loaders
+    .module
+      img + img
+        margin-top 2em
+      .hold
+        align(both)
+  .cards
+    .card
+      margin-top 12px
+    & > .card:not(.fluid)
+      margin-right 20px
+  &.buttons
+    .button
+      margin .34em .6em .34em 0
+  &.showing
+    .view-source
+      display block
+      color color-primary
+      opacity .5
+  +below('m')
+    overflow hidden
 .schemes
-	margin .5rem 0
-	&.dark
-		.scheme
-			color text-grey
-		span
-			color text-grey !important
-			color rgba(text-grey,.7) !important
-	.scheme
-		padding 1em 1.2rem
-		color #fff
-		position relative
-		p
-			font-weight 500
-			display block
-			line-height 1.3rem
-		span
-			margin .4rem 0 0 0
-			color #fff
-			color rgba(255,255,255,.7)
-			line-height 1.3rem
-		&:first-child
-			border-radius border-radius-normal 0 0 border-radius-normal
-		&:last-child
-			border-radius 0 border-radius-normal border-radius-normal 0
+  margin .5rem 0
+  &.dark
+    .scheme
+      color text-grey
+    span
+      color text-grey !important
+      color rgba(text-grey,.7) !important
+  .scheme
+    padding 1em 1.2rem
+    color #fff
+    position relative
+    p
+      font-weight 500
+      display block
+      line-height 1.3rem
+    span
+      margin .4rem 0 0 0
+      color #fff
+      color rgba(255,255,255,.7)
+      line-height 1.3rem
+    &:first-child
+      border-radius border-radius-normal 0 0 border-radius-normal
+    &:last-child
+      border-radius 0 border-radius-normal border-radius-normal 0
 
 .breakpoints .module
-	p + p
-			margin-top 8px
+  p + p
+      margin-top 8px
 
 .module
-	transition all 100ms cubic-bezier(0.16, 0.86, 0.44, 1)
-	width 100%
-	&.collapsed
-		border 0
-		padding 0
-		margin 0
-		background-color transparent
-		.footer:not(.content)
-			display none
-		& + .message
-			margin-top 1rem
-	.footer
-		span(1/1)
-		pre
-			background-color #fff
-			margin 1em -1.3em -1.3em -1.3em
-			border-radius 0 0 border-radius-normal border-radius-normal
-			padding 0
-			border-top 1px solid border-grey
-			tab-size 4
-			overflow auto
-		code
-			padding 1.3em
-			margin 0
-			background-color transparent
+  transition all 100ms cubic-bezier(0.16, 0.86, 0.44, 1)
+  width 100%
+  &.collapsed
+    border 0
+    padding 0
+    margin 0
+    background-color transparent
+    .footer:not(.content)
+      display none
+    & + .message
+      margin-top 1rem
+  .footer
+    span(1/1)
+    pre
+      background-color #fff
+      margin 1em -1.3em -1.3em -1.3em
+      border-radius 0 0 border-radius-normal border-radius-normal
+      padding 0
+      border-top 1px solid border-grey
+      tab-size 4
+      overflow auto
+    code
+      padding 1.3em
+      margin 0
+      background-color transparent
 
 .bg, .module .footer pre, .guide
-	background-color #F9FBFC !important
+  background-color #F9FBFC !important
 
 header.sidebar
-	background-color white
-	padding 1.1rem 0
-	z-index 2300
-	width 100%
-	position relative
-	.logo, .sub
-		display inline-block
-		vertical-align top
-		relative top 2px
-		cf()
-		img
-			max-height 19px
-			width 80px
-			pointer-events none
-			user-select none
-		p
-			color #fff
-			margin 0
-	.links
-		float right
-		display inline-block
-		vertical-align top
-		&.left
-			float none
-			margin-left 1.8rem
-		& > *
-			display inline-block
-			vertical-align top
-		li
-			& + li
-				margin-left 1.8rem
-			a
-				color link-light
-				cursor pointer
-				line-height 1.7rem
-				font-size 1rem
-				&:hover
-					color link-light-hover
-			&.active
-				a
-					color color-primary
-	.toggle
-		i
-			display none
-	+below('m')
-		position fixed
-		&.open
-			background-color #F9FBFC
-			border-bottom 2px solid border-grey
-		.logo
-			display block
-		.toggle
-			display block
-			margin 0 auto
-			i
-				display inline-block
-				vertical-align top
-				font-size 1.5rem
-				margin-left 1rem
-				color link-light
-				relative top -2px
-				float right
-			img
-				display inline-block
-				vertical-align top
-			&:hover
-				i
-					color link-light-hover
-		.links
-			float left
-			stack()
-			margin 0 !important
-			text-align center
-			display none
-			li
-				stack()
-				padding 2rem 0
-				& + li
-					margin 0
-			a
-				display block
-				font-size 1.4rem !important
-				span(1/1)
+  background-color white
+  padding 1.1rem 0
+  z-index 2300
+  width 100%
+  position relative
+  .logo, .sub
+    display inline-block
+    vertical-align top
+    relative top 2px
+    cf()
+    img
+      max-height 19px
+      width 80px
+      pointer-events none
+      user-select none
+    p
+      color #fff
+      margin 0
+  .links
+    float right
+    display inline-block
+    vertical-align top
+    &.left
+      float none
+      margin-left 1.8rem
+    & > *
+      display inline-block
+      vertical-align top
+    li
+      & + li
+        margin-left 1.8rem
+      a
+        color link-light
+        cursor pointer
+        line-height 1.7rem
+        font-size 1rem
+        &:hover
+          color link-light-hover
+      &.active
+        a
+          color color-primary
+  .toggle
+    i
+      display none
+  +below('m')
+    position fixed
+    &.open
+      background-color #F9FBFC
+      border-bottom 2px solid border-grey
+    .logo
+      display block
+    .toggle
+      display block
+      margin 0 auto
+      i
+        display inline-block
+        vertical-align top
+        font-size 1.5rem
+        margin-left 1rem
+        color link-light
+        relative top -2px
+        float right
+      img
+        display inline-block
+        vertical-align top
+      &:hover
+        i
+          color link-light-hover
+    .links
+      float left
+      stack()
+      margin 0 !important
+      text-align center
+      display none
+      li
+        stack()
+        padding 2rem 0
+        & + li
+          margin 0
+      a
+        display block
+        font-size 1.4rem !important
+        span(1/1)
 
 .subbar
-	top 49px
-	background-color color-ash
-	padding 13px 0
-	color #fff
-	width 100%
-	z-index 2200
-	.sub
-		font-size .9em
+  top 49px
+  background-color color-ash
+  padding 13px 0
+  color #fff
+  width 100%
+  z-index 2200
+  .sub
+    font-size .9em
 
-	.link
-		font-size .9em
-		margin 0
-		padding 0
-		line-height 1em
-		float right
-		a
-			color #fff
-			opacity .55
-			&:hover
-				opacity 1
-			i
-				margin-right 4px
+  .link
+    font-size .9em
+    margin 0
+    padding 0
+    line-height 1em
+    float right
+    a
+      color #fff
+      opacity .55
+      &:hover
+        opacity 1
+      i
+        margin-right 4px
 
 aside.sidebar
-	absolute right 210px
-	float right
-	cf()
-	.fixed
-		width 30%
-		max-width 195px
-		height 100%
-		overflow auto
-		.inner
-			margin-top 102px
-			overflow auto
-			background-color #fff
-			padding 1.2rem 1.4rem
-			border-radius border-radius-normal
-	h6
-		margin 0 0 .5em 0
-		font-weight 600
-		font-size 1.14rem
-	li
-		padding .5rem 0
-		display block
-		a
-			color link-light
-			&:hover
-				color link-light-hover
-		&.active
-			a
-				color color-primary
-	+below('m')
-		position static
-		float none
-		.fixed
-			position relative
-			width 100%
-			margin 2rem 0 0 0
-			max-width 100%
-			.inner
-				margin 0
-				padding 0 0 .4rem 0
-				background-color transparent
-				width 100%
-				border-bottom 2px solid color-primary
-				border-radius 0
-				h6
-					margin 0
-					display none
-			a.resources
-				display inline-block
-				vertical-align top
-				padding .4rem
-				float right
-				font-size 1rem
-			ul
-				display inline-block
-				vertical-align top
-				li
-					display none
-					font-size 1rem
-					&.active
-						display block !important
-						font-weight 500
+  absolute right 210px
+  float right
+  cf()
+  .fixed
+    width 30%
+    max-width 195px
+    height 100%
+    overflow auto
+    .inner
+      margin-top 102px
+      overflow auto
+      background-color #fff
+      padding 1.2rem 1.4rem
+      border-radius border-radius-normal
+  h6
+    margin 0 0 .5em 0
+    font-weight 600
+    font-size 1.14rem
+  li
+    padding .5rem 0
+    display block
+    a
+      color link-light
+      &:hover
+        color link-light-hover
+    &.active
+      a
+        color color-primary
+  +below('m')
+    position static
+    float none
+    .fixed
+      position relative
+      width 100%
+      margin 2rem 0 0 0
+      max-width 100%
+      .inner
+        margin 0
+        padding 0 0 .4rem 0
+        background-color transparent
+        width 100%
+        border-bottom 2px solid color-primary
+        border-radius 0
+        h6
+          margin 0
+          display none
+      a.resources
+        display inline-block
+        vertical-align top
+        padding .4rem
+        float right
+        font-size 1rem
+      ul
+        display inline-block
+        vertical-align top
+        li
+          display none
+          font-size 1rem
+          &.active
+            display block !important
+            font-weight 500
 
 .sidebar
-	& + .page
-		padding-right 230px
-		+below('m')
-			padding-right 0
+  & + .page
+    padding-right 230px
+    +below('m')
+      padding-right 0
 
 .outer-title
-	margin-bottom 1.8rem
-	border-bottom 1px solid border-grey
-	padding-bottom 1.4rem
-	h3
-		font-weight 700
-		width 100%
-	p
-		color color-light-grey
-		font-size 1.1rem
+  margin-bottom 1.8rem
+  border-bottom 1px solid border-grey
+  padding-bottom 1.4rem
+  h3
+    font-weight 700
+    width 100%
+  p
+    color color-light-grey
+    font-size 1.1rem
 
 .log
-	padding 0 0 0 12rem
-	position relative
-	.date
-		absolute top 2.4rem left
-		font-weight 500
-		color color-light-grey
-		font-size 1rem
-	.inner
-		border-top 1px solid border-grey
-		padding 1.6rem 0
-		h4
-			margin 0 0 .5rem 0
-		.label
-			font-size .86rem
-			vertical-align middle
-			relative top -2px
-			margin-right .6rem
-			line-height .86rem
-			letter-spacing 0
-		p
-			font-size 1rem
-			line-height 1.8rem
-			color color-light-grey
-			& + p
-				margin-top .5rem
-			& + h4
-				margin-top 2rem
-	+below('m')
-		padding 0
-		.date
-			relative top 2.6rem
-		.inner:not(.more)
-			padding 4rem 0 1.6rem 0
+  padding 0 0 0 12rem
+  position relative
+  .date
+    absolute top 2.4rem left
+    font-weight 500
+    color color-light-grey
+    font-size 1rem
+  .inner
+    border-top 1px solid border-grey
+    padding 1.6rem 0
+    h4
+      margin 0 0 .5rem 0
+    .label
+      font-size .86rem
+      vertical-align middle
+      relative top -2px
+      margin-right .6rem
+      line-height .86rem
+      letter-spacing 0
+    p
+      font-size 1rem
+      line-height 1.8rem
+      color color-light-grey
+      & + p
+        margin-top .5rem
+      & + h4
+        margin-top 2rem
+  +below('m')
+    padding 0
+    .date
+      relative top 2.6rem
+    .inner:not(.more)
+      padding 4rem 0 1.6rem 0
 
 footer.footer
-	span(1/1)
-	absolute bottom left
-	background-color #fff
-	.links
-		a
-			color link-light
-			&:hover
-				color link-light-hover
-	.madeby a
-		&:hover
-			color link-light-hover
-	.cindr
-		color color-primary
-	& .inner
-		padding 1.4rem 0
-		.links
-			li a
-				font-size .86rem
-	+below('m')
-		li
-			stack()
-			text-align center
-			margin .7rem 0
-			& + li
-				margin-left 0 !important
-			a
-				display block
+  span(1/1)
+  absolute bottom left
+  background-color #fff
+  .links
+    a
+      color link-light
+      &:hover
+        color link-light-hover
+  .madeby a
+    &:hover
+      color link-light-hover
+  .cindr
+    color color-primary
+  & .inner
+    padding 1.4rem 0
+    .links
+      li a
+        font-size .86rem
+  +below('m')
+    li
+      stack()
+      text-align center
+      margin .7rem 0
+      & + li
+        margin-left 0 !important
+      a
+        display block
 .wrap
-	& + footer.footer
-		position static
-		margin 0
+  & + footer.footer
+    position static
+    margin 0
 
 @keyframes puzzlebounce
-	0%, 100%
-		margin 0
-	20%
-		margin -20px 0 0 0
-	80%
-		margin 10px 0 0 0
+  0%, 100%
+    margin 0
+  20%
+    margin -20px 0 0 0
+  80%
+    margin 10px 0 0 0
 
 
 .hljs
-	display block
-	overflow-x auto
-	padding 0.5em
+  display block
+  overflow-x auto
+  padding 0.5em
 
 .hljs,
 .hljs-subst,
 .nginx .hljs-title
-	color darken(link-light, 10%)
+  color darken(link-light, 10%)
 
 .hljs-tag .hljs-title, .hljs-keyword
-	color #4A709E
+  color #4A709E
 
 .hljs-title,
 .hljs-constant,
@@ -918,11 +918,11 @@ footer.footer
 .markdown .hljs-header,
 .coffeescript .hljs-attr,
 .tp .hljs-variable
-	color #426592
+  color #426592
 
 .hljs-string
-	color color-primary
-	font-weight 500
+  color color-primary
+  font-weight 500
 
 .hljs-attr
-	color #4a89cc
+  color #4a89cc
