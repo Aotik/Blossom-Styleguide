@@ -16,7 +16,7 @@ class Cards extends React.Component {
         <Title title="Cards">A button indicates a possible user action</Title>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Full cards</h6>
+            <h5>Full cards</h5>
             <p>Full cards contain an image, title, subtitle, description and a footer</p>
           </div>
           <div className="module collapsed">
@@ -26,9 +26,9 @@ class Cards extends React.Component {
                   <img src="/images/365cons_pinata.jpg" alt="" />
                 </div>
                 <div className="content">
-                  <h6 className="header">
+                  <h5 className="header">
                     Jessie
-                  </h6>
+                  </h5>
                   <div className="sub">
                     Sassy pi&ntilde;ata
                   </div>
@@ -51,9 +51,9 @@ class Cards extends React.Component {
                   <img src="/images/365cons_cow.jpg" alt="" />
                 </div>
                 <div className="content">
-                  <h6 className="header">
+                  <h5 className="header">
                     Wally
-                  </h6>
+                  </h5>
                   <div className="sub">
                     Happy cow
                   </div>
@@ -78,16 +78,16 @@ class Cards extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Action cards</h6>
+            <h5>Action cards</h5>
             <p>A card can be used to display information as well as list a call to action</p>
           </div>
           <div className="module collapsed">
             <div className="cards">
               <div className="card">
                 <div className="content">
-                  <h6 className="header">
+                  <h5 className="header">
                     Can&#39;t log in!
-                  </h6>
+                  </h5>
                   <div className="sub">
                     Created by Michelle
                   </div>
@@ -106,16 +106,16 @@ class Cards extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Basic cards</h6>
+            <h5>Basic cards</h5>
             <p>Basic cards are used to display simple information</p>
           </div>
           <div className="module collapsed">
             <div className="cards">
               <div className="card">
                 <div className="content">
-                  <h6 className="header">
+                  <h5 className="header">
                     Koi
-                  </h6>
+                  </h5>
                   <div className="sub">
                     Fish
                   </div>
@@ -131,16 +131,16 @@ class Cards extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Fluid cards</h6>
+            <h5>Fluid cards</h5>
             <p>Cards can also take up the width of the container by adding the <code>fluid</code> class</p>
           </div>
           <div className="module collapsed">
             <div className="cards">
               <div className="card fluid">
                 <div className="content">
-                  <h6 className="header">
+                  <h5 className="header">
                     Peafowl
-                  </h6>
+                  </h5>
                   <a className="sub">
                     https://en.wikipedia.org/wiki/Peafowl
                   </a>

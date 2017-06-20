@@ -25,7 +25,7 @@ class Customization extends BaseComponent {
               <h3>Tips & tricks for making Blossom your own</h3>
               <div className="button-group breakpoint-xs-stackable">
                 <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">Open-source repository</a>
-                <Link to="/elements" className="button medium primary labeled"><i className="fa fa-th-large"/> Browse elements</Link>
+                <Link to="/elements" className="button medium primary">Browse elements</Link>
               </div>
             </div>
           </div>
@@ -35,8 +35,7 @@ class Customization extends BaseComponent {
         </section>
         <section className="guide">
           <div className="contain">
-            <h4>About theming</h4>
-            <div className="divider"/>
+            <h3>About theming</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
@@ -54,17 +53,14 @@ class Customization extends BaseComponent {
             </div>
           </div>
           <div className="contain">
-            <h4>Building Blossom</h4>
-            <div className="divider"/>
+            <h3>Building Blossom</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
                   <div className="header">Compiling new changes</div>
                     By now you should have Gulp installed and are wondering, how do I build my new changes? When installing Blossom, <code>gulpfile.js</code> is included within the directory which manages these tasks. There are two tasks that can be ran.
                     <br/>
-                    <b>Make sure you change any folder variables in the gulpfile if you moved the blossom-ui folder.</b>
-                    <br/>
-                    <br/>
+                    <div className="message warning">Ensure you change any folder variables in the gulpfile if you moved the blossom-ui folder.</div>
                     You can build changes whilst you're working on theming Blossom by running a task to watch for any changes:
                     <pre>
                       <code className="cmake">
@@ -83,8 +79,7 @@ class Customization extends BaseComponent {
             </div>
           </div>
           <div className="contain">
-            <h4>Customizing variables.styl</h4>
-            <div className="divider"/>
+            <h3>Customizing variables.styl</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
@@ -96,7 +91,7 @@ class Customization extends BaseComponent {
 font-size-h1 = 3.8em
 font-size-h2 = 3em
 font-size-h3 = 2.2em
-font-size-h4 = 1.8em
+font-size-h3 = 1.8em
 font-size-h5 = 1.4em
 font-size-h6 = 1.08em
 font-family-standard = 'Roboto', 'Open Sans', sans-serif

@@ -16,7 +16,7 @@ class Breakpoints extends React.Component {
         <Title title="Breakpoints">Take advantage of breakpoints when making your website responsive</Title>
         <div className="example">
           <div className="explanation">
-            <h6>Responsive breakpoints</h6>
+            <h5>Responsive breakpoints</h5>
             <p>Default breakpoints are used throughout Blossom to simplify the design of responsive layouts</p>
           </div>
           <div className="module collapsed">
@@ -65,7 +65,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>XS breakpoint classes</h6>
+            <h5>XS breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>X-Small</b> breakpoint.</p>
           </div>
           <div className="module collapsed">
@@ -77,7 +77,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>S breakpoint classes</h6>
+            <h5>S breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>Small</b> breakpoint.</p>
           </div>
           <div className="module collapsed">
@@ -89,7 +89,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>M breakpoint classes</h6>
+            <h5>M breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>Medium</b> breakpoint.</p>
           </div>
           <div className="module collapsed">
@@ -101,7 +101,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>L breakpoint classes</h6>
+            <h5>L breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>Large</b> breakpoint.</p>
           </div>
           <div className="module collapsed">
@@ -113,7 +113,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>XL breakpoint classes</h6>
+            <h5>XL breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>X-Large</b> breakpoint.</p>
           </div>
           <div className="module collapsed">
@@ -125,7 +125,7 @@ class Breakpoints extends React.Component {
         </div>
         <div className="example breakpoints">
           <div className="explanation">
-            <h6>XXL breakpoint classes</h6>
+            <h5>XXL breakpoint classes</h5>
             <p>Specific utility classes that alter elements above the <b>XX-Large</b> breakpoint.</p>
           </div>
           <div className="module collapsed">

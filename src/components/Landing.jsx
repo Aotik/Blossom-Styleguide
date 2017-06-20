@@ -16,12 +16,12 @@ class Landing extends BaseComponent {
         <section className="hero clearfix dent-container light">
           <div className="dent-cover">
             <div className="contain">
-              <span className="label green">v1.3.0</span>
+              <span className="label green">v1.4.2</span>
               <h1><img src="/images/logo.svg"/></h1>
               <h3>A simply beautiful, themeable design framework built from the ground up in Stylus with performance in mind.</h3>
               <div className="button-group breakpoint-xs-stackable">
                 <Link to="/introduction" className="button large outlined">Getting started</Link>
-                <a rel="noopener noreferrer" target="_blank" className="button large primary labeled" href="https://cdn.darken.io/blossom/1.3.0/blossom-1.3.0.zip"><i className="fa fa-arrow-down"/> Download Blossom UI</a>
+                <a rel="noopener noreferrer" target="_blank" className="button large primary labeled labeled-right" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip"><i className="fa fa-angle-double-down"/> Download Blossom UI</a>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ $ npm install blossom-ui --save`}
               </code>
               <span className="muted">Let it do its thing for a few seconds...</span>
               <span className="muted">Aaaand that's it.</span>
-              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.3.0/blossom-1.3.0.zip">ZIP file</a>.</span>
+              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip">ZIP file</a> <i className="fa fa-angle-double-down"/></span>
               </pre>
             </div>
           </div>
@@ -64,7 +64,7 @@ $ npm install blossom-ui --save`}
           <div className="dent-cover">
             <div className="contain">
             <h2>People already <i className="fa fa-heart text-red"/> Blossom UI</h2>
-            <p>Over 3300+ awesome people have installed blossom-ui from NPM, using it as their standard design framework. There's really no reason you shouldn't hop on the train towards simplicity.</p>
+            <p>Over 4500+ awesome people have installed blossom-ui just from NPM, using it as their standard design framework. Why keep wasting precious project time when you can just take a minute to set up Blossom now?</p>
             <div className="row">
               <div className="xs-12 l-6 col column">
                 <div className="inner">
@@ -93,7 +93,7 @@ $ npm install blossom-ui --save`}
           <div className="dent-cover">
             <div className="contain">
               <h2>Get started with the boilerplate</h2>
-              <p>We have built Blossom Boilerplate, a fully featured development environment allowing you to dive straight into creating static websites powered by Blossom UI. Your favourite tools have been implemented to make you feel right at home.</p>
+              <p>We've built Blossom Boilerplate, a fully featured development environment allowing you to dive straight into creating static websites powered by Blossom UI. Your favourite tools have been implemented to make you feel right at home.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/blossom-boilerplate" className="text-primary">Show me this sorcery <i className="fa fa-angle-right"/></a>
               <img src="/images/boilerplate-logos.jpg"/>
             </div>

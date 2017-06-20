@@ -16,7 +16,7 @@ class Tables extends React.Component {
         <Title title="Tables">Orgnanise data into something more readable</Title>
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Striped tables</h6>
+            <h5>Striped tables</h5>
             <p>Stripled tables with a single header using the <code>colspan</code> property</p>
           </div>
           <div className="module collapsed">
@@ -60,7 +60,7 @@ class Tables extends React.Component {
         </div>
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Celled tables</h6>
+            <h5>Celled tables</h5>
             <p>Fully celled tables, horizontally and vertically</p>
           </div>
           <div className="module collapsed">
@@ -109,7 +109,7 @@ class Tables extends React.Component {
         </div>
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Crowded tables</h6>
+            <h5>Crowded tables</h5>
             <p>Tables will automatically adjust their cell sizes to accompany their content</p>
           </div>
           <div className="module collapsed">
@@ -158,7 +158,7 @@ class Tables extends React.Component {
         </div>
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Simple tables</h6>
+            <h5>Simple tables</h5>
             <p>Simple tables have no background color and only horizontal borders</p>
           </div>
           <div className="module collapsed">
@@ -207,7 +207,7 @@ class Tables extends React.Component {
         </div>
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Basic tables</h6>
+            <h5>Basic tables</h5>
             <p>Basic tables convey simple information and is the most basic variation of a table</p>
           </div>
           <div className="module collapsed">

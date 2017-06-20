@@ -16,8 +16,7 @@ class NavFooter extends BaseComponent {
           <div className="inner">
             <ul className="list horizontal links">
               <li><a rel="noopener noreferrer" target="_blank" href="http://m.me/cindr.io">Support</a></li>
-              <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom">Open-source</a></li>
-              <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/issues/new">Submit an issue</a></li>
+              <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/aotik/Blossom">Open-source</a></li>
               <li className="float-right madeby"><a className="text-grey" rel="noopener noreferrer" target="_blank" href="https://cindr.io">Developed by <span className="cindr">Cindr.io</span></a></li>
               <li><Link to="/changelog">Changelog</Link></li>
             </ul>

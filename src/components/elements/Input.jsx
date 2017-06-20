@@ -16,7 +16,7 @@ class Input extends React.Component {
         <Title title="Input">A field to get a response from a user</Title>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Transparent inputs</h6>
+            <h5>Transparent inputs</h5>
             <p>An input with no background or border</p>
           </div>
           <div className="module collapsed">
@@ -29,7 +29,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Standard inputs</h6>
+            <h5>Standard inputs</h5>
             <p>A standard input with a border</p>
           </div>
           <div className="module collapsed">
@@ -42,7 +42,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Disabled inputs</h6>
+            <h5>Disabled inputs</h5>
             <p>A disabled input using the <code>.disabled</code> class</p>
           </div>
           <div className="module collapsed">
@@ -55,7 +55,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Disabled inputs</h6>
+            <h5>Disabled inputs</h5>
             <p>A disabled input using the <code>disabled</code> property</p>
           </div>
           <div className="module collapsed">
@@ -68,7 +68,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with a button</h6>
+            <h5>Input with a button</h5>
             <p>A standard input with an ajoined default button</p>
           </div>
           <div className="module collapsed">
@@ -82,7 +82,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with an outlined button</h6>
+            <h5>Input with an outlined button</h5>
             <p>A standard input with an ajoined default outlined button</p>
           </div>
           <div className="module collapsed">
@@ -96,7 +96,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with an icon button</h6>
+            <h5>Input with an icon button</h5>
             <p>A standard input with an ajoined icon button</p>
           </div>
           <div className="module collapsed">
@@ -110,7 +110,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with an left aligned button</h6>
+            <h5>Input with an left aligned button</h5>
             <p>A standard input with an ajoined left aligned button</p>
           </div>
           <div className="module collapsed">
@@ -124,7 +124,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with a left aligned labeled button</h6>
+            <h5>Input with a left aligned labeled button</h5>
             <p>A standard input with an ajoined left aligned, colored labeled button</p>
           </div>
           <div className="module collapsed">
@@ -141,7 +141,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Input with a labeled button</h6>
+            <h5>Input with a labeled button</h5>
             <p>A standard input with an ajoined colored labeled button</p>
           </div>
           <div className="module collapsed">

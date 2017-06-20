@@ -16,7 +16,7 @@ class Labels extends React.Component {
         <Title title="Labels">A button indicates a possible user action</Title>
         <div className="example labels">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Colored labels</h6>
+            <h5>Colored labels</h5>
             <p>Labels can be colored to represent its state</p>
           </div>
           <div className="module collapsed">
@@ -39,7 +39,7 @@ class Labels extends React.Component {
         </div>
         <div className="example labels">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Labels with icons</h6>
+            <h5>Labels with icons</h5>
             <p>A label with an icon to enchance its visual state</p>
           </div>
           <div className="module collapsed">
@@ -53,12 +53,12 @@ class Labels extends React.Component {
         </div>
         <div className="example labels">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Labeled labels</h6>
+            <h5>Labeled labels</h5>
             <p>Labelception, a label within a label</p>
           </div>
           <div className="module collapsed">
             <div className="label green">
-              New messaged recieved
+              New message recieved
               <div className="detail">From Daniel</div>
             </div>
             <div className="label primary">
@@ -75,7 +75,7 @@ class Labels extends React.Component {
         </div>
         <div className="example labels">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Labels with links</h6>
+            <h5>Labels with links</h5>
             <p>Quick link straight from a label</p>
           </div>
           <div className="module collapsed">
@@ -90,7 +90,7 @@ class Labels extends React.Component {
         </div>
         <div className="example labels">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Circular labels</h6>
+            <h5>Circular labels</h5>
             <p>Rounded off labels, great for showing stats</p>
           </div>
           <div className="module collapsed">

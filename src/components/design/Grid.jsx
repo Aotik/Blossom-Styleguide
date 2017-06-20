@@ -16,7 +16,7 @@ class Grid extends React.Component {
         <Title title="Flex grid">A 12 column responsive flex-box grid system designed for efficient mobile-first layouts</Title>
         <div className="example">
           <div className="explanation">
-            <h6>Equal columns</h6>
+            <h5>Equal columns</h5>
             <p>Columns within a row with the <code>.equal</code> class share an equal width depending on the number of columns provided</p>
           </div>
           <div className="module collapsed">
@@ -60,7 +60,7 @@ class Grid extends React.Component {
         </div>
         <div className="example">
           <div className="explanation">
-            <h6>Responsive columns</h6>
+            <h5>Responsive columns</h5>
             <p>Responsive columns adapt to what <Link to="/design/breakpoints">breakpoint class</Link> is assigned to the column width</p>
             <p>For example, <code>.s-4</code> will cover 4 of 12 columns when the screen size is above the <b>Small</b> breakpoint</p>
           </div>
@@ -90,7 +90,7 @@ class Grid extends React.Component {
         </div>
         <div className="example">
           <div className="explanation">
-            <h6>Responsive equal columns</h6>
+            <h5>Responsive equal columns</h5>
             <p>Responsive equal columns take up the equal amount of space when above the designated breakpoint</p>
             <p>For example, <code>.m-equal</code> will make each column equal when the screen size is above the <b>Medium</b> breakpoint</p>
           </div>
@@ -115,7 +115,7 @@ class Grid extends React.Component {
         </div>
         <div className="example">
           <div className="explanation">
-            <h6>Mixing responsive columns</h6>
+            <h5>Mixing responsive columns</h5>
             <p>Responsive column classes can be used together to change the structure of the layout at several breakpoints</p>
           </div>
           <div className="module collapsed">
@@ -150,7 +150,7 @@ class Grid extends React.Component {
         </div>
         <div className="example">
           <div className="explanation">
-            <h6>Pushing columns</h6>
+            <h5>Pushing columns</h5>
             <p>Columns can be pushed further down the row relative to the previous column</p>
           </div>
           <div className="module collapsed">

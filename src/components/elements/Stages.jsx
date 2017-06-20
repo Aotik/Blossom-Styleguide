@@ -16,7 +16,7 @@ class Stages extends React.Component {
         <Title title="Stages">A button indicates a possible user action</Title>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Basic stage</h6>
+            <h5>Basic stage</h5>
             <p>A single stage with a description</p>
           </div>
           <div className="module collapsed">
@@ -33,7 +33,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Headered stage</h6>
+            <h5>Headered stage</h5>
             <p>A single stage can also contain a header</p>
           </div>
           <div className="module collapsed">
@@ -53,7 +53,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Disabled stage</h6>
+            <h5>Disabled stage</h5>
             <p>A disabled stage is greyed out for the user</p>
           </div>
           <div className="module collapsed">
@@ -73,7 +73,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Complete stage</h6>
+            <h5>Complete stage</h5>
             <p>A stage with a completed state</p>
           </div>
           <div className="module collapsed">
@@ -96,7 +96,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Active stage</h6>
+            <h5>Active stage</h5>
             <p>A stage with an active state</p>
           </div>
           <div className="module collapsed">
@@ -119,7 +119,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Grouped stages</h6>
+            <h5>Grouped stages</h5>
             <p>Grouped stages allow the user to follow a path to the final stage by activating each one along the way</p>
           </div>
           <div className="module collapsed">
@@ -164,7 +164,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Completed stages</h6>
+            <h5>Completed stages</h5>
             <p>Completed stages show the user that the stage has been completed and does not need revisiting</p>
           </div>
           <div className="module collapsed">
@@ -209,7 +209,7 @@ class Stages extends React.Component {
         </div>
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Vertical stages</h6>
+            <h5>Vertical stages</h5>
             <p>Grouped stages can also be vertical aligned</p>
           </div>
           <div className="module collapsed">

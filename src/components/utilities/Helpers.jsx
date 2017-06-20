@@ -16,7 +16,7 @@ class Visibility extends React.Component {
         <Title title="Helper classes">Helpers are defined to perform common re-usable functions</Title>
         <div className="example alignment">
           <div className="explanation">
-            <h6>Alignment classes</h6>
+            <h5>Alignment classes</h5>
             <p>Use left, center & right alignment classes to align your text</p>
           </div>
           <div className="module">
@@ -38,7 +38,7 @@ class Visibility extends React.Component {
         </div>
         <div className="example transformtext">
           <div className="explanation">
-            <h6>Transform classes</h6>
+            <h5>Transform classes</h5>
             <p>Use helper classes to transform your text</p>
           </div>
           <div className="module">
@@ -57,7 +57,7 @@ class Visibility extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Hide elements completely</h6>
+            <h5>Hide elements completely</h5>
             <p>By using <code>.hidden</code> you can prevent elements from being shown as well as collapsing its space it would take up</p>
             <div className="module">
               <span className="block-grey hidden"></span>
@@ -68,7 +68,7 @@ class Visibility extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Visually hide elements</h6>
+            <h5>Visually hide elements</h5>
             <p>By using <code>.invisible</code> you can prevent elements from being shown but its space will still be taken up as normal</p>
             <div className="module">
               <span className="block-grey invisible"></span>
@@ -79,7 +79,7 @@ class Visibility extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Block display</h6>
+            <h5>Block display</h5>
             <p>Force elements to stack over eachother</p>
             <div className="module">
               <div className="block-green block"></div>
@@ -92,7 +92,7 @@ class Visibility extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Inline block display</h6>
+            <h5>Inline block display</h5>
             <p>Position elements in a single file</p>
             <div className="module">
               <div className="block-green inline"></div>

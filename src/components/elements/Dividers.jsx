@@ -16,7 +16,7 @@ class Dividers extends React.Component {
         <Title title="Dividers">Dividers are used to split information into readable sections</Title>
         <div className="example dividers">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Default divider</h6>
+            <h5>Default divider</h5>
             <p>Basic one line divider</p>
           </div>
           <div className="module collapsed">
@@ -29,7 +29,7 @@ class Dividers extends React.Component {
         </div>
         <div className="example dividers">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Divider with text</h6>
+            <h5>Divider with text</h5>
             <p>Horizontal dividers can contain text</p>
           </div>
           <div className="module collapsed">

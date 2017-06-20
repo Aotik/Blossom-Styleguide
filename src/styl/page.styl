@@ -12,19 +12,12 @@
     width 100%
     height 100%
 
-.circular
-  border-radius 50%
-  width 2.2em
-  height 2.2em
-  line-height 1em
-  text-align center
-
 .squared
   border-radius 0 !important
   text-align center
 
 .main-content
-  padding-bottom 71px
+  padding-bottom 80px
   +below('m')
     padding-top 3.4rem
     padding-bottom 18rem
@@ -39,9 +32,11 @@
   min-height 100%
   width 100%
   .page
-    font-size 1em
     padding 35px 0
     cf()
+
+.label.green + h1
+  margin-top .7rem
 
 .hero
   text-align center
@@ -52,15 +47,16 @@
   width 100%
   background-color #fff
   h1
-    margin .8rem 0 -.5rem 0
-    font-weight 800
-    font-size 4.4rem
+    margin -.5rem 0
+    font-weight 400
+    font-size 5.4rem
+    line-height 1.4em
     img
       height 80px
       pointer-events none
       user-select none
   h3
-    font-weight 300
+    font-weight 400
     color color-light-grey
     max-width 73%
     display block
@@ -81,10 +77,14 @@
 
 .button-group
   margin-top 2rem
+  .labeled-right
+    padding-right 4.8rem !important
   i
-    line-height 3rem !important
+    line-height 3.8rem !important
+    font-size 1.5rem !important
+    width 3.3rem
   .button + .button
-    margin-left 1.4rem
+    margin-left 2rem
 
 .dent
   background-color #fff
@@ -114,15 +114,16 @@ section.about, section.size, section.boilerplate
   position relative
   h2
     margin-bottom .4rem
-  p
-    color color-light-grey
-    font-size 1.1rem
-    line-height 1.7rem
+
+section:not(.guide)
+  p, .item
+    font-size font-size-hero
+    line-height 1.8em
 
 section.boilerplate
+  text-align center
   .contain
     a
-      font-size 1.2rem
       line-height 2.2rem
       font-weight 500
       margin-top 1rem
@@ -135,13 +136,9 @@ section.boilerplate
       margin 3rem auto 0 auto
       +below('m')
         max-width 80%
+
 section.features, section.boilerplate
-  h2
-    margin 0 0 1rem 0
   & .contain > p
-    color color-light-grey
-    font-size 1.2rem
-    line-height 2.2rem
     max-width 73%
     display block
     margin 0 auto
@@ -150,16 +147,20 @@ section.features, section.boilerplate
 
 section.size
   overflow hidden
-  .dent-cover
-    padding 7rem 0 7rem 0
-    position relative
   ul
     display inline-block
     .button
-      margin 1.2rem 0 0 -1rem
+      margin 1.2rem 0 1rem -1rem
+  h2, h3
+    color #fff
+  p
+    color lighten(color-primary, 80%)
+  .dent-cover
+    padding 7rem 0 7rem 0
+    position relative
+
   .item
     color lighten(color-primary, 80%)
-    font-size 1.2rem
     line-height 1.7rem
   .slide
     height 100%
@@ -174,7 +175,7 @@ section.size
       box-shadow -6px 4px 20px 3px rgba(34,36,38,0.35)
       position relative
       line-height 2.2rem
-      font-size 1.1rem
+
       font-family font-family-code
       white-space pre-wrap
       code
@@ -184,7 +185,7 @@ section.size
         color #48d8a0
         padding 0
         line-height 2.2rem
-        font-size 1.1rem
+        font-size 1rem
       .muted
         display block
         color lighten(#1f2333, 80%)
@@ -207,15 +208,8 @@ section.size
           font-size 1rem
           line-height 1.8rem
 
-section.boilerplate
-  text-align center
-section.size
-  h2, h3
-    color #fff
-  p
-    color lighten(color-primary, 80%)
 
-.features
+section.features
   cf()
   background-color #fff
   text-align center
@@ -229,7 +223,6 @@ section.size
     +below('m')
       margin 0
     p
-      font-size 1.1rem
       line-height 2rem
 
 .grid
@@ -248,16 +241,14 @@ section.size
     padding 3rem
     border-radius 8px
     box-shadow -6px 4px 20px 3px rgba(34,36,38,0.05)
-    background-color lighten(background-light-grey, 80%)
+    background-color #fff
     +below('m')
       padding 2.4rem
   h4
-    font-weight 600
     margin 0 0 .4rem 0
   p
     flex 1 0 auto
     margin 0 0 1.4em 0
-    color color-light-grey
   .fa
     font-size 4em
     margin 0 0 .4em 0
@@ -278,10 +269,10 @@ section.size
   background-color lighten(color-primary, 30%)
   border 2px solid color-primary
   width 100%
-  line-height 2.8rem
+  line-height 2.7rem
   padding 1rem 2rem
-  font-size 1.2rem
-  font-weight 700
+  font-size 1rem
+  font-weight 500
   margin .5rem 0
   color #fff
   border-radius 0
@@ -338,18 +329,21 @@ section.size
 
 .guide
   padding 3rem 0 3rem 0
-  h4
-    font-weight 900
-  .contain + .contain
-    margin-top 4em
+  .contain
+    & > h3
+      margin-bottom 1rem
+    & + .contain
+      margin-top 4em
   .stages
     .header
-      font-size 1.2rem
-      line-height 2.2rem
+      line-height 2.6rem
+      font-size font-size-h5
     .stage
       overflow-x auto
+      padding 2rem 2.8rem
+      +below('m')
+        padding 1rem 1.8rem
     .content, .item
-      font-size 1rem
       line-height 1.8rem
 
 .explanation
@@ -368,14 +362,9 @@ section.size
   small
     display block
     color text-grey
-  h6
-    font-size 1.2rem
-    font-weight 600
-    line-height 2.2rem
   p
     color color-light-grey
     display block
-    font-size 1rem
     line-height 1.8rem
     & + p
       margin .4em 0 0 0
@@ -480,7 +469,6 @@ section.size
       margin 0
       color color-light-grey
       background-color background-lighter-grey
-      font-size .875em
       border-radius 0
   .circle
     border-radius 50%
@@ -512,7 +500,6 @@ section.size
       padding 1.6em 1.8em
       p
         letter-spacing .3em
-        font-size 1.1em
         & + p
           margin-top 1.3em
   &.alignment, &.transformtext
@@ -611,9 +598,12 @@ section.size
 .bg, .module .footer pre, .guide
   background-color #F9FBFC !important
 
+.bind.bg
+  background-color white !important
+
 header.sidebar
   background-color white
-  padding 1.1rem 0
+  padding 1.8rem 0
   z-index 2300
   width 100%
   position relative
@@ -623,8 +613,8 @@ header.sidebar
     relative top 2px
     cf()
     img
-      max-height 19px
-      width 80px
+      max-height 23px
+      width 90px
       pointer-events none
       user-select none
     p
@@ -636,18 +626,17 @@ header.sidebar
     vertical-align top
     &.left
       float none
-      margin-left 1.8rem
+      margin-left 2.3rem
     & > *
       display inline-block
       vertical-align top
     li
       & + li
-        margin-left 1.8rem
+        margin-left 2.3rem
       a
         color link-light
         cursor pointer
         line-height 1.7rem
-        font-size 1rem
         &:hover
           color link-light-hover
       &.active
@@ -669,7 +658,6 @@ header.sidebar
       i
         display inline-block
         vertical-align top
-        font-size 1.5rem
         margin-left 1rem
         color link-light
         relative top -2px
@@ -693,7 +681,6 @@ header.sidebar
           margin 0
       a
         display block
-        font-size 1.4rem !important
         span(1/1)
 
 .subbar
@@ -703,11 +690,8 @@ header.sidebar
   color #fff
   width 100%
   z-index 2200
-  .sub
-    font-size .9em
 
   .link
-    font-size .9em
     margin 0
     padding 0
     line-height 1em
@@ -730,20 +714,17 @@ aside.sidebar
     height 100%
     overflow auto
     .inner
-      margin-top 102px
+      margin-top 130px
       overflow auto
-      background-color #fff
-      padding 1.2rem 1.4rem
-      border-radius border-radius-normal
+      padding 0 1rem
   h6
     margin 0 0 .5em 0
-    font-weight 600
-    font-size 1.14rem
   li
-    padding .5rem 0
+    padding .3rem 0
     display block
     a
       color link-light
+      line-height 1.6em
       &:hover
         color link-light-hover
     &.active
@@ -772,13 +753,11 @@ aside.sidebar
         vertical-align top
         padding .4rem
         float right
-        font-size 1rem
       ul
         display inline-block
         vertical-align top
         li
           display none
-          font-size 1rem
           &.active
             display block !important
             font-weight 500
@@ -794,12 +773,11 @@ aside.sidebar
   border-bottom 1px solid border-grey
   padding-bottom 1.4rem
   h3
-    font-weight 700
     width 100%
   p
     color color-light-grey
-    font-size 1.1rem
-
+    font-size font-size-hero
+    line-height 1.8rem
 .log
   padding 0 0 0 12rem
   position relative
@@ -807,21 +785,19 @@ aside.sidebar
     absolute top 2.4rem left
     font-weight 500
     color color-light-grey
-    font-size 1rem
   .inner
     border-top 1px solid border-grey
     padding 1.6rem 0
     h4
       margin 0 0 .5rem 0
     .label
-      font-size .86rem
       vertical-align middle
       relative top -2px
       margin-right .6rem
       line-height .86rem
       letter-spacing 0
+      font-size .8rem
     p
-      font-size 1rem
       line-height 1.8rem
       color color-light-grey
       & + p
@@ -839,7 +815,10 @@ footer.footer
   span(1/1)
   absolute bottom left
   background-color #fff
+  padding 1.8rem 0
   .links
+    li + li
+      margin-left 2rem
     a
       color link-light
       &:hover
@@ -849,11 +828,6 @@ footer.footer
       color link-light-hover
   .cindr
     color color-primary
-  & .inner
-    padding 1.4rem 0
-    .links
-      li a
-        font-size .86rem
   +below('m')
     li
       stack()
@@ -880,7 +854,6 @@ footer.footer
 .hljs
   display block
   overflow-x auto
-  padding 0.5em
 
 .hljs,
 .hljs-subst,

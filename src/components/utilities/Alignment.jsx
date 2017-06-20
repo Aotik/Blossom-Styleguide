@@ -16,7 +16,7 @@ class Alignment extends React.Component {
         <Title title="Element alignment">Align selected elements vertically and/or horizontally by adding simple classes</Title>
         <div className="example layout">
           <div className="explanation">
-            <h6>Align both horizontally & vertically</h6>
+            <h5>Align both horizontally & vertically</h5>
             <p>You can simply align elements dead center of a relative container by adding the <code>.centered</code> class</p>
             <div className="module">
               <div className="relative">
@@ -34,7 +34,7 @@ class Alignment extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Align horizontally</h6>
+            <h5>Align horizontally</h5>
             <p>To align elements only horizontally within a relative container, add the <code>.horizontal</code> class to <code>.centered</code></p>
             <div className="module">
               <div className="relative">
@@ -52,7 +52,7 @@ class Alignment extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Align vertically</h6>
+            <h5>Align vertically</h5>
             <p>To align elements only vertically within a relative container, add the <code>.vertical</code> class to <code>.centered</code></p>
             <div className="module">
               <div className="relative">

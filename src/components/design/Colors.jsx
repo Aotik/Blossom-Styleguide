@@ -16,7 +16,7 @@ class Scheme extends React.Component {
         <Title title="Color scheme">Available color palette used throughout Blossom UI</Title>
         <div className="example">
           <div className="explanation">
-            <h6>Accent colors</h6>
+            <h5>Accent colors</h5>
             <p>Light, standard and dark colors; use the color name as a class, eg. <code>.red</code> and use <code>.light</code> or <code>.dark</code> to change variation</p>
           </div>
           <div className="row nogutter schemes">
@@ -162,7 +162,7 @@ class Scheme extends React.Component {
         </div>
         <div className="example">
           <div className="explanation">
-            <h6>Gray colors</h6>
+            <h5>Gray colors</h5>
             <p>Light, standard and dark grays used in Blossom UI</p>
           </div>
           <div className="row nogutter schemes">

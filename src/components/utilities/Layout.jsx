@@ -16,7 +16,7 @@ class Layout extends React.Component {
         <Title title="Layout">Utility classes to assist in positioning elements within your layout</Title>
         <div className="opening-message">
           <div className="message info">
-            <h6>Position attributes</h6>
+            <h5>Position attributes</h5>
             <p>
               You can also use <code>.relative</code><code>.absolute</code> <code>.fixed</code> to change the position attribute of an element
             </p>
@@ -24,7 +24,7 @@ class Layout extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Clearfix</h6>
+            <h5>Clearfix</h5>
             <p>To expand parents which have floating children elements, you can use <code>.clearfix</code></p>
           </div>
           <div className="module">
@@ -38,7 +38,7 @@ class Layout extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Pin elements</h6>
+            <h5>Pin elements</h5>
             <p>Use <code>.pin</code> to move an element in any direction. Specify the direction by using <code>.top .left .right .bottom</code></p>
           </div>
           <div className="module">
@@ -54,7 +54,7 @@ class Layout extends React.Component {
         </div>
         <div className="example layout">
           <div className="explanation">
-            <h6>Stackable elements</h6>
+            <h5>Stackable elements</h5>
             <p>The class <code>.stackable</code> can be added to a parent to force all children to stack over eachother and push them towards the middle</p>
           </div>
           <div className="module">

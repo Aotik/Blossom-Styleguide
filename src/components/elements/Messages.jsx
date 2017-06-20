@@ -16,7 +16,7 @@ class Messages extends React.Component {
         <Title title="Messages">A simple way to alert a user with a certain behaviour</Title>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Headerless default message</h6>
+            <h5>Headerless default message</h5>
             <p>A default message without a header</p>
           </div>
           <div className="module collapsed">
@@ -31,7 +31,7 @@ class Messages extends React.Component {
         </div>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Default message</h6>
+            <h5>Default message</h5>
             <p>A standard neutral message</p>
           </div>
           <div className="module collapsed">
@@ -47,7 +47,7 @@ class Messages extends React.Component {
         </div>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Information message</h6>
+            <h5>Information message</h5>
             <p>An information message to pass on a helpful tip</p>
           </div>
           <div className="module collapsed">
@@ -63,7 +63,7 @@ class Messages extends React.Component {
         </div>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Warning message</h6>
+            <h5>Warning message</h5>
             <p>A warning message to let the user know to take a precaution</p>
           </div>
           <div className="module collapsed">
@@ -79,7 +79,7 @@ class Messages extends React.Component {
         </div>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Important message</h6>
+            <h5>Important message</h5>
             <p>An important message to warn the user of an error relating to an action</p>
           </div>
           <div className="module collapsed">
@@ -95,14 +95,14 @@ class Messages extends React.Component {
         </div>
         <div className="example messages">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Success message</h6>
+            <h5>Success message</h5>
             <p>A success message to promote a pleasant message</p>
           </div>
           <div className="module collapsed">
             <div className="message success">
               <h6>Coupon applied!</h6>
               <p>
-                You have successfully added the coupon <strong>BLOSSOMROCKS</strong> to your order for a 20% discount.
+                You have successfully added the coupon <strong>20OFF</strong> to your order for a 20% discount.
               </p>
             </div>
             <div className="footer">

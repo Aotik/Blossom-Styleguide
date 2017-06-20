@@ -16,7 +16,7 @@ class Lists extends React.Component {
         <Title title="Lists">A button indicates a possible user action</Title>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Unstyled lists</h6>
+            <h5>Unstyled lists</h5>
             <p>A list with no symbol for each item</p>
           </div>
           <div className="module collapsed">
@@ -33,7 +33,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Bulleted lists</h6>
+            <h5>Bulleted lists</h5>
             <p>A list styled with bullet points</p>
           </div>
           <div className="module collapsed">
@@ -56,7 +56,7 @@ class Lists extends React.Component {
 
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Numbered lists</h6>
+            <h5>Numbered lists</h5>
             <p>A numbered list structured by <code>div</code>tags</p>
           </div>
           <div className="module collapsed">
@@ -78,7 +78,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Numbered lists</h6>
+            <h5>Numbered lists</h5>
             <p>A numbered list structured by <code>ol</code>tags</p>
           </div>
           <div className="module collapsed">
@@ -100,7 +100,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Defined lists</h6>
+            <h5>Defined lists</h5>
             <p>A list with styling overidden by the <code>value</code>property</p>
           </div>
           <div className="module collapsed">
@@ -122,7 +122,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Vertical links list</h6>
+            <h5>Vertical links list</h5>
             <p>A list of links laid out vertically</p>
           </div>
           <div className="module collapsed">
@@ -138,7 +138,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Horizontal links list</h6>
+            <h5>Horizontal links list</h5>
             <p>A list of links laid out horizontally</p>
           </div>
           <div className="module collapsed">
@@ -154,7 +154,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Headered lists</h6>
+            <h5>Headered lists</h5>
             <p>A list of items with a header</p>
           </div>
           <div className="module collapsed">
@@ -181,7 +181,7 @@ class Lists extends React.Component {
         </div>
         <div className="show-lists example">
           <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
-            <h6>Divided lists</h6>
+            <h5>Divided lists</h5>
             <p>A list with items being divided by a border</p>
           </div>
           <div className="module collapsed">

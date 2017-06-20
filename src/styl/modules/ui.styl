@@ -18,10 +18,11 @@ body
 
 for h in (1..6)
   h{h}
-    line-height 1.5em
+    line-height 1.8em
     font-size lookup('font-size-h' + h)
-    letter-spacing -1px
-    font-weight 600
+    letter-spacing -.02em
+    font-weight 500
+    color color-heading
 
 ::selection
   color #fff
@@ -35,10 +36,10 @@ a
     color darken(color-primary, 10%)
 
 p
-  line-height 1.6rem
+  line-height 1.6em
 
 b
-  font-weight 900
+  font-weight 700
 
 small
   font-size .86rem
