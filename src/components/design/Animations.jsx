@@ -93,27 +93,27 @@ class Animations extends React.Component {
           </div>
           <div className="group">
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-linear"></div>
+              <div className="circle ash transitionDuration-xl transitionType-linear"></div>
               <code>.transitionType-linear</code>
             </div>
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-ease"></div>
+              <div className="circle ash transitionDuration-xl transitionType-ease"></div>
               <code>.transitionType-ease</code>
             </div>
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-scaleIn"></div>
+              <div className="circle ash transitionDuration-xl transitionType-scaleIn"></div>
               <code>.transitionType-scaleIn</code>
             </div>
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-scaleOut"></div>
+              <div className="circle ash transitionDuration-xl transitionType-scaleOut"></div>
               <code>.transitionType-scaleOut</code>
             </div>
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-spring"></div>
+              <div className="circle ash transitionDuration-xl transitionType-spring"></div>
               <code>.transitionType-spring</code>
             </div>
             <div className="animation">
-              <div className="circle transitionDuration-xl transitionType-bounce"></div>
+              <div className="circle ash transitionDuration-xl transitionType-bounce"></div>
               <code>.transitionType-bounce</code>
             </div>
           </div>

@@ -15,83 +15,111 @@ class Loaders extends React.Component {
       <div>
         <Title title="Loaders">Loaders are used to indicate a state of progress</Title>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Simple loader</h5>
             <p>A <code>.loader.small.dark</code> on a non-dimmed background</p>
           </div>
-          <div className="module">
-            <img src="/images/wireframe.png" alt="" />
-            <div className="hold"><div className="loader small dark"></div></div>
+            <div className="module collapsed">
+            <div className="module avoid">
+              <img src="/images/wireframe.png" alt="" />
+              <div className="hold"><div className="loader small dark"></div></div>
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Small inverted loader</h5>
             <p>An inverted dimmed module containing a centered <code>.loader.small</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed"><div className="hold"><div className="loader small"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed"><div className="hold"><div className="loader small"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Standard inverted loader</h5>
               <p>An inverted dimmed module containing a centered default <code>.loader</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed"><div className="hold"><div className="loader"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed"><div className="hold"><div className="loader"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Large inverted loader</h5>
             <p>An inverted dimmed module containing a centered <code>.loader.large</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed"><div className="hold"><div className="loader large"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed"><div className="hold"><div className="loader large"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Small loader</h5>
             <p>A dimmed module containing a centered <code>.loader.small.dark</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed inverted"><div className="hold"><div className="loader small dark"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed inverted"><div className="hold"><div className="loader small dark"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Standard loader</h5>
             <p>A dimmed module containing a centered <code>.loader.dark</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed inverted"><div className="hold"><div className="loader dark"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed inverted"><div className="hold"><div className="loader dark"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation">
+          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
             <h5>Large loader</h5>
             <p>A dimmed module containing a centered <code>.loader.large.dark</code></p>
           </div>
-          <div className="module">
-            <div className="dimmed inverted"><div className="hold"><div className="loader large dark"></div></div></div>
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
-            <img src="/images/wireframe.png" alt="" />
+          <div className="module collapsed">
+            <div className="module avoid">
+              <div className="dimmed inverted"><div className="hold"><div className="loader large dark"></div></div></div>
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+              <img src="/images/wireframe.png" alt="" />
+            </div>
+            <div className="footer">
+            </div>
           </div>
         </div>
       </div>

@@ -9,9 +9,12 @@ let options = {
 
 export function BuildFooter(nearestModule) {
   let nearestFooter = $(nearestModule).find('.footer:not(.content)')
+  if (nearestFooter.length == 0) return
+
   $(nearestFooter).empty().html('<pre><code class="html"></code></pre>')
   let content = $(nearestModule).clone().find('.footer').remove().end().html().replace(new RegExp(/<!--(.*?)-->/g), "")
   let formattedHTML = jsHTML.html(content, options)
+
   $(nearestFooter).find('code').html(esc(formattedHTML))
   hl.highlightBlock($(nearestFooter).find('code').get(0))
 }

@@ -112,8 +112,6 @@
 section.about, section.size, section.boilerplate
   cf()
   position relative
-  h2
-    margin-bottom .4rem
 
 section:not(.guide)
   p, .item
@@ -340,7 +338,7 @@ section.features
       font-size font-size-h5
     .stage
       overflow-x auto
-      padding 2rem 2.8rem
+      padding 1.9rem 2.8rem
       +below('m')
         padding 1rem 1.8rem
     .content, .item
@@ -351,14 +349,17 @@ section.features
   position relative
   width 100%
   .view-source
-    color text-grey
+    color link-light
     cursor pointer
-    font-size 1.1em
-    absolute top right
-    opacity .4
+    font-size 1rem
+    absolute top .7rem right
+    border-radius 50%
+    text-align center
     &:hover
+      color link-light-hover
+    &.active
       color color-primary
-      opacity 1
+      background-color #fff
   small
     display block
     color text-grey
@@ -377,6 +378,8 @@ section.features
   padding 1.3em
   background-color #fff
   cf()
+  .avoid
+    margin 0
   .section
     margin -1em 0
     padding 1.3em
@@ -514,6 +517,8 @@ section.features
         margin-left 9px
     img
       max-width 100%
+      border-radius 10%
+      border 2px solid #87909c
   &.labels
     .label
       margin .2rem
@@ -531,11 +536,6 @@ section.features
   &.buttons
     .button
       margin .34em .6em .34em 0
-  &.showing
-    .view-source
-      display block
-      color color-primary
-      opacity .5
   +below('m')
     overflow hidden
 .schemes
@@ -571,11 +571,15 @@ section.features
 .module
   transition all 100ms cubic-bezier(0.16, 0.86, 0.44, 1)
   width 100%
+  .accordion.module
+    margin 0
   &.collapsed
     border 0
     padding 0
     margin 0
     background-color transparent
+    .accordion.module
+      margin 1em 0
     .footer:not(.content)
       display none
     & + .message
@@ -782,7 +786,7 @@ aside.sidebar
   padding 0 0 0 12rem
   position relative
   .date
-    absolute top 2.4rem left
+    absolute top 2.7rem left
     font-weight 500
     color color-light-grey
   .inner
@@ -858,7 +862,7 @@ footer.footer
 .hljs,
 .hljs-subst,
 .nginx .hljs-title
-  color darken(link-light, 10%)
+  color text-grey
 
 .hljs-tag .hljs-title, .hljs-keyword
   color #4A709E

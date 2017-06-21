@@ -16,12 +16,12 @@ class Landing extends BaseComponent {
         <section className="hero clearfix dent-container light">
           <div className="dent-cover">
             <div className="contain">
-              <span className="label green">v1.4.2</span>
+              <span className="label green">v1.4.3</span>
               <h1><img src="/images/logo.svg"/></h1>
               <h3>A simply beautiful, themeable design framework built from the ground up in Stylus with performance in mind.</h3>
               <div className="button-group breakpoint-xs-stackable">
                 <Link to="/introduction" className="button large outlined">Getting started</Link>
-                <a rel="noopener noreferrer" target="_blank" className="button large primary labeled labeled-right" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip"><i className="fa fa-angle-double-down"/> Download Blossom UI</a>
+                <a rel="noopener noreferrer" target="_blank" className="button large primary labeled labeled-right" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip"><i className="fa fa-angle-double-down"/> Download Blossom UI</a>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ $ npm install blossom-ui --save`}
               </code>
               <span className="muted">Let it do its thing for a few seconds...</span>
               <span className="muted">Aaaand that's it.</span>
-              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip">ZIP file</a> <i className="fa fa-angle-double-down"/></span>
+              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip">ZIP file</a> <i className="fa fa-angle-double-down"/></span>
               </pre>
             </div>
           </div>

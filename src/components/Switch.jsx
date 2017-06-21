@@ -51,23 +51,26 @@ class Switch extends React.Component {
   componentDidMount()  {
 
     $( document ).ready(function() {
-      $('.module').each(function(i, block) {
+      $('.module:not(.accordion, .avoid)').each(function(i, block) {
         BuildFooter(block)
       })
 
       $("body" ).off( "click", '.view-source')
       .on('click', '.view-source', function() {
         let nearestModule = $(this).parents('.explanation').next().get(0)
-        if ($(nearestModule).hasClass('collapsed'))
+        if ($(nearestModule).hasClass('collapsed')) {
+          $(this).addClass('active')
           $(nearestModule).removeClass('collapsed')
-        else
+        } else {
+          $(this).removeClass('active')
           $(nearestModule).addClass('collapsed')
+        }
       })
     })
   }
 
   componentDidUpdate() {
-    $('.module').each(function(i, block) {
+    $('.module:not(.accordion, .avoid)').each(function(i, block) {
       BuildFooter(block)
     })
   }

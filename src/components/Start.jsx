@@ -25,7 +25,7 @@ class Start extends BaseComponent {
             <h3>A guide into how to install and use Blossom</h3>
             <div className="button-group breakpoint-xs-stackable">
               <a rel="noopener noreferrer" target="_blank" href="https://github.com/aotik/Blossom" className="button medium outlined">Open-source repository</a>
-              <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip" className="button medium primary">Download Blossom.zip</a>
+              <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip" className="button medium primary">Download Blossom.zip</a>
             </div>
           </div>
         </div>
@@ -35,8 +35,7 @@ class Start extends BaseComponent {
       </section>
         <section className="guide">
           <div className="contain">
-            <h4>Dependancies</h4>
-            <div className="divider"/>
+            <h3>Dependancies</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
@@ -66,8 +65,7 @@ class Start extends BaseComponent {
             </div>
           </div>
           <div className="contain">
-            <h4>Setting it all up</h4>
-            <div className="divider"/>
+            <h3>Setting it all up</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
@@ -85,7 +83,7 @@ class Start extends BaseComponent {
               <div className="stage">
                 <div className="content">
                   <div className="header">Installing Blossom via static .zip</div>
-                    If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.2/blossom-1.4.2.zip">zip</a> and just include it anywhere you need it.
+                    If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip">zip</a> and just include it anywhere you need it.
                     Once you&#39;ve downloaded Blossom.zip, move it to your working project directory and include the below 3 files changing the path where applicable.
                     <pre>
                       <code className="html hljs">
@@ -138,8 +136,7 @@ class Start extends BaseComponent {
             </div>
           </div>
           <div className="contain">
-            <h4>Updating Blossom</h4>
-            <div className="divider"/>
+            <h3>Updating Blossom</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">
@@ -173,8 +170,7 @@ class Start extends BaseComponent {
             </div>
           </div>
           <div className="contain">
-            <h4>Uninstalling Blossom</h4>
-            <div className="divider"/>
+            <h3>Uninstalling Blossom</h3>
             <div className="stages vertical fluid">
               <div className="stage">
                 <div className="content">

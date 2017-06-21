@@ -23,6 +23,7 @@ if (typeof(jQuery) == 'undefined') {
       })
     }).on('click', 'header .toggle i', function(e) {
       e.preventDefault()
+      console.log('sd');
       const _this = $(this)
       if (!_this.parents('header').hasClass('open')) {
         $('header .links').slideDown(100, function(e) {
