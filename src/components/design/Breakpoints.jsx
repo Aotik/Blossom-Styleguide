@@ -30,34 +30,34 @@ class Breakpoints extends React.Component {
               </thead>
               <tbody>
                 <tr>
-                  <td><b>X-Small</b></td>
+                  <td><strong>X-Small</strong></td>
                   <td>&gt; 0px</td>
-                  <td>.&#123;xs&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">xs</span>&#125;-*</strong></td>
                 </tr>
                 <tr>
-                  <td><b>Small</b></td>
+                  <td><strong>Small</strong></td>
                   <td>&gt; 480px</td>
-                  <td>.&#123;s&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">s</span>&#125;-*</strong></td>
                 </tr>
                 <tr>
-                  <td><b>Medium</b></td>
+                  <td><strong>Medium</strong></td>
                   <td>&gt; 768px</td>
-                  <td>.&#123;m&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">m</span>&#125;-*</strong></td>
                 </tr>
                 <tr>
-                  <td><b>Large</b></td>
+                  <td><strong>Large</strong></td>
                   <td>&gt; 1024px</td>
-                  <td>.&#123;l&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">l</span>&#125;-*</strong></td>
                 </tr>
                 <tr>
-                  <td><b>X-Large</b></td>
+                  <td><strong>X-Large</strong></td>
                   <td>&gt; 1224px</td>
-                  <td>.&#123;xl&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">xl</span>&#125;-*</strong></td>
                 </tr>
                 <tr>
-                  <td><b>XX-Large</b></td>
+                  <td><strong>XX-Large</strong></td>
                   <td>&gt; 1824px</td>
-                  <td>.&#123;xxl&#125;</td>
+                  <td><strong>.*-&#123;<span className="text pink">xxl</span>&#125;-*</strong></td>
                 </tr>
               </tbody>
             </table>
@@ -66,7 +66,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>XS breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>X-Small</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>X-Small</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-xs-hide</code> - Hides the element at XS</p>
@@ -78,7 +78,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>S breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>Small</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>Small</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-s-hide</code> - Hides the element at S</p>
@@ -90,7 +90,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>M breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>Medium</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>Medium</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-m-hide</code> - Hides the element at M</p>
@@ -102,7 +102,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>L breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>Large</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>Large</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-l-hide</code> - Hides the element at L</p>
@@ -114,7 +114,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>XL breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>X-Large</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>X-Large</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-xl-hide</code> - Hides the element at XL</p>
@@ -126,7 +126,7 @@ class Breakpoints extends React.Component {
         <div className="example breakpoints">
           <div className="explanation">
             <h5>XXL breakpoint classes</h5>
-            <p>Specific utility classes that alter elements above the <b>XX-Large</b> breakpoint.</p>
+            <p>Specific utility classes that alter elements above the <strong>XX-Large</strong> breakpoint.</p>
           </div>
           <div className="module collapsed">
             <p><code>.breakpoint-xxl-hide</code> - Hides the element at XXL</p>

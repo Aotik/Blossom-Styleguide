@@ -15,7 +15,7 @@ class Labels extends React.Component {
       <div>
         <Title title="Labels">A button indicates a possible user action</Title>
         <div className="example labels">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Colored labels</h5>
             <p>Labels can be colored to represent its state</p>
           </div>
@@ -38,7 +38,7 @@ class Labels extends React.Component {
           </div>
         </div>
         <div className="example labels">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Labels with icons</h5>
             <p>A label with an icon to enchance its visual state</p>
           </div>
@@ -52,7 +52,7 @@ class Labels extends React.Component {
           </div>
         </div>
         <div className="example labels">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Labeled labels</h5>
             <p>Labelception, a label within a label</p>
           </div>
@@ -74,7 +74,7 @@ class Labels extends React.Component {
           </div>
         </div>
         <div className="example labels">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Labels with links</h5>
             <p>Quick link straight from a label</p>
           </div>
@@ -89,7 +89,7 @@ class Labels extends React.Component {
           </div>
         </div>
         <div className="example labels">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Circular labels</h5>
             <p>Rounded off labels, great for showing stats</p>
           </div>

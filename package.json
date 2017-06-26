@@ -1,14 +1,14 @@
 {
   "name": "Blossom-Styleguide",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "The official styleguide for Blossom UI",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aotik/Blossom-Styleguide.git"
   },
   "scripts": {
-    "pack:dev": "webpack-dev-server --hot --inline --progress --colors --host 0.0.0.0 --port 4000",
-    "pack:prod": "webpack -p --config webpack.prod.config.js --define process.env.NODE_ENV='production'"
+    "dev": "webpack-dev-server --hot --inline --progress --colors --host 0.0.0.0 --port 4000",
+    "prod": "webpack -p --config webpack.prod.config.js --define process.env.NODE_ENV='production'"
   },
   "author": "Stefan Mansson <mansson.io>",
   "license": "MIT",
@@ -39,6 +39,7 @@
     "fs": "0.0.1-security",
     "http-proxy": "^1.13.2",
     "jeet": "^6.1.1",
+    "json-loader": "^0.5.4",
     "nib": "^1.1.2",
     "react-hot-loader": "^1.3.0",
     "rupture": "^0.6.2",

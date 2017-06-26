@@ -15,7 +15,7 @@ class Cards extends React.Component {
       <div>
         <Title title="Cards">A button indicates a possible user action</Title>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Full cards</h5>
             <p>Full cards contain an image, title, subtitle, description and a footer</p>
           </div>
@@ -38,8 +38,7 @@ class Cards extends React.Component {
                 </div>
                 <div className="content footer">
                   <div className="float-left">
-                    <i className="fa fa-users"></i>
-                    34 friends
+                    <strong className="text-green">31 friends</strong>
                   </div>
                   <div className="float-right">
                     Joined 2 days ago
@@ -63,8 +62,7 @@ class Cards extends React.Component {
                 </div>
                 <div className="content footer">
                   <div className="float-left">
-                    <i className="fa fa-users"></i>
-                    6 friends
+                    <strong className="text-yellow">4 friends</strong>
                   </div>
                   <div className="float-right">
                     Joined 3 weeks ago
@@ -77,7 +75,7 @@ class Cards extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Action cards</h5>
             <p>A card can be used to display information as well as list a call to action</p>
           </div>
@@ -105,7 +103,7 @@ class Cards extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Basic cards</h5>
             <p>Basic cards are used to display simple information</p>
           </div>
@@ -130,7 +128,7 @@ class Cards extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Fluid cards</h5>
             <p>Cards can also take up the width of the container by adding the <code>fluid</code> class</p>
           </div>

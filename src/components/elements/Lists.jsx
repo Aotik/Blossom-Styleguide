@@ -15,7 +15,7 @@ class Lists extends React.Component {
       <div>
         <Title title="Lists">A button indicates a possible user action</Title>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Unstyled lists</h5>
             <p>A list with no symbol for each item</p>
           </div>
@@ -32,7 +32,7 @@ class Lists extends React.Component {
 
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Bulleted lists</h5>
             <p>A list styled with bullet points</p>
           </div>
@@ -55,7 +55,7 @@ class Lists extends React.Component {
         </div>
 
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Numbered lists</h5>
             <p>A numbered list structured by <code>div</code>tags</p>
           </div>
@@ -77,7 +77,7 @@ class Lists extends React.Component {
         </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Numbered lists</h5>
             <p>A numbered list structured by <code>ol</code>tags</p>
           </div>
@@ -99,7 +99,7 @@ class Lists extends React.Component {
         </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Defined lists</h5>
             <p>A list with styling overidden by the <code>value</code>property</p>
           </div>
@@ -121,7 +121,7 @@ class Lists extends React.Component {
         </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Vertical links list</h5>
             <p>A list of links laid out vertically</p>
           </div>
@@ -137,7 +137,7 @@ class Lists extends React.Component {
           </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Horizontal links list</h5>
             <p>A list of links laid out horizontally</p>
           </div>
@@ -153,7 +153,7 @@ class Lists extends React.Component {
           </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Headered lists</h5>
             <p>A list of items with a header</p>
           </div>
@@ -180,7 +180,7 @@ class Lists extends React.Component {
           </div>
         </div>
         <div className="show-lists example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Divided lists</h5>
             <p>A list with items being divided by a border</p>
           </div>

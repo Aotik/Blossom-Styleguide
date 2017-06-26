@@ -1,6 +1,7 @@
 import React from 'react'
 import $ from 'jquery'
 import Link from 'react-router/lib/Link'
+import {version} from '../../package.json'
 
 import BaseComponent from './common/BaseComponent'
 import NavFooter from './NavFooter'
@@ -16,12 +17,12 @@ class Landing extends BaseComponent {
         <section className="hero clearfix dent-container light">
           <div className="dent-cover">
             <div className="contain">
-              <span className="label green">v1.4.3</span>
-              <h1><img src="/images/logo.svg"/></h1>
+              <span className="label green">v{version}</span>
+              <h1 className="landing-descend"><img src="/images/logo.svg"/></h1>
               <h3>A simply beautiful, themeable design framework built from the ground up in Stylus with performance in mind.</h3>
               <div className="button-group breakpoint-xs-stackable">
                 <Link to="/introduction" className="button large outlined">Getting started</Link>
-                <a rel="noopener noreferrer" target="_blank" className="button large primary labeled labeled-right" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip"><i className="fa fa-angle-double-down"/> Download Blossom UI</a>
+                <a rel="noopener noreferrer" target="_blank" className="button large primary" href={`https://cdn.darken.io/blossom/${version}/blossom-${version}.zip`}>Download Blossom UI</a>
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ $ npm install blossom-ui --save`}
               </code>
               <span className="muted">Let it do its thing for a few seconds...</span>
               <span className="muted">Aaaand that's it.</span>
-              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip">ZIP file</a> <i className="fa fa-angle-double-down"/></span>
+              <span className="muted relative bottom">Or if you prefer, simply download the <a rel="noopener noreferrer"  target="_blank" href={`https://cdn.darken.io/blossom/${version}/blossom-${version}.zip`}>ZIP file</a> <i className="ion-arrow-down-c"/></span>
               </pre>
             </div>
           </div>
@@ -63,12 +64,12 @@ $ npm install blossom-ui --save`}
         <section className="features dent-container light">
           <div className="dent-cover">
             <div className="contain">
-            <h2>People already <i className="fa fa-heart text-red"/> Blossom UI</h2>
+            <h2>People already <i className="ion-heart text red animation-bounce inline"/> Blossom UI</h2>
             <p>Over 4500+ awesome people have installed blossom-ui just from NPM, using it as their standard design framework. Why keep wasting precious project time when you can just take a minute to set up Blossom now?</p>
             <div className="row">
               <div className="xs-12 l-6 col column">
                 <div className="inner">
-                  <i className="text-yellow fa fa-edit"/>
+                  <i className="text purple icon ion-fork-repo"/>
                   <h4>Perfect for customisability</h4>
                   <p>Being built on Stylus, the task of customizing Blossom&#39;s look and feel to fit the vision of your next project is incredibly easy to take on.</p>
                   <Link to="/customization" className="button outlined medium">About theming</Link>
@@ -76,7 +77,7 @@ $ npm install blossom-ui --save`}
               </div>
               <div className="xs-12 l-6 col column">
                 <div className="inner">
-                  <i className="text-black fa fa-github"/>
+                  <i className="text black icon ion-social-github"/>
                   <h4>It&#39;s free and open source!</h4>
                   <p>With Blossom being open source, anyone is welcome to input their expertise into improving the Blossom framework as a whole.</p>
                   <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom" className="button medium outlined">Open-source repository</a>
@@ -94,7 +95,7 @@ $ npm install blossom-ui --save`}
             <div className="contain">
               <h2>Get started with the boilerplate</h2>
               <p>We've built Blossom Boilerplate, a fully featured development environment allowing you to dive straight into creating static websites powered by Blossom UI. Your favourite tools have been implemented to make you feel right at home.</p>
-              <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/blossom-boilerplate" className="text-primary">Show me this sorcery <i className="fa fa-angle-right"/></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/blossom-boilerplate" className="text primary">Show me this sorcery <i className="ion-wand"/></a>
               <img src="/images/boilerplate-logos.jpg"/>
             </div>
           </div>

@@ -15,7 +15,7 @@ class Stages extends React.Component {
       <div>
         <Title title="Stages">A button indicates a possible user action</Title>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Basic stage</h5>
             <p>A single stage with a description</p>
           </div>
@@ -32,7 +32,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Headered stage</h5>
             <p>A single stage can also contain a header</p>
           </div>
@@ -52,7 +52,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Disabled stage</h5>
             <p>A disabled stage is greyed out for the user</p>
           </div>
@@ -72,7 +72,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Complete stage</h5>
             <p>A stage with a completed state</p>
           </div>
@@ -95,7 +95,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Active stage</h5>
             <p>A stage with an active state</p>
           </div>
@@ -118,7 +118,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Grouped stages</h5>
             <p>Grouped stages allow the user to follow a path to the final stage by activating each one along the way</p>
           </div>
@@ -163,7 +163,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Completed stages</h5>
             <p>Completed stages show the user that the stage has been completed and does not need revisiting</p>
           </div>
@@ -208,7 +208,7 @@ class Stages extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Vertical stages</h5>
             <p>Grouped stages can also be vertical aligned</p>
           </div>

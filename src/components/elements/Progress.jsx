@@ -44,7 +44,7 @@ class Progress extends React.Component {
       <div>
         <Title title="Progress bars">Progess bars are used to indicate the progress state of a certain action</Title>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Default progress bar</h5>
             <p>A simple progress bar shows the state, defined by the <code>data-percent</code> attribute, of progress without a written status</p>
           </div>
@@ -59,7 +59,7 @@ class Progress extends React.Component {
           </div>
         </div>
         <div className="example">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Active progress bar</h5>
             <p>Progress bars with the <code>.active</code> class animate to their defined percentage state</p>
           </div>
@@ -77,7 +77,7 @@ class Progress extends React.Component {
           </div>
         </div>
         <div className="example types">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Show status</h5>
             <p>To show the status, you need to be using a standard or <code>.large</code> progress bar then add the <code>.show</code> class to <code>.bar</code></p>
           </div>
@@ -97,7 +97,7 @@ class Progress extends React.Component {
           </div>
         </div>
         <div className="example types">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Progress bar sizes</h5>
             <p>Progress bars come in <code>.tiny</code>, <code>.small</code> and <code>.large</code> as well</p>
           </div>
@@ -122,7 +122,7 @@ class Progress extends React.Component {
           </div>
         </div>
         <div className="example types">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Progress bar colors</h5>
             <p>As you have likely noticed already, progress bars can be any color in the <Link to="/design/colors">palette</Link></p>
           </div>

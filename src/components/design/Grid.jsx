@@ -62,7 +62,7 @@ class Grid extends React.Component {
           <div className="explanation">
             <h5>Responsive columns</h5>
             <p>Responsive columns adapt to what <Link to="/design/breakpoints">breakpoint class</Link> is assigned to the column width</p>
-            <p>For example, <code>.s-4</code> will cover 4 of 12 columns when the screen size is above the <b>Small</b> breakpoint</p>
+            <p>For example, <code>.s-4</code> will cover 4 of 12 columns when the screen size is above the <strong>Small</strong> breakpoint</p>
           </div>
           <div className="module collapsed">
             <div className="row">
@@ -92,7 +92,7 @@ class Grid extends React.Component {
           <div className="explanation">
             <h5>Responsive equal columns</h5>
             <p>Responsive equal columns take up the equal amount of space when above the designated breakpoint</p>
-            <p>For example, <code>.m-equal</code> will make each column equal when the screen size is above the <b>Medium</b> breakpoint</p>
+            <p>For example, <code>.m-equal</code> will make each column equal when the screen size is above the <strong>Medium</strong> breakpoint</p>
           </div>
           <div className="module collapsed">
             <div className="row">

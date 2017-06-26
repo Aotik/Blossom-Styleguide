@@ -17,7 +17,7 @@ class Changelog extends BaseComponent {
         <div className="dent-cover">
           <div className="contain">
             <h1>Changelog</h1>
-            <h3>All recent changes and new features</h3>
+            <h3>All recent changes and improvements</h3>
           </div>
         </div>
         <div className="dent bg">
@@ -26,6 +26,15 @@ class Changelog extends BaseComponent {
       </section>
         <section className="guide">
           <div className="contain">
+            <div className="log">
+              <div className="date">June 26, 2017</div>
+              <div className="inner">
+                <h4><span className="label green">Improvements</span> More restructuring</h4>
+                <p>We're trying to make Blossom extremely easy to learn so that even your tech-savvy Grandma can set up a Blossom-powered platform. The docs have also been updated to showcase even the tiniest features.</p>
+                <p>In this patch, variables are further filtered down to reduce clutter. Grey and Ash colors now have a distinct difference (finally) and some fonts rendered Buttons differently so an attempt to fix that has been made. We also say goodbye to Font Awesome and say hello to <a ref="noreferrer noopener" href="http://ionicons.com/" target="_blank">Ionicons</a>. Check out the site and import the CSS directly into your site! <strong>#NotSponsored</strong></p>
+                <p>Stay up to date with the <a ref="noreferrer noopener" href="https://github.com/aotik/Blossom/projects/1" target="_blank">roadmap</a> for new upcoming features.</p>
+              </div>
+            </div>
             <div className="log">
               <div className="date">June 20, 2017</div>
               <div className="inner">
@@ -52,7 +61,7 @@ class Changelog extends BaseComponent {
                 <h4><span className="label violet">Fix</span> Styling and Blossom JS issues fixed</h4>
                 <p>Bug in Blossom JS caused an issue with opening accordions. <span className="text-green">Bug squashed</span></p>
                 <p>Issues with breakpoint show classes. <span className="text-green">Also squashed</span></p>
-                <p>Styling issues with Accordion headers fixed and variable for grid padding added in <b>variables.styl</b></p>
+                <p>Styling issues with Accordion headers fixed and variable for grid padding added in <strong>variables.styl</strong></p>
               </div>
             </div>
             <div className="log">
@@ -66,7 +75,7 @@ class Changelog extends BaseComponent {
             <div className="log">
               <div className="date">May 12, 2017</div>
               <div className="inner">
-                <h4><span className="label green">Improvement</span> Improvements to some elements</h4>
+                <h4><span className="label green">Improvements</span> Improvements to some elements</h4>
                 <p>Label element has been updated to be more bolder and stand out more on a page and at the same time taking up less space.</p>
                 <p>Lists have been improved to actually show correct order counter as well as some color fixes as an improvement to its opacity configuration.</p>
                 <p>Stages have slightly been improved to support inner <code>small</code> and <code>pre</code> tags. Fluid mode also added which takes up the width of the container.</p>

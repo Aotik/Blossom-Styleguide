@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'react-router/lib/Link'
+import {version} from '../../package.json'
 
 import BaseComponent from './common/BaseComponent'
 import {HighlightCode} from './common/Helpers'
@@ -25,7 +26,7 @@ class Start extends BaseComponent {
             <h3>A guide into how to install and use Blossom</h3>
             <div className="button-group breakpoint-xs-stackable">
               <a rel="noopener noreferrer" target="_blank" href="https://github.com/aotik/Blossom" className="button medium outlined">Open-source repository</a>
-              <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip" className="button medium primary">Download Blossom.zip</a>
+              <a rel="noopener noreferrer" target="_blank" href={`https://cdn.darken.io/blossom/${version}/blossom-${version}.zip`} className="button medium primary">Download Blossom.zip</a>
             </div>
           </div>
         </div>
@@ -40,8 +41,8 @@ class Start extends BaseComponent {
               <div className="stage">
                 <div className="content">
                   <div className="header">jQuery</div>
-                    To get <b>Blossom JS</b> working correctly you will need to include the jQuery dependancy to your markup. You can download the latest version of jQuery by <a rel="noopener noreferrer" target="_blank" href="https://jquery.com/download/">downloading it directly</a> or you can use a <a rel="noopener noreferrer" target="_blank" href="https://www.jsdelivr.com/projects/jquery">CDN link</a> for the latest version.
-                    <small><b>Recommended: </b>Use jquery.min.js in production as it is optimized for faster page load speeds</small>
+                    To get <strong>Blossom JS</strong> working correctly you will need to include the jQuery dependancy to your markup. You can download the latest version of jQuery by <a rel="noopener noreferrer" target="_blank" href="https://jquery.com/download/">downloading it directly</a> or you can use a <a rel="noopener noreferrer" target="_blank" href="https://www.jsdelivr.com/projects/jquery">CDN link</a> for the latest version.
+                    <small><strong>Recommended: </strong>Use jquery.min.js in production as it is optimized for faster page load speeds</small>
                   <pre>
                     <code className="html">
                     {'<script src="/path/to/jquery.min.js"></script>'}
@@ -83,7 +84,7 @@ class Start extends BaseComponent {
               <div className="stage">
                 <div className="content">
                   <div className="header">Installing Blossom via static .zip</div>
-                    If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href="https://cdn.darken.io/blossom/1.4.3/blossom-1.4.3.zip">zip</a> and just include it anywhere you need it.
+                    If you are using Blossom UI just as a dependancy, you can download the <a rel="noopener noreferrer" target="_blank" href={`https://cdn.darken.io/blossom/${version}/blossom-${version}.zip`}>zip</a> and just include it anywhere you need it.
                     Once you&#39;ve downloaded Blossom.zip, move it to your working project directory and include the below 3 files changing the path where applicable.
                     <pre>
                       <code className="html hljs">
@@ -185,7 +186,7 @@ class Start extends BaseComponent {
               </div>
               <div className="stage">
                 <div className="content">
-                  <div className="header">2. Delete the <b>blossom-ui</b> folder </div>
+                  <div className="header">2. Delete the <strong>blossom-ui</strong> folder </div>
                     Find the 'blossom-ui' folder in your working directory and delete it.
                   </div>
               </div>

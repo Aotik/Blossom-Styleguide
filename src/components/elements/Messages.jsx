@@ -15,7 +15,7 @@ class Messages extends React.Component {
       <div>
         <Title title="Messages">A simple way to alert a user with a certain behaviour</Title>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Headerless default message</h5>
             <p>A default message without a header</p>
           </div>
@@ -30,7 +30,7 @@ class Messages extends React.Component {
           </div>
         </div>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Default message</h5>
             <p>A standard neutral message</p>
           </div>
@@ -46,7 +46,7 @@ class Messages extends React.Component {
           </div>
         </div>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Information message</h5>
             <p>An information message to pass on a helpful tip</p>
           </div>
@@ -62,7 +62,7 @@ class Messages extends React.Component {
           </div>
         </div>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Warning message</h5>
             <p>A warning message to let the user know to take a precaution</p>
           </div>
@@ -78,7 +78,7 @@ class Messages extends React.Component {
           </div>
         </div>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Important message</h5>
             <p>An important message to warn the user of an error relating to an action</p>
           </div>
@@ -94,7 +94,7 @@ class Messages extends React.Component {
           </div>
         </div>
         <div className="example messages">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Success message</h5>
             <p>A success message to promote a pleasant message</p>
           </div>

@@ -57,7 +57,7 @@
       user-select none
   h3
     font-weight 400
-    color color-light-grey
+    color color-grey
     max-width 73%
     display block
     margin .4rem auto
@@ -126,6 +126,7 @@ section.boilerplate
       font-weight 500
       margin-top 1rem
       display block
+      font-size font-size-hero
       i
         margin-left .4rem
     img
@@ -247,9 +248,10 @@ section.features
   p
     flex 1 0 auto
     margin 0 0 1.4em 0
-  .fa
-    font-size 4em
-    margin 0 0 .4em 0
+  .icon
+    font-size 5em
+    margin 0 0 .24em 0
+    display block
   .button
     flex-grow 0
 
@@ -326,7 +328,7 @@ section.features
   content ''
 
 .guide
-  padding 3rem 0 3rem 0
+  padding 3rem 0 6rem 0
   .contain
     & > h3
       margin-bottom 1rem
@@ -351,7 +353,7 @@ section.features
   .view-source
     color link-light
     cursor pointer
-    font-size 1rem
+    font-size 1.2rem
     absolute top .7rem right
     border-radius 50%
     text-align center
@@ -364,7 +366,7 @@ section.features
     display block
     color text-grey
   p
-    color color-light-grey
+    color color-grey
     display block
     line-height 1.8rem
     & + p
@@ -397,7 +399,7 @@ section.features
       margin-bottom -1.6em
     padding 1em 0
     small
-      color color-light-grey
+      color color-grey
       display block
       margin .8em 0 0 0
       font-weight 300
@@ -406,7 +408,7 @@ section.features
   small
     display block
     margin-top 6.6rem
-    color color-light-grey
+    color color-grey
   img
     max-width 100%
 .example
@@ -428,7 +430,7 @@ section.features
   &.menus
     .note
       margin 2em 0 0 0
-      color color-light-grey
+      color color-grey
     .note + .menu
       margin 2em 0 0 0
   &.types
@@ -470,7 +472,7 @@ section.features
       padding .7em 0
       text-align center
       margin 0
-      color color-light-grey
+      color color-grey
       background-color background-lighter-grey
       border-radius 0
   .circle
@@ -538,6 +540,17 @@ section.features
       margin .34em .6em .34em 0
   +below('m')
     overflow hidden
+.text
+  .col
+    border-radius border-radius-normal
+    padding 1em 1.2rem
+    border 1px solid border-grey
+    & + .col
+      margin-top .5rem
+  h5
+    margin-top -.3rem
+  strong
+    display block
 .schemes
   margin .5rem 0
   &.dark
@@ -779,7 +792,7 @@ aside.sidebar
   h3
     width 100%
   p
-    color color-light-grey
+    color color-grey
     font-size font-size-hero
     line-height 1.8rem
 .log
@@ -788,7 +801,7 @@ aside.sidebar
   .date
     absolute top 2.7rem left
     font-weight 500
-    color color-light-grey
+    color color-grey
   .inner
     border-top 1px solid border-grey
     padding 1.6rem 0
@@ -803,7 +816,7 @@ aside.sidebar
       font-size .8rem
     p
       line-height 1.8rem
-      color color-light-grey
+      color color-grey
       & + p
         margin-top .5rem
       & + h4

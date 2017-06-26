@@ -26,7 +26,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Dropdown</h5>
             <p>Simple dropdown with a simple toggle</p>
           </div>
@@ -45,7 +45,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Dropdown features</h5>
             <p>Dropdowns can also have headers, dividers and icons within them</p>
           </div>
@@ -73,7 +73,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Dropdown toggles</h5>
             <p>Toggles can come in any shape or form</p>
           </div>
@@ -123,7 +123,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Disabled</h5>
             <p>You can disable the dropdown altogether by targeting the toggle, or disable items in the menu individually</p>
           </div>
@@ -179,7 +179,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Right aligned dropdown</h5>
             <p>Dropdown menus can also be pushed to be flush with the right side</p>
           </div>
@@ -198,7 +198,7 @@ class Dividers extends React.Component {
           </div>
         </div>
         <div className="example dropdowns">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Upward dropdowns</h5>
             <p>Flip your dropdown to the top of the toggle using <code>.upward</code></p>
           </div>

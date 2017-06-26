@@ -15,7 +15,7 @@ class Images extends React.Component {
       <div>
         <Title title="Images">A button indicates a possible user action</Title>
         <div className="example images">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Top aligned image</h5>
             <p>Align content to the top when inline with an image</p>
           </div>
@@ -29,7 +29,7 @@ class Images extends React.Component {
           </div>
         </div>
         <div className="example images">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Middle aligned image</h5>
             <p>Align content to the middle when inline with an image</p>
           </div>
@@ -43,7 +43,7 @@ class Images extends React.Component {
           </div>
         </div>
         <div className="example images">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Bottom aligned image</h5>
             <p>Align content to the bottom when inline with an image</p>
           </div>

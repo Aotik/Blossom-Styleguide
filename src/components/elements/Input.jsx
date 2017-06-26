@@ -15,7 +15,7 @@ class Input extends React.Component {
       <div>
         <Title title="Input">A field to get a response from a user</Title>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Transparent inputs</h5>
             <p>An input with no background or border</p>
           </div>
@@ -28,7 +28,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Standard inputs</h5>
             <p>A standard input with a border</p>
           </div>
@@ -41,7 +41,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Disabled inputs</h5>
             <p>A disabled input using the <code>.disabled</code> class</p>
           </div>
@@ -54,7 +54,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Disabled inputs</h5>
             <p>A disabled input using the <code>disabled</code> property</p>
           </div>
@@ -67,7 +67,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with a button</h5>
             <p>A standard input with an ajoined default button</p>
           </div>
@@ -81,7 +81,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with an outlined button</h5>
             <p>A standard input with an ajoined default outlined button</p>
           </div>
@@ -95,7 +95,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with an icon button</h5>
             <p>A standard input with an ajoined icon button</p>
           </div>
@@ -109,7 +109,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with an left aligned button</h5>
             <p>A standard input with an ajoined left aligned button</p>
           </div>
@@ -123,7 +123,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with a left aligned labeled button</h5>
             <p>A standard input with an ajoined left aligned, colored labeled button</p>
           </div>
@@ -140,7 +140,7 @@ class Input extends React.Component {
           </div>
         </div>
         <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Input with a labeled button</h5>
             <p>A standard input with an ajoined colored labeled button</p>
           </div>

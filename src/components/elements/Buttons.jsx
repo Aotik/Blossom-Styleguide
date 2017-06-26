@@ -15,7 +15,7 @@ class Buttons extends React.Component {
       <div>
         <Title title="Buttons">A button indicates a possible user action</Title>
         <div className="example buttons">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Default & Primary buttons</h5>
             <p>Standard buttons</p>
           </div>
@@ -31,7 +31,7 @@ class Buttons extends React.Component {
           </div>
         </div>
         <div className="example buttons">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Outlined buttons</h5>
             <p>Transparent buttons with an outline</p>
           </div>
@@ -78,7 +78,7 @@ class Buttons extends React.Component {
           </div>
         </div>
         <div className="example buttons">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Colored buttons</h5>
             <p>Spice up your page with colored buttons</p>
           </div>
@@ -125,22 +125,22 @@ class Buttons extends React.Component {
           </div>
         </div>
         <div className="example buttons">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Labeled buttons</h5>
             <p>Labels give visual aid on what the button does</p>
           </div>
           <div className="module collapsed">
-            <a className="button blue labeled">
-              <i className="fa fa-check"></i>
-              Labeled Button
+            <a className="button grey labeled">
+              <i className="ion-gear-a"></i>
+              Open preferences
             </a>
             <a className="button green labeled">
-              <i className="fa fa-shopping-cart"></i>
-              Checkout
+              <i className="ion-bag"></i>
+              View cart
             </a>
             <a className="button red labeled labeled-right">
-              Delete
-              <i className="fa fa-times"></i>
+              Delete comment
+              <i className="ion-close-round"></i>
             </a>
             <div className="footer">
 
@@ -148,7 +148,7 @@ class Buttons extends React.Component {
           </div>
         </div>
         <div className="example sizes">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Button sizes</h5>
             <p>Add <code>.small</code><code>.medium</code><code>.large</code><code>.big</code><code>.massive</code> classes to your button to change its size</p>
           </div>

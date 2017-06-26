@@ -15,7 +15,7 @@ class Loaders extends React.Component {
       <div>
         <Title title="Loaders">Loaders are used to indicate a state of progress</Title>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Simple loader</h5>
             <p>A <code>.loader.small.dark</code> on a non-dimmed background</p>
           </div>
@@ -29,7 +29,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Small inverted loader</h5>
             <p>An inverted dimmed module containing a centered <code>.loader.small</code></p>
           </div>
@@ -44,7 +44,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Standard inverted loader</h5>
               <p>An inverted dimmed module containing a centered default <code>.loader</code></p>
           </div>
@@ -59,7 +59,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Large inverted loader</h5>
             <p>An inverted dimmed module containing a centered <code>.loader.large</code></p>
           </div>
@@ -75,7 +75,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Small loader</h5>
             <p>A dimmed module containing a centered <code>.loader.small.dark</code></p>
           </div>
@@ -91,7 +91,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Standard loader</h5>
             <p>A dimmed module containing a centered <code>.loader.dark</code></p>
           </div>
@@ -107,7 +107,7 @@ class Loaders extends React.Component {
           </div>
         </div>
         <div className="example loaders">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Large loader</h5>
             <p>A dimmed module containing a centered <code>.loader.large.dark</code></p>
           </div>

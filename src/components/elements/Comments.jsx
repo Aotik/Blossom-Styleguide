@@ -15,7 +15,7 @@ class Comments extends React.Component {
       <div>
         <Title title="Comments">Comments display user feedback on a website</Title>
         <div className="example comments">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Full feature comments</h5>
             <p>Comments with headers, content and metadata are classified as full feature comments</p>
           </div>
@@ -42,7 +42,7 @@ class Comments extends React.Component {
           </div>
         </div>
         <div className="example comments">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Minimal comments</h5>
             <p>Minimal comments do not contain actions or metadata</p>
           </div>
@@ -63,7 +63,7 @@ class Comments extends React.Component {
           </div>
         </div>
         <div className="example comments">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Comment replies</h5>
             <p>Replies to comments are indented inwards</p>
           </div>
@@ -106,7 +106,7 @@ class Comments extends React.Component {
           </div>
         </div>
         <div className="example forum">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Embedded reply</h5>
             <p>Replies to a specific comment are indented within a comment</p>
           </div>
@@ -149,7 +149,7 @@ class Comments extends React.Component {
           </div>
         </div>
         <div className="example comments">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Full width reply</h5>
             <p>Replies to a comment thread take up the width of a container</p>
           </div>

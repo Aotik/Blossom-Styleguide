@@ -15,7 +15,7 @@ class Tables extends React.Component {
       <div>
         <Title title="Tables">Orgnanise data into something more readable</Title>
         <div className="example tables">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Striped tables</h5>
             <p>Stripled tables with a single header using the <code>colspan</code> property</p>
           </div>
@@ -59,7 +59,7 @@ class Tables extends React.Component {
           </div>
         </div>
         <div className="example tables">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Celled tables</h5>
             <p>Fully celled tables, horizontally and vertically</p>
           </div>
@@ -108,7 +108,7 @@ class Tables extends React.Component {
           </div>
         </div>
         <div className="example tables">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Crowded tables</h5>
             <p>Tables will automatically adjust their cell sizes to accompany their content</p>
           </div>
@@ -157,7 +157,7 @@ class Tables extends React.Component {
           </div>
         </div>
         <div className="example tables">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Simple tables</h5>
             <p>Simple tables have no background color and only horizontal borders</p>
           </div>
@@ -206,7 +206,7 @@ class Tables extends React.Component {
           </div>
         </div>
         <div className="example tables">
-          <div className="explanation"><a className="view-source"><i className="fa fa-code"/></a>
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Basic tables</h5>
             <p>Basic tables convey simple information and is the most basic variation of a table</p>
           </div>

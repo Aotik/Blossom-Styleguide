@@ -15,8 +15,7 @@ class NavBar extends BaseComponent {
       <header className="sidebar">
         <div className="contain">
           <Link to="/" className="logo">
-
-          <a className="toggle"><img src="/images/logo.svg"/><i className="fa fa-bars"/></a>
+            <span className="toggle"><img src="/images/logo.svg"/><i className="fa fa-bars"/></span>
           </Link>
           <ul className="links left">
             <LinkElement to="/introduction">Introduction</LinkElement>
