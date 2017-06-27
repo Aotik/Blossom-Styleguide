@@ -44,7 +44,7 @@ class Labels extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="label">
-              <i className="fa fa-circle-o-notch fa-spin"></i>
+              <i className="animation-spin ion-load-c inline"></i>
               Sending message
             </div>
             <div className="footer">
@@ -80,7 +80,7 @@ class Labels extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="label">
-              <i className="fa fa-envelope"></i>
+              <i className="ion-email-unread"></i>
               14 Unread
               <a>View mail</a>
             </div>

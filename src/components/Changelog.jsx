@@ -27,6 +27,15 @@ class Changelog extends BaseComponent {
         <section className="guide">
           <div className="contain">
             <div className="log">
+              <div className="date">June 27, 2017</div>
+              <div className="inner">
+                <h4><span className="label violet">Fixes</span> Summer clean up</h4>
+                <p>Several variables and font-sizes within Blossom have been updated to have a uniform feel to it, making it much easier to apply themes across the board when altering <code>variables.styl</code></p>
+                <p>The structure of button elements have been changed slightly to look unchanged due to the types of fonts on different operating systems.</p>
+                <p>If you are a developer or have developed a theme, check out the diffs in the official repository before updating to the latest version.</p>
+              </div>
+            </div>
+            <div className="log">
               <div className="date">June 26, 2017</div>
               <div className="inner">
                 <h4><span className="label green">Improvements</span> More restructuring</h4>

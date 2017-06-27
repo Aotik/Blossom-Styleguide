@@ -33,7 +33,7 @@ class ElementsNav extends React.Component {
               <LinkElement to="/elements/tables">Tables</LinkElement>
               <LinkElement to="/elements/stages">Stages</LinkElement>
             </ul>
-            <a className="resources breakpoint-m-show"><i className="fa fa-caret-down"/></a>
+            <a className="resources breakpoint-m-show"><i className="ion-chevron-down"/></a>
           </div>
         </div>
       </aside>

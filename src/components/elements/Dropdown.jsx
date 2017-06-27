@@ -32,7 +32,7 @@ class Dividers extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="dropdown">
-              <a className="toggle">Format file <i className="fa fa-caret-down"/></a>
+              <a className="toggle">Format file <i className="ion-chevron-down"/></a>
               <ul className="menu">
                 <li><a>New...</a></li>
                 <li><a>Open</a></li>
@@ -51,7 +51,7 @@ class Dividers extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="dropdown">
-              <a className="toggle">Format file <i className="fa fa-caret-down"/></a>
+              <a className="toggle">Format file <i className="ion-chevron-down"/></a>
               <ul className="menu">
                 <li className="header">Select an option</li>
                 <li><a>New...</a></li>
@@ -61,11 +61,6 @@ class Dividers extends React.Component {
                 <li className="divider"></li>
                 <li><a>Export file...</a></li>
                 <li><a>Quick export</a></li>
-                <li className="divider"></li>
-                <li className="header">Share file</li>
-                <li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
-                <li><a><i className="fa fa-twitter"/> Twitter</a></li>
-                <li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
               </ul>
             </div>
             <div className="footer">
@@ -92,13 +87,13 @@ class Dividers extends React.Component {
             </div>
             <div className="stack">
               <div className="dropdown floating">
-                <div className="toggle button primary labeled">
-                  <i className="fa fa-address-card-o"></i>
-                  Select an address
+                <div className="toggle button purple labeled">
+                  <i className="ion-earth"></i>
+                  Choose a planet
                 </div>
                 <ul className="menu">
-                  <li className="header">Your addresses</li>
-                  <li><a>Default address</a></li>
+                  <li className="header">Some planets</li>
+                  <li><a>Jupiter</a></li>
                   <li><a>Shipping address</a></li>
                   <li><a>Billing address</a></li>
                 </ul>
@@ -106,11 +101,11 @@ class Dividers extends React.Component {
             </div>
             <div className="stack">
               <div className="dropdown floating">
-                <div className="toggle button outlined teal">
-                  Invite a member
+                <div className="toggle button outlined grey">
+                  Invite friends
                 </div>
                 <ul className="menu">
-                  <li className="header">Group members</li>
+                  <li className="header">Event members</li>
                   <li><a>Charles</a></li>
                   <li><a>Amy</a></li>
                   <li><a>Jessica</a></li>
@@ -131,8 +126,8 @@ class Dividers extends React.Component {
             <div className="stack">
               <div className="dropdown floating disabled">
                 <a className="toggle button blue labeled labeled-right">
-                  Menu
-                  <i className="fa fa-caret-down"/>
+                  Disabled menu
+                  <i className="ion-chevron-down"/>
                 </a>
                 <ul className="menu">
                   <li className="header">Select an option</li>
@@ -143,19 +138,14 @@ class Dividers extends React.Component {
                   <li className="divider"></li>
                   <li><a>Export file...</a></li>
                   <li><a>Quick export</a></li>
-                  <li className="divider"></li>
-                  <li className="header">Share file</li>
-                  <li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
-                  <li><a><i className="fa fa-twitter"/> Twitter</a></li>
-                  <li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
                 </ul>
               </div>
             </div>
             <div className="stack">
               <div className="dropdown floating">
                 <a className="toggle button blue labeled labeled-right">
-                  Menu
-                  <i className="fa fa-caret-down"/>
+                  Just a menu
+                  <i className="ion-chevron-down"/>
                 </a>
                 <ul className="menu">
                   <li className="header">Select an option</li>
@@ -166,11 +156,6 @@ class Dividers extends React.Component {
                   <li className="divider"></li>
                   <li className="disabled"><a>Export file...</a></li>
                   <li className="disabled"><a>Quick export</a></li>
-                  <li className="divider"></li>
-                  <li className="header">Share file</li>
-                  <li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
-                  <li><a><i className="fa fa-twitter"/> Twitter</a></li>
-                  <li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
                 </ul>
               </div>
             </div>
@@ -185,7 +170,7 @@ class Dividers extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="dropdown right">
-              <a className="toggle">Format file <i className="fa fa-caret-down"/></a>
+              <a className="toggle">Format file <i className="ion-chevron-down"/></a>
               <ul className="menu">
                 <li><a>New...</a></li>
                 <li><a>Open</a></li>
@@ -204,7 +189,7 @@ class Dividers extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="dropdown upward">
-              <a className="toggle">Format file <i className="fa fa-caret-down"/></a>
+              <a className="toggle">Format file <i className="ion-chevron-down"/></a>
               <ul className="menu">
                 <li className="header">Select an option</li>
                 <li><a>New...</a></li>
@@ -214,11 +199,6 @@ class Dividers extends React.Component {
                 <li className="divider"></li>
                 <li><a>Export file...</a></li>
                 <li><a>Quick export</a></li>
-                <li className="divider"></li>
-                <li className="header">Share file</li>
-                <li><a><i className="fa fa-facebook-official"/> Facebook</a></li>
-                <li><a><i className="fa fa-twitter"/> Twitter</a></li>
-                <li><a><i className="fa fa-linkedin-square"/> LinkedIn</a></li>
               </ul>
             </div>
             <div className="footer">

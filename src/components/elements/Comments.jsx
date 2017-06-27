@@ -132,12 +132,12 @@ class Comments extends React.Component {
                       <textarea name="reply"></textarea>
                     </div>
                     <div className="group">
-                      <div className="submit button blue labeled">
-                        <i className="fa fa-edit"></i>
-                        Send reply
-                      </div>
-                      <div className="discard button default float-right">
+                      <div className="discard button default">
                         Discard
+                      </div>
+                      <div className="submit button blue labeled labeled-right float-right">
+                        <i className="ion-paper-airplane"></i>
+                        Send reply
                       </div>
                     </div>
                   </div>
@@ -223,12 +223,12 @@ class Comments extends React.Component {
                   <textarea name="reply"></textarea>
                 </div>
                 <div className="group">
-                  <div className="submit button blue labeled">
-                    <i className="fa fa-edit"></i>
-                    Send reply
-                  </div>
-                  <div className="discard button default float-right">
+                  <div className="discard button default">
                     Discard
+                  </div>
+                  <div className="submit button blue labeled labeled-right float-right">
+                    <i className="ion-paper-airplane"></i>
+                    Send reply
                   </div>
                 </div>
               </div>

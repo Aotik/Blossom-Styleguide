@@ -22,7 +22,7 @@ class DesignNav extends React.Component {
               <LinkElement to="/design/grid">Grid system</LinkElement>
               <LinkElement to="/design/typography">Typography</LinkElement>
             </ul>
-            <a className="resources breakpoint-m-show"><i className="fa fa-caret-down"/></a>
+            <a className="resources breakpoint-m-show"><i className="ion-chevron-down"/></a>
           </div>
         </div>
       </aside>

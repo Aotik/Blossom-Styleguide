@@ -80,7 +80,7 @@ class Stages extends React.Component {
             <div className="stages">
               <div className="stage completed">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -103,7 +103,7 @@ class Stages extends React.Component {
             <div className="stages">
               <div className="stage active">
                 <div className="icon">
-                  <i className="fa fa-credit-card"></i>
+                  <i className="ion-card"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -126,7 +126,7 @@ class Stages extends React.Component {
             <div className="stages">
               <div className="stage">
                 <div className="icon">
-                  <i className="fa fa-truck"></i>
+                  <i className="ion-plane"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -137,7 +137,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage active">
                 <div className="icon">
-                  <i className="fa fa-credit-card"></i>
+                  <i className="ion-card"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -148,7 +148,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage disabled">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -171,7 +171,7 @@ class Stages extends React.Component {
             <div className="stages">
               <div className="stage completed">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -182,7 +182,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage completed">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -193,7 +193,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage active">
                 <div className="icon">
-                  <i className="fa fa-info"></i>
+                  <i className="ion-cube"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -216,7 +216,7 @@ class Stages extends React.Component {
             <div className="stages vertical">
               <div className="stage completed">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -227,7 +227,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage completed">
                 <div className="icon">
-                  <i className="fa fa-check"></i>
+                  <i className="ion-checkmark"></i>
                 </div>
                 <div className="content">
                   <div className="header">
@@ -238,7 +238,7 @@ class Stages extends React.Component {
               </div>
               <div className="stage active">
                 <div className="icon">
-                  <i className="fa fa-info"></i>
+                  <i className="ion-cube"></i>
                 </div>
                 <div className="content">
                   <div className="header">

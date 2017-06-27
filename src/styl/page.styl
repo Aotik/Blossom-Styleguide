@@ -57,19 +57,19 @@
       user-select none
   h3
     font-weight 400
-    color color-grey
+    color text-default
     max-width 73%
     display block
     margin .4rem auto
     letter-spacing 0
   +below('m')
     h1
-      font-size 2.4rem
+      font-size font-size-h2
       img
         height 60px
     h3
       max-width 100%
-      font-size 1.5rem
+      font-size font-size-h4
     .button-group
       margin-top 0
       .button
@@ -184,7 +184,7 @@ section.size
         color #48d8a0
         padding 0
         line-height 2.2rem
-        font-size 1rem
+        font-size font-size-standard
       .muted
         display block
         color lighten(#1f2333, 80%)
@@ -200,11 +200,11 @@ section.size
       padding 3rem 1rem 0 1rem
       pre
         border-radius border-radius-normal
-        font-size 1rem
+        font-size font-size-standard
         min-height 20rem
         line-height 1.8rem
         code
-          font-size 1rem
+          font-size font-size-standard
           line-height 1.8rem
 
 
@@ -271,13 +271,13 @@ section.features
   width 100%
   line-height 2.7rem
   padding 1rem 2rem
-  font-size 1rem
+  font-size font-size-standard
   font-weight 500
   margin .5rem 0
   color #fff
   border-radius 0
   +below('m')
-    font-size .86em
+    font-size font-size-small
     padding 1rem
 
 .block-yellow
@@ -353,7 +353,7 @@ section.features
   .view-source
     color link-light
     cursor pointer
-    font-size 1.2rem
+    font-size font-size-h6
     absolute top .7rem right
     border-radius 50%
     text-align center
@@ -364,9 +364,8 @@ section.features
       background-color #fff
   small
     display block
-    color text-grey
+    color text-default
   p
-    color color-grey
     display block
     line-height 1.8rem
     & + p
@@ -399,7 +398,7 @@ section.features
       margin-bottom -1.6em
     padding 1em 0
     small
-      color color-grey
+      color text-default
       display block
       margin .8em 0 0 0
       font-weight 300
@@ -408,7 +407,7 @@ section.features
   small
     display block
     margin-top 6.6rem
-    color color-grey
+    color text-default
   img
     max-width 100%
 .example
@@ -430,7 +429,7 @@ section.features
   &.menus
     .note
       margin 2em 0 0 0
-      color color-grey
+      color text-default
     .note + .menu
       margin 2em 0 0 0
   &.types
@@ -472,7 +471,7 @@ section.features
       padding .7em 0
       text-align center
       margin 0
-      color color-grey
+      color text-default
       background-color background-lighter-grey
       border-radius 0
   .circle
@@ -520,7 +519,6 @@ section.features
     img
       max-width 100%
       border-radius 10%
-      border 2px solid #87909c
   &.labels
     .label
       margin .2rem
@@ -555,10 +553,10 @@ section.features
   margin .5rem 0
   &.dark
     .scheme
-      color text-grey
+      color text-default
     span
-      color text-grey !important
-      color rgba(text-grey,.7) !important
+      color text-default !important
+      color rgba(text-default,.7) !important
   .scheme
     padding 1em 1.2rem
     color #fff
@@ -678,6 +676,7 @@ header.sidebar
         margin-left 1rem
         color link-light
         relative top -2px
+        font-size font-size-h4
         float right
       img
         display inline-block
@@ -792,7 +791,6 @@ aside.sidebar
   h3
     width 100%
   p
-    color color-grey
     font-size font-size-hero
     line-height 1.8rem
 .log
@@ -801,7 +799,7 @@ aside.sidebar
   .date
     absolute top 2.7rem left
     font-weight 500
-    color color-grey
+    color text-default
   .inner
     border-top 1px solid border-grey
     padding 1.6rem 0
@@ -813,10 +811,9 @@ aside.sidebar
       margin-right .6rem
       line-height .86rem
       letter-spacing 0
-      font-size .8rem
+      font-size font-size-small
     p
       line-height 1.8rem
-      color color-grey
       & + p
         margin-top .5rem
       & + h4
@@ -875,7 +872,7 @@ footer.footer
 .hljs,
 .hljs-subst,
 .nginx .hljs-title
-  color text-grey
+  color text-default
 
 .hljs-tag .hljs-title, .hljs-keyword
   color #4A709E

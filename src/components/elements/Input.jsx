@@ -102,7 +102,7 @@ class Input extends React.Component {
           <div className="module collapsed">
             <div className="input action">
               <input type="text" name="name" placeholder="Search..."/>
-              <a className="icon button"><i className="fa fa-search"></i></a>
+              <a className="icon button"><i className="ion-search"></i></a>
             </div>
             <div className="footer">
             </div>
@@ -131,7 +131,7 @@ class Input extends React.Component {
             <div className="input action">
               <a className="button blue labeled">
                 Copy
-                <i className="fa fa-clone"></i>
+                <i className="ion-clipboard"></i>
               </a>
               <input type="text" name="name" value="http://short.url/123"/>
             </div>
@@ -146,10 +146,10 @@ class Input extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="input action">
-              <input type="text" name="name" value="http://short.url/123"/>
-              <a className="button blue labeled labeled-right">
-                Copy
-                <i className="fa fa-clone"></i>
+              <input type="text" name="name" placeholder="Enter your 12-digit ID"/>
+              <a className="button grey labeled labeled-right">
+                Get help
+                <i className="ion-help-buoy"></i>
               </a>
             </div>
             <div className="footer">

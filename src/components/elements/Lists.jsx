@@ -187,7 +187,7 @@ class Lists extends React.Component {
           <div className="module collapsed">
             <ul className="list divided spaced">
               <li className="item">
-                <i className="icon large fa fa-github"></i>
+                <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
                     Aotik/Blossom
@@ -196,7 +196,7 @@ class Lists extends React.Component {
                 </div>
                 </li>
               <li className="item">
-                <i className="icon large fa fa-github"></i>
+                <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
                     Aotik/Blossom
@@ -205,7 +205,7 @@ class Lists extends React.Component {
                 </div>
                 </li>
               <li className="item">
-                <i className="icon large fa fa-github"></i>
+                <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
                     Aotik/Blossom

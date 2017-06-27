@@ -150,7 +150,7 @@ class Buttons extends React.Component {
         <div className="example sizes">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Button sizes</h5>
-            <p>Add <code>.small</code><code>.medium</code><code>.large</code><code>.big</code><code>.massive</code> classes to your button to change its size</p>
+            <p>Add <code>.small</code><code>.medium</code><code>.large</code><code>.big</code>classes to your button to change its size</p>
           </div>
           <div className="module collapsed">
             <a className="button small">
@@ -164,9 +164,6 @@ class Buttons extends React.Component {
             </a>
             <a className="button big">
               Big
-            </a>
-            <a className="button massive">
-              Massive
             </a>
             <div className="footer">
 

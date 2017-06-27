@@ -31,7 +31,7 @@ class Tables extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <i className="fa fa-file-o"></i> logo.svg
+                    <i className="ion-document"></i> logo.svg
                   </td>
                   <td>
                     SVG
@@ -42,7 +42,7 @@ class Tables extends React.Component {
                 </tr>
                 <tr>
                   <td>
-                    <i className="fa fa-file-o"></i>
+                    <i className="ion-document"></i>
                     app.js
                   </td>
                   <td>
@@ -81,7 +81,7 @@ class Tables extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <i className="fa fa-file-o"></i> logo.svg
+                    <i className="ion-document"></i> logo.svg
                   </td>
                   <td>
                     SVG
@@ -92,7 +92,7 @@ class Tables extends React.Component {
                 </tr>
                 <tr>
                   <td>
-                    <i className="fa fa-file-o"></i> app.js
+                    <i className="ion-document"></i> app.js
                   </td>
                   <td>
                     Javascript

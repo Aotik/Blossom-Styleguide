@@ -21,7 +21,7 @@ class UtilitiesNav extends React.Component {
               <LinkElement to="/utility/helpers">Helper classes</LinkElement>
               <LinkElement to="/utility/layout">Layout</LinkElement>
             </ul>
-            <a className="resources breakpoint-m-show"><i className="fa fa-caret-down"/></a>
+            <a className="resources breakpoint-m-show"><i className="ion-chevron-down"/></a>
           </div>
         </div>
       </aside>
