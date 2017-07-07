@@ -126,6 +126,53 @@ class Buttons extends React.Component {
         </div>
         <div className="example buttons">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Grouped buttons</h5>
+            <p>Group buttons together to create a series of actions</p>
+          </div>
+          <div className="module collapsed">
+            <div className="group">
+              <a className="button">Create repo</a>
+              <a className="button">Star repo</a>
+              <a className="button">Fork repo</a>
+            </div>
+            <div className="group">
+              <a className="button medium">Create repo</a>
+              <a className="button medium">Star repo</a>
+              <a className="button medium">Fork repo</a>
+            </div>
+            <div className="group">
+              <a className="button outlined black">Align left</a>
+              <a className="button outlined black">Align center</a>
+              <a className="button outlined black">Align right</a>
+              <a className="button outlined black">Justify</a>
+            </div>
+            <div className="group">
+              <a className="button outlined black small">Align left</a>
+              <a className="button outlined black small">Align center</a>
+              <a className="button outlined black small">Align right</a>
+              <a className="button outlined black small">Justify</a>
+            </div>
+            <div className="footer">
+            </div>
+          </div>
+        </div>
+        <div className="example buttons">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Button states</h5>
+            <p>Group buttons together to create a series of actions</p>
+          </div>
+          <div className="module collapsed">
+            <a className="button">
+              <div className="loader">
+
+              </div>
+            </a>
+            <div className="footer">
+            </div>
+          </div>
+        </div>
+        <div className="example buttons">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Labeled buttons</h5>
             <p>Labels give visual aid on what the button does</p>
           </div>

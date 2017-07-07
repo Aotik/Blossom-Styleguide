@@ -26,6 +26,8 @@ if (typeof(jQuery) == 'undefined') {
             $(this).next().addClass('open')
           })
         }
+      }).on('click', '.checkbox .toggle', function(e) {
+        $(this).toggleClass('selected');
       })
     })
 
