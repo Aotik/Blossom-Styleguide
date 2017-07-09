@@ -52,7 +52,50 @@ class Input extends React.Component {
             </div>
           </div>
           <div className="message warning">
-            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for checkboxes to function correctly.</strong> Clicking on <code>.checkbox .toggle</code> will toggle the <code>.selected</code> class on the Checkbox.
+            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for checkboxes to behave as above.</strong> Clicking on <code>.checkbox .toggle</code> will toggle the <code>.selected</code> class on the Checkbox.
+          </div>
+        </div>
+        <div className="example inputs">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Radios</h5>
+            <p>Add toggle checkboxes to capture user selections</p>
+          </div>
+          <div className="module collapsed">
+            <form>
+              <div className="input">
+                <div className="radio">
+                  <span className="toggle"/>
+                  <label>Get push notifications for new releases</label>
+                </div>
+              </div>
+              <div className="input">
+                <div className="radio selected">
+                  <span className="toggle"/>
+                  <label>Recieve promotional offers from Blossom <strong>(we would never do that)</strong></label>
+                </div>
+              </div>
+              <div className="footer">
+              </div>
+            </form>
+          </div>
+          <div className="message warning">
+            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for radios to behave as above.</strong> Keep radio elements inside a <code>form</code> tag so that Blossom JS can detect and apply the selection to a single radio element.
+          </div>
+        </div>
+        <div className="example inputs">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Range</h5>
+            <p>Add toggle checkboxes to capture user selections</p>
+          </div>
+          <div className="module collapsed">
+            <div className="input range">
+              <input type="range"/>
+            </div>
+            <div className="footer">
+            </div>
+          </div>
+          <div className="message warning">
+            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for radios to behave as above.</strong> Keep radio elements inside a <code>form</code> tag so that Blossom JS can detect and apply the selection to a single radio element.
           </div>
         </div>
         <div className="example inputs">
@@ -74,8 +117,8 @@ class Input extends React.Component {
             <p>A disabled input using the <code>.disabled</code> class</p>
           </div>
           <div className="module collapsed">
-            <div className="input disabled">
-              <input type="text" name="name" placeholder="Search..."/>
+            <div className="input">
+              <input className="disabled" type="text" name="name" placeholder="Search..."/>
             </div>
             <div className="footer">
             </div>
