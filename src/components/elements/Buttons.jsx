@@ -16,8 +16,8 @@ class Buttons extends React.Component {
         <Title title="Buttons">A button indicates a possible user action</Title>
         <div className="example buttons">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Default & Primary buttons</h5>
-            <p>Standard buttons</p>
+            <h5>Default & primary buttons</h5>
+            <p>Standard basic UI buttons</p>
           </div>
           <div className="module collapsed">
             <a className="button">
@@ -25,6 +25,52 @@ class Buttons extends React.Component {
             </a>
             <a className="button primary">
               Primary Button
+            </a>
+            <div className="footer">
+            </div>
+          </div>
+        </div>
+        <div className="example buttons">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Colored buttons</h5>
+            <p>Spice up your page with colored buttons</p>
+          </div>
+          <div className="module collapsed">
+            <a className="button red">
+              Red
+            </a>
+            <a className="button orange">
+              Orange
+            </a>
+            <a className="button yellow">
+              Yellow
+            </a>
+            <a className="button green">
+              Green
+            </a>
+            <a className="button teal">
+              Teal
+            </a>
+            <a className="button blue">
+              Blue
+            </a>
+            <a className="button violet">
+              Violet
+            </a>
+            <a className="button purple">
+              Purple
+            </a>
+            <a className="button pink">
+              Pink
+            </a>
+            <a className="button brown">
+              Brown
+            </a>
+            <a className="button grey">
+              Grey
+            </a>
+            <a className="button black">
+              Black
             </a>
             <div className="footer">
             </div>
@@ -79,53 +125,6 @@ class Buttons extends React.Component {
         </div>
         <div className="example buttons">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Colored buttons</h5>
-            <p>Spice up your page with colored buttons</p>
-          </div>
-          <div className="module collapsed">
-            <a className="button red">
-              Red
-            </a>
-            <a className="button orange">
-              Orange
-            </a>
-            <a className="button yellow">
-              Yellow
-            </a>
-            <a className="button green">
-              Green
-            </a>
-            <a className="button teal">
-              Teal
-            </a>
-            <a className="button blue">
-              Blue
-            </a>
-            <a className="button violet">
-              Violet
-            </a>
-            <a className="button purple">
-              Purple
-            </a>
-            <a className="button pink">
-              Pink
-            </a>
-            <a className="button brown">
-              Brown
-            </a>
-            <a className="button grey">
-              Grey
-            </a>
-            <a className="button black">
-              Black
-            </a>
-            <div className="footer">
-
-            </div>
-          </div>
-        </div>
-        <div className="example buttons">
-          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Grouped buttons</h5>
             <p>Group buttons together to create a series of actions</p>
           </div>
@@ -136,21 +135,10 @@ class Buttons extends React.Component {
               <a className="button">Fork repo</a>
             </div>
             <div className="group">
-              <a className="button medium">Create repo</a>
-              <a className="button medium">Star repo</a>
-              <a className="button medium">Fork repo</a>
-            </div>
-            <div className="group">
-              <a className="button outlined black">Align left</a>
-              <a className="button outlined black">Align center</a>
-              <a className="button outlined black">Align right</a>
-              <a className="button outlined black">Justify</a>
-            </div>
-            <div className="group">
-              <a className="button outlined black small">Align left</a>
-              <a className="button outlined black small">Align center</a>
-              <a className="button outlined black small">Align right</a>
-              <a className="button outlined black small">Justify</a>
+              <a className="button primary small">Align left</a>
+              <a className="button primary small">Align center</a>
+              <a className="button primary small">Align right</a>
+              <a className="button primary small">Justify</a>
             </div>
             <div className="footer">
             </div>
@@ -158,14 +146,39 @@ class Buttons extends React.Component {
         </div>
         <div className="example buttons">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Button states</h5>
-            <p>Group buttons together to create a series of actions</p>
+            <h5>Disabled buttons</h5>
+            <p>Disable buttons by adding the <code>.disabled</code> or the <code>[disabled]</code> attribute.</p>
           </div>
           <div className="module collapsed">
-            <a className="button">
-              <div className="loader">
-
+            <a className="button disabled">
+              Disabled
+            </a>
+            <a className="button primary" disabled="true">
+              I'm disabled via an attribute
+            </a>
+            <div className="footer">
+            </div>
+          </div>
+        </div>
+        <div className="example buttons">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Loading state</h5>
+            <p>Add a <Link to="/elements/loaders">loader</Link> to your button to indicate a loading state</p>
+          </div>
+          <div className="module collapsed">
+            <a className="button loading">
+              <span>Loading</span>
+              <div className="loader dark">
               </div>
+            </a>
+            <a className="button loading">
+              <div className="loader dark">
+              </div>
+            </a>
+            <a className="button primary loading">
+              <div className="loader">
+              </div>
+              <span>Also loading...</span>
             </a>
             <div className="footer">
             </div>

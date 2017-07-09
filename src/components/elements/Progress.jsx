@@ -72,8 +72,8 @@ class Progress extends React.Component {
             <div className="footer">
             </div>
           </div>
-          <div className="message info">
-            <p>Note that to use the <strong>.active</strong> class, you need to include <Link to="/utility">Blossom JS</Link> in your markup</p>
+          <div className="message warning">
+            <p><strong>You will need <Link to="/utility/js">Blossom JS</Link> for active Progress Bars for them to animate on page load.</strong></p>
           </div>
         </div>
         <div className="example types">

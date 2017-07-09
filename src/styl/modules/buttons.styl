@@ -22,11 +22,12 @@
     box-sizing border-box
     background-color transparent
     box-shadow inset 0px 0px 0px 1px background-light-grey
-    color text-button-default
+    color text-default
     &.white
       color #fff
       &:hover
-        color text-button-default
+        background-color #fff
+        color text-default
   &:hover
     box-shadow none
     background-color background-light-grey
@@ -34,6 +35,8 @@
     &.{clr}
       btn-color(clr)
       btn-background(clr)
+      &.disabled, &[disabled], &.loading
+        btn-disabled-color(clr)
       &.outlined
         btn-color-outlined(clr)
         background-color transparent
@@ -63,10 +66,17 @@
     color text-default
     background-color darken(background-light-grey, 4%)
     text-decoration none
-  .loader
-    height 1.125rem
-    width 1.125rem
-    line-height 1rem
-    border-width .2rem
-    border-color rgba(0, 0, 0, 0.2)
-    border-left-color text-default
+  &.disabled, &[disabled]
+    @extends .disabled
+    color lighten(text-default, 35%)
+  &.loading
+    @extends .disabled
+    .loader
+      height 1.125em
+      width 1.125em
+      line-height 1em
+      border-width .2em
+      display inline-block
+      vertical-align top
+    .loader + span, span + .loader
+      margin-left .8em

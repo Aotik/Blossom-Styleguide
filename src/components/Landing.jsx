@@ -35,13 +35,13 @@ class Landing extends BaseComponent {
             <div className="contain">
               <h2>Few things about Blossom UI</h2>
               <ul className="bulleted list">
-                <li className="item">Just under 80kb compressed; if a framework was a feather, this would be it</li>
+                <li className="item">Under 85kb compressed, Blossom CSS is tiny</li>
                 <li className="item">Over 70+ elements, utilities, design features and counting</li>
                 <li className="item">Fully themable, built on Stylus and powered by popular Stylus packages</li>
-                <li className="item">Has it's own Javascript framework to move stuff around...</li>
+                <li className="item">Has it's own Javascript framework to manage elements</li>
                 <li className="item">Extensive 12 (can be changed!) column grid system</li>
                 <li className="item">Beautiful and friendly color scheme</li>
-                <li className="item">Semantic, natural language CSS classes</li>
+                <li className="item">Semantic, natural language selector classes</li>
                 <Link to="/elements" className="button large outlined white block">Explore the components</Link>
               </ul>
             </div>
@@ -65,7 +65,7 @@ $ npm install blossom-ui --save`}
           <div className="dent-cover">
             <div className="contain">
             <h2>People already <i className="ion-heart text red animation-bounce inline"/> Blossom UI</h2>
-            <p>Over 4500+ awesome people have installed blossom-ui just from NPM, using it as their standard design framework. Why keep wasting precious project time when you can just take a minute to set up Blossom now?</p>
+            <p>Over 5500+ awesome people have installed blossom-ui just from NPM, using it as their standard design framework. Why keep wasting precious project time when you can just take a minute to set up Blossom now?</p>
             <div className="row">
               <div className="xs-12 l-6 col column">
                 <div className="inner">

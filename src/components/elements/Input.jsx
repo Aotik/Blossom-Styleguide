@@ -34,7 +34,6 @@ class Input extends React.Component {
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Checkboxes</h5>
             <p>Add toggle checkboxes to capture user selections</p>
-            <p><strong>You will need BlossomJS for checkboxes to function correctly.</strong> Clicking on <code>.checkbox .toggle</code> will toggle the <code>.selected</code> class on the Checkbox.</p>
           </div>
           <div className="module collapsed">
             <div className="input">
@@ -51,6 +50,9 @@ class Input extends React.Component {
             </div>
             <div className="footer">
             </div>
+          </div>
+          <div className="message warning">
+            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for checkboxes to function correctly.</strong> Clicking on <code>.checkbox .toggle</code> will toggle the <code>.selected</code> class on the Checkbox.
           </div>
         </div>
         <div className="example inputs">
