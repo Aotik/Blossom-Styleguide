@@ -33,16 +33,16 @@ class Landing extends BaseComponent {
         <section className="size dent-container">
           <div className="dent-cover">
             <div className="contain">
-              <h2>Few things about Blossom UI</h2>
+              <h2>Get to know Blossom</h2>
               <ul className="bulleted list">
                 <li className="item">Under 85kb compressed, Blossom CSS is tiny</li>
+                <li className="item">We're trying to teach monkeys to use Blossom, it's that easy to use</li>
                 <li className="item">Over 70+ elements, utilities, design features and counting</li>
                 <li className="item">Fully themable, built on Stylus and powered by popular Stylus packages</li>
                 <li className="item">Has it's own Javascript framework to manage elements</li>
-                <li className="item">Extensive 12 (can be changed!) column grid system</li>
-                <li className="item">Beautiful and friendly color scheme</li>
-                <li className="item">Semantic, natural language selector classes</li>
-                <Link to="/elements" className="button large outlined white block">Explore the components</Link>
+                <li className="item">Extensive 12 column modern flexbox grid framework</li>
+                <li className="item">Semantic, natural language CSS selector classes</li>
+                <Link to="/elements" className="button large outlined white block">Start exploring</Link>
               </ul>
             </div>
             <div className="slide">
@@ -64,8 +64,8 @@ $ npm install blossom-ui --save`}
         <section className="features dent-container light">
           <div className="dent-cover">
             <div className="contain">
-            <h2>People already <i className="ion-heart text red animation-bounce inline"/> Blossom UI</h2>
-            <p>Over 5500+ awesome people have installed blossom-ui just from NPM, using it as their standard design framework. Why keep wasting precious project time when you can just take a minute to set up Blossom now?</p>
+            <h2>People already <i className="ion-heart text red animation-pulse inline"/> Blossom UI</h2>
+            <p>Over 5500+ awesome people have installed Blossom just from <a className="strong" rel="noopener noreferrer" target="_blank" href="https://www.npmjs.com/package/blossom-ui">npm</a>, trying it out as their standard design framework. Why keep on wasting precious project time, you can just take a quick minute to set up Blossom now.</p>
             <div className="row">
               <div className="xs-12 l-6 col column">
                 <div className="inner">

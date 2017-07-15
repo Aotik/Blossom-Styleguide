@@ -52,6 +52,18 @@ class Animations extends React.Component {
               <div className="square animation-bounce"></div>
               <code>.animation-bounce</code>
             </div>
+            <div className="animation">
+              <div className="square animation-pulse"></div>
+              <code>.animation-pulse</code>
+            </div>
+            <div className="animation">
+              <div className="square animation-shake"></div>
+              <code>.animation-shake</code>
+            </div>
+            <div className="animation">
+              <div className="square animation-swing"></div>
+              <code>.animation-swing</code>
+            </div>
           </div>
         </div>
         <div className="example animations">

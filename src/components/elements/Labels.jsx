@@ -59,14 +59,14 @@ class Labels extends React.Component {
           <div className="module collapsed">
             <div className="label green">
               New message recieved
-              <div className="detail">From Daniel</div>
+              <div className="detail">From Olivia</div>
             </div>
             <div className="label primary">
-              Package arrived
+              Package delivered
               <div className="detail">13:49PM</div>
             </div>
             <div className="label red">
-              Comments bug
+              Bug with API
               <div className="detail">Fixed</div>
             </div>
             <div className="footer">
