@@ -147,7 +147,7 @@ class Buttons extends React.Component {
         <div className="example buttons">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Disabled buttons</h5>
-            <p>Disable buttons by adding the <code>.disabled</code> or the <code>[disabled]</code> attribute.</p>
+            <p>Disable buttons by using the <code>.disabled</code> class or <code>[disabled="true"]</code> property</p>
           </div>
           <div className="module collapsed">
             <a className="button disabled">

@@ -2,9 +2,6 @@
   position relative
   font-size 0
   font-style normal
-  input[disabled], input.disabled
-    @extends .disabled
-    background-color background-lightest-grey
   input[type="text"], input[type="number"], textarea
     font-family font-family-standard
     font-size font-size-standard
@@ -24,7 +21,7 @@
     background-color #fff
     height 2.625em
     +placeholder()
-      color lighten(text-default, 30%)
+      color text-disabled
     &:focus
       border-color color-primary
   textarea
@@ -121,6 +118,20 @@
       padding 0
       background-color transparent
       border 0
+  &[disabled], &.disabled
+    input[type="text"], input[type="number"], textarea
+      @extends .disabled
+      background-color background-lightest-grey
+    .radio, .checkbox
+      @extends .disabled
+      .toggle
+        opacity .6
+    &.range
+      @extends .disabled
+      input[type=range]
+        &::-webkit-slider-thumb
+          background-color text-disabled
+
 .action
   input
     border-radius border-radius-normal 0 0 border-radius-normal

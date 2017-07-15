@@ -17,7 +17,7 @@ class Tables extends React.Component {
         <div className="example tables">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Striped tables</h5>
-            <p>Stripled tables with a single header using the <code>colspan</code> property</p>
+            <p>Stripled tables with a single header using the <code>[colspan]</code> property</p>
           </div>
           <div className="module collapsed">
             <table className="striped table">

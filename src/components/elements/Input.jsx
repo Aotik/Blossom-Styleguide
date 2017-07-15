@@ -97,38 +97,49 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
+            <h5>Disabled inputs</h5>
+            <p>Disable inputs by using the <code>.disabled</code> class or <code>[disabled="true"]</code> property</p>
+          </div>
+          <div className="module collapsed">
+            <div className="input disabled">
+              <input type="text" name="name" placeholder="Disabled by class name..."/>
+            </div>
+            <div className="input" disabled="true">
+              <textarea placeholder="Disabled by property..."/>
+            </div>
+            <div className="input disabled">
+              <div className="radio selected">
+                <span className="toggle"/>
+                <label>Someone didn't want me to be selectable so I got disabled...</label>
+              </div>
+            </div>
+            <div className="input disabled">
+              <div className="checkbox">
+                <span className="toggle"/>
+                <label>Oh no... me too!</label>
+              </div>
+            </div>
+            <div className="input disabled">
+              <div className="checkbox selected">
+                <span className="toggle"/>
+                <label>Good thing I can be set to selected before disabled.</label>
+              </div>
+            </div>
+            <div className="input range disabled">
+              <input type="range"/>
+            </div>
+            <div className="footer">
+            </div>
+          </div>
+        </div>
+        <div className="example inputs">
+          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Transparent text input</h5>
             <p>An input with no background or border</p>
           </div>
           <div className="module collapsed">
             <div className="input transparent">
               <input type="text" name="name" placeholder="Search..."/>
-            </div>
-            <div className="footer">
-            </div>
-          </div>
-        </div>
-        <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Disabled text input <span className="text teal">(class)</span></h5>
-            <p>A disabled input using the <code>.disabled</code> class</p>
-          </div>
-          <div className="module collapsed">
-            <div className="input">
-              <input className="disabled" type="text" name="name" placeholder="Search..."/>
-            </div>
-            <div className="footer">
-            </div>
-          </div>
-        </div>
-        <div className="example inputs">
-          <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Disabled text input <span className="text teal">(property)</span></h5>
-            <p>A disabled input using the <code>disabled</code> property</p>
-          </div>
-          <div className="module collapsed">
-            <div className="input">
-              <input disabled="true" type="text" name="name" placeholder="Search..."/>
             </div>
             <div className="footer">
             </div>
@@ -197,7 +208,7 @@ class Input extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="input action">
-              <input type="text" name="name" placeholder="Enter your 12-digit ID..."/>
+              <input type="text" name="name" placeholder="Enter account number..."/>
               <a className="button grey labeled labeled-right">
                 Get help
                 <i className="ion-help-buoy"></i>

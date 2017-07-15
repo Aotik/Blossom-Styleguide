@@ -46,7 +46,7 @@ class Progress extends React.Component {
         <div className="example">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
             <h5>Default progress bar</h5>
-            <p>A simple progress bar shows the state, defined by the <code>data-percent</code> attribute, of progress without a written status</p>
+            <p>A simple progress bar shows the state, defined by the <code>[data-percent]</code> property, of progress without a status</p>
           </div>
           <div className="module collapsed">
             <div className="progress">
@@ -73,7 +73,7 @@ class Progress extends React.Component {
             </div>
           </div>
           <div className="message warning">
-            <p><strong>You will need <Link to="/utility/js">Blossom JS</Link> for active Progress Bars for them to animate on page load.</strong></p>
+            <p>You will need <Link to="/utility/js">Blossom JS</Link> to animate active Progress Bars on page load</p>
           </div>
         </div>
         <div className="example types">
