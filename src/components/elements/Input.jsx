@@ -32,7 +32,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Checkboxes</h5>
+            <h5>Checkbox input</h5>
             <p>Add toggle checkboxes to capture user selections</p>
           </div>
           <div className="module collapsed">
@@ -57,7 +57,7 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Radios</h5>
+            <h5>Radio input</h5>
             <p>Add toggle checkboxes to capture user selections</p>
           </div>
           <div className="module collapsed">
@@ -84,8 +84,8 @@ class Input extends React.Component {
         </div>
         <div className="example inputs">
           <div className="explanation"><a className="view-source"><i className="ion-code"/></a>
-            <h5>Range</h5>
-            <p>Add toggle checkboxes to capture user selections</p>
+            <h5>Range input</h5>
+            <p>Capture a range input within a form</p>
           </div>
           <div className="module collapsed">
             <div className="input range">
@@ -93,9 +93,6 @@ class Input extends React.Component {
             </div>
             <div className="footer">
             </div>
-          </div>
-          <div className="message warning">
-            <strong>You will need <Link to="/utility/js">Blossom JS</Link> for radios to behave as above.</strong> Keep radio elements inside a <code>form</code> tag so that Blossom JS can detect and apply the selection to a single radio element.
           </div>
         </div>
         <div className="example inputs">

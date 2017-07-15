@@ -33,6 +33,7 @@
       max-height 22rem
     line-height 1.2rem
     min-height 3rem
+    min-width 23rem
     width 100%
     resize vertical
     max-width 20rem
@@ -105,12 +106,16 @@
         -webkit-appearance none
         height .8rem
         width .8rem
-        background-color color-primary
-        border-radius 50%
+        background-color text-default
+        border-radius 50px
         cursor pointer
         margin-top -.3rem
-      &::-ms-fill-upper, &::-ms-fill-lower
-        background-color color-primary
+        transition all .14s ease
+      &:hover
+        &::-webkit-slider-thumb
+          height 1.1rem
+          width 1.1rem
+          margin-top -.4rem
   &.transparent
     input, textarea
       padding 0
