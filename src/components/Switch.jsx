@@ -32,6 +32,7 @@ import Messages from './elements/Messages'
 import Progress from './elements/Progress'
 import Stages from './elements/Stages'
 import Tables from './elements/Tables'
+import Tooltips from './elements/Tooltips'
 
 import Alignment from './utilities/Alignment'
 import Js from './utilities/Js'
@@ -100,6 +101,7 @@ class Switch extends React.Component {
       progressbars : Progress,
       stages : Stages,
       tables : Tables,
+      tooltips : Tooltips,
       animations : Animations,
       breakpoints : Breakpoints,
       grid : Grid,

@@ -30,8 +30,9 @@ class ElementsNav extends React.Component {
               <LinkElement to="/elements/menus">Menus</LinkElement>
               <LinkElement to="/elements/messages">Messages</LinkElement>
               <LinkElement to="/elements/progressbars">Progress bars</LinkElement>
-              <LinkElement to="/elements/tables">Tables</LinkElement>
               <LinkElement to="/elements/stages">Stages</LinkElement>
+              <LinkElement to="/elements/tables">Tables</LinkElement>
+              <LinkElement to="/elements/tooltips">Tooltips</LinkElement>
             </ul>
             <a className="resources breakpoint-m-show"><i className="ion-chevron-down"/></a>
           </div>

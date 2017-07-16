@@ -267,10 +267,6 @@ section.features
   .button
     flex-grow 0
 
-@keyframes bgscroll
-  100%
-    background-position 0 -5384px
-
 .block-grey, .block-yellow, .block-green, .block-purple
   width 5rem
   height 5rem
@@ -458,6 +454,11 @@ section.features
   &.sizes
     .button + .button
       margin-left 1em
+  &.tooltips
+    .tooltip
+      display block
+      & + .tooltip
+        margin-top 1.4rem
   &.animations
     .group
       border 1px solid border-grey
