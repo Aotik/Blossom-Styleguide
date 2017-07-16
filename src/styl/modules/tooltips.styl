@@ -1,3 +1,6 @@
+arrow-indent = 1rem
+dark-tooltip-color = color-ash
+
 .tooltip[data-content]
   position relative
   &:before
@@ -22,19 +25,26 @@
     border 1px solid border-grey
     max-width none
     white-space nowrap
+    font-size 1rem
     text-align left
     border-radius border-radius-normal
-    padding .8rem 1rem
+    padding .75em 1em
     box-shadow 0 2px 2px 0 box-shadow-grey
     transform scale(0)
     transition all cubic-bezier(0.02, 0.49, 0.01, 0.97) .14s
+    cursor default
+    pointer-events none
+  for size in ('tiny' 'small' 'medium' 'large' 'big')
+    &[data-text={size}]
+      &:after
+        tooltip-text(size)
   &.dark
     &:before
       box-shadow none !important
-      background-color color-ash
+      background-color dark-tooltip-color
     &:after
-      border-color color-ash
-      background-color color-ash
+      border-color dark-tooltip-color
+      background-color dark-tooltip-color
       color #fff
   &:hover
     &:before
@@ -62,7 +72,7 @@
 
   &[data-position="top left"]
     &:before
-      left 1rem
+      left arrow-indent
     &:after
       left 0
       right auto
@@ -83,7 +93,7 @@
 
   &[data-position="top right"]
     &:before
-      right 1rem
+      right arrow-indent
     &:after
       right 0
       left auto
@@ -91,7 +101,7 @@
 
   &[data-position="bottom left"]
     &:before
-      left 1rem
+      left arrow-indent
     &:after
       left 0
       right auto
@@ -109,7 +119,7 @@
 
   &[data-position="bottom right"]
     &:before
-      right 1rem
+      right arrow-indent
     &:after
       right 0
       left auto

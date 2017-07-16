@@ -12,7 +12,11 @@ export function BuildFooter(nearestModule) {
   if (nearestFooter.length == 0) return
 
   $(nearestFooter).empty().html('<pre><code class="html"></code></pre>')
-  let content = $(nearestModule).clone().find('.footer').remove().end().html().replace(new RegExp(/<!--(.*?)-->/g), "")
+  let content = $(nearestModule).clone()
+    .find('.footer').remove().end()
+    .find('.breakavoid').remove().end()
+    .html().replace(new RegExp(/<!--(.*?)-->/g), "")
+    
   let formattedHTML = jsHTML.html(content, options)
 
   $(nearestFooter).find('code').html(esc(formattedHTML))

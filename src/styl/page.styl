@@ -456,9 +456,15 @@ section.features
       margin-left 1em
   &.tooltips
     .tooltip
-      display block
-      & + .tooltip
-        margin-top 1.4rem
+      margin 0 1rem 0 0
+    .demo
+      .tooltip
+        margin 3.5rem 1rem 3.2rem 0
+        &:before
+          transform rotate(45deg) scale(1) !important
+          opacity 1 !important
+        &:after
+          transform scale(1) !important
   &.animations
     .group
       border 1px solid border-grey
@@ -552,6 +558,11 @@ section.features
       margin .34em .6em .34em 0
   +below('m')
     overflow hidden
+
+.breakavoid
+  margin .5rem 0
+  cf()
+
 .text
   .col
     border-radius border-radius-normal
