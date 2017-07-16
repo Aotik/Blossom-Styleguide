@@ -15,8 +15,9 @@ export function BuildFooter(nearestModule) {
   let content = $(nearestModule).clone()
     .find('.footer').remove().end()
     .find('.breakavoid').remove().end()
+    .find('p.note').remove().end()
     .html().replace(new RegExp(/<!--(.*?)-->/g), "")
-    
+
   let formattedHTML = jsHTML.html(content, options)
 
   $(nearestFooter).find('code').html(esc(formattedHTML))

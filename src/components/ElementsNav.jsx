@@ -22,7 +22,7 @@ class ElementsNav extends React.Component {
               <LinkElement to="/elements/comments">Comments</LinkElement>
               <LinkElement to="/elements/dividers">Dividers</LinkElement>
               <LinkElement to="/elements/dropdown">Dropdown</LinkElement>
-              <LinkElement to="/elements/input">Form elements</LinkElement>
+              <LinkElement to="/elements/forms">Form elements</LinkElement>
               <LinkElement to="/elements/images">Images</LinkElement>
               <LinkElement to="/elements/labels">Labels</LinkElement>
               <LinkElement to="/elements/lists">Lists</LinkElement>

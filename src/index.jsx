@@ -38,7 +38,7 @@ ReactDOM.render(
     <Route path="messages" component={Controller}/>
     <Route path="tables" component={Controller}/>
     <Route path="tooltips" component={Controller}/>
-    <Route path="input" component={Controller}/>
+    <Route path="forms" component={Controller}/>
     <Route path="progressbars" component={Controller}/>
     <Route path="labels" component={Controller}/>
     <Route path="lists" component={Controller}/>

@@ -29,6 +29,17 @@ class Changelog extends BaseComponent {
             <div className="log">
               <div className="date">June 27, 2017</div>
               <div className="inner">
+                <h4><span className="label primary">New</span> Animations, Tooltips & more!</h4>
+                <p>Been busy at work here with the new release of 1.5.0! In this release we firstly bring you a much needed update to button elements; loading and disabled states are now live!</p>
+                <p>Next on the list are 3 new infinite animations: swing, pulse and shake.</p>
+                <p>Adding to that, there are new form elements! Checkboxes, radios and range sliders have been added to the list and Inputs have been renamed to <Link to="/elements/forms">Form Elements</Link>. Disabled states have also been enchanced to look much cleaner.</p>
+                <p>And finally, the introduction of <Link to="/elements/tooltips">Tooltips</Link> which are in a new element category of it's own. Tooltips are completely Javascript-free and can be positioned around elements just by defining inline data properties. Content of the tooltip is also set in the same way.</p>
+                <p><strong>We hope you enjoy these new updates! &#x1f44a;</strong></p>
+              </div>
+            </div>
+            <div className="log">
+              <div className="date">July 16, 2017</div>
+              <div className="inner">
                 <h4><span className="label violet">Fixes</span> Summer clean up</h4>
                 <p>Several variables and font-sizes within Blossom have been updated to have a uniform feel to it, making it much easier to apply themes across the board when altering <code>variables.styl</code></p>
                 <p>The structure of button elements have been changed slightly to look unchanged due to the types of fonts on different operating systems.</p>

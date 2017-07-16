@@ -91,7 +91,7 @@ class Switch extends React.Component {
       comments : Comments,
       dividers : Dividers,
       dropdown : Dropdown,
-      input : Input,
+      forms : Input,
       images : Images,
       labels : Labels,
       lists : Lists,
