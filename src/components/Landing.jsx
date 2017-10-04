@@ -65,7 +65,7 @@ $ npm install blossom-ui --save`}
           <div className="dent-cover">
             <div className="contain">
             <h2>People already <i className="ion-heart text red animation-pulse inline"/> Blossom UI</h2>
-            <p>Over 5500+ awesome people have installed Blossom just from <a className="strong" rel="noopener noreferrer" target="_blank" href="https://www.npmjs.com/package/blossom-ui">npm</a>, trying it out as their standard design framework. Why keep on wasting precious project time, you can just take a quick minute to set up Blossom now.</p>
+            <p>Over 7000+ awesome people have installed Blossom just from <a className="strong" rel="noopener noreferrer" target="_blank" href="https://www.npmjs.com/package/blossom-ui">npm</a>, trying it out as their standard design framework. Why keep on wasting precious project time, you can just take a quick minute to set up Blossom now.</p>
             <div className="row">
               <div className="xs-12 l-6 col column">
                 <div className="inner">
