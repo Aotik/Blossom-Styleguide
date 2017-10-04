@@ -21,7 +21,8 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       "process.env": {
-        BROWSER: JSON.stringify(true)
+        BROWSER: JSON.stringify(true),
+        NODE_ENV: "'production'"
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
