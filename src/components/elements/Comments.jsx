@@ -128,7 +128,7 @@ class Comments extends React.Component {
                     <a className="action">Hide</a>
                   </div>
                   <div className="reply">
-                    <div className="input">
+                    <div className="input block">
                       <textarea name="reply"></textarea>
                     </div>
                     <div className="group">
@@ -219,7 +219,7 @@ class Comments extends React.Component {
                 </div>
               </div>
               <div className="reply">
-                <div className="input">
+                <div className="input block">
                   <textarea name="reply"></textarea>
                 </div>
                 <div className="group">

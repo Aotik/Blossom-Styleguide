@@ -17,7 +17,7 @@ class Typography extends React.Component {
         <div className="example typeface">
           <div className="explanation">
             <h5>Headers</h5>
-            <p>Headers amplify headings and subheadings by using header tags <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
+            <p>Headers amplify headings and subheadings by using header tags</p>
           </div>
           <div className="module">
             <div className="antiScroll">
@@ -61,13 +61,15 @@ class Typography extends React.Component {
         <div className="example typeface">
           <div className="explanation">
             <h5>Typeface</h5>
-            <p>Blossom&#39;s typeface is dependant on the clients Operating System. 'San Fransisco' is used for macOS/iOS and 'Segoe UI' is used for Windows, with fallback fonts for excluded devices.</p>
+            <p>The new typeface for Blossom is Inter UI. With similar characteristics of the macOS native 'San Fransisco', a serious but friendly vibe is given off. Extremely easy to read and beautifully scalable at all sizes.</p>
+            <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/rsms/inter">Read more about the open-source Inter UI font</a></p>
           </div>
           <div className="module">
             <p className="transform uppercase">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
             <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
             <p>0 1 2 3 4 5 6 7 8 9</p>
           </div>
+          <small>Please respect the conditions of the original license when using Inter UI with Blossom.</small>
         </div>
       </div>
     )

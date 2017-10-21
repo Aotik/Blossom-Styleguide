@@ -27,7 +27,16 @@ class Changelog extends BaseComponent {
         <section className="guide">
           <div className="contain">
             <div className="log">
-              <div className="date">June 27, 2017</div>
+              <div className="date">October 21, 2017</div>
+              <div className="inner">
+                <h4><span className="label primary">New</span> The new typeface</h4>
+                <p>Today we are releasing Blossom with a brand new typeface that we hope will unify the framework across all platforms. We've gone with <a rel="noopener nofollow" target="_blank" href="https://github.com/rsms/inter">Inter UI</a>, an open-source font that has similar characteristics to that of Roboto and San Fransisco.</p>
+                <p>You'll find the typeface across all building blocks of Blossom UI and boy do we think they look good!</p>
+                <p>Other than the typeface, we've fixed some line-heights, paddings and margins to give a breathe of fresh air to some elements (including lists, progress bars and comments).</p>
+              </div>
+            </div>
+            <div className="log">
+              <div className="date">July 27, 2017</div>
               <div className="inner">
                 <h4><span className="label primary">New</span> Animations, Tooltips & more!</h4>
                 <p>Been busy at work here with the new release of 1.5.0! In this release we firstly bring you a much needed update to button elements; loading and disabled states are now live!</p>
