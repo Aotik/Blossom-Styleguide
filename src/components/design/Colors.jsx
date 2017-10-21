@@ -90,7 +90,7 @@ class Scheme extends React.Component {
               <span>.primary.light</span>
             </div>
             <div className="equal scheme primary">
-              <p>Red</p>
+              <p>Primary</p>
               <span>.primary</span>
             </div>
             <div className="equal scheme primary dark">

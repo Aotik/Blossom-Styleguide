@@ -190,7 +190,7 @@ class Lists extends React.Component {
                 <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
-                    Aotik/Blossom
+                    Animify/Blossom
                   </a>
                   Updated 22 seconds ago
                 </div>
@@ -199,18 +199,18 @@ class Lists extends React.Component {
                 <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
-                    Aotik/Blossom
+                    Animify/Blossom
                   </a>
-                  Updated 22 seconds ago
+                  Updated 2 minutes ago
                 </div>
                 </li>
               <li className="item">
                 <i className="icon large ion-social-github"></i>
                 <div className="content">
                   <a className="header">
-                    Aotik/Blossom
+                    Animify/Blossom
                   </a>
-                  Updated 22 seconds ago
+                  Updated yesterday
                 </div>
                 </li>
             </ul>

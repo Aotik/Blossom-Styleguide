@@ -125,7 +125,7 @@ class Dividers extends React.Component {
           <div className="module collapsed">
             <div className="stack">
               <div className="dropdown floating disabled">
-                <a className="toggle button blue labeled labeled-right">
+                <a className="toggle button primary disabled labeled labeled-right">
                   Disabled menu
                   <i className="ion-chevron-down"/>
                 </a>

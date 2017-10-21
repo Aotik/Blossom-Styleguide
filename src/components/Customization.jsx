@@ -87,15 +87,13 @@ class Customization extends BaseComponent {
                     At the top of <a rel="noopener noreferrer" target="_blank" href="https://github.com/Aotik/Blossom/blob/master/source/modules/variables.styl">variables.styl</a> you'll find the default settings for general <Link to="/design/typography">Typography</Link>, including font sizes and font families.
                   <pre>
                     <code className="html">
-{`font-size-standard = 14px
-font-size-h1 = 3.8em
-font-size-h2 = 3em
-font-size-h3 = 2.2em
-font-size-h3 = 1.8em
+{`...
+font-size-h4 = 1.6em
 font-size-h5 = 1.4em
-font-size-h6 = 1.08em
-font-family-standard = 'Roboto', 'Open Sans', sans-serif
-font-family-code = 'Roboto Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace`}
+font-size-h6 = 1.2em
+
+font-family-standard = "Inter UI", sans-serif;
+...`}
                     </code>
                   </pre>
                 </div>
