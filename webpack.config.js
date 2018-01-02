@@ -1,8 +1,8 @@
-const path = require('path')
-const webpack = require('webpack')
-const nib = require('nib')
-const jeet = require('jeet')
-const rupture = require('rupture')
+const path = require('path');
+const webpack = require('webpack');
+const nib = require('nib');
+const jeet = require('jeet');
+const rupture = require('rupture');
 
 module.exports = {
 
@@ -21,10 +21,10 @@ module.exports = {
   plugins: [
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
-      "process.env": {
-        BROWSER: JSON.stringify(true)
-      }
-    })
+      'process.env': {
+        BROWSER: JSON.stringify(true),
+      },
+    }),
   ],
 
   resolve: {
@@ -43,32 +43,28 @@ module.exports = {
     }, {
       test: /\.styl$/,
       loader: 'style-loader!css-loader!stylus-loader',
-      exclude: /node_modules/
+      exclude: /node_modules/,
     }, {
-      test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/font-woff',
-    }, {
-      test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/octet-stream',
-    }, {
-      test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'file',
-    }, {
-      test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=image/svg+xml',
+      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        outputPath: 'src/styl/fonts',
+        publicPath: 'public/fonts',
+      },
     },
     {
       test: /\.json$/,
-      loader: 'json-loader'
-    }]
+      loader: 'json-loader',
+    }],
   },
 
   stylus: {
-    use: [nib(), jeet(), rupture()]
+    use: [nib(), jeet(), rupture()],
   },
 
   devServer: {
     contentBase: 'public/',
-    historyApiFallback: true
+    historyApiFallback: true,
   },
 };
