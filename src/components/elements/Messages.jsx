@@ -36,7 +36,7 @@ class Messages extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="message">
-              <h6>Subscribe!</h6>
+              <h5>Subscribe!</h5>
               <p>
                 Subscribe to our blog to get daily news updates straight to your inbox!
               </p>
@@ -52,7 +52,7 @@ class Messages extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="message info">
-              <h6>Did you know?</h6>
+              <h5>Did you know?</h5>
               <p>
                 You might of noticed the rapid speed increase of our platform today! Yes, we are on version 3.0!
               </p>
@@ -68,7 +68,7 @@ class Messages extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="message warning">
-              <h6>Scheduled maintenance</h6>
+              <h5>Scheduled maintenance</h5>
               <p>
                 We have scheduled server maintenance between 04:00am - 09:00am so our platform will be down. We apologize for any inconvenience caused!
               </p>
@@ -84,7 +84,7 @@ class Messages extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="message important">
-              <h6>There were some issues with your submission</h6>
+              <h5>There were some issues with your submission</h5>
               <p>
                 Your message exceeded the world limit. Please try re-sending the form by keeping to the 300 character limit.
               </p>
@@ -100,7 +100,7 @@ class Messages extends React.Component {
           </div>
           <div className="module collapsed">
             <div className="message success">
-              <h6>Coupon applied!</h6>
+              <h5>Coupon applied!</h5>
               <p>
                 You have successfully added the coupon <strong>20OFF</strong> to your order for a 20% discount.
               </p>
