@@ -22,7 +22,8 @@
     "react-dom": "15.5.4",
     "react-ga": "^2.1.2",
     "react-router": "^2.0.1",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "stylus-supremacy": "^2.9.0"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",

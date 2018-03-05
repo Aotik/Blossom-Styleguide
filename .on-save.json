@@ -1,0 +1,7 @@
+[
+  {
+    "srcDir": "./Blossom/source/modules",
+    "files": "**/*.styl",
+    "command": "stylus-supremacy format ${srcFile} -r --options ./stylus-options.json"
+  }
+]
