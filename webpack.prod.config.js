@@ -1,20 +1,18 @@
-const path = require('path')
-const webpack = require('webpack')
-const nib = require('nib')
-const jeet = require('jeet')
-const rupture = require('rupture')
+const path = require("path");
+const webpack = require("webpack");
+const nib = require("nib");
+const jeet = require("jeet");
+const rupture = require("rupture");
 
 module.exports = {
-  devtool: 'hidden-source-map',
+  devtool: "hidden-source-map",
 
-  entry: [
-    './src/index.jsx'
-  ],
+  entry: ["./src/index.jsx"],
 
   output: {
-    path: path.join(__dirname, 'public'),
-    filename: 'bundle.js',
-    publicPath: '/',
+    path: path.join(__dirname, "public"),
+    filename: "bundle.js",
+    publicPath: "/"
   },
 
   plugins: [
@@ -34,39 +32,51 @@ module.exports = {
   ],
 
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ["", ".js", ".jsx"]
   },
 
   module: {
-    loaders: [{
-      test: /\.jsx$/,
-      loaders: ['babel?presets[]=react,presets[]=es2015'],
-      include: path.join(__dirname, 'src'),
-      exclude: /node_modules/,
-    }, {
-      test: /\.css$/,
-      loader: 'style-loader!css-loader',
-    }, {
-      test: /\.styl$/,
-      loader: 'style-loader!css-loader!stylus-loader',
-      exculde: /node_modules/
-    }, {
-      test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/font-woff',
-    }, {
-      test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/octet-stream',
-    }, {
-      test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'file',
-    }, {
-      test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=image/svg+xml',
-    },
-    {
-      test: /\.json$/,
-      loader: 'json-loader'
-    }]
+    loaders: [
+      {
+        test: /\.jsx$/,
+        loaders: ["babel?presets[]=react,presets[]=es2015"],
+        include: path.join(__dirname, "src"),
+        exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        loader: "style-loader!css-loader"
+      },
+      {
+        test: /\.styl$/,
+        loader: "style-loader!css-loader!stylus-loader",
+        exculde: /node_modules/
+      },
+      {
+        test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&mimetype=application/font-woff"
+      },
+      {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&mimetype=application/octet-stream"
+      },
+      {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "file"
+      },
+      {
+        test: /\.zip$/,
+        loader: "file"
+      },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&mimetype=image/svg+xml"
+      },
+      {
+        test: /\.json$/,
+        loader: "json-loader"
+      }
+    ]
   },
 
   stylus: {
